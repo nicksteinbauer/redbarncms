@@ -1,0 +1,24 @@
+.video-contain {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+video,
+.videoImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.the-rest {
+  position: relative;
+  z-index: 10;
+  .callto {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+  }
+}

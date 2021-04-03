@@ -1,0 +1,41 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  flex: 0 0 200px;
+  padding: 5px 20px;
+  a {
+    display: block;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.navbar-menu {
+  flex: 1;
+  a {
+    height: 100%;
+    padding: 0 5px;
+  }
+}
+
+.social {
+  padding-right: 15px;
+  flex: 0 0 200px;
+  justify-content: flex-end;
+  a {
+    img {
+      box-sizing: border-box;
+      display: block;
+      width: 44px;
+      padding: 8px;
+    }
+  }
+}

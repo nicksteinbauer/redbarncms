@@ -1,0 +1,21 @@
+$mont: "Montserrat", sans-serif;
+$hind: "Hind", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500&family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap");
+
+body {
+  font-family: $hind;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+nav {
+  font-family: $hind;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $mont;
+  font-weight: 700;
+}

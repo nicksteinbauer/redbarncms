@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+
+import logo from '../img/RedBarn-Logo.svg'
+
+import facebook from "../img/social/facebook.svg";
+import instagram from "../img/social/instagram.svg";
+import twitter from "../img/social/twitter.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,10 +43,10 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container always-flex justify">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} alt="Red Barn Engineering" />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -57,38 +61,44 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-menu justify-center flex-sm ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
+            <div className="navbar-start has-text-centered always-flex">
+                <Link className="navbar-item flex-vertical" to="/about">
+                  <span>
+                    About
+                  </span>
+                </Link>
+                <Link className="navbar-item flex-vertical" to="/products">
+                  <span>
+                    Products
+                  </span>
+                </Link>
+                <Link className="navbar-item flex-vertical" to="/blog">
+                  <span>
+                    Blog
+                  </span>
+                </Link>
+                <Link className="navbar-item flex-vertical" to="/contact">
+                  <span>
+                    Contact
+                  </span>
+                </Link>
+                <Link className="navbar-item flex-vertical" to="/contact/examples">
+                  <span>
+                    Form Examples
+                  </span>
+                </Link>
+
             </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
+            
           </div>
+
+          <div className="social always-flex">
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.facebook.com/barnesnursery"><img src={facebook} alt="Facebook Link" /></a>
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.instagram.com/barnes_nursery/"><img src={instagram} alt="Instagram Link" /></a>
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://twitter.com/barnesnursery"><img src={twitter} alt="Twitter Link" /></a>
+            </div>
         </div>
       </nav>
     )
