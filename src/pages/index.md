@@ -2,7 +2,8 @@
 templateKey: index-page
 title: Civil Engineering Excellence
 image: /img/home-jumbotron.jpg
-heading: Civil Engineering Excellence
+heading: Civil Engineering
+heading2: Excellence
 subheading: Red Barn Engineering
 mainpitch:
   title: Who We Are
