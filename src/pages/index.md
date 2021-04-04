@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Civil Engineering Excellence
-image: /img/home-jumbotron.jpg
+image: /img/redbarnparkinglot.jpg
 heading: Civil Engineering
 heading2: Excellence
 subheading: Red Barn Engineering
