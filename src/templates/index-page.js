@@ -10,8 +10,9 @@ import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
-  title,
+  //title,
   heading,
+  heading2,
   subheading,
   mainpitch,
   description,
@@ -28,42 +29,48 @@ export const IndexPageTemplate = ({
     <div className="the-rest">
       <div className="callto align-vertical">
         <div className="callto-content">
-          <h3>
+          <h3 className="accent">
             {subheading}
           </h3>
           <h1>
-            {title}
+            {heading}<br/><span>{heading2}</span>
           </h1>
         </div>
       </div>
 
 
-      <div
-        className="full-width-image margin-top-0"
+      <section
+        className="section black p-lot"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
           backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
+          backgroundAttachment: `relative`,
         }}
-      ></div>
+      >
+
+        <div className="inside-xl flex-md space-around">
+          <div className="forty-five">
+            <h2 className="accent">{mainpitch.title}</h2>
+            <div className="content">
+              {mainpitch.description}
+            </div>
+          </div>
+          <div className="forty-five">
+            
+          </div>
+        </div>
+
+
+      </section>
 
     
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
+      <section>
+        
+              
                 <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
+                  
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
@@ -92,10 +99,8 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+              
+        
       </section>
     </div>
   </div>
@@ -122,6 +127,7 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
+        heading2={frontmatter.heading2}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
@@ -154,6 +160,7 @@ export const pageQuery = graphql`
           }
         }
         heading
+        heading2
         subheading
         mainpitch {
           title

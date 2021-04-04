@@ -51,24 +51,44 @@ video,
   @media screen and (min-width: $screen-md) {
     padding: 0 60px;
   }
-  h1,
+
+  text-shadow: 2px 2px 4px #262626;
+  h1 {
+    color: #fff;
+    line-height: 1;
+    margin-top: 0;
+    span {
+      font-style: italic;
+      color: $red;
+    }
+  }
   h3 {
     color: $red;
   }
-  h3 {
-    text-transform: uppercase;
-    position: relative;
-    padding-left: 33px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  h3::before {
-    content: "";
-    width: 25px;
-    height: 3px;
-    background: #fff;
-    position: absolute;
-    left: 0;
+}
+
+h2.accent,
+h3.accent {
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2.accent::before,
+h3.accent::before {
+  content: "";
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.p-lot {
+  color: #fff;
+  h2 {
+    color: $teal;
   }
 }
