@@ -6,7 +6,7 @@ heading: Civil Engineering
 heading2: Excellence
 subheading: Red Barn Engineering
 mainpitch:
-  title: Who We Are test
+  title: Who We Are
   description: >
     Red Barn is a full-service civil engineering, construction 
 
