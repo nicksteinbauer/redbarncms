@@ -59,7 +59,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
           <div className="forty-five">
-            <PreviewCompatibleImage imageInfo={mainpitch.image} />
+            <PreviewCompatibleImage imageInfo={mainpitch.imagepitch} />
           </div>
         </div>
 
@@ -115,7 +115,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   //mainpitch: PropTypes.object,
   mainpitch: PropTypes.shape({
-    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+    imagepitch: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
   }),
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -170,7 +170,7 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
-          image {
+          imagepitch {
             childImageSharp {
               fluid(maxWidth: 648, quality: 70) {
                 ...GatsbyImageSharpFluid
