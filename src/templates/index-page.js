@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import CellTower from "../img/cell-tower-2.mp4"
 
 import Layout from '../components/Layout'
@@ -58,7 +59,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
           <div className="forty-five">
-            
+            <PreviewCompatibleImage imageInfo={mainpitch.image} />
           </div>
         </div>
 
@@ -69,36 +70,37 @@ export const IndexPageTemplate = ({
       <section>
         
               
-                <div className="content">
-                  
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+        <div className="content">
+          
+          <div className="columns">
+            <div className="column is-12">
+              <h3 className="has-text-weight-semibold is-size-2">
+                {heading}
+              </h3>
+              <p>{description}</p>
+            </div>
+          </div>
+          <Features gridItems={intro.blurbs} />
+          <div className="columns">
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/products">
+                See all products
+              </Link>
+            </div>
+          </div>
+          <div className="column is-12">
+            <h3 className="has-text-weight-semibold is-size-2">
+              Latest stories
+            </h3>
+            <BlogRoll />
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/blog">
+                Read more
+              </Link>
+            </div>
+          </div>
+          
+        </div>
               
         
       </section>
@@ -111,7 +113,10 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
+  //mainpitch: PropTypes.object,
+  mainpitch: PropTypes.shape({
+    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  }),
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -165,6 +170,13 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 648, quality: 70) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         description
         intro {
