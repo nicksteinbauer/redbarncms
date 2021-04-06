@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -8,6 +8,21 @@ import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
+
+  const [navigate,setNavigate] = useState(false);
+
+  const changeBackground = () => {
+    
+    if(window.scrollY >= 80) {
+      setNavigate(true)
+    }else {
+      setNavigate(false)
+    }
+  }
+  if (typeof window !== `undefined`) {
+    window.addEventListener('scroll', changeBackground);
+  }
+
   return (
     <div>
       <Helmet>
@@ -48,7 +63,9 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+      <div className={navigate ? 'navigate active' : 'navigate'}>
+        <Navbar />
+      </div>
       <div>{children}</div>
       <Footer />
     </div>

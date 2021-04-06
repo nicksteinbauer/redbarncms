@@ -35,6 +35,19 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
+.navigate {
+  .navbar {
+    background: rgba($color: #003333, $alpha: 0);
+    transition: background 0.4s ease;
+  }
+}
+
+.navigate.active {
+  .navbar {
+    background: rgba($color: #003333, $alpha: 0.7);
+  }
+}
+
 .navbar-menu {
   flex: 1;
   display: none;

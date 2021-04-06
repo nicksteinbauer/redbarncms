@@ -88,7 +88,30 @@ h3.accent::before {
 
 .p-lot {
   color: #fff;
+
+  padding-bottom: 200px;
+  .fudge {
+    position: relative;
+    margin-top: 20px;
+    @media screen and (min-width: $screen-md) {
+      margin-top: -180px;
+    }
+  }
   h2 {
     color: $teal;
   }
+  .gatsby-image-wrapper {
+    background: url("../img/stripes-blue-sm.png") no-repeat center center;
+    overflow: visible !important;
+    left: 20px;
+    top: 20px;
+    img {
+      left: -20px !important;
+      top: -20px !important;
+    }
+  }
+}
+
+.callto {
+  margin-bottom: -80px;
 }
