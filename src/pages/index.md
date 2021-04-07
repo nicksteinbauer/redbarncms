@@ -15,6 +15,10 @@ mainpitch:
     job done well.
   image: /img/redbarn-who-we-are-main.jpg
   imagepitch: /img/redbarn-who-we-are-main.jpg
+  link1text: About Us
+  link1url: https://amazing-shockley-2250cb.netlify.app/
+  link2text: What We Do
+  link2url: https://amazing-shockley-2250cb.netlify.app/
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
