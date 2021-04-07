@@ -280,6 +280,10 @@ picture {
   justify-content: space-between;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 .center-vertically {
   display: flex;
   flex-direction: column;

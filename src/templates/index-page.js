@@ -10,7 +10,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import Layout from '../components/Layout'
 //import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import BlogRollSlide from '../components/BlogRollSlide'
 
 
 
@@ -73,7 +73,8 @@ const IndexPage = ({ data }) => {
     >
 
       <div className="inside-xl flex-md space-around">
-        <div className="forty-five">
+      <div className="gradient"></div>
+        <div className="forty">
           <h2 className="accent">{frontmatter.mainpitch.title}</h2>
           <div className="content">
             {frontmatter.mainpitch.description}
@@ -84,7 +85,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         
-        <div className="forty-five fudge"
+        <div className="sixty fudge"
           style={{ transform: `translateY(${offsetY * 0.1}px)` }}
         >
           <PreviewCompatibleImage imageInfo={frontmatter.mainpitch.imagepitch} />
@@ -93,26 +94,20 @@ const IndexPage = ({ data }) => {
       </div>
 
 
+      
     </section>
 
     <section className="reliefmap section">
       
             
       <div className="inside-xl">
+
+        <div className="flex-md flex-end"><h3 className="forty">What We Do</h3></div>
         
-        
-        <div className="columns">
-          <div className="column is-12 has-text-centered">
-            <Link className="btn" to="/products">
-              See all products
-            </Link>
-          </div>
-        </div>
         <div className="column is-12">
-          <h3 className="has-text-weight-semibold is-size-2">
-            Latest stories
-          </h3>
-          <BlogRoll />
+          
+          <BlogRollSlide />
+
           <div className="column is-12 has-text-centered">
             <Link className="btn" to="/blog">
               Read more
