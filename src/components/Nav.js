@@ -5,6 +5,11 @@ function Nav() {
     return (
 
         <div className="navbar-start has-text-centered flex-md">
+            <Link className="navbar-item" to="/what-we-do">
+                <span>
+                What We Do
+                </span>
+            </Link>
             <Link className="navbar-item" to="/about">
                 <span>
                 About

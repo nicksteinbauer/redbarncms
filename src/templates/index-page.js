@@ -9,7 +9,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 //import Mainvideo from "../components/Mainvideo"
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+//import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 
@@ -100,15 +100,7 @@ const IndexPage = ({ data }) => {
             
       <div className="inside-xl">
         
-        <div className="columns">
-          <div className="column is-12">
-            <h3 className="has-text-weight-semibold is-size-2">
-              {frontmatter.heading}
-            </h3>
-            <p>{frontmatter.description}</p>
-          </div>
-        </div>
-        <Features gridItems={frontmatter.intro.blurbs} />
+        
         <div className="columns">
           <div className="column is-12 has-text-centered">
             <Link className="btn" to="/products">
