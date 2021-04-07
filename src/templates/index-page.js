@@ -78,10 +78,14 @@ const IndexPage = ({ data }) => {
           <div className="content">
             {frontmatter.mainpitch.description}
           </div>
+          <div className="flex-md space-around text-center buffer">
+            <Link className="button thirty3" to={frontmatter.mainpitch.link1url}>{frontmatter.mainpitch.link1text}</Link>
+            <Link className="button thirty3" to={frontmatter.mainpitch.link2url}>{frontmatter.mainpitch.link2text}</Link>
+          </div>
         </div>
         
         <div className="forty-five fudge"
-          style={{ transform: `translateY(${offsetY * 0.05}px)` }}
+          style={{ transform: `translateY(${offsetY * 0.1}px)` }}
         >
           <PreviewCompatibleImage imageInfo={frontmatter.mainpitch.imagepitch} />
         </div>
@@ -91,10 +95,10 @@ const IndexPage = ({ data }) => {
 
     </section>
 
-    <section>
+    <section className="reliefmap section">
       
             
-      <div className="content">
+      <div className="inside-xl">
         
         <div className="columns">
           <div className="column is-12">
@@ -179,6 +183,10 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+          link1text
+          link1url
+          link2text
+          link2url
           imagepitch {
             childImageSharp {
               fluid(maxWidth: 648, quality: 70) {

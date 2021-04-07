@@ -110,6 +110,27 @@ h3.accent::before {
       top: -20px !important;
     }
   }
+
+  .buffer {
+    margin-top: 40px;
+  }
+  a {
+    text-decoration: none;
+    transition: background 0.4s ease;
+  }
+  a.button:link,
+  a.button:active,
+  a.button:visited {
+    color: white;
+    border-color: $teal;
+    background: rgba($color: $teal, $alpha: 0);
+  }
+  a.button:hover {
+    background: rgba($color: $teal, $alpha: 1);
+  }
+  a.button:hover::before {
+    left: -32px;
+  }
 }
 
 .callto {

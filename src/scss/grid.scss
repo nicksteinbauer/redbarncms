@@ -330,3 +330,24 @@ input[type="email"] {
     background: red;
   }
 }
+
+.button {
+  display: block;
+  padding: 10px 0;
+  border-width: 3px;
+  border-style: solid;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button::before {
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: white;
+  content: "";
+  left: -22px;
+  transition: left 0.3s ease;
+}
