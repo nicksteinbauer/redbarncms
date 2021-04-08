@@ -102,14 +102,14 @@ const IndexPage = ({ data }) => {
             
       <div className="inside-xl">
 
-        <div className="flex-md flex-end"><h3 className="forty">What We Do</h3></div>
+        <div className="flex-md flex-end"><h2 className="forty accent">What We Do</h2></div>
         
-        <div>
+        
           
           <BlogRollSlide />
 
          
-        </div>
+        
         
       </div>
             

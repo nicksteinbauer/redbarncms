@@ -32,7 +32,7 @@ class BlogRollSlide extends React.Component {
                     ) : null}
                     
                     <div className="forty">
-                        <h2>{post.frontmatter.title}</h2>
+                        <h2 className="h1">{post.frontmatter.title}</h2>
                         <p>{post.excerpt}</p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ export default () => (
       query BlogRollSlideQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: {featuredpost: {eq: true} } }
         ) {
           edges {
             node {
