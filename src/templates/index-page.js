@@ -104,15 +104,11 @@ const IndexPage = ({ data }) => {
 
         <div className="flex-md flex-end"><h3 className="forty">What We Do</h3></div>
         
-        <div className="column is-12">
+        <div>
           
           <BlogRollSlide />
 
-          <div className="column is-12 has-text-centered">
-            <Link className="btn" to="/blog">
-              Read more
-            </Link>
-          </div>
+         
         </div>
         
       </div>
