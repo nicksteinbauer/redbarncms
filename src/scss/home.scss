@@ -169,11 +169,16 @@ h3.accent::before {
   .gatsby-image-wrapper {
     background: url("../img/stripes-red-opt.png") no-repeat center center;
     overflow: visible !important;
-    left: 20px;
+    left: -20px;
     top: 20px;
     img {
-      right: -20px !important;
+      left: -20px !important;
       top: -20px !important;
+    }
+  }
+  .sixty {
+    @media screen and (min-width: $screen-md) {
+      padding-right: 40px;
     }
   }
 }
