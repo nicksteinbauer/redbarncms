@@ -71,7 +71,7 @@ h2.accent,
 h3.accent {
   text-transform: uppercase;
   position: relative;
-  padding-left: 33px;
+  padding-left: 33px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,6 +84,10 @@ h3.accent::before {
   background: #fff;
   position: absolute;
   left: 0;
+}
+
+.the-rest {
+  overflow: hidden;
 }
 
 .p-lot {
@@ -114,31 +118,54 @@ h3.accent::before {
     height: 200px;
     width: 100%;
   }
+
+  .flex-md {
+    display: flex;
+    flex-wrap: wrap;
+    .forty,
+    .sixty {
+      @media screen and (max-width: $screen-md) {
+        flex: 0 0 100%;
+      }
+    }
+    .sixty {
+      order: 1;
+      @media screen and (min-width: $screen-md) {
+        order: 0;
+      }
+    }
+    .forty {
+      margin-top: 100px;
+      order: 2;
+      @media screen and (min-width: $screen-md) {
+        order: 0;
+      }
+    }
+  }
+  .forty {
+    padding: 0 20px;
+  }
   .fudge {
     position: relative;
     margin-top: 20px;
     @media screen and (min-width: $screen-md) {
-      padding-left: 40px;
       margin-top: -180px;
     }
   }
   h2 {
     color: $teal;
   }
-  .gatsby-image-wrapper {
+
+  .featured-thumbnail {
     background: url("../img/stripes-blue-opt.png") no-repeat center center;
     overflow: visible !important;
-    left: 20px;
-    top: 20px;
-    img {
-      left: -20px !important;
-      top: -20px !important;
+
+    .animateThat {
+      top: -20px;
+      left: -20px;
     }
   }
 
-  .buffer {
-    margin-top: 40px;
-  }
   a {
     text-decoration: none;
     transition: background 0.4s ease;
@@ -166,26 +193,34 @@ h3.accent::before {
   color: #fff;
   background: $green url("../img/topography-vector-white.png") no-repeat center
     center;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  text-shadow: 2px 2px 4px #262626;
+  .what-we-do-text {
+    margin-top: -96px;
+    .forty {
+      position: relative;
 
-  .gatsby-image-wrapper {
+      left: 30px;
+      padding-right: 0;
+    }
+  }
+  .featured-thumbnail {
     background: url("../img/stripes-red-opt.png") no-repeat center center;
     overflow: visible !important;
-    left: -20px;
-    top: 20px;
-    img {
-      left: -20px !important;
-      top: -20px !important;
-    }
-  }
-  .sixty {
-    @media screen and (min-width: $screen-md) {
-      padding-right: 20px;
-      padding-left: 20px;
-    }
-  }
-  padding-top: 20px;
 
-  text-shadow: 2px 2px 4px #262626;
+    .animateThat {
+      top: -20px;
+      left: -20px;
+    }
+  }
+  .forty {
+    padding: 0 20px;
+    @media screen and (max-width: $screen-md) {
+      margin-top: 100px;
+    }
+  }
+
   h2.h1 {
     color: #fff;
     line-height: 1;
@@ -197,5 +232,30 @@ h3.accent::before {
   }
   h2.accent {
     color: $red;
+  }
+  a {
+    text-decoration: none;
+    transition: background 0.4s ease;
+  }
+  a.button:link,
+  a.button:active,
+  a.button:visited {
+    color: white;
+    border-color: $red;
+    background: rgba($color: $red, $alpha: 0);
+  }
+  a.button:hover {
+    background: rgba($color: $red, $alpha: 1);
+  }
+  a.button:hover::before {
+    left: -32px;
+  }
+}
+
+.flex-xs {
+  a {
+    @media screen and (max-width: $screen-xs) {
+      margin-top: 10px;
+    }
   }
 }

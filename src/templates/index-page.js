@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import CellTower from "../img/cell-tower-2.mp4"
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 //import Mainvideo from "../components/Mainvideo"
@@ -15,18 +16,55 @@ import BlogRollSlide from '../components/BlogRollSlide'
 
 
 
-
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
-  const [offsetY, setOffsetY] = useState(0);
-    const handleSroll = () => setOffsetY(window.pageYOffset);
+  let animateVideo1 = useRef(null);
+  let animateThis1 = useRef(null);
+  let animateThat1 = useRef(null);
 
-    useEffect(() => {
-        window.addEventListener("scroll", handleSroll);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+      gsap.to( animateThis1, {
+        scrollTrigger: {
+          trigger: '.gsap1', 
+          scrub: 1,
 
-        return () => window.removeEventListener("scroll", handleSroll);
-    }, []);
+        },
+        duration: 2,
+        y: '100',
+        ease: "ease-in",
+        
+      })
+
+      gsap.to( animateThat1, {
+        scrollTrigger: {
+          trigger: '.gsap1', 
+          scrub: 1,
+
+        },
+        duration: 2,
+        x: '40',
+        y: '-40',
+        ease: "ease-in",
+        
+      })
+
+      gsap.to( animateVideo1, {
+        scrollTrigger: {
+          trigger: '.video-contain', 
+          start: '1px top',
+          scrub: 1,
+
+        },
+        duration: 2,
+        y: '200',
+        ease: "none",
+        
+      })
+    
+  }, [])
+    
   
 
   return (
@@ -35,9 +73,7 @@ const IndexPage = ({ data }) => {
 
   <div>
       
-  <div className="video-contain"
-      style={{ transform: `translateY(${offsetY * 0.5}px)` }}
-  >
+  <div className="video-contain" ref={el => {animateVideo1 = el}}>
       
       <video autoPlay="autoplay" muted loop="loop" id="bgvid">
       <source src={CellTower} type="video/mp4" />
@@ -72,23 +108,25 @@ const IndexPage = ({ data }) => {
       }}
     >
 
-      <div className="inside-xl flex-md space-around">
+      <div className="gsap1 inside-xl flex-md space-around">
       <div className="gradient"></div>
         <div className="forty">
           <h2 className="accent">{frontmatter.mainpitch.title}</h2>
           <div className="content">
             {frontmatter.mainpitch.description}
           </div>
-          <div className="flex-md space-around text-center buffer">
+          <div className="flex-xs space-around text-center buffer">
             <Link className="button thirty3" to={frontmatter.mainpitch.link1url}>{frontmatter.mainpitch.link1text}</Link>
             <Link className="button thirty3" to={frontmatter.mainpitch.link2url}>{frontmatter.mainpitch.link2text}</Link>
           </div>
         </div>
         
-        <div className="sixty fudge"
-          style={{ transform: `translateY(${offsetY * 0.1}px)` }}
-        >
-          <PreviewCompatibleImage imageInfo={frontmatter.mainpitch.imagepitch} />
+        <div className="sixty fudge">
+          <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
+            <div className="animateThat" ref={el => {animateThat1 = el}}>
+              <PreviewCompatibleImage imageInfo={frontmatter.mainpitch.imagepitch} />
+            </div>
+          </div>
         </div>
         
       </div>
@@ -102,14 +140,9 @@ const IndexPage = ({ data }) => {
             
       <div className="inside-xl">
 
-        <div className="flex-md flex-end"><h2 className="forty accent">What We Do</h2></div>
+        <div className="flex-md flex-end what-we-do-text"><h2 className="forty accent">What We Do</h2></div>
         
-        
-          
-          <BlogRollSlide />
-
-         
-        
+        <BlogRollSlide />
         
       </div>
             

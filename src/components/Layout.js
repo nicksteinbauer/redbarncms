@@ -10,9 +10,7 @@ const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
 
   const [navigate,setNavigate] = useState(false);
-
-  const changeBackground = () => {
-    
+  const changeBackground = () => {  
     if(window.scrollY >= 80) {
       setNavigate(true)
     }else {
