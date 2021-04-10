@@ -1,7 +1,6 @@
 
-import React, { useRef, useEffect } from "react";
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from "react";
+
 
 
 
@@ -9,50 +8,34 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
+import Slider from "react-slick";
+
 
 
 
 const BlogRollSlide = ( {data} ) => {
+
+ 
+    const settings = {
+      className: "slide-center",
+      infinite: false,
+      
+      
+
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      
+    };
   
     const { edges: posts } = data.allMarkdownRemark
 
-    let animateThis2 = useRef(null);
-    let animateThat2 = useRef(null);
-
-    useEffect(() => {
-      gsap.registerPlugin(ScrollTrigger);
-        gsap.to( animateThis2, {
-          scrollTrigger: {
-            trigger: '.the-trigger', 
-            scrub: 1,
-
-          },
-          duration: 2,
-          y: '100',
-          ease: "ease-in",
-          
-        })
-
-        gsap.to( animateThat2, {
-          scrollTrigger: {
-            trigger: '.the-trigger', 
-            scrub: 1,
-
-          },
-          duration: 2,
-          x: '-40',
-          y: '-40',
-          ease: "ease-in",
-          
-        })
-      
-    }, [])
-      
-    
-    
-
     return (
+
+      
       <div className="the-trigger">
+
+      <Slider {...settings}>
         {posts &&
           posts.map(({ node: post }) => (
             <div key={post.id}>
@@ -62,9 +45,10 @@ const BlogRollSlide = ( {data} ) => {
                 }`}
               >
                 <div className="flex-md">
+                  
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis2 = el}}>
-                      <div className="animateThat" ref={el => {animateThat2 = el}}>
+                    <div className="featured-thumbnail sixty animateThis">
+                      <div className="animateThat">
                       <PreviewCompatibleImage
                         imageInfo={{
                         image: post.frontmatter.featuredimage,
@@ -84,10 +68,15 @@ const BlogRollSlide = ( {data} ) => {
                         </div>
                             
                     </div>
+                    
                 </div>
             </article>
-            </div>
-          ))}
+          </div>
+            
+        ))}
+      </Slider>
+      
+      
       </div>
     )
   
@@ -102,6 +91,8 @@ BlogRollSlide.propTypes = {
 }
 
 export default () => (
+  
+
   <StaticQuery
     query={graphql`
       query BlogRollSlideQuery {

@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import CellTower from "../img/cell-tower-2.mp4"
+import CellTower from "../img/RedBarn-Tower-sm.mp4"
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
@@ -138,7 +138,7 @@ const IndexPage = ({ data }) => {
     <section className="reliefmap section">
       
             
-      <div className="inside-xl">
+      <div className="inside-xxl">
 
         <div className="flex-md flex-end what-we-do-text"><h2 className="forty accent">What We Do</h2></div>
         
