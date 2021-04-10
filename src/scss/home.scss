@@ -193,8 +193,7 @@ h3.accent::before {
 
 .reliefmap {
   color: #fff;
-  background: $green url("../img/topography-vector-white.png") no-repeat center
-    center;
+
   padding-top: 20px;
   padding-bottom: 200px;
   text-shadow: 2px 2px 4px #262626;
@@ -207,15 +206,7 @@ h3.accent::before {
       padding-right: 0;
     }
   }
-  .featured-thumbnail {
-    background: url("../img/stripes-red-opt.png") no-repeat center center;
-    overflow: visible !important;
 
-    .animateThat {
-      top: -20px;
-      left: -20px;
-    }
-  }
   .forty {
     padding: 0 20px;
     @media screen and (max-width: $screen-md) {
@@ -229,12 +220,9 @@ h3.accent::before {
     margin-top: 0;
     span {
       font-style: italic;
-      color: $red;
     }
   }
-  h2.accent {
-    color: $red;
-  }
+
   a {
     text-decoration: none;
     transition: background 0.4s ease;
@@ -243,12 +231,8 @@ h3.accent::before {
   a.button:active,
   a.button:visited {
     color: white;
-    border-color: $red;
-    background: rgba($color: $red, $alpha: 0);
   }
-  a.button:hover {
-    background: rgba($color: $red, $alpha: 1);
-  }
+
   a.button:hover::before {
     left: -32px;
   }
@@ -324,4 +308,119 @@ h3.accent::before {
 .slick-prev::before {
   font-size: 50px;
   color: $red;
+}
+
+.sec-green {
+  background: $green url("../img/topography-vector-white.png") no-repeat center
+    center;
+  .featured-thumbnail {
+    background: url("../img/stripes-red-opt.png") no-repeat center center;
+    overflow: visible !important;
+
+    .animateThat {
+      top: -20px;
+      left: -20px;
+    }
+  }
+  h2.accent {
+    color: $red;
+  }
+  h1 {
+    span {
+      color: $red;
+    }
+  }
+  h3 {
+    color: $red;
+  }
+  a.button:link,
+  a.button:active,
+  a.button:visited {
+    border-color: $red;
+    background: rgba($color: $red, $alpha: 0);
+  }
+  a.button:hover {
+    background: rgba($color: $red, $alpha: 1);
+  }
+}
+
+.sec-black {
+  background: #000 url("../img/topography-vector-white.png") no-repeat center
+    center;
+  h2.accent {
+    color: $teal;
+  }
+  h2.h1 {
+    span {
+      color: $teal;
+    }
+  }
+  h3 {
+    color: $teal;
+  }
+  a.button:link,
+  a.button:active,
+  a.button:visited {
+    border-color: $teal;
+    background: rgba($color: $teal, $alpha: 0);
+  }
+  a.button:hover {
+    background: rgba($color: $teal, $alpha: 1);
+  }
+}
+
+.projects {
+  .flex-md.relative {
+    .forty {
+      @media screen and (min-width: $screen-md) {
+        position: relative;
+        margin-bottom: 0;
+        padding-top: 0;
+        right: 10px;
+        top: 13px;
+      }
+    }
+  }
+  .flex-md {
+    position: relative;
+    .featured-thumbnail {
+      width: 100%;
+      background: #000;
+      .gatsby-image-wrapper {
+        opacity: 0.5;
+      }
+    }
+    .forty {
+      @media screen and (min-width: $screen-md) {
+        position: absolute;
+        width: 40%;
+        right: 40px;
+        padding-top: 50px;
+      }
+    }
+  }
+  .gradient {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,1+100 */
+    background: -moz-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+  }
 }

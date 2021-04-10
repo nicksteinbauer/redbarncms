@@ -11,8 +11,8 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import Layout from '../components/Layout'
 //import Features from '../components/Features'
-import BlogRollSlide from '../components/BlogRollSlide'
-
+import BlogRollWhat from '../components/BlogRollWhat'
+import BlogRollProjects from '../components/BlogRollProjects'
 
 
 
@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
 
         },
         duration: 2,
-        y: '100',
+        y: '140',
         ease: "ease-in",
         
       })
@@ -130,24 +130,23 @@ const IndexPage = ({ data }) => {
         </div>
         
       </div>
-
-
-      
     </section>
 
-    <section className="reliefmap section">
-      
-            
+    <section className="reliefmap sec-green section what-we-do">    
       <div className="inside-xxl">
-
         <div className="flex-md flex-end what-we-do-text"><h2 className="forty accent">What We Do</h2></div>
-        
-        <BlogRollSlide />
-        
+        <BlogRollWhat />
       </div>
-            
-      
     </section>
+
+    <section className="reliefmap sec-black section projects">    
+      <div className="inside-xxl">
+        <div className="flex-md flex-end relative"><h2 className="forty accent">Projects</h2></div>
+        <BlogRollProjects />
+      </div>
+      <div className="gradient"></div>
+    </section>
+
   </div>
 
   </div>
