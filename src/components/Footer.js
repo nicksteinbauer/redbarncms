@@ -13,24 +13,31 @@ const Footer = class extends React.Component {
                 <nav className="footer-menu">
                   <ul className="menu-list">
                     <li>
-                      <Link to="/" className="navbar-item">
-                        Home
+                      <Link className="navbar-item" to="/what-we-do">
+                          What We Do
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
-                        About
+                      <Link className="navbar-item" to="">
+                          Services
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
+                      <Link className="navbar-item" to="">
+                          Projects
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
+                      <Link className="navbar-item" to="">
+                          About Us
                       </Link>
+                    </li>
+                    <li>
+                      <a className="navbar-item" href="https://www.redbarn-engineering.com/">
+                          <span>
+                          Online Portal
+                          </span>
+                      </a>
                     </li>
                     <li>
                       <a
@@ -61,7 +68,10 @@ const Footer = class extends React.Component {
                   425.535.7230 (mobile)
                 </p>
               </div>
-        </div>   
+        </div>  
+        <div className="inside-xxl flex-md">
+          <p>&copy; 2021 Red Barn Engineering, inc. </p> 
+        </div> 
       </footer>
     )
   }

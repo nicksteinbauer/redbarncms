@@ -1,12 +1,48 @@
-import React from 'react'
+import React, { useRef, useEffect } from "react";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class BlogRollProjects extends React.Component {
-  render() {
-    const { data } = this.props
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+const BlogRollProjects = ( {data} ) => {
+
     const { edges: posts } = data.allMarkdownRemark
+
+    let animateThat2 = useRef(null);
+    let animateThis2 = useRef(null);
+
+    useEffect(() => {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.to( animateThat2, {
+        scrollTrigger: {
+          trigger: '.projects', 
+          scrub: 1,
+
+        },
+        duration: 2,
+        x: '60',
+        y: '-60',
+        ease: "ease-in",
+        
+      })
+
+      gsap.to( animateThis2, {
+        scrollTrigger: {
+          trigger: '.projects', 
+          scrub: 1,
+
+        },
+        duration: 2,
+        y: '60',
+        ease: "ease-in",
+        
+      })
+
+    }, [])
+
+    
 
     return (
       <div className="nickTest">
@@ -21,8 +57,8 @@ class BlogRollProjects extends React.Component {
               <div className="flex-md flex-end">
                   
                 {post.frontmatter.featuredimage ? (
-                <div className="featured-thumbnail animateThis">
-                    <div className="animateThat">
+                <div className="featured-thumbnail animateThis" ref={el => {animateThis2 = el}}>
+                    <div className="animateThat" ref={el => {animateThat2 = el}}>
                     <PreviewCompatibleImage
                     imageInfo={{
                     image: post.frontmatter.featuredimage,
@@ -51,7 +87,7 @@ class BlogRollProjects extends React.Component {
       </div>
     )
   }
-}
+
 
 BlogRollProjects.propTypes = {
   data: PropTypes.shape({

@@ -10,31 +10,27 @@ function Nav() {
                 What We Do
                 </span>
             </Link>
-            <Link className="navbar-item" to="/about">
+            <Link className="navbar-item" to="">
                 <span>
-                About
+                Services
                 </span>
             </Link>
-            <Link className="navbar-item" to="/products">
+            <Link className="navbar-item" to="">
                 <span>
-                Products
+                Projects
                 </span>
             </Link>
-            <Link className="navbar-item" to="/blog">
+            <Link className="navbar-item" to="">
                 <span>
-                Blog
+                About Us
                 </span>
             </Link>
-            <Link className="navbar-item" to="/contact">
+            <a className="navbar-item" href="https://www.redbarn-engineering.com/">
                 <span>
-                Contact
+                Online Portal
                 </span>
-            </Link>
-            <Link className="navbar-item" to="/contact/examples">
-                <span>
-                Form Examples
-                </span>
-            </Link>
+            </a>
+
 
         </div>
 
