@@ -11,7 +11,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import Layout from '../components/Layout'
 //import Features from '../components/Features'
-import BlogRollWhat from '../components/BlogRollWhat'
+import BlogRollWhat from '../components/BlogWhatSlide'
 import BlogRollProjects from '../components/BlogRollProjects'
 
 

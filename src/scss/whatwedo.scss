@@ -1,0 +1,62 @@
+.whatwedo-banner {
+  background: $green url("../img/topography-vector-white.png") no-repeat center;
+  min-height: 300px;
+  .callto-content {
+    padding: 0 20px;
+  }
+  .callto-content.inside-xxl {
+    margin-left: 0;
+    @media screen and (min-width: $screen-md) {
+      margin-left: auto;
+      width: 1660px;
+    }
+  }
+  @media screen and (min-width: $screen-md) {
+    min-height: 500px;
+  }
+  padding-top: 80px;
+}
+
+.whatwedo-section {
+  padding-top: 40px;
+}
+
+.whatwedo {
+  overflow: hidden;
+  a {
+    margin-left: 20px;
+  }
+  a.button:link,
+  a.button:active,
+  a.button:visited {
+    border-color: $red;
+    background: rgba($color: $red, $alpha: 0);
+  }
+  a.button:hover {
+    background: rgba($color: $red, $alpha: 1);
+  }
+  .featured-thumbnail {
+    background: url("../img/stripes-red-opt.png") no-repeat left bottom;
+
+    .animateThat {
+      position: relative;
+      top: -5px;
+      left: 5px;
+    }
+  }
+  h2.h1 {
+    line-height: 1;
+    color: #fff;
+    span {
+      color: $red;
+      font-style: italic;
+    }
+  }
+}
+
+.auto-grid > div:nth-child(2n) {
+  @media screen and (min-width: $screen-md) {
+    position: relative;
+    top: -20%;
+  }
+}

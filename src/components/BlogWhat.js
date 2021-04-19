@@ -1,40 +1,87 @@
-import React from 'react'
+import React, { useRef, useEffect } from "react";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
-import Slider from "react-slick"
-
-class BlogRollWhat extends React.Component {
-  render() {
-    const { data } = this.props
+  const BlogWhat = ( {data} ) => {
+  
     const { edges: posts } = data.allMarkdownRemark
 
-    const settings = {
-        className: "slide-center",
-        infinite: false,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+    const revealRefs = useRef([]);
+    revealRefs.current = [];
+
+
+    //let animateThat2 = useRef(null);
+    //let animateThis2 = useRef(null);
+    
+    useEffect(() => {
+
+      
+      revealRefs.current.forEach((el, index) => {
+
+        gsap.to( el, {
+          scrollTrigger: {
+            id: `section-${index+1}`,
+            trigger: el, 
+            scrub: 1,
+  
+          },
+          duration: 2,
+          x: '20',
+          y: '-20',
+          ease: "ease-in",
+          
+        })
+
+      });
+
+      /*
+
+      triggers.forEach(animateThat2 => {
         
-      };
+        gsap.to( animateThat2, {
+          scrollTrigger: {
+            trigger: triggers, 
+            scrub: 1,
+  
+          },
+          duration: 2,
+          x: '20',
+          y: '-20',
+          ease: "ease-in",
+          
+        })
+
+      });
+
+      */
+      
+    }, [])
+
+    const addToRefs = el => {
+      if (el && !revealRefs.current.includes(el)) {
+          revealRefs.current.push(el);
+      }
+    };
 
       return (
-        <div className="the-trigger">
-            <Slider {...settings}>
+        <div className="auto-grid">
             {posts &&
                 posts.map(({ node: post }) => (
-                <div key={post.id}>
+                <div className="what-loop" key={post.id}>
                     <article
                     className={`blog-list-item tile is-child box notification ${
                         post.frontmatter.featuredpost ? 'is-featured' : ''
                     }`}
                     >
-                    <div className="flex-md">
+                    <div>
                         
                         {post.frontmatter.featuredimage ? (
                         <div className="featured-thumbnail sixty animateThis">
-                            <div className="animateThat">
+                            <div className="animateThat" ref={addToRefs}>
                             <PreviewCompatibleImage
                             imageInfo={{
                             image: post.frontmatter.featuredimage,
@@ -48,9 +95,8 @@ class BlogRollWhat extends React.Component {
                         <div className="forty">
                             <h2 className="h1">{post.frontmatter.prettytitle1}<br/><span>{post.frontmatter.prettytitle2}</span></h2>
                             <p>{post.excerpt}</p>
-                            <div className="flex-xs space-around text-center buffer">
+                            <div className="flex-xl flex-start text-center buffer">
                                 <Link className="button thirty3" to={post.fields.slug}>View More</Link>
-                                <Link className="button thirty3" to="/services">View Services</Link>
                             </div>
                                 
                         </div>
@@ -60,13 +106,12 @@ class BlogRollWhat extends React.Component {
                 </div>
                 
             ))}
-            </Slider>
         </div>
       )
-  }
+  
 }
 
-BlogRollWhat.propTypes = {
+BlogWhat.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -77,7 +122,7 @@ BlogRollWhat.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-    query BlogRollWhatQuery {
+    query BlogWhatQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: {featuredpost: {eq: true} } }
@@ -109,6 +154,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRollWhat data={data} count={count} />}
+    render={(data, count) => <BlogWhat data={data} count={count} />}
   />
 )

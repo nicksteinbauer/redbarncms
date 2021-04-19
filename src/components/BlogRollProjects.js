@@ -5,19 +5,27 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
 
 const BlogRollProjects = ( {data} ) => {
 
     const { edges: posts } = data.allMarkdownRemark
 
-    let animateThat2 = useRef(null);
-    let animateThis2 = useRef(null);
+    //let animateThat2 = useRef(null);
+    //let animateThis2 = useRef(null);
+
+    const revealRefs = useRef([]);
+    revealRefs.current = [];
 
     useEffect(() => {
-      gsap.registerPlugin(ScrollTrigger);
-      gsap.to( animateThat2, {
+
+      revealRefs.current.forEach((el, index) => {
+
+      gsap.to( el, {
         scrollTrigger: {
-          trigger: '.projects', 
+          id: `section-${index+1}`,
+          trigger: el, 
           scrub: 1,
 
         },
@@ -28,6 +36,9 @@ const BlogRollProjects = ( {data} ) => {
         
       })
 
+    });
+
+      /*
       gsap.to( animateThis2, {
         scrollTrigger: {
           trigger: '.projects', 
@@ -39,16 +50,21 @@ const BlogRollProjects = ( {data} ) => {
         ease: "ease-in",
         
       })
+      */
 
     }, [])
 
-    
+    const addToRefs = el => {
+      if (el && !revealRefs.current.includes(el)) {
+          revealRefs.current.push(el);
+      }
+    };
 
     return (
-      <div className="nickTest">
+      <div className="project-pre-loop">
         {posts &&
           posts.map(({ node: post }) => (
-          <div key={post.id}>
+          <div className="pro-loop" key={post.id}>
               <article
               className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredprojects ? 'is-featured' : ''
@@ -57,8 +73,8 @@ const BlogRollProjects = ( {data} ) => {
               <div className="flex-md flex-end">
                   
                 {post.frontmatter.featuredimage ? (
-                <div className="featured-thumbnail animateThis" ref={el => {animateThis2 = el}}>
-                    <div className="animateThat" ref={el => {animateThat2 = el}}>
+                <div className="featured-thumbnail animateThis">
+                    <div className="animateThat" ref={addToRefs}>
                     <PreviewCompatibleImage
                     imageInfo={{
                     image: post.frontmatter.featuredimage,
@@ -74,7 +90,7 @@ const BlogRollProjects = ( {data} ) => {
                     <p>{post.excerpt}</p>
                     <div className="flex-xs space-around text-center buffer">
                         <Link className="button thirty3" to={post.fields.slug}>View More</Link>
-                        <Link className="button thirty3" to="/services">View Services</Link>
+                        <Link className="button thirty3" to="/projects">All Projects</Link>
                     </div>
                         
                 </div>

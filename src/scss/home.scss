@@ -197,6 +197,9 @@ h3.accent::before {
   padding-top: 20px;
   padding-bottom: 200px;
   text-shadow: 2px 2px 4px #262626;
+  span {
+    color: $red;
+  }
   .what-we-do-text {
     margin-top: -106px;
     .forty {

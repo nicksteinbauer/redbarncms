@@ -11,6 +11,8 @@ $screen-xxxs: 360px;
 
 body {
   box-sizing: border-box;
+  background: #000;
+  color: #fff;
 }
 
 picture {
@@ -284,6 +286,10 @@ picture {
   justify-content: flex-end;
 }
 
+.flex-start {
+  justify-self: flex-start;
+}
+
 .center-vertically {
   display: flex;
   flex-direction: column;
@@ -358,4 +364,14 @@ input[type="email"] {
   content: "";
   left: -22px;
   transition: left 0.3s ease;
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+
+  @media screen and (min-width: $screen-md) {
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  }
+  grid-gap: 40px;
 }
