@@ -17,8 +17,8 @@ mainpitch:
   imagepitch: /img/redbarn-who-we-are-main.jpg
   link1text: About Us
   link1url: https://amazing-shockley-2250cb.netlify.app/about
-  link2text: What We Do
-  link2url: https://amazing-shockley-2250cb.netlify.app/what-we-do
+  link2text: Services
+  link2url: https://amazing-shockley-2250cb.netlify.app/services
 description: Red Barn is a full-service civil engineering, construction
   management, and environmental firm with a focus on bringing the right team
   together.
