@@ -12,7 +12,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Layout from '../components/Layout'
 //import Features from '../components/Features'
 import BlogRollWhat from '../components/BlogWhatSlide'
-import BlogRollProjects from '../components/BlogRollProjects'
+import BlogRollProjectsSingle from '../components/BlogRollProjectsSingle'
 
 
 
@@ -142,7 +142,7 @@ const IndexPage = ({ data }) => {
     <section className="reliefmap sec-black section projects">    
       <div className="inside-xxl">
         <div className="flex-md flex-end relative"><h2 className="forty accent">Projects</h2></div>
-        <BlogRollProjects />
+        <BlogRollProjectsSingle />
       </div>
       <div className="gradient"></div>
     </section>
