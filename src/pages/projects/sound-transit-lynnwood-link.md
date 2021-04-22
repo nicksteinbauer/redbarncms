@@ -10,6 +10,7 @@ description: Red Barn staff is currently providing construction management
   quality value, and construction inspection for a $3B and approx. 10-mile rail
   extension project.
 featuredprojects: true
+homepost: true
 featuredimage: /img/redbarn-sound-transit-maybe.jpg
 ---
 Red Barn staff is currently providing construction management services in the roles of the lead civil construction engineer, specialized expertise in dewatering, environmental construction management, construction quality value, and construction inspection for a $3B and approx. 10-mile rail extension project.  The earthwork for the project requires mitigation of a bog, wetland plantings, and fish exclusion for the fish-bearing streams that are crossing through the project.  As the early earthwork required the rough grading to be in place for the large stations for the rail, the Red Barn Team with multiple erosion control specialists has verified the Contractor's work for the 10-mile stretch.
