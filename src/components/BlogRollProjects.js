@@ -92,7 +92,6 @@ const BlogRollProjects = ( {data} ) => {
                         <Link className="button thirty3" to={post.fields.slug}>View More</Link>
                         <Link className="button thirty3" to="/projects">All Projects</Link>
                     </div>
-                        
                 </div>
                   
               </div>

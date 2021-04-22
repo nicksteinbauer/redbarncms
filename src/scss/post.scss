@@ -1,0 +1,40 @@
+// single post scss
+
+.blogpost {
+  h1 {
+    line-height: 1;
+    span {
+      color: $red;
+      font-style: italic;
+    }
+  }
+  overflow: hidden;
+
+  .featured-thumbnail {
+    background: url("../img/stripes-red-opt.png") no-repeat left bottom;
+    margin-bottom: 50px;
+    @media screen and (min-width: $screen-md) {
+      float: right;
+      width: 50%;
+      max-width: 800px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .animateThat {
+      position: relative;
+      top: -10px;
+      left: 10px;
+    }
+  }
+}
+
+.blogpost.green {
+  h1 {
+    span {
+      color: $teal;
+    }
+  }
+  .featured-thumbnail {
+    background: url("../img/stripes-blue-opt.png") no-repeat left bottom;
+  }
+}

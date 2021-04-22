@@ -55,7 +55,7 @@ export const BlogPostTemplate = ({
   }, [])
 
   return (
-    <section className="section blogpost">
+    <section className="section blogpost green">
       {helmet || ''}
       <div className="inside-xxl">
 
@@ -129,7 +129,7 @@ BlogPost.propTypes = {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query BlogPostByIDGreen($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
