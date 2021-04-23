@@ -118,7 +118,7 @@ export default () => (
       query BlogRollProjectsSingleQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: {featuredprojects: {eq: true} } }
+          filter: { frontmatter: {homepost: {eq: true} } }
         ) {
           edges {
             node {
