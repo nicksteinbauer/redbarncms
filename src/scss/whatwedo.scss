@@ -40,8 +40,8 @@
 
     .animateThat {
       position: relative;
-      top: -5px;
-      left: 5px;
+      top: -10px;
+      left: 10px;
     }
   }
   h2.h1 {
@@ -55,7 +55,7 @@
 }
 
 .auto-grid > div:nth-child(2n) {
-  @media screen and (min-width: $screen-md) {
+  @media screen and (min-width: 780px) {
     position: relative;
     top: -20%;
   }

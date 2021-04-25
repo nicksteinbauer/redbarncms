@@ -60,7 +60,14 @@ const BlogRollSlide = ( {data} ) => {
                     ) : null}
                     
                     <div className="forty">
-                        <h2 className="h1">{post.frontmatter.prettytitle1}<br/><span>{post.frontmatter.prettytitle2}</span></h2>
+                        <h2 className="h1">
+                        {post.frontmatter.prettytitle1 ? (
+                          <>
+                          {post.frontmatter.prettytitle1}<br/>
+                          </>
+                        ) : null}
+                          <span>{post.frontmatter.prettytitle2}</span>
+                        </h2>
                         <p>{post.excerpt}</p>
                         <div className="flex-xs space-around text-center buffer">
                             <Link className="button thirty3" to={post.fields.slug}>View More</Link>

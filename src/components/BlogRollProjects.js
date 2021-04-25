@@ -30,8 +30,8 @@ const BlogRollProjects = ( {data} ) => {
 
         },
         duration: 2,
-        x: '60',
-        y: '-60',
+        x: '40',
+        y: '-40',
         ease: "ease-in",
         
       })
