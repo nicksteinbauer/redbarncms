@@ -370,10 +370,10 @@ input[type="email"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   @media screen and (min-width: $screen-md) {
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
-  @media screen and (min-width: $screen-xl) {
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  @media screen and (min-width: $screen-lg) {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
   grid-gap: 80px;
   //@media screen and (min-width: 780px) {

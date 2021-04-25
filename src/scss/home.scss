@@ -60,6 +60,7 @@ video,
     color: #fff;
     line-height: 1;
     margin-top: 0;
+    margin-bottom: 20px;
     span {
       font-style: italic;
       color: $red;
@@ -67,6 +68,12 @@ video,
   }
   h3 {
     color: $red;
+    margin-bottom: 20px;
+  }
+  p {
+    @media screen and (min-width: $screen-sm) {
+      max-width: 50%;
+    }
   }
 }
 

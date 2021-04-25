@@ -13,6 +13,7 @@ export default class BlogIndexPage extends React.Component {
             <div className="callto-content inside-xxl">
               <h3 className="accent">Red Barn Engineering</h3>
               <h1>What We Do</h1>
+              <p>Red Barn brings technical experts to each project with highly trained construction managers, engineers, inspectors, and scientists. </p>
             </div>
             
           </div>
