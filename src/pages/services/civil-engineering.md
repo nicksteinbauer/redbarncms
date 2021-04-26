@@ -7,6 +7,7 @@ date: 2021-04-25T21:44:53.143Z
 description: orem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
   cursus eu libero id porta. Vestibulum gravida tincidunt nibh non finibus.
   Mauris massa augue, elementum at nulla nec, gravida molestie erat.
+featuredservice: true
 featuredimage: /img/redbarn-orenda-mixed-use.jpg
 ---
 * Transit/Transportation Design
