@@ -1,11 +1,47 @@
-import React from 'react'
+import React, { useRef, useEffect } from "react";
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent, featuredimage, teamtitle }) => {
   const PageContent = contentComponent || Content
+
+  let animateThis1 = useRef(null);
+  let animateThat1 = useRef(null);
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+      gsap.to( animateThis1, {
+        scrollTrigger: {
+          trigger: '.gsap1', 
+          scrub: 1,
+        },
+        duration: 2,
+        y: '40',
+        x: '-20',
+        ease: "ease-in",
+        
+      })
+
+      gsap.to( animateThat1, {
+        scrollTrigger: {
+          trigger: '.gsap1', 
+          scrub: 1,
+        },
+        duration: 2,
+        x: '40',
+        y: '-40',
+        ease: "ease-in",
+        
+      })
+
+    
+  }, [])
 
   return (
     <>
@@ -27,10 +63,16 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
         </aside>
     </section>
-    <section className="section black p-lot">
-        <div className="inside-xxl">
-        
-        
+    <section className="section black p-lot team-buffer">
+        <div className="inside-xxl flex-md justify">
+          <div className="featured-thumbnail fifty animateThis" ref={el => {animateThis1 = el}}>
+            <div className="animateThat" ref={el => {animateThat1 = el}}>
+              <PreviewCompatibleImage imageInfo={featuredimage} />
+            </div>
+          </div>
+          <div className="forty">
+            <h2 className="h1">{teamtitle}</h2>
+          </div>
         </div>
     </section>
   </>
@@ -39,6 +81,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 }
 
 AboutPageTemplate.propTypes = {
+  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -53,6 +96,8 @@ const AboutPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        teamtitle={post.frontmatter.teamtitle}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   )
@@ -70,6 +115,14 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        teamtitle
+        featuredimage {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

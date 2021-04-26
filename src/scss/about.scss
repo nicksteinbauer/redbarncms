@@ -16,3 +16,13 @@
   }
   padding-top: 80px;
 }
+
+.team-buffer {
+  padding-top: 0;
+  .fifty {
+    margin-top: -60px;
+  }
+  .forty {
+    margin-top: 0 !important;
+  }
+}
