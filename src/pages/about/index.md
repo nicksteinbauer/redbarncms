@@ -1,19 +1,10 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: About Us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Red Barn is a full-service civil engineering, construction management, and environmental firm with a focus on bringing the right team together.  Our team is built of project managers that are accountable, possess strong quality management, and are fun to work with. We make sure our team gets the job done well.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+​It was established in 2016 and obtained over 50 permits that year, related to stormwater regulations which had just been adopted on a wide variety of projects.  From there we built the construction management division and have expanded to environmental permitting and water resources engineering.  Red Barn knows the right balance and has timing that synchronizes with our client's desires and the regulatory requirements.  Our core services of construction management, environmental permitting, water resource engineering, and civil design complement each other and work in tandem to give us a comprehensive understanding of each project's environmental and design issues.  
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+ We have world-class modeling experts in hydrology and hydraulics that understand the benefits of green stormwater infrastructure and the reduction of CSO overflows.  Our construction managers have worked on large facilities and bridges, and our wetlands and fish biologists have worked on over 100 culvert projects.
