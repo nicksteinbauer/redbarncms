@@ -2,6 +2,18 @@
 templateKey: about-page
 path: /about
 title: About Us
+testimonialsabout:
+  - quote: " am impressed with the Red Barn staff that are on my project.  They are
+      extremely qualified, responsive, and great to work with.  Red Barn staff
+      is leading coordination efforts with two cities, the state DOT and
+      multiple third parties."
+    author: "- Ginger Ferguson, Sound Transit  Lynnwood Link 200 Project Manager"
+  - quote: Red Barn's civil engineering team is responsive and takes the time to get
+      into the details.
+    author: "- Verizon"
+  - quote: "After working with Red Barn, the Board has decided that Red Barn should
+      manage all future projects from start to finish. "
+    author: "- Rich Johnston, President Vertical World"
 ---
 Red Barn is a full-service civil engineering, construction management, and environmental firm with a focus on bringing the right team together.  Our team is built of project managers that are accountable, possess strong quality management, and are fun to work with. We make sure our team gets the job done well.
 
