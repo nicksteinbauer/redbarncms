@@ -18,40 +18,52 @@ const BlogRollServices = ( {data} ) => {
     const revealRefs = useRef([]);
     revealRefs.current = [];
 
+
+    //let animateThat2 = useRef(null);
+    //let animateThis2 = useRef(null);
+    
     useEffect(() => {
 
+      
       revealRefs.current.forEach((el, index) => {
 
-      gsap.to( el, {
-        scrollTrigger: {
-          id: `section-${index+1}`,
-          trigger: el, 
-          scrub: 1,
+        gsap.to( el, {
+          scrollTrigger: {
+            id: `section-${index+1}`,
+            trigger: el, 
+            scrub: 1,
+  
+          },
+          duration: 2,
+          x: '20',
+          y: '-20',
+          ease: "ease-in",
+          
+        })
 
-        },
-        duration: 2,
-        x: '40',
-        y: '-40',
-        ease: "ease-in",
-        
-      })
-
-    });
+      });
 
       /*
-      gsap.to( animateThis2, {
-        scrollTrigger: {
-          trigger: '.projects', 
-          scrub: 1,
 
-        },
-        duration: 2,
-        y: '60',
-        ease: "ease-in",
+      triggers.forEach(animateThat2 => {
         
-      })
-      */
+        gsap.to( animateThat2, {
+          scrollTrigger: {
+            trigger: triggers, 
+            scrub: 1,
+  
+          },
+          duration: 2,
+          x: '20',
+          y: '-20',
+          ease: "ease-in",
+          
+        })
 
+      });
+
+      */
+      
     }, [])
 
     const addToRefs = el => {
@@ -61,43 +73,52 @@ const BlogRollServices = ( {data} ) => {
     };
 
     return (
-      <div className="project-pre-loop">
+        <div className="auto-grid">
         {posts &&
-          posts.map(({ node: post }) => (
-          <div className="pro-loop" key={post.id}>
-              <article
-              
-              >
-              <div className="flex-md flex-end">
-                  
-                {post.frontmatter.featuredimage ? (
-                <div className="featured-thumbnail animateThis">
-                    <div className="animateThat" ref={addToRefs}>
-                    <PreviewCompatibleImage
-                    imageInfo={{
-                    image: post.frontmatter.featuredimage,
-                    alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                    }}
-                    />
+            posts.map(({ node: post }) => (
+            <div className="what-loop" key={post.id}>
+                <article
+                className={`blog-list-item tile is-child box notification ${
+                    post.frontmatter.featuredpost ? 'is-featured' : ''
+                }`}
+                >
+                <div>
+                    
+                    {post.frontmatter.featuredimage ? (
+                    <div className="featured-thumbnail sixty animateThis">
+                        <div className="animateThat" ref={addToRefs}>
+                        <PreviewCompatibleImage
+                        imageInfo={{
+                        image: post.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        }}
+                        />
+                        </div>
                     </div>
-                </div>
-                ) : null}
-                
-                <div className="forty">
-                    <h2 className="h1">{post.frontmatter.prettytitle1}<br/><span>{post.frontmatter.prettytitle2}</span></h2>
-                    <p>{post.excerpt}</p>
-                    <div className="flex-xs space-around text-center buffer">
-                        <Link className="button thirty3" to={post.fields.slug}>View More</Link>
-
+                    ) : null}
+                    
+                    <div className="forty">
+                      <h2 className="h1">
+                        {post.frontmatter.prettytitle1 ? (
+                          <>
+                          {post.frontmatter.prettytitle1}<br/>
+                          </>
+                        ) : null}
+                        <span>{post.frontmatter.prettytitle2}</span>
+                      </h2>
+                        <p>{post.excerpt}</p>
+                        <div className="flex-xl flex-start text-center buffer">
+                            <Link className="button thirty3" to={post.fields.slug}>View More</Link>
+                        </div>
+                            
                     </div>
+                    
                 </div>
-                  
-              </div>
-          </article>
-          </div>
-          
+            </article>
+            </div>
+            
         ))}
-      </div>
+    </div>
     )
   }
 
@@ -116,6 +137,7 @@ export default () => (
       query BlogRollSericesQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: {featuredservice: {eq: true} } }
         ) {
           edges {
             node {
@@ -130,7 +152,7 @@ export default () => (
                 prettytitle1
                 prettytitle2
                 date(formatString: "MMMM DD, YYYY")
-
+                featuredservice
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 1400, quality: 70) {

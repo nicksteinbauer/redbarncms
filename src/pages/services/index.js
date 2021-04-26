@@ -16,11 +16,12 @@ export default class BlogIndexPage extends React.Component {
                 </div>
                 
             </div>
-            <section className="projects-section section inside-xxl black p-lot">
-                <BlogRollServices />
-            </section>
-
         </div>
+        <section className="services-section section black p-lot">
+            <div className="inside-xxl">
+                <BlogRollServices />
+            </div>
+        </section>
 
 
        

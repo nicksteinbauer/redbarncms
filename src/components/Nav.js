@@ -15,12 +15,12 @@ function Nav() {
                 Services
                 </span>
             </Link>
-            <Link className="navbar-item" to="">
+            <Link className="navbar-item" to="/projects">
                 <span>
                 Projects
                 </span>
             </Link>
-            <Link className="navbar-item" to="">
+            <Link className="navbar-item" to="/about">
                 <span>
                 About Us
                 </span>
