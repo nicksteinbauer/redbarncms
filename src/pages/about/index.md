@@ -14,6 +14,8 @@ testimonialsabout:
   - quote: "After working with Red Barn, the Board has decided that Red Barn should
       manage all future projects from start to finish. "
     author: "- Rich Johnston, President Vertical World"
+teamtitle: Our Team
+teamimage: /img/redbarnteam.jpg
 ---
 Red Barn is a full-service civil engineering, construction management, and environmental firm with a focus on bringing the right team together.  Our team is built of project managers that are accountable, possess strong quality management, and are fun to work with. We make sure our team gets the job done well.
 
