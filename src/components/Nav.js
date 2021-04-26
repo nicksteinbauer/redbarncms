@@ -10,7 +10,7 @@ function Nav() {
                 What We Do
                 </span>
             </Link>
-            <Link className="navbar-item" to="">
+            <Link className="navbar-item" to="/services">
                 <span>
                 Services
                 </span>

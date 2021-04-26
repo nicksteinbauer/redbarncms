@@ -1,0 +1,22 @@
+.services-banner {
+  background: #000 url("../img/redbarnparkinglot.jpg") no-repeat center;
+  min-height: 300px;
+  .callto-content {
+    padding: 0 20px;
+  }
+  .callto-content.inside-xxl {
+    margin-left: 0;
+    @media screen and (min-width: $screen-md) {
+      margin-left: auto;
+      width: 1660px;
+    }
+  }
+  @media screen and (min-width: $screen-md) {
+    min-height: 500px;
+  }
+  padding-top: 80px;
+}
+
+.services-page.p-lot {
+  padding-bottom: 0;
+}
