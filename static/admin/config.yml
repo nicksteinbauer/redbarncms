@@ -84,7 +84,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Pretty Title 1", name: "prettytitle1", widget: "string", required: false}
       - {label: "Pretty Title 2", name: "prettytitle2", widget: "string", required: false}
-      - {label: "Job Title", name: "jobtitle", widget: "string"}
+      - {label: "Job Title", name: "jobtitle", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}

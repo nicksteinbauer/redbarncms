@@ -21,16 +21,16 @@ class BlogPeopleSlide extends React.Component {
               breakpoint: 1500,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
+                slidesToScroll: 1,
+                infinite: false,
               }
             },
             {
               breakpoint: 760,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                infinite: false,
               }
             }
           ]
@@ -50,22 +50,28 @@ class BlogPeopleSlide extends React.Component {
                     <div>
                         
                         {post.frontmatter.featuredimage ? (
-                        <div className="featured-thumbnail animateThis">
-                            <div className="animateThat">
-                            <PreviewCompatibleImage
-                            imageInfo={{
-                            image: post.frontmatter.featuredimage,
-                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                            }}
-                            />
+                          <div className="image-padding">
+                            <div className="featured-thumbnail animateThis">
+                                <div className="animateThat">
+                                  <PreviewCompatibleImage
+                                  imageInfo={{
+                                  image: post.frontmatter.featuredimage,
+                                  alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                                  }}
+                                  />
+                                </div>
                             </div>
-                        </div>
+                          </div>
                         ) : null}
                         
                         <div className="forty">
-                          <h2 className="h1">
-                            
-                            {post.frontmatter.title}
+                        <h2 className="h1">
+                            {post.frontmatter.prettytitle1 ? (
+                              <>
+                              {post.frontmatter.prettytitle1}<br/>
+                              </>
+                            ) : null}
+                            <span>{post.frontmatter.prettytitle2}</span>
                           </h2>
                             <p>{post.frontmatter.jobtitle}</p>
                             <p>{post.frontmatter.description}</p>
@@ -115,6 +121,8 @@ export default () => (
                 peoplekey
                 jobtitle
                 description
+                prettytitle1
+                prettytitle2
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {

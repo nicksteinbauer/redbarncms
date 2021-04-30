@@ -37,9 +37,14 @@
     h2 {
       color: $red;
       line-height: 1;
+      margin-top: 40px;
+    }
+    .image-padding {
+      padding: 30px;
     }
     .featured-thumbnail {
       background: url("../img/stripes-red-opt.png") no-repeat center center;
+      //padding: 20px;
     }
     a.button:link,
     a.button:active,
@@ -51,5 +56,26 @@
     > div {
       padding: 20px;
     }
+  }
+  .slick-slide.slick-active {
+    left: 0;
+    .animateThis {
+      transform: translateY(40px);
+      .animateThat {
+        transform: translate(-20px, -20px);
+      }
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    left: 50%;
+    right: 50%;
+    margin: 0;
+    width: 50px;
+  }
+  .slick-next {
+  }
+  .slick-prev {
+    margin-left: -60px;
   }
 }
