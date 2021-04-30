@@ -2,6 +2,8 @@
 templateKey: blog-post
 peoplekey: people
 title: Rob Fritz
+prettytitle1: Rob
+prettytitle2: Fritz
 jobtitle: CESCL
 date: 2021-04-30T19:12:09.273Z
 description: |-
