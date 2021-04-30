@@ -2,6 +2,8 @@
 templateKey: blog-post
 peoplekey: people
 title: Rebekah Weston
+prettytitle1: Rebekah
+prettytitle2: Weston
 jobtitle: PE, LEED AP, MSc
 date: 2021-04-30T18:42:10.283Z
 description: Owner/Principal Civil Engineer
