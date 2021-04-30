@@ -3,10 +3,10 @@ path: /about
 templateKey: about-page
 title: About Us
 testimonialsabout:
-  - quote: " am impressed with the Red Barn staff that are on my project.  They are
+  - quote: I am impressed with the Red Barn staff that are on my project.  They are
       extremely qualified, responsive, and great to work with.  Red Barn staff
       is leading coordination efforts with two cities, the state DOT and
-      multiple third parties."
+      multiple third parties.
     author: "- Ginger Ferguson, Sound Transit  Lynnwood Link 200 Project Manager"
   - quote: Red Barn's civil engineering team is responsive and takes the time to get
       into the details.
