@@ -83,6 +83,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Job Title", name: "jobtitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "People Post", name: "peoplepost", widget: "boolean", required: false}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}

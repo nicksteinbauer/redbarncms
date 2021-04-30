@@ -7,8 +7,10 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Testimonials from '../components/Testimonials'
+import BlogPeopleSlide from '../components/BlogPeopleSlide'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, featuredimage, teamtitle }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, testimonialsabout, description }) => {
   const PageContent = contentComponent || Content
 
   let animateThis1 = useRef(null);
@@ -44,8 +46,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
   }, [])
 
   return (
-    <>
-    <div className="black p-lot services-page">
+    <div className="about-page">
+    <div className="black services-page">
       <div className="about-banner align-vertical">
           
         <div className="callto-content inside-xxl">
@@ -55,7 +57,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
          <div className="about-over"></div> 
       </div>
     </div>
-    <section className="services-section section black p-lot">
+    <section className="services-section section black">
         <div className="inside-xxl side-adjust">
           <PageContent className="content" content={content} />
         </div>
@@ -72,17 +74,31 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
           </div>
           <div className="forty">
             <h2 className="h1">{teamtitle}</h2>
+            {description}
           </div>
         </div>
+
+        <BlogPeopleSlide />
     </section>
-  </>
+
+    <section>
+      <div className="inside-xxl">
+        <Testimonials testimonials={testimonialsabout} />
+      </div>
+    </section>
+
+    
+  </div>
   
   )
 }
 
 AboutPageTemplate.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  testimonialsabout: PropTypes.array,
   title: PropTypes.string.isRequired,
+  teamtitle: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
@@ -97,7 +113,9 @@ const AboutPage = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         teamtitle={post.frontmatter.teamtitle}
+        description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
+        testimonialsabout={post.frontmatter.testimonialsabout}
       />
     </Layout>
   )
@@ -116,6 +134,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         teamtitle
+        description
+        testimonialsabout {
+          author
+          quote
+        }
         featuredimage {
           childImageSharp {
             fluid {
