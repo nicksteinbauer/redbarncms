@@ -2,6 +2,8 @@
 templateKey: blog-post
 peoplekey: people
 title: Rachael Lambie
+prettytitle1: Rachael
+prettytitle2: Lambie
 jobtitle: Senior Project Manager
 date: 2021-04-30T19:13:04.517Z
 description: Multi-family/Telecom
