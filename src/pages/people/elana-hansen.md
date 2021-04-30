@@ -2,6 +2,8 @@
 templateKey: blog-post
 peoplekey: people
 title: Elana Hansen
+prettytitle1: Elana
+prettytitle2: Hansen
 jobtitle: Test
 date: 2021-04-30T19:18:35.944Z
 description: Accounting Manager
