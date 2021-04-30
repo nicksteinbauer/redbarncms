@@ -79,7 +79,7 @@ collections:
     folder: "src/pages/people"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post-green"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "People Key", name: "peoplekey", widget: "hidden", default: "people"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Job Title", name: "jobtitle", widget: "string"}
