@@ -18,7 +18,7 @@ class BlogPeopleSlide extends React.Component {
         slidesToScroll: 1,
         responsive: [
             {
-              breakpoint: 1024,
+              breakpoint: 1500,
               settings: {
                 slidesToShow: 3,
                 slidesToScroll: 3,
@@ -27,7 +27,7 @@ class BlogPeopleSlide extends React.Component {
               }
             },
             {
-              breakpoint: 960,
+              breakpoint: 760,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1

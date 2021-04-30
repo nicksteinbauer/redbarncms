@@ -34,5 +34,22 @@
 .about-page {
   .p-lot {
     padding-bottom: 160px;
+    h2 {
+      color: $red;
+      line-height: 1;
+    }
+    .featured-thumbnail {
+      background: url("../img/stripes-red-opt.png") no-repeat center center;
+    }
+    a.button:link,
+    a.button:active,
+    a.button:visited {
+      border-color: $red;
+    }
+  }
+  .slick-slide {
+    > div {
+      padding: 20px;
+    }
   }
 }
