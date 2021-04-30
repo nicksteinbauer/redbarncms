@@ -47,10 +47,10 @@ class BlogPeopleSlide extends React.Component {
                         post.frontmatter.featuredpost ? 'is-featured' : ''
                     }`}
                     >
-                    <div className="flex-md">
+                    <div>
                         
                         {post.frontmatter.featuredimage ? (
-                        <div className="featured-thumbnail sixty animateThis">
+                        <div className="featured-thumbnail animateThis">
                             <div className="animateThat">
                             <PreviewCompatibleImage
                             imageInfo={{
@@ -64,17 +64,13 @@ class BlogPeopleSlide extends React.Component {
                         
                         <div className="forty">
                           <h2 className="h1">
-                            {post.frontmatter.prettytitle1 ? (
-                              <>
-                              {post.frontmatter.prettytitle1}<br/>
-                              </>
-                            ) : null}
-                            <span>{post.frontmatter.prettytitle2}</span>
+                            
+                            {post.frontmatter.title}
                           </h2>
-                            <p>{post.excerpt}</p>
-                            <div className="flex-xs space-around text-center buffer">
+                            <p>{post.frontmatter.jobtitle}</p>
+                            <p>{post.frontmatter.description}</p>
+                            <div className="text-center buffer">
                                 <Link className="button thirty3" to={post.fields.slug}>View More</Link>
-                                <Link className="button thirty3" to="/what-we-do">What We Do</Link>
                             </div>
                                 
                         </div>
@@ -104,7 +100,7 @@ export default () => (
     query BlogPeopleSlideQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: {featuredpost: {eq: true} } }
+          filter: { frontmatter: { peoplekey: { eq: "people" } } }
         ) {
           edges {
             node {
@@ -116,10 +112,10 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                prettytitle1
-                prettytitle2
+                peoplekey
+                jobtitle
+                description
                 date(formatString: "MMMM DD, YYYY")
-                featuredpost
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 800, quality: 80) {
