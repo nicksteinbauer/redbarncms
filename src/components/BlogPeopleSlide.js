@@ -37,7 +37,7 @@ class BlogPeopleSlide extends React.Component {
       };
 
       return (
-        <div className="the-trigger">
+        <div className="the-trigger inside-xxl">
             <Slider {...settings}>
             {posts &&
                 posts.map(({ node: post }) => (
@@ -73,10 +73,10 @@ class BlogPeopleSlide extends React.Component {
                             ) : null}
                             <span>{post.frontmatter.prettytitle2}</span>
                           </h2>
-                            <p>{post.frontmatter.jobtitle}</p>
-                            <p>{post.frontmatter.description}</p>
+                            <h4 className="jobtitle">{post.frontmatter.jobtitle}</h4>
+                            <p className="jobdescrip">{post.frontmatter.description}</p>
                             <div className="text-center buffer">
-                                <Link className="button thirty3" to={post.fields.slug}>View More</Link>
+                                <Link className="button thirty3" to={post.fields.slug}>View Profile</Link>
                             </div>
                                 
                         </div>
@@ -105,7 +105,7 @@ export default () => (
     query={graphql`
     query BlogPeopleSlideQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: ASC, fields: [frontmatter___date] }
           filter: { frontmatter: { peoplekey: { eq: "people" } } }
         ) {
           edges {

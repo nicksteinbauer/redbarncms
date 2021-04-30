@@ -13,11 +13,12 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 export const BlogPostTemplate = ({
   content,
   contentComponent,
-  //description,
-  //tags,
+  description,
+  jobtitle,
   featuredimage,
   title,
   helmet,
+  peoplekey,
   prettytitle1,
   prettytitle2,
 }) => {
@@ -65,8 +66,10 @@ export const BlogPostTemplate = ({
               ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
               : <h1 className="h1">{title}</h1>
             }
-
-            {/*<p>{description}</p>*/}
+            {peoplekey === "people"
+              ? <p>{description}</p>
+              : <p>nope</p>
+            }
             <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
               <div className="animateThat" ref={el => {animateThat1 = el}}>
                 <PreviewCompatibleImage imageInfo={featuredimage} />
@@ -89,6 +92,7 @@ BlogPostTemplate.propTypes = {
   title: PropTypes.string,
   prettytitle1: PropTypes.string,
   prettytitle2: PropTypes.string,
+  jobtitle: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -115,6 +119,7 @@ const BlogPost = ({ data }) => {
         title={post.frontmatter.title}
         prettytitle1={post.frontmatter.prettytitle1}
         prettytitle2={post.frontmatter.prettytitle2}
+        jobtitle={post.frontmatter.jobtitle}
       />
     </Layout>
   )
@@ -138,6 +143,9 @@ export const pageQuery = graphql`
         title
         prettytitle1
         prettytitle2
+        jobtitle
+        description
+        peoplekey
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 840, quality: 60) {
