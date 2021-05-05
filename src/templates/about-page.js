@@ -10,6 +10,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Testimonials from '../components/Testimonials'
 import BlogPeopleSlide from '../components/BlogPeopleSlide'
 
+
 export const AboutPageTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, testimonialsabout, description }) => {
   const PageContent = contentComponent || Content
 
@@ -47,48 +48,52 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
 
   return (
     <div className="about-page">
-    <div className="black services-page">
-      <div className="about-banner align-vertical">
-          
-        <div className="callto-content inside-xxl">
-          <h3 className="accent">Red Barn Engineering</h3>
-          <h1>{title}</h1>
+      <div className="black services-page">
+        <div className="about-banner align-vertical">
+          <div className="callto-content inside-xxl">
+            <h3 className="accent">Red Barn Engineering</h3>
+            <h1>{title}</h1>
+          </div>
+          <div className="about-over"></div> 
         </div>
-         <div className="about-over"></div> 
       </div>
-    </div>
-    <section className="services-section section black">
-        <div className="inside-xxl side-adjust">
-          <PageContent className="content" content={content} />
-        </div>
-        <aside className="increment-side">
+      <section className="services-section section black">
+          <div className="inside-xxl side-adjust">
+            <PageContent className="content" content={content} />
+          </div>
+          <aside className="increment-side">
 
-        </aside>
-    </section>
-    <section className="section black p-lot team-buffer">
-        <div className="inside-xxl flex-md justify">
-          <div className="featured-thumbnail fifty animateThis" ref={el => {animateThis1 = el}}>
-            <div className="animateThat" ref={el => {animateThat1 = el}}>
-              <PreviewCompatibleImage imageInfo={featuredimage} />
+          </aside>
+      </section>
+      <section className="section black p-lot team-buffer">
+          <div className="inside-xxl flex-md justify">
+            <div className="featured-thumbnail fifty animateThis" ref={el => {animateThis1 = el}}>
+              <div className="animateThat" ref={el => {animateThat1 = el}}>
+                <PreviewCompatibleImage imageInfo={featuredimage} />
+              </div>
+            </div>
+            <div className="forty">
+              <h2 className="h1">{teamtitle}</h2>
+              {description}
             </div>
           </div>
+          <div className="team-padding">
+            <BlogPeopleSlide />
+          </div>
+      </section>
+
+      <section className="services-section">
+        <div className="inside-xxl">
           <div className="forty">
-            <h2 className="h1">{teamtitle}</h2>
+            <h2 className="h1">Testimonials</h2>
             {description}
           </div>
+          <Testimonials testimonials={testimonialsabout} />
         </div>
-
-        <BlogPeopleSlide />
-    </section>
-
-    <section>
-      <div className="inside-xxl">
-        <Testimonials testimonials={testimonialsabout} />
-      </div>
-    </section>
+      </section>
 
     
-  </div>
+    </div>
   
   )
 }

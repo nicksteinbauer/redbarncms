@@ -3,12 +3,14 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-import Slider from "react-slick"
+//import Slider from "react-slick"
 
 class BlogPeopleSlide extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+
+    /*
 
     const settings = {
         className: "slide-center",
@@ -20,7 +22,15 @@ class BlogPeopleSlide extends React.Component {
             {
               breakpoint: 1500,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: false,
+              }
+            },
+            {
+              breakpoint: 990,
+              settings: {
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: false,
               }
@@ -35,19 +45,25 @@ class BlogPeopleSlide extends React.Component {
             }
           ]
       };
+      // this is the slider you need to wrap
+      <Slider {...settings}></Slider>
+      */
 
       return (
         <div className="the-trigger inside-xxl">
-            <Slider {...settings}>
+            <div className="team-grid">
+
+            
             {posts &&
                 posts.map(({ node: post }) => (
-                <div key={post.id}>
+                
                     <article
+                    key={post.id}
                     className={`blog-list-item tile is-child box notification ${
                         post.frontmatter.featuredpost ? 'is-featured' : ''
                     }`}
                     >
-                    <div>
+                    
                         
                         {post.frontmatter.featuredimage ? (
                           <div className="image-padding">
@@ -81,12 +97,12 @@ class BlogPeopleSlide extends React.Component {
                                 
                         </div>
                         
-                    </div>
+                    
                 </article>
-                </div>
+                
                 
             ))}
-            </Slider>
+            </div>
         </div>
       )
   }
