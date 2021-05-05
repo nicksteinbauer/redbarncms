@@ -89,7 +89,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Show Titles", name: "showtitles widget: "boolean", required: false}
+      - {label: "Show Titles", name: "showtitles", widget: "boolean", required: false}
       
   - name: "pages"
     label: "Pages"
