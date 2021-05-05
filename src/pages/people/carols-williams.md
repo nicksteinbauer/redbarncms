@@ -1,0 +1,15 @@
+---
+templateKey: blog-post
+peoplekey: people
+title: Carols Williams
+prettytitle1: Carols
+prettytitle2: Williams
+date: 2021-05-05T18:33:03.982Z
+description: Inspector
+featuredimage: /img/redbarnpeoplecarloswilliams.jpg
+---
+<!--StartFragment-->
+
+Carlos Williams has over 25 years of experience working on residential, commercial, and heavy civil infrastructure projects, as well as contract manufacturing. He has served in various roles, including field supervision, production management, quality control and assurance, planning and estimating, site safety and health, and project close-out.
+
+<!--EndFragment-->
