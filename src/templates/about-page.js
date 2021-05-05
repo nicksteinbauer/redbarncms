@@ -82,16 +82,17 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
           </div>
       </section>
 
-      <section className="services-section">
+      <section className="services-section testimonials">
         <div className="inside-xxl">
           <div className="forty">
             <h2 className="h1">Testimonials</h2>
             {description}
           </div>
-          <Testimonials testimonials={testimonialsabout} />
         </div>
       </section>
-
+      <div className="inside-xxl">
+        <Testimonials testimonials={testimonialsabout} />
+      </div>
     
     </div>
   
