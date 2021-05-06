@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Civil Engineering, Land Surveying, Construction Management',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Red Barn is a full-service civil engineering, construction management, and environmental firm with a focus on bringing the right team together. Our team is built of project managers that are accountable, possess strong quality management, and are fun to work with. We make sure our team gets the job done well.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
