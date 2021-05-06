@@ -4,8 +4,9 @@ peoplekey: people
 title: Paul Bushhorn
 prettytitle1: Paul
 prettytitle2: Bushhorn
+jobtitle2: Billing Manager
 date: 2021-05-05T18:12:07.452Z
-description: Billing Manager
+description: ""
 featuredimage: /img/redbarnpeoplepaulbushhorn.jpg
 ---
 <!--StartFragment-->
