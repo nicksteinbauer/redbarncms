@@ -4,8 +4,9 @@ peoplekey: people
 title: Carols Williams
 prettytitle1: Carols
 prettytitle2: Williams
+jobtitle2: Inspector
 date: 2021-05-05T18:33:03.982Z
-description: Inspector
+description: ""
 featuredimage: /img/redbarnpeoplecarloswilliams.jpg
 ---
 <!--StartFragment-->
