@@ -7,13 +7,25 @@ testimonialsabout:
       extremely qualified, responsive, and great to work with.  Red Barn staff
       is leading coordination efforts with two cities, the state DOT and
       multiple third parties.
-    author: "- Ginger Ferguson, Sound Transit  Lynnwood Link 200 Project Manager"
+    author: Ginger Ferguson, Sound Transit  Lynnwood Link 200 Project Manager
   - quote: Red Barn's civil engineering team is responsive and takes the time to get
       into the details.
-    author: "- Verizon"
+    author: Verizon
   - quote: "After working with Red Barn, the Board has decided that Red Barn should
       manage all future projects from start to finish. "
-    author: "- Rich Johnston, President Vertical World"
+    author: Rich Johnston, President Vertical World
+  - quote: "After working with Red Barn, the Board has decided that Red Barn should
+      manage all future projects from start to finish. "
+    author: Rich Johnston, President Vertical World
+  - quote: "Rebekah's leadership in coming up with effective solutions to our many
+      jobs within the City of Seattle has helped the firm establish lower
+      construction costs "
+    author: Verizon
+  - quote: Red Barn is doing a great job for PGH Wong Engineering on Lynnwood
+      Link.  Put them on your team.
+    author: Mike Motil PM Sound Transit Lynnwood Link GC/CM, PGH Wong Inc.
+  - quote: They made a completely foreign process feel like a walk in the park
+    author: Peter Sobol, Eminence Homes, LLC
 teamtitle: Our Team
 featuredimage: /img/redbarnteam.jpg
 description: "Our team is made up of Civil Engineers, Construction Managers,
