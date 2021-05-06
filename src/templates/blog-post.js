@@ -66,9 +66,9 @@ export const BlogPostTemplate = ({
               ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
               : <h1 className="h1">{title}</h1>
             }
-            {peoplekey === "people"
-              ? <p>{description}</p>
-              : <p>nope</p>
+            {peoplekey &&
+              <p>{description}</p>
+              
             }
             <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
               <div className="animateThat" ref={el => {animateThat1 = el}}>

@@ -32,6 +32,36 @@
 }
 
 .about-page {
+  .slick-slider {
+    overflow: hidden;
+  }
+  .slick-slide {
+    padding-bottom: 165px;
+    > div {
+      padding: 20px;
+    }
+  }
+  .slick-slide.slick-active {
+    left: 0;
+    .animateThis {
+      transform: translateY(40px);
+      .animateThat {
+        transform: translate(-20px, -20px);
+      }
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    left: 50%;
+    right: 50%;
+    margin: 0;
+    width: 50px;
+  }
+
+  .slick-prev {
+    margin-left: -60px;
+  }
+
   .p-lot {
     padding-bottom: 160px;
     h2 {
@@ -73,32 +103,7 @@
       margin-bottom: 25px;
     }
   }
-  .slick-slide {
-    padding-bottom: 65px;
-    > div {
-      padding: 20px;
-    }
-  }
-  .slick-slide.slick-active {
-    left: 0;
-    .animateThis {
-      transform: translateY(40px);
-      .animateThat {
-        transform: translate(-20px, -20px);
-      }
-    }
-  }
-  .slick-prev,
-  .slick-next {
-    left: 50%;
-    right: 50%;
-    margin: 0;
-    width: 50px;
-  }
 
-  .slick-prev {
-    margin-left: -60px;
-  }
   .the-trigger.inside-xxl {
     overflow: hidden;
     padding: 0;
@@ -135,6 +140,34 @@
         width: 100%;
         padding: 0 40px 0 0;
         box-sizing: border-box;
+      }
+    }
+  }
+  .inside-xxl.testimonials-fix {
+    padding: 0;
+    margin-top: -80px;
+    article {
+      padding: 10px;
+      box-sizing: border-box;
+      background: $gray;
+      position: relative;
+      .message-body {
+        padding-left: 60px;
+      }
+      .message-body::before {
+        content: "\201C";
+        font-family: $bebas;
+        font-size: 6em;
+        top: -20px;
+        opacity: 0.6;
+        position: absolute;
+        top: -25px;
+        left: 15px;
+      }
+      cite {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -80px;
       }
     }
   }

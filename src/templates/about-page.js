@@ -90,7 +90,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
           </div>
         </div>
       </section>
-      <div className="inside-xxl">
+      <div className="inside-xxl testimonials-fix">
         <Testimonials testimonials={testimonialsabout} />
       </div>
     
