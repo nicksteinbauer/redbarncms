@@ -5,8 +5,9 @@ title: Jeff Keefe
 prettytitle1: Jeff
 prettytitle2: Keefe
 jobtitle: PE, PS, CPCES, CPSWQ
+jobtitle2: Civil Engineer
 date: 2021-05-05T18:16:38.794Z
-description: Civil Engineer
+description: ""
 featuredimage: /img/redbarnpeoplejeffkeefe.jpg
 ---
 <!--StartFragment-->
