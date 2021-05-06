@@ -5,8 +5,9 @@ title: Brian Vanderburg
 prettytitle1: Brian
 prettytitle2: Vanderburg
 jobtitle: PE, CESCL
+jobtitle2: Senior Engineer
 date: 2021-05-05T17:10:23.365Z
-description: Senior Engineer
+description: ""
 featuredimage: /img/redbarnpeoplebrianvanderburg.jpg
 ---
 <!--StartFragment-->
