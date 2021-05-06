@@ -23,6 +23,17 @@ testimonialsabout:
     author: Mike Motil PM Sound Transit Lynnwood Link GC/CM, PGH Wong Inc.
   - quote: They made a completely foreign process feel like a walk in the park
     author: Peter Sobol, Eminence Homes, LLC
+  - quote: As an owner’s representative, I found Rebekah’s leadership, creativity,
+      tenacity and knowledge produced a great design, and a really FUN
+      experience.  Working with multiple stakeholders, she handled changing
+      requirements with aplomb and shrewd insight.  At weekly meetings, she was
+      organized and prepared to answer very technical questions in a way that
+      less technically trained people could understand.  Her detailed
+      understanding of code requirements allowed us to follow a fast track
+      permit process.  I value her judgment and admire the broad range of her
+      abilities.
+    author: Jon Ridgeway, Owner's Representative Lower Duwamish Trail and Fish
+      Passage Project
 teamtitle: Our Team
 featuredimage: /img/redbarnteam.jpg
 description: "Our team is made up of Civil Engineers, Construction Managers,
