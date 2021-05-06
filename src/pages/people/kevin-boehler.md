@@ -5,8 +5,9 @@ title: Kevin Boehler
 prettytitle1: Kevin
 prettytitle2: Boehler
 jobtitle: EIT
+jobtitle2: Civil Engineer
 date: 2021-05-05T18:19:16.611Z
-description: Civil Engineer
+description: ""
 featuredimage: /img/redbarnpeoplekevinboehler.jpg
 ---
 <!--StartFragment-->
