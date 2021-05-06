@@ -5,8 +5,9 @@ title: Mark Holt
 prettytitle1: Mark
 prettytitle2: Holt
 jobtitle: CESCL
+jobtitle2: Construction Inspector
 date: 2021-05-05T18:14:18.662Z
-description: Construction Inspector
+description: ""
 featuredimage: /img/redbarnpeoplemarkholt.jpg
 ---
 <!--StartFragment-->
