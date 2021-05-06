@@ -5,8 +5,9 @@ title: Eric Haines
 prettytitle1: Eric
 prettytitle2: Haines
 jobtitle: EIT, CESCL
+jobtitle2: Civil Engineer
 date: 2021-05-05T18:13:10.668Z
-description: Civil Engineer
+description: ""
 featuredimage: /img/redbarnpeopleerichaines.jpg
 ---
 <!--StartFragment-->
