@@ -4,8 +4,9 @@ peoplekey: people
 title: Benny Gonzalez
 prettytitle1: Benny
 prettytitle2: Gonzalez
+jobtitle2: Construction QV Manager
 date: 2021-05-05T18:06:22.301Z
-description: Construction QV Manager
+description: ""
 featuredimage: /img/redbarnpeoplebennygonzalez.jpg
 ---
 <!--StartFragment-->
