@@ -4,10 +4,11 @@ peoplekey: people
 title: John Guss
 prettytitle1: John
 prettytitle2: Guss
-date: 2021-05-05T18:18:27.879Z
-description: |-
+jobtitle2: |-
   Senior Project Manager
   Survey Division Lead
+date: 2021-05-05T18:18:27.879Z
+description: ""
 featuredimage: /img/redbarnpeoplejohnguss.jpg
 ---
 <!--StartFragment-->
