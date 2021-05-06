@@ -5,10 +5,11 @@ title: Adam Weston
 prettytitle1: Adam
 prettytitle2: Weston
 jobtitle: PE
-date: 2021-05-05T18:15:38.369Z
-description: |-
+jobtitle2: |-
   Senior Project Manager
   Telecom/Environmental Noise/Drone Pilot
+date: 2021-05-05T18:15:38.369Z
+description: ""
 featuredimage: /img/redbarnepeopleadamweston.jpg
 ---
 <!--StartFragment-->
