@@ -4,8 +4,9 @@ peoplekey: people
 title: Wendy Wen
 prettytitle1: Wendy
 prettytitle2: Wen
+jobtitle2: Senior Accountant
 date: 2021-05-05T18:22:50.672Z
-description: Senior Accountant
+description: ""
 featuredimage: /img/redbarnpeoplewendywen.jpg
 ---
 <!--StartFragment-->
