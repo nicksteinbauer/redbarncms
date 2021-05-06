@@ -90,7 +90,7 @@ class BlogPeopleSlide extends React.Component {
                             <span>{post.frontmatter.prettytitle2}</span>
                           </h2>
                             <h4 className="jobtitle">{post.frontmatter.jobtitle}</h4>
-                            <p className="jobdescrip">{post.frontmatter.description}</p>
+                            <p className="jobdescrip">{post.frontmatter.jobtitle2}</p>
                             <div className="text-center buffer">
                                 <Link className="button thirty3" to={post.fields.slug}>View Profile</Link>
                             </div>
@@ -136,7 +136,7 @@ export default () => (
                 templateKey
                 peoplekey
                 jobtitle
-                description
+                jobtitle2
                 prettytitle1
                 prettytitle2
                 date(formatString: "MMMM DD, YYYY")
