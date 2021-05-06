@@ -14,9 +14,6 @@ testimonialsabout:
   - quote: "After working with Red Barn, the Board has decided that Red Barn should
       manage all future projects from start to finish. "
     author: Rich Johnston, President Vertical World
-  - quote: "After working with Red Barn, the Board has decided that Red Barn should
-      manage all future projects from start to finish. "
-    author: Rich Johnston, President Vertical World
   - quote: "Rebekah's leadership in coming up with effective solutions to our many
       jobs within the City of Seattle has helped the firm establish lower
       construction costs "
