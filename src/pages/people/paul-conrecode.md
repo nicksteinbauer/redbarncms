@@ -5,10 +5,11 @@ title: Paul Conrecode
 prettytitle1: "Paul "
 prettytitle2: Conrecode
 jobtitle: MSc, CESCL
-date: 2021-05-05T18:08:52.392Z
-description: |-
+jobtitle2: |-
   Environmental Construction Manager
   Fish Biologist
+date: 2021-05-05T18:08:52.392Z
+description: ""
 featuredimage: /img/redbarnpeoplepaulconrecode.jpg
 ---
 <!--StartFragment-->
