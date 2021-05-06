@@ -4,8 +4,9 @@ peoplekey: people
 title: Ryan Kane
 prettytitle1: Ryan
 prettytitle2: Kane
+jobtitle2: Surveyor
 date: 2021-05-05T18:35:53.891Z
-description: Surveyor
+description: ""
 featuredimage: /img/redbarnpeopleryankane.jpg
 ---
 <!--StartFragment-->
