@@ -5,8 +5,9 @@ title: Akmal Siddiqui
 prettytitle1: Akmal
 prettytitle2: Siddiqui
 jobtitle: EIT
+jobtitle2: Design Engineer
 date: 2021-05-05T18:24:34.457Z
-description: Design Engineer
+description: ""
 featuredimage: /img/redbarnpeopleakmalsiddiqui.jpg
 ---
 <!--StartFragment-->
