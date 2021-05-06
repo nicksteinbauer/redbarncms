@@ -5,8 +5,9 @@ title: Seth Rackley
 prettytitle1: Seth
 prettytitle2: Rackley
 jobtitle: EIT
+jobtitle2: Civil Engineer
 date: 2021-05-05T18:10:41.339Z
-description: Civil Engineer
+description: ""
 featuredimage: /img/redbarnpeoplesethrackley.jpg
 ---
 <!--StartFragment-->
