@@ -34,7 +34,8 @@ export const BlogPostTemplate = ({
           scrub: 1,
         },
         duration: 2,
-        y: '40',
+        x: '-10',
+        y: '20',
         ease: "ease-in",
         
       })
@@ -45,8 +46,8 @@ export const BlogPostTemplate = ({
           scrub: 1,
         },
         duration: 2,
-        x: '40',
-        y: '-40',
+        x: '20',
+        y: '-20',
         ease: "ease-in",
         
       })
@@ -66,8 +67,8 @@ export const BlogPostTemplate = ({
               : <h1 className="h1">{title}</h1>
             }
             {jobtitle
-              ? <><p>{jobtitle}</p><p>{jobtitle2}</p></>
-              : <p>nope</p>
+              ? <><h4 className="jobtitle">{jobtitle}</h4><p className="jobdescrip">{jobtitle2}</p></>
+              : null
             }
             <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
               <div className="animateThat" ref={el => {animateThat1 = el}}>

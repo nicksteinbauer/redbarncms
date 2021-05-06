@@ -91,17 +91,6 @@
     h2 {
       margin-bottom: 10px;
     }
-    .jobtitle {
-      font-style: italic;
-      margin-top: 0;
-
-      margin-bottom: 0;
-      min-height: 38px;
-    }
-    .jobdescrip {
-      margin-top: 0;
-      margin-bottom: 25px;
-    }
   }
 
   .the-trigger.inside-xxl {
@@ -167,11 +156,29 @@
       cite {
         position: absolute;
         margin-top: 30px;
-        margin-left: -80px;
+        margin-left: -50px;
       }
     }
   }
   .testimonials {
     padding-bottom: 160px;
+  }
+}
+
+.jobtitle {
+  font-style: italic;
+  margin-top: 0;
+
+  margin-bottom: 0;
+  min-height: 38px;
+}
+.jobdescrip {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.blogpost {
+  .jobtitle {
+    margin-top: -30px;
   }
 }
