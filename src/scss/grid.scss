@@ -385,3 +385,9 @@ input[type="email"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+.slick-slide {
+  .flex-md {
+    align-items: flex-start;
+  }
+}

@@ -11,19 +11,20 @@
   overflow: hidden;
 
   .featured-thumbnail {
-    background: url("../img/stripes-red-opt.png") no-repeat left bottom;
+    background: url("../img/stripes-red-new.png") no-repeat left bottom;
     margin-bottom: 50px;
     @media screen and (min-width: $screen-md) {
       float: right;
-      width: 50%;
+      width: 40%;
       max-width: 800px;
-      margin-left: 20px;
+      margin-left: 80px;
       margin-bottom: 20px;
+      margin-right: 40px;
     }
     .animateThat {
       position: relative;
-      top: -10px;
-      left: 10px;
+      top: -30px;
+      left: 20px;
     }
   }
 }
@@ -35,6 +36,6 @@
     }
   }
   .featured-thumbnail {
-    background: url("../img/stripes-blue-opt.png") no-repeat left bottom;
+    background: url("../img/stripes-blue-new.png") no-repeat left bottom;
   }
 }

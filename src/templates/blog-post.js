@@ -70,7 +70,7 @@ export const BlogPostTemplate = ({
               ? <><h4 className="jobtitle">{jobtitle}</h4><p className="jobdescrip">{jobtitle2}</p></>
               : null
             }
-            <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
+            <div className="featured-thumbnail forty-float animateThis" ref={el => {animateThis1 = el}}>
               <div className="animateThat" ref={el => {animateThat1 = el}}>
                 <PreviewCompatibleImage imageInfo={featuredimage} />
               </div>

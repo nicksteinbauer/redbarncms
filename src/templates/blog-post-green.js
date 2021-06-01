@@ -34,7 +34,8 @@ export const BlogPostTemplate = ({
           scrub: 1,
         },
         duration: 2,
-        y: '40',
+        x: '-10',
+        y: '20',
         ease: "ease-in",
         
       })
@@ -45,8 +46,8 @@ export const BlogPostTemplate = ({
           scrub: 1,
         },
         duration: 2,
-        x: '40',
-        y: '-40',
+        x: '20',
+        y: '-20',
         ease: "ease-in",
         
       })
@@ -59,7 +60,7 @@ export const BlogPostTemplate = ({
       {helmet || ''}
       <div className="inside-xxl">
 
-          <article>
+          <article className="test">
 
             {prettytitle1 
               ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>

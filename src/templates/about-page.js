@@ -25,8 +25,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
           scrub: 1,
         },
         duration: 2,
-        y: '40',
-        x: '20',
+        y: '80',
+        x: '140',
         ease: "ease-in",
         
       })
@@ -37,8 +37,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
           scrub: 1,
         },
         duration: 2,
-        x: '-40',
-        y: '-40',
+        x: '-100',
+        y: '-140',
         ease: "ease-in",
         
       })

@@ -31,7 +31,7 @@ gsap.registerPlugin(ScrollTrigger);
           },
           duration: 2,
           x: '20',
-          y: '-20',
+          y: '-30',
           ease: "ease-in",
           
         })

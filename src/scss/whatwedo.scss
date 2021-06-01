@@ -36,8 +36,9 @@
     background: rgba($color: $red, $alpha: 1);
   }
   .featured-thumbnail {
-    background: url("../img/stripes-red-opt.png") no-repeat left bottom;
-
+    background: url("../img/stripes-red-new.png") no-repeat left bottom;
+    position: relative;
+    left: -20px;
     .animateThat {
       position: relative;
       top: -10px;

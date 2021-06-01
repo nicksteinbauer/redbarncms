@@ -80,7 +80,7 @@
       padding: 30px;
     }
     .featured-thumbnail {
-      background: url("../img/stripes-red-opt.png") no-repeat center center;
+      background: url("../img/stripes-red-new.png") no-repeat right bottom;
       //padding: 20px;
     }
     a.button:link,
@@ -112,12 +112,13 @@
     }
     .animateThis {
       position: relative;
-      right: -20px;
-      top: 20px;
+      right: -30px;
+      top: 30px;
       .animateThat {
         position: relative;
-        right: 20px;
-        top: -20px;
+        right: 30px;
+        top: -40px;
+        left: auto;
       }
     }
     article {

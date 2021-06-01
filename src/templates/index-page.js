@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
         },
         duration: 2,
         x: '40',
-        y: '-40',
+        y: '-50',
         ease: "ease-in",
         
       })
