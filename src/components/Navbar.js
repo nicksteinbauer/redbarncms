@@ -5,8 +5,9 @@ import logo from '../img/RedBarn-Logo.svg'
 import Nav from './Nav'
 
 import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
+//import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
+import linkedin from "../img/social/linkedin.svg";
 
 const Navbar = class extends React.Component {
   state = {
@@ -29,7 +30,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container always-flex justify">
+        <div className="mainnav always-flex justify">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Red Barn Engineering" />
@@ -58,17 +59,19 @@ const Navbar = class extends React.Component {
             <Nav />
             
             <div className="social always-flex mobile">
-                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.facebook.com/barnesnursery"><img src={facebook} alt="Facebook Link" /></a>
-                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.instagram.com/barnes_nursery/"><img src={instagram} alt="Instagram Link" /></a>
-                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://twitter.com/barnesnursery"><img src={twitter} alt="Twitter Link" /></a>
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.facebook.com/Red-Barn-Engineering-Inc-1573624299347485"><img src={facebook} alt="Facebook Link" /></a>
+                {/*<a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.instagram.com/barnes_nursery/"><img src={instagram} alt="Instagram Link" /></a>*/}
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://twitter.com/rebekah_redbarn?lang=en"><img src={twitter} alt="Twitter Link" /></a>
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.linkedin.com/company/redbgroup/"><img src={linkedin} alt="Linkedin Link" /></a>
             </div>
 
           </div>
 
           <div className="social always-flex desktop">
-                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.facebook.com/barnesnursery"><img src={facebook} alt="Facebook Link" /></a>
-                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.instagram.com/barnes_nursery/"><img src={instagram} alt="Instagram Link" /></a>
-                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://twitter.com/barnesnursery"><img src={twitter} alt="Twitter Link" /></a>
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.facebook.com/Red-Barn-Engineering-Inc-1573624299347485"><img src={facebook} alt="Facebook Link" /></a>
+                {/*<a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.instagram.com/barnes_nursery/"><img src={instagram} alt="Instagram Link" /></a>*/}
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://twitter.com/rebekah_redbarn?lang=en"><img src={twitter} alt="Twitter Link" /></a>
+                <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.linkedin.com/company/redbgroup/"><img src={linkedin} alt="Linkedin Link" /></a>
             </div>
         </div>
       </nav>

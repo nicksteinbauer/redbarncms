@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import ContactForm from '../components/contactForm'
 
 
 const Footer = class extends React.Component {
@@ -68,10 +68,15 @@ const Footer = class extends React.Component {
                   425.535.7230 (mobile)
                 </p>
               </div>
+              <div className="forty">
+                <h4>Contact Us</h4>
+              <ContactForm />
+              </div>
         </div>  
         <div className="inside-xxl flex-md">
           <p>&copy; 2021 Red Barn Engineering, inc. </p> 
         </div> 
+        
       </footer>
     )
   }

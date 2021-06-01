@@ -27,6 +27,22 @@ footer.footer {
       }
     }
   }
+  .form-group {
+    margin-bottom: 0;
+    input {
+      box-sizing: border-box;
+    }
+    textarea {
+      min-height: 80px;
+      box-sizing: border-box;
+    }
+  }
+  .form-group.name,
+  .form-group.email {
+    label {
+      display: none;
+    }
+  }
 }
 
 footer.section {
