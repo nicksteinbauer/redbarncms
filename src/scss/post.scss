@@ -1,6 +1,12 @@
 // single post scss
 
 .blogpost {
+  .blog-header {
+    padding-bottom: 40px;
+    @media screen and (min-width: $screen-md) {
+      padding-bottom: 0;
+    }
+  }
   h1 {
     line-height: 1;
     span {
@@ -11,8 +17,10 @@
   overflow: hidden;
 
   .featured-thumbnail {
-    background: url("../img/stripes-red-new.png") no-repeat left bottom;
+    background: url("../img/stripes-red-left-bottom.png") no-repeat left bottom;
     margin-bottom: 50px;
+    padding-top: 36px;
+    padding-right: 30px;
     @media screen and (min-width: $screen-md) {
       float: right;
       width: 40%;

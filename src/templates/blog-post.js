@@ -61,7 +61,7 @@ export const BlogPostTemplate = ({
       <div className="inside-xxl">
 
           <article>
-
+            <header className="blog-header">
             {prettytitle1 
               ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
               : <h1 className="h1">{title}</h1>
@@ -70,6 +70,7 @@ export const BlogPostTemplate = ({
               ? <><h4 className="jobtitle">{jobtitle}</h4><p className="jobdescrip">{jobtitle2}</p></>
               : null
             }
+            </header>
             <div className="featured-thumbnail forty-float animateThis" ref={el => {animateThis1 = el}}>
               <div className="animateThat" ref={el => {animateThat1 = el}}>
                 <PreviewCompatibleImage imageInfo={featuredimage} />

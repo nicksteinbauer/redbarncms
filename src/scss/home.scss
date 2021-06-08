@@ -167,8 +167,9 @@ h3.accent::before {
   }
 
   .featured-thumbnail {
-    background: url("../img/stripes-blue-new.png") no-repeat left bottom;
+    background: url("../img/stripes-blue-left-bottom.png") no-repeat left bottom;
 
+    padding-right: 30px;
     .animateThat {
       top: -20px;
       left: -20px;
@@ -324,9 +325,11 @@ h3.accent::before {
   background: $green url("../img/topography-vector-white.png") no-repeat center
     center;
   .featured-thumbnail {
-    background: url("../img/stripes-red-new.png") no-repeat right bottom;
+    background: url("../img/stripes-red-right-bottom.png") no-repeat right
+      bottom;
     overflow: visible !important;
-
+    padding-top: 36px;
+    padding-left: 30px;
     .animateThat {
       top: -20px;
       left: -20px;
@@ -407,7 +410,8 @@ h3.accent::before {
       }
     }
     .featured-thumbnail {
-      background: url("../img/stripes-blue-new.png") no-repeat left bottom;
+      background: url("../img/stripes-blue-left-bottom.png") no-repeat left
+        bottom;
 
       .animateThat {
         position: relative;
