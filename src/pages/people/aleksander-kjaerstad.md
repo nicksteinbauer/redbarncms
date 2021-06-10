@@ -6,7 +6,7 @@ prettytitle1: Aleksander
 prettytitle2: Kjaerstad
 jobtitle2: Project Analyst/Telecom
 date: 2021-05-05T18:25:42.204Z
-featuredimage: /img/aleksander-kjaerstad.jpg
+featuredimage: /img/redbarn-aleksander-kjaerstad.jpg
 description: ""
 ---
 <!--StartFragment-->
