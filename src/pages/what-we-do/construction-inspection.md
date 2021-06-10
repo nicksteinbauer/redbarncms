@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: Construction Inspection
-prettytitle1: Construction
-prettytitle2: Inspection
+prettytitle1: Construction Inspection
+prettytitle2: ""
 date: 2021-04-25T19:40:07.967Z
 description: Sed maximus lectus dolor, ut commodo risus condimentum eget.
   Quisque ornare massa vel porttitor pellentesque. Duis sagittis sed dui a
