@@ -9,15 +9,13 @@ description: Red Barn is known for building the right team for your project.  A
   production simultaneously, we build a team that has bulk pricing with key
   teaming partners that keep the overhead low for our clients.
 featuredpost: true
-featuredimage: /img/redbarn-sector-telecom.jpg
+featuredimage: /img/adobestock_289991413.jpeg
 ---
 Red Barn is known for building the right team for your project.  As telecom poles require replacing and can require 100's of projects in production simultaneously, we build a team that has bulk pricing with key teaming partners that keep the overhead low for our clients.  We can guarantee complete permit packages ready for submittal within 30 days of request throughout the nation.
 
 Our structured team is built on a screening process for our sub-consultants that identifies key constraints.  We then build redundancy for services.  We coordinate with the Owner, PM, and sub-consultants to develop cost-structures to lower costs for bulk purchase as well as construction costs. 
 
-​
-
-### Here are our options in making Red Barn your go-to team for getting permits done quickly: 
+#### ​Here are our options in making Red Barn your go-to team for getting permits done quickly: 
 
 * Project Management 
 * Trenchless Designs
@@ -27,9 +25,7 @@ Our structured team is built on a screening process for our sub-consultants tha
 * Ability to handle 100's of sites simultaneously
 * Cost Structures for 30-day, 60-day, and 90-day Submittals
 
-
-
-### Telecom services in addition to 5G:
+#### Telecom services in addition to 5G:
 
 * Environmental Services (NEPA/SEPA, ESA, etc. throughout the nation)
 * Civil Engineering Cell Towers
