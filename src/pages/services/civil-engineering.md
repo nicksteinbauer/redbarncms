@@ -4,12 +4,35 @@ title: Civil Engineering
 prettytitle1: Civil
 prettytitle2: Engineering
 date: 2021-04-25T21:44:53.143Z
-description: orem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-  cursus eu libero id porta. Vestibulum gravida tincidunt nibh non finibus.
-  Mauris massa augue, elementum at nulla nec, gravida molestie erat.
+description: Our civil team is a full-service civil engineering team offering
+  expertise in site development, public works projects, and transit jobs.
 featuredservice: true
 featuredimage: /img/redbarn-orenda-mixed-use.jpg
 ---
+<!--StartFragment-->
+
+**Communication**
+
+Our differentiation is communication.  The civil team is well experienced with multi-disciplinary projects.  We work with the team to understand schedule updates as well as coordination with the design team.  On Mondays, we call, we email, and we make sure we are providing forward progress on your job.  We encourage feedback as to how we are doing.
+
+**​Technical**
+
+We know the regulations well from ADA standards to local stormwater regulations. Horizontal control for connecting utilities and pavement is key to working with the contractor. We offer specifications in multiple formats - CSI, SpecsIntact, APWA, and modifications to municipal special provisions.
+
+**​Staffing & Schedules**
+
+In addition to the communication, we have project managers who work with the schedules to keep consistent staff on the project from the beginning to the end of the project. 
+
+ **Field Services & Safety**
+
+The civil team is CESCL-certified and OSHA-10hr trained to see the project through completion. 
+
+We are here to help your project go smoothly and to bring peace of mind through the process.
+
+<!--EndFragment-->
+
+**Our Services**
+
 * Transit/Transportation Design
 * Trenchless Design/Bore Profiles
 * Utility Infrastructure
