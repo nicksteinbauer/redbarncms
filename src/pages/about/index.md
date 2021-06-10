@@ -35,7 +35,7 @@ testimonialsabout:
   - quote: They made a completely foreign process feel like a walk in the park
     author: Peter Sobol, Eminence Homes, LLC
 teamtitle: Our Team
-featuredimage: ""
+featuredimage: /img/redbarnteam.jpg
 description: "Our team is made up of Civil Engineers, Construction Managers,
   Environmental Construction Managers, Construction Inspectors, Fish Biologists,
   Industrial Stormwater Engineers, Hydrologists, Modeling Experts, Permitting
