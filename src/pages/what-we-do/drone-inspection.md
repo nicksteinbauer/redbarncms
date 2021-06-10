@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: Drone Inspection
-prettytitle1: Drone
-prettytitle2: Inspection
+prettytitle1: Drone Inspection
+prettytitle2: ""
 date: 2021-04-25T15:56:28.041Z
 description: "Morbi ullamcorper porttitor velit, et rutrum eros maximus vel.
   Fusce ex sapien, scelerisque nec dictum in, ullamcorper at justo. In hac
