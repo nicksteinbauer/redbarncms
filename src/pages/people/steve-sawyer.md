@@ -8,7 +8,7 @@ jobtitle2: |-
   Program Director
   Transit Contracting & ROW Management
 date: 2021-05-05T18:38:06.162Z
-description: ""
 featuredimage: /img/redbarnpeoplestevesawyer.jpg
+description: ""
 ---
-Info coming soon
+Steve has over 25 years of experience in Right of Way (ROW) Management, Right of Way Construction Inspection, Construction Management, Project Management, and Contract Management/Supervision.  He is experienced in effective and sensitive communication with property owners, clients, project teams, and the public.  He brings extensive experience working with people to find solutions and working through the most challenging of obstacles.  His ability to identify and explain complex Right of Way construction elements is a particularly valuable assest to property owners, during design, at stakeholders meetings, and during construction.
