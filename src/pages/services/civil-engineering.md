@@ -11,9 +11,11 @@ featuredimage: /img/redbarn-orenda-mixed-use.jpg
 ---
 <!--StartFragment-->
 
+Our civil team is a full-service civil engineering team offering expertise in site development, public works projects, and transit jobs.
+
 **Communication**
 
-Our differentiation is communication.  The civil team is well experienced with multi-disciplinary projects.  We work with the team to understand schedule updates as well as coordination with the design team.  On Mondays, we call, we email, and we make sure we are providing forward progress on your job.  We encourage feedback as to how we are doing.
+Our differentiation is communication.  The civil team is well experienced with multi-disciplinary projects.  We work with the team to understand schedule updates as well as coordinate with the design team.  On Mondays, we call, we email, and we make sure we are providing forward progress on your job.  We encourage feedback as to how we are doing.
 
 **​Technical**
 
