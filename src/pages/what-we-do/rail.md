@@ -8,7 +8,7 @@ description: "Red Barn can deliver by having a team led with construction
   construction.  They know how to get the job coordinated, reviewed, and keeping
   the construction going.  "
 featuredpost: true
-featuredimage: /img/redbarn-rail-sector.jpg
+featuredimage: /img/adobestock_169500812.jpeg
 ---
 Red Barn has very qualified staff to lead large projects for transit and transportation projects.  We have our team structured such that construction management and constructability reviews are done throughout the project and even through looking over submittals and RFI responses from the contractor.  
 
@@ -16,7 +16,7 @@ Red Barn can deliver by having a team led with construction managers and inspect
 
 Our primary focus is on bringing the right team to the project.  Darin Stephens leads the division and was the supervisory construction manager for five of Seattle Department of Transportation's mega-bridge projects.  He knows how to lead a team and oversee with clean audits.  
 
-### We offer the following services (for all delivery methods):
+#### **We offer the following services (for all delivery methods):**
 
 * Resident Engineering
 * Construction Engineering
