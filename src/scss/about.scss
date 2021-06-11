@@ -103,6 +103,15 @@
     margin-top: 30px;
   }
 
+  .p-lot.team-buffer {
+    .featured-thumbnail {
+      padding-right: 0;
+      .animateThat {
+        position: relative;
+      }
+    }
+  }
+
   .team-grid {
     grid-gap: 60px 20px;
     a.button:hover {
