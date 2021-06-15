@@ -7,7 +7,7 @@ date: 2021-04-26T17:14:12.858Z
 description: The Environmental Team brings expertise in wetlands, stream
   habitat, biological assessments, ESA consultation, and construction management
 featuredservice: true
-featuredimage: /img/redbarn-sector-oil-gas.jpg
+featuredimage: /img/adobestock_92502551.jpeg
 ---
 <!--StartFragment-->
 
