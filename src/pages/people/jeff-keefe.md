@@ -4,11 +4,11 @@ peoplekey: people
 title: Jeff Keefe
 prettytitle1: Jeff
 prettytitle2: Keefe
-jobtitle: PE, PS, CPCES, CPSWQ
-jobtitle2: Civil Engineer
+jobtitle: Civil Engineer, Professional Surveyor
+jobtitle2: ""
 date: 2021-05-05T18:16:38.794Z
-description: ""
 featuredimage: /img/redbarnpeoplejeffkeefe.jpg
+description: ""
 ---
 <!--StartFragment-->
 
