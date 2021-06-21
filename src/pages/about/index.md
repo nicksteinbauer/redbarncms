@@ -35,12 +35,11 @@ testimonialsabout:
   - quote: They made a completely foreign process feel like a walk in the park
     author: Peter Sobol, Eminence Homes, LLC
 teamtitle: Our Team
-featuredimage: /img/redbarnteam.jpg
+featuredimage: /img/services.jpg.jpg
 description: "Our team is made up of Civil Engineers, Construction Managers,
   Environmental Construction Managers, Construction Inspectors, Fish Biologists,
   Industrial Stormwater Engineers, Hydrologists, Modeling Experts, Permitting
-  Specialists and Administrators. We have five PE's, one LEED AP, four EIT's,
-  one CFM and eight of our team members hold a CESCL certification. "
+  Specialists and Administrators. "
 teamimage: /img/home-jumbotron.jpg
 ---
 Red Barn is a full-service civil engineering, construction management, and environmental firm with a focus on bringing the right team together.  Our team is built of project managers that are accountable, possess strong quality management, and are fun to work with. We make sure our team gets the job done well.
