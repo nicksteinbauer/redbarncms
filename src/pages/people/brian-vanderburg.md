@@ -4,8 +4,8 @@ peoplekey: people
 title: Brian Vanderburg
 prettytitle1: Brian
 prettytitle2: Vanderburg
-jobtitle: ""
-jobtitle2: Senior Engineer
+jobtitle: Senior Civil Engineer
+jobtitle2: ""
 date: 2021-05-05T17:10:23.365Z
 featuredimage: /img/redbarnpeoplebrianvanderburg.jpg
 description: ""
