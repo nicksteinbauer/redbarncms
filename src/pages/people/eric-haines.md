@@ -4,8 +4,8 @@ peoplekey: people
 title: Eric Haines
 prettytitle1: Eric
 prettytitle2: Haines
-jobtitle: ""
-jobtitle2: Civil Engineer
+jobtitle: Civil Engineer
+jobtitle2: ""
 date: 2021-05-05T18:13:10.668Z
 featuredimage: /img/redbarnpeopleerichaines.jpg
 description: ""
