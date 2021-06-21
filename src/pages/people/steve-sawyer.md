@@ -4,9 +4,8 @@ peoplekey: people
 title: Steve Sawyer
 prettytitle1: Steve
 prettytitle2: Sawyer
-jobtitle2: |-
-  Program Director
-  Transit Contracting & ROW Management
+jobtitle: Program Director - Transit Contracting & ROW Management
+jobtitle2: ""
 date: 2021-05-05T18:38:06.162Z
 featuredimage: /img/redbarnpeoplestevesawyer.jpg
 description: ""
