@@ -12,8 +12,6 @@ description: At Red Barn Engineering, we push technological boundaries using our
 featuredpost: true
 featuredimage: /img/adobestock_200221913.jpeg
 ---
-
-
 At Red Barn Engineering, we push technological boundaries using our robust programmers and advanced modeling engineers.  Our drone pilot has world-renowned flight status and compiles data for engineers, scientists, and real estate land development.  We cut the time down to minutes, not hours, of field time.
 
 **How does it work?**
@@ -21,7 +19,7 @@ At Red Barn Engineering, we push technological boundaries using our robust progr
 1. Contact our drone pilot.
 2. A contract is put in place.
 3. We email you within 24 hours of your scheduled flight.
-4. We make sure the area is secure.
+4. We obtain the required flight clearance and make certain the area is secure before the flight. 
 5. We fly.
 6. We notify you when we are finished, and your files are delivered to the engineer.
 
