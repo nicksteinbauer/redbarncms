@@ -4,11 +4,11 @@ peoplekey: people
 title: Mark Holt
 prettytitle1: Mark
 prettytitle2: Holt
-jobtitle: CESCL
-jobtitle2: Construction Inspector
+jobtitle: Construction Inspector
+jobtitle2: ""
 date: 2021-05-05T18:14:18.662Z
-description: ""
 featuredimage: /img/redbarnpeoplemarkholt.jpg
+description: ""
 ---
 <!--StartFragment-->
 
