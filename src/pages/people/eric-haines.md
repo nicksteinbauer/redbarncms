@@ -4,11 +4,11 @@ peoplekey: people
 title: Eric Haines
 prettytitle1: Eric
 prettytitle2: Haines
-jobtitle: EIT, CESCL
+jobtitle: ""
 jobtitle2: Civil Engineer
 date: 2021-05-05T18:13:10.668Z
-description: ""
 featuredimage: /img/redbarnpeopleerichaines.jpg
+description: ""
 ---
 <!--StartFragment-->
 
