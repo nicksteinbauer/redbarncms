@@ -4,10 +4,11 @@ peoplekey: people
 title: Donna Keefe
 prettytitle1: Donna
 prettytitle2: Keefe
-jobtitle2: Operations Manager
+jobtitle: Operations Manager
+jobtitle2: ""
 date: 2021-05-05T18:28:25.795Z
-description: ""
 featuredimage: /img/redbarnpeopledonnakeefe.jpg
+description: ""
 ---
 <!--StartFragment-->
 
