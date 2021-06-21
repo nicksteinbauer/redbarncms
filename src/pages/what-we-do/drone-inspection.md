@@ -10,7 +10,7 @@ description: At Red Barn Engineering, we push technological boundaries using our
   real estate land development.  We cut the time down to minutes, not hours, of
   field time.
 featuredpost: true
-featuredimage: /img/redbarn-drone-inspection.jpg
+featuredimage: /img/adobestock_200221913.jpeg
 ---
 
 
