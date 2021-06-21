@@ -29,9 +29,13 @@ The CM team works with the design team for constructability reviews.  Our revie
 
 Our CM team capably handles construction administration, inspection, documentation, pre-construction, change order processes, and claims support. 
 
+**Construction Inspection**
+
+Our firm has a strong CM inspection team that knows processes and can fit well within an agency.  We are versed in SiteTracker, SharePoint, and Unifier.   We support the City and require quality in standards. We also build relationships with the contractors to ensure they are performing per City standards. 
+
 **Environmental Compliance**
 
-Our environmental team is trained to work on large transit & heavy civil construction projects and to oversee compliance.  We have fish biologists and wetland scientists that handle the coordination with the regulators as well as provide the proper documentation.
+Our environmental team is trained to work on large transit & heavy civil construction projects and oversee compliance.  We have fish biologists and wetland scientists that handle the coordination with the regulators and provide the proper documentation.
 
 <!--EndFragment-->
 
