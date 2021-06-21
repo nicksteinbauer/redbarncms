@@ -34,21 +34,39 @@ We are here to help your project go smoothly and to bring peace of mind through
 **Our Services**
 
 •	ADA Restoration
+
 •	Bioretention Design 
+
 •	Capital Project Prioritization
+
 •	CESCL Certified
+
 •	Green Stormwater Infrastructure
+
 •	Hydraulic Design
+
 •	Hydrologic & Hydraulic Modeling
+
 •	NPDES/MS4 Permitting
+
 •	Permitting
+
 •	Public Utility Planning
+
 •	Pump Station Design & Rehab
+
 •	Sanitary Sewer Design & Upgrades
+
 •	Site Development/Site Layout/Design
+
 •	Stormwater Improvements, Monitoring, and Design
+
 •	Transit/Transportation Design
+
 •	Trenchless Design/Bore Profiles
+
 •	Utility Infrastructure
+
 •	Value Engineering
+
 •	Water System Plan Updates/Design
