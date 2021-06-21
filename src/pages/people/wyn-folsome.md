@@ -4,8 +4,8 @@ peoplekey: people
 title: Wyn Folsome
 prettytitle1: Wyn
 prettytitle2: Folsome
-jobtitle: ""
-jobtitle2: Senior Construction Manager / Inspector
+jobtitle: Senior Construction Manager / Inspector
+jobtitle2: ""
 date: 2021-05-05T18:37:06.640Z
 featuredimage: /img/wyn-folsome.jpg
 description: ""
