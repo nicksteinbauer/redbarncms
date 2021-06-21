@@ -4,7 +4,7 @@ peoplekey: people
 title: Adam Weston
 prettytitle1: Adam
 prettytitle2: Weston
-jobtitle: PE
+jobtitle: ""
 jobtitle2: |-
   Senior Project Manager
   Telecom/Environmental Noise/Drone Pilot
