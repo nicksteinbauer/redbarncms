@@ -4,11 +4,11 @@ peoplekey: people
 title: Brian Vanderburg
 prettytitle1: Brian
 prettytitle2: Vanderburg
-jobtitle: PE, CESCL
+jobtitle: ""
 jobtitle2: Senior Engineer
 date: 2021-05-05T17:10:23.365Z
-description: ""
 featuredimage: /img/redbarnpeoplebrianvanderburg.jpg
+description: ""
 ---
 <!--StartFragment-->
 
