@@ -8,7 +8,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
   varius enim. Pellentesque pretium dapibus porttitor. Pellentesque mollis neque
   quam, eu commodo lorem dignissim in. "
 featuredpost: true
-featuredimage: /img/redbarn-sector-resort.jpg
+featuredimage: /img/adobestock_5251225.jpeg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non varius enim. Pellentesque pretium dapibus porttitor. Pellentesque mollis neque quam, eu commodo lorem dignissim in. Maecenas aliquet molestie nibh eget posuere. Etiam vel dapibus leo. Morbi vitae dictum nulla. Suspendisse pulvinar condimentum sem nec elementum. Fusce tempor dui vitae felis ultrices, sed vehicula augue porttitor. Nam vel sollicitudin ligula. Donec venenatis nec mauris non sodales. Vestibulum elementum metus elit, sit amet commodo augue varius in. Morbi non lectus elementum, luctus ligula eget, sodales erat. Donec hendrerit consectetur est eu interdum. Vivamus sagittis efficitur elit, eget suscipit metus elementum a. Proin volutpat est quis lacus bibendum, ac ultricies mi tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
 
