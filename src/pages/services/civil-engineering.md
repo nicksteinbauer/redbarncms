@@ -13,15 +13,15 @@ Our civil team is a full-service civil engineering team offering expertise in si
 
 **Communication**
 
-Our differentiation is communication.  The civil team is well experienced with multi-disciplinary projects.  We work with the team to understand schedule updates as well as coordinate with the design team.  On Mondays, we call, we email, and we make sure we are providing forward progress on your job.  We encourage feedback as to how we are doing.
+Our differentiation is communication.  The civil team is well experienced with multi-disciplinary projects.  We work with the team to understand schedule updates as well as coordinate with the design team.  On Mondays, we call, email, and make sure we are providing forward progress on your job.  We encourage feedback as to how we are doing.
 
 **​Technical**
 
-We know the regulations well from ADA standards to local stormwater regulations. Horizontal control for connecting utilities and pavement is key to working with the contractor. We offer specifications in multiple formats - CSI, SpecsIntact, APWA, and modifications to municipal special provisions.
+We know the regulations well, from ADA standards to local stormwater regulations. Horizontal control for connecting utilities and pavement is key to working with the contractor. We offer specifications in multiple formats - CSI, SpecsIntact, APWA, and modifications to special municipal provisions.
 
 **​Staffing & Schedules**
 
-In addition to the communication, we have project managers who work with the schedules to keep consistent staff on the project from the beginning to the end of the project. 
+In addition to the communication, we have project managers who work with the schedules to keep consistent staff on the project from the beginning to the end. 
 
  **Field Services & Safety**
 
@@ -33,22 +33,22 @@ We are here to help your project go smoothly and to bring peace of mind through
 
 **Our Services**
 
-* Transit/Transportation Design
-* Trenchless Design/Bore Profiles
-* Utility Infrastructure
-* Site Development/Site Layout/Design
-* Sanitary Sewer Design & Upgrades
-* ADA Restoration
-* Stormwater Improvements, Monitoring, and Design
-* Green Stormwater Infrastructure
-* Bioretention Design 
-* CESCL Certified
-* NPDES/MS4 Permitting
-* Hydraulic Design
-* Hydrologic & Hydraulic Modeling
-* Permitting
-* Public Utility Planning
-* Pump Station Design & Rehab
-* Capital Project Prioritization
-* Value Engineering
-* Water System Plan Updates/Design
+•	ADA Restoration
+•	Bioretention Design 
+•	Capital Project Prioritization
+•	CESCL Certified
+•	Green Stormwater Infrastructure
+•	Hydraulic Design
+•	Hydrologic & Hydraulic Modeling
+•	NPDES/MS4 Permitting
+•	Permitting
+•	Public Utility Planning
+•	Pump Station Design & Rehab
+•	Sanitary Sewer Design & Upgrades
+•	Site Development/Site Layout/Design
+•	Stormwater Improvements, Monitoring, and Design
+•	Transit/Transportation Design
+•	Trenchless Design/Bore Profiles
+•	Utility Infrastructure
+•	Value Engineering
+•	Water System Plan Updates/Design
