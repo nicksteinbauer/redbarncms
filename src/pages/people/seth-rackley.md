@@ -4,11 +4,11 @@ peoplekey: people
 title: Seth Rackley
 prettytitle1: Seth
 prettytitle2: Rackley
-jobtitle: EIT
-jobtitle2: Civil Engineer
+jobtitle: Civil Engineer
+jobtitle2: ""
 date: 2021-05-05T18:10:41.339Z
-description: ""
 featuredimage: /img/redbarnpeoplesethrackley.jpg
+description: ""
 ---
 <!--StartFragment-->
 
