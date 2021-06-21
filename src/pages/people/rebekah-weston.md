@@ -4,11 +4,11 @@ peoplekey: people
 title: Rebekah Weston
 prettytitle1: Rebekah
 prettytitle2: Weston
-jobtitle: PE, LEED AP, MSc
-jobtitle2: Owner / Principal Civil Engineer
+jobtitle: Owner / Principal Civil Engineer
+jobtitle2: ""
 date: 2021-04-30T18:42:10.283Z
-description: ""
 featuredimage: /img/redbarnrebekahweston.jpg
+description: ""
 ---
 Rebekah is proficient in stormwater, surface water modeling, and permitting for all types of projects from small to large transit jobs.  She has been the civil engineer on many award-winning jobs, saving wetlands and fish, as well as solving advanced flooding problems.  Her background in advanced mathematics and porous mediums allows her to evaluate and design custom media mixes from industrial sites to chitosan filters for large transit erosion control projects. She leads the team at Red Barn, getting your project moving.
 
