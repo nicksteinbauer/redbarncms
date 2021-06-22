@@ -11,7 +11,7 @@ description: Red Barn Engineering is a certified SB/WOSB. Our staff has
 featuredpost: true
 featuredimage: /img/redbarn-defense-design-build.jpg
 ---
-Red Barn Engineering, Inc. is a certified SB/WOSB. Our staff has extensive experience working on Army Corp of Engineers (Corp), NAVFAC NW, and USFWS projects.  We are experienced in design-build projects and provide quick designs during the RFP stage and can help navigate the requirements.
+Red Barn Engineering is a certified SB/WOSB. Our staff has extensive experience working on Army Corp of Engineers (Corp), NAVFAC NW, and USFWS projects.  We are experienced in design-build projects and provide quick designs during the RFP stage and can help navigate the requirements.
 
 **​Military**
 
