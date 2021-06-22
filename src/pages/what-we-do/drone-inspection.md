@@ -10,7 +10,7 @@ description: At Red Barn Engineering, we push technological boundaries using our
   real estate land development.  We cut the time down to minutes, not hours, of
   field time.
 featuredpost: true
-featuredimage: /img/adobestock_200221913.jpeg
+featuredimage: /img/adobestock_228584083.jpeg
 ---
 At Red Barn Engineering, we push technological boundaries using our robust programmers and advanced modeling engineers.  Our drone pilot has world-renowned flight status and compiles data for engineers, scientists, and real estate land development.  We cut the time down to minutes, not hours, of field time.
 
