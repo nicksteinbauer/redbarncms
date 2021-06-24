@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/RedBarn-Logo.svg'
+import logo from '../img/RedBarn-Site-Logo.svg'
 import Nav from './Nav'
 
 import facebook from "../img/social/facebook.svg";
