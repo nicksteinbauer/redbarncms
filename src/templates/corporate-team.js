@@ -10,7 +10,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import BlogPeopleSlide from '../components/BlogPeopleSlide'
 
 
-export const AboutPageCorporateTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, testimonialsabout, description }) => {
+export const AboutPageCorporateTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, description }) => {
   const PageContent = contentComponent || Content
 
   let animateThis1 = useRef(null);
