@@ -6,6 +6,7 @@ prettytitle1: Rachael
 prettytitle2: Lambie
 jobtitle: Senior Project Manager - Multi-family/Telecom
 jobtitle2: ""
+corporateteam: true
 date: 2021-04-30T19:13:04.517Z
 featuredimage: /img/redbarnrachellambie.jpg
 description: ""
