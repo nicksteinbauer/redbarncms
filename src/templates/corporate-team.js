@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 //import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import BlogPeopleSlide from '../components/BlogPeopleSlide'
+import BlogPeopleSlideCorporate from '../components/BlogPeopleSlideCorporate'
 
 
 export const AboutPageCorporateTemplate = ({ title, content, contentComponent, teamtitle, description }) => {
@@ -43,7 +43,7 @@ export const AboutPageCorporateTemplate = ({ title, content, contentComponent, t
             </div>
           </div>
           <div className="team-padding">
-            <BlogPeopleSlide />
+            <BlogPeopleSlideCorporate />
           </div>
       </section>
 

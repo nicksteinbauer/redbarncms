@@ -120,9 +120,9 @@ collections:
           - {label: "Team Title", name: "teamtitle", widget: string, required: false}
           - {label: "Team Image New", name: "featuredimage", widget: image, required: false}
           - {label: Team Description, name: description, widget: string}
-      - file: "src/pages/corporate/index.md"
+      - file: "src/pages/corporate-team/index.md"
         label: "Corporate Team"
-        name: "corporate"
+        name: "corporate-team"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "corporate-team"}
           - {label: "Title", name: "title", widget: string}
