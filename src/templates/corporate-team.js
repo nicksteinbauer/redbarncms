@@ -7,7 +7,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Testimonials from '../components/Testimonials'
 import BlogPeopleSlide from '../components/BlogPeopleSlide'
 
 
@@ -82,29 +81,15 @@ export const AboutPageCorporateTemplate = ({ title, content, contentComponent, f
           </div>
       </section>
 
-      <section className="services-section testimonials">
-        <div className="inside-xxl">
-          <div className="forty">
-            <h2 className="h1">Testimonials</h2>
-            {description}
-          </div>
-        </div>
-      </section>
-      <div className="inside-xxl testimonials-fix">
-        <Testimonials testimonials={testimonialsabout} />
-      </div>
-    
+      
+      
     </div>
   
   )
 }
 
 AboutPageCorporateTemplate.propTypes = {
-  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  testimonialsabout: PropTypes.array,
   title: PropTypes.string.isRequired,
-  teamtitle: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
@@ -118,10 +103,6 @@ const AboutPageCorporate = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
-        teamtitle={post.frontmatter.teamtitle}
-        description={post.frontmatter.description}
-        featuredimage={post.frontmatter.featuredimage}
-        testimonialsabout={post.frontmatter.testimonialsabout}
       />
     </Layout>
   )
