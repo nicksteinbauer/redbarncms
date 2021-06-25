@@ -11,7 +11,7 @@ import Testimonials from '../components/Testimonials'
 import BlogPeopleSlide from '../components/BlogPeopleSlide'
 
 
-export const AboutPageTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, testimonialsabout, description }) => {
+export const AboutPageCorporateTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, testimonialsabout, description }) => {
   const PageContent = contentComponent || Content
 
   let animateThis1 = useRef(null);
@@ -99,7 +99,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
   )
 }
 
-AboutPageTemplate.propTypes = {
+AboutPageCorporateTemplate.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   testimonialsabout: PropTypes.array,
   title: PropTypes.string.isRequired,
@@ -109,12 +109,12 @@ AboutPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const AboutPageCorporate = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <AboutPageCorporateTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -127,14 +127,14 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+AboutPageCorporate.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default AboutPageCorporate
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const aboutPageCorporateQuery = graphql`
+  query AboutPageCorporate($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
