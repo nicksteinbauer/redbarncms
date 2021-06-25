@@ -6,6 +6,7 @@ prettytitle1: Elana
 prettytitle2: Hansen
 jobtitle: Accounting Manager
 jobtitle2: ""
+corporateteam: true
 date: 2021-04-30T19:18:35.944Z
 featuredimage: /img/redbarnelanahansen.jpg
 description: ""
