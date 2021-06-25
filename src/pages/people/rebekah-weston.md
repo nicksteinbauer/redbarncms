@@ -6,6 +6,7 @@ prettytitle1: Rebekah
 prettytitle2: Weston
 jobtitle: Owner / Principal Civil Engineer
 jobtitle2: ""
+corporateteam: true
 date: 2021-04-30T18:42:10.283Z
 featuredimage: /img/redbarnrebekahweston.jpg
 description: ""
