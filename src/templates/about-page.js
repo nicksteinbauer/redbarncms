@@ -3,12 +3,12 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Testimonials from '../components/Testimonials'
-import BlogPeopleSlide from '../components/BlogPeopleSlide'
+
 
 
 export const AboutPageTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, testimonialsabout, description }) => {
@@ -25,8 +25,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
           scrub: 1,
         },
         duration: 2,
-        y: '80',
-        x: '140',
+        y: '30',
+        x: '70',
         ease: "ease-in",
         
       })
@@ -37,8 +37,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
           scrub: 1,
         },
         duration: 2,
-        x: '-100',
-        y: '-140',
+        x: '-50',
+        y: '-70',
         ease: "ease-in",
         
       })
@@ -78,7 +78,36 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
             </div>
           </div>
           <div className="team-padding">
-            <BlogPeopleSlide />
+            <div className="inside-lg">
+              <div className="team-grid">
+                <article>
+                  
+                    <div className="image-padding relief-link">
+                      <div className="featured-thumbnail animateThis">
+                        <Link to="/corporate-team">
+                          <div className="animateThat relief-team flex-vertical">
+                            <h3>Corporate Team</h3>
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+                  
+                </article>
+                <article>
+                  
+                    <div className="image-padding relief-link">
+                      <div className="featured-thumbnail animateThis">
+                        <Link to="/specialty-team">
+                          <div className="animateThat relief-team flex-vertical">
+                            <h3>Specialty Team</h3>
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+                  
+                </article>
+              </div>
+            </div>
           </div>
       </section>
 

@@ -1,69 +1,56 @@
-import React from "react";
+import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
+//import Slider from "react-slick"
 
-
-const BlogRollProjects = ( {data} ) => {
-
+class BlogPeopleSlideSpecialty extends React.Component {
+  render() {
+    const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
-    //let animateThat2 = useRef(null);
-    //let animateThis2 = useRef(null);
+    /*
 
-    //const revealRefs = useRef([]);
-    //revealRefs.current = [];
-/*
-    useEffect(() => {
+    const settings = {
+        className: "slide-center",
+        infinite: false,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1500,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: false,
+              }
+            },
+            {
+              breakpoint: 990,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: false,
+              }
+            },
+            {
+              breakpoint: 760,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+              }
+            }
+          ]
+      };
+      // this is the slider you need to wrap
+      <Slider {...settings}></Slider>
+      */
 
-      revealRefs.current.forEach((el, index) => {
-
-      gsap.to( el, {
-        scrollTrigger: {
-          id: `section-${index+1}`,
-          trigger: el, 
-          scrub: 1,
-
-        },
-        duration: 2,
-        x: '40',
-        y: '-40',
-        ease: "ease-in",
-        
-      })
-
-    });
-
-      
-      gsap.to( animateThis2, {
-        scrollTrigger: {
-          trigger: '.projects', 
-          scrub: 1,
-
-        },
-        duration: 2,
-        y: '60',
-        ease: "ease-in",
-        
-      })
-      
-
-    }, [])
-
-    
-
-    const addToRefs = el => {
-      if (el && !revealRefs.current.includes(el)) {
-          revealRefs.current.push(el);
-      }
-    };
-*/
-    return (
-      <div className="the-trigger">
+      return (
+        <div className="the-trigger inside-xxl">
             <div className="team-grid">
 
             
@@ -102,9 +89,10 @@ const BlogRollProjects = ( {data} ) => {
                             ) : null}
                             <span>{post.frontmatter.prettytitle2}</span>
                           </h2>
-                            
+                            <h4 className="jobtitle">{post.frontmatter.jobtitle}</h4>
+                            <p className="jobdescrip">{post.frontmatter.jobtitle2}</p>
                             <div className="text-center buffer">
-                                <Link className="button thirty3" to={post.fields.slug}>View Project</Link>
+                                <Link className="button thirty3" to={post.fields.slug}>View Profile</Link>
                             </div>
                                 
                         </div>
@@ -116,11 +104,11 @@ const BlogRollProjects = ( {data} ) => {
             ))}
             </div>
         </div>
-    )
+      )
   }
+}
 
-
-BlogRollProjects.propTypes = {
+BlogPeopleSlideSpecialty.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -131,10 +119,10 @@ BlogRollProjects.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query BlogRollProjectsQuery {
+    query BlogPeopleSlideSpecialtyQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: {featuredprojects: {eq: true} } }
+          sort: { order: ASC, fields: [frontmatter___date] }
+          filter: { frontmatter: { peoplekey: { eq: "people" }, corporateteam: {ne: true} } }
         ) {
           edges {
             node {
@@ -146,13 +134,15 @@ export default () => (
               frontmatter {
                 title
                 templateKey
+                peoplekey
+                jobtitle
+                jobtitle2
                 prettytitle1
                 prettytitle2
                 date(formatString: "MMMM DD, YYYY")
-                featuredprojects
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 1400, quality: 70) {
+                    fluid(maxWidth: 800, quality: 80) {
                       ...GatsbyImageSharpFluid
                     }
                   }
@@ -163,6 +153,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRollProjects data={data} count={count} />}
+    render={(data, count) => <BlogPeopleSlideSpecialty data={data} count={count} />}
   />
 )

@@ -5,10 +5,10 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 //import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import BlogPeopleSlideCorporate from '../components/BlogPeopleSlideCorporate'
+import BlogPeopleSlideSpecialty from '../components/BlogPeopleSlideSpecialty'
 
 
-export const AboutPageCorporateTemplate = ({ title, content, contentComponent, teamtitle, description }) => {
+export const AboutPageSpecialtyTemplate = ({ title, content, contentComponent, teamtitle, description }) => {
   const PageContent = contentComponent || Content
 
   
@@ -33,7 +33,7 @@ export const AboutPageCorporateTemplate = ({ title, content, contentComponent, t
       <section className="section black p-lot team-buffer">
           
           <div className="not-team-padding">
-            <BlogPeopleSlideCorporate />
+            <BlogPeopleSlideSpecialty />
           </div>
       </section>
 
@@ -44,18 +44,18 @@ export const AboutPageCorporateTemplate = ({ title, content, contentComponent, t
   )
 }
 
-AboutPageCorporateTemplate.propTypes = {
+AboutPageSpecialtyTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPageCorporate = ({ data }) => {
+const AboutPageSpecialty = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AboutPageCorporateTemplate
+      <AboutPageSpecialtyTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -64,14 +64,14 @@ const AboutPageCorporate = ({ data }) => {
   )
 }
 
-AboutPageCorporate.propTypes = {
+AboutPageSpecialty.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPageCorporate
+export default AboutPageSpecialty
 
-export const aboutPageCorporateQuery = graphql`
-  query AboutPageCorporate($id: String!) {
+export const aboutPageSpecialtyQuery = graphql`
+  query AboutPageSpecialty($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

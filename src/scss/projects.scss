@@ -36,12 +36,12 @@
     background: rgba($color: $teal, $alpha: 1);
   }
   .featured-thumbnail {
-    background: url("../img/stripes-blue-opt.png") no-repeat left bottom;
+    //background: url("../img/stripes-blue-opt.png") no-repeat left bottom;
 
     .animateThat {
       position: relative;
-      top: -20px;
-      left: 20px;
+      top: -40px;
+      left: 30px;
     }
   }
   h2.h1 {

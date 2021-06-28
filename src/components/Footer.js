@@ -63,7 +63,7 @@ const Footer = class extends React.Component {
               <div className="twenty">
               <h4>Sandusky Office</h4>
                 <p>
-                  326 East Market St<br/>
+                  2110 Caldwell St<br/>
                   Sandusky, OH 44870<br/>
                   425.535.7230 (mobile)
                 </p>
@@ -74,7 +74,7 @@ const Footer = class extends React.Component {
               </div>
         </div>  
         <div className="inside-xxl flex-md">
-          <p>&copy; 2021 Red Barn Engineering, inc. </p> 
+          <p>&copy; 2021 Red Barn Group, Incorporated </p> 
         </div> 
         
       </footer>

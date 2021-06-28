@@ -1,5 +1,5 @@
 .about-banner {
-  background: #000 url("../img/redbarnparkinglot.jpg") no-repeat center;
+  background: #000 url("../img/redbarn-new-road.jpg") no-repeat center -300px;
   min-height: 300px;
   .callto-content {
     padding: 0 20px;
@@ -63,7 +63,7 @@
   }
 
   .p-lot {
-    padding-bottom: 160px;
+    padding-bottom: 40px;
     h2 {
       color: $red;
       line-height: 1;
@@ -192,4 +192,36 @@
   .jobtitle {
     margin-top: -30px;
   }
+}
+
+.relief-link {
+  a {
+    transition: color 0.4s ease;
+  }
+  a:link,
+  a:active,
+  a:visited {
+    color: #fff;
+  }
+  a:hover {
+    color: $red;
+  }
+  .animateThis,
+  .animateThat {
+    transition: transform 0.4s ease;
+  }
+}
+.relief-link:hover {
+  .animateThis {
+    transform: translate(15px, 15px);
+  }
+  .animateThat {
+    transform: translate(-15px, -15px);
+  }
+}
+.relief-team {
+  background: $green url("../img/topography-vector-white.png") no-repeat center
+    center;
+  min-height: 500px;
+  text-align: center;
 }
