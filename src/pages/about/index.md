@@ -8,31 +8,20 @@ testimonialsabout:
       is leading coordination efforts with two cities, the state DOT and
       multiple third parties.
     author: Ginger Ferguson, Sound Transit  Lynnwood Link 200 Project Manager
-  - quote: As an owner’s representative, I found Rebekah’s leadership, creativity,
-      tenacity and knowledge produced a great design, and a really FUN
-      experience.  Working with multiple stakeholders, she handled changing
-      requirements with aplomb and shrewd insight.  At weekly meetings, she was
-      organized and prepared to answer very technical questions in a way that
-      less technically trained people could understand.  Her detailed
-      understanding of code requirements allowed us to follow a fast track
-      permit process.  I value her judgment and admire the broad range of her
-      abilities.
-    author: Jon Ridgeway, Owner's Representative Lower Duwamish Trail and Fish
-      Passage Project
   - quote: Red Barn's civil engineering team is responsive and takes the time to get
       into the details.
-    author: Verizon
+    author: Telecom Client
   - quote: "After working with Red Barn, the Board has decided that Red Barn should
       manage all future projects from start to finish. "
     author: Rich Johnston, President Vertical World
-  - quote: "Rebekah's leadership in coming up with effective solutions to our many
+  - quote: Rebekah's leadership in coming up with effective solutions to our many
       jobs within the City of Seattle has helped the firm establish lower
-      construction costs "
-    author: Verizon
+      construction costs.
+    author: Telecom Client
   - quote: Red Barn is doing a great job for PGH Wong Engineering on Lynnwood
       Link.  Put them on your team.
     author: Mike Motil PM Sound Transit Lynnwood Link GC/CM, PGH Wong Inc.
-  - quote: They made a completely foreign process feel like a walk in the park
+  - quote: They made a completely foreign process feel like a walk in the park.
     author: Peter Sobol, Eminence Homes, LLC
 teamtitle: Our Team
 featuredimage: /img/services.jpg
