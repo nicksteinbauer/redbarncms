@@ -1,11 +1,6 @@
 ---
 path: /specialty-team
 templateKey: specialty-team
-title: Specialty Team
+title: Core Team
 ---
-
-This is the specialty team.
-
-We make things happen.
-
-More text.
+Our core team is the backbone of what we do.
