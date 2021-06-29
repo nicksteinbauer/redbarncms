@@ -24,7 +24,7 @@ testimonialsabout:
   - quote: They made a completely foreign process feel like a walk in the park.
     author: Peter Sobol, Eminence Homes, LLC
 teamtitle: ""
-featuredimage: ""
+featuredimage: /img/services.jpg
 description: Our Team
 teamimage: /img/home-jumbotron.jpg
 ---
