@@ -2,9 +2,9 @@
 templateKey: index-page
 title: Civil Engineering Excellence
 image: /img/redbarnparkinglot.jpg
-heading: Civil Engineering
-heading2: Excellence
-subheading: Red Barn Engineering
+heading: Partnering available for construction management,
+heading2: transportation, and water projects.
+subheading: Red Barn Group
 mainpitch:
   title: Who We Are
   description: >
