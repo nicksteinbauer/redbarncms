@@ -1,9 +1,6 @@
 ---
 path: /corporate-team
 templateKey: corporate-team
-title: Corporate Team
+title: Executive Team
 ---
-
-This is the corporate team.
-
-Please work. Edit.
+This is our executive team, comprising of our division leaders.
