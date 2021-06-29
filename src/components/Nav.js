@@ -25,11 +25,13 @@ function Nav() {
                 About Us
                 </span>
             </Link>
+            {/*
             <a className="navbar-item" href="https://www.redbarn-engineering.com/">
                 <span>
                 Online Portal
                 </span>
             </a>
+            */}
 
 
         </div>

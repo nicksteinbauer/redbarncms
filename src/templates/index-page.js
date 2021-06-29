@@ -93,6 +93,7 @@ const IndexPage = ({ data }) => {
         <h1>
           {frontmatter.heading}<br/><span>{frontmatter.heading2}</span>
         </h1>
+        <div className="button-container"><Link className="button thirty3" to="https://google.com">Learn More</Link></div>
       </div>
     </div>
 

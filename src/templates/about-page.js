@@ -65,7 +65,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
 
           </aside>
       </section>
-      <section className="section black p-lot team-buffer">
+      <section className="section sec-black p-lot team-buffer">
           <div className="inside-xxl flex-md justify">
             <div className="featured-thumbnail fifty animateThis" ref={el => {animateThis1 = el}}>
               <div className="animateThat" ref={el => {animateThat1 = el}}>

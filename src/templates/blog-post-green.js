@@ -56,7 +56,7 @@ export const BlogPostTemplate = ({
   }, [])
 
   return (
-    <section className="section blogpost green">
+    <section className="section blogpost green sec-black">
       {helmet || ''}
       <div className="inside-xxl">
 

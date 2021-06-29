@@ -30,7 +30,7 @@ export const AboutPageCorporateTemplate = ({ title, content, contentComponent, t
           </div>
           
       </section>
-      <section className="section black p-lot team-buffer">
+      <section className="section sec-black p-lot team-buffer">
           
           <div className="not-team-padding">
             <BlogPeopleSlideCorporate />

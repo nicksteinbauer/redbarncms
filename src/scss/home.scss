@@ -50,6 +50,7 @@ video,
   padding: 0 20px;
   @media screen and (min-width: $screen-md) {
     padding: 0 60px;
+    max-width: 1400px;
   }
   text-shadow: 2px 2px 4px #262626;
   font-size: 1em;
@@ -74,6 +75,29 @@ video,
     @media screen and (min-width: $screen-sm) {
       max-width: 50%;
     }
+  }
+
+  .button-container {
+    text-align: center;
+    width: 205px;
+    margin-top: 50px;
+  }
+  a {
+    text-decoration: none;
+    transition: background 0.4s ease;
+  }
+  a.button:link,
+  a.button:active,
+  a.button:visited {
+    border-color: $red;
+    background: rgba($color: $red, $alpha: 0);
+    color: #fff;
+  }
+  a.button:hover {
+    background: rgba($color: $red, $alpha: 1);
+  }
+  a.button:hover::before {
+    left: -32px;
   }
 }
 
@@ -358,7 +382,7 @@ h3.accent::before {
 }
 
 .sec-black {
-  background: #000 url("../img/topography-vector-white.png") no-repeat center
+  background: #000 url("../img/topography-vector-white.png") repeat center
     center;
   h2.accent {
     color: $teal;

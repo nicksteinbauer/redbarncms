@@ -64,7 +64,7 @@ const BlogRollProjects = ( {data} ) => {
 */
     return (
       <div className="the-trigger">
-            <div className="team-grid">
+            <div className="team-grid projects-grid">
 
             
             {posts &&

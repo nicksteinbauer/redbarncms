@@ -47,6 +47,7 @@
   h2.h1 {
     line-height: 1;
     color: #fff;
+    font-size: 1.8em;
     span {
       color: $teal;
       font-style: italic;
@@ -63,5 +64,13 @@
     .pro-loop {
       margin-bottom: 80px;
     }
+  }
+}
+
+.projects-grid {
+  grid-gap: 14px;
+  margin-top: -30px;
+  article {
+    margin-bottom: 100px;
   }
 }

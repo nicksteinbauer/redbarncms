@@ -1,69 +1,130 @@
-import React from 'react'
+import React, { useRef, useEffect } from "react";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { gsap } from 'gsap';
 
-class BlogRoll extends React.Component {
-  render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+const BlogRoll = ( {data} ) => {
 
-    return (
-      <div className="columns is-multiline">
-        {posts &&
+  const { edges: posts } = data.allMarkdownRemark
+
+  //let animateThat2 = useRef(null);
+  //let animateThis2 = useRef(null);
+
+  const revealRefs = useRef([]);
+  revealRefs.current = [];
+
+
+  //let animateThat2 = useRef(null);
+  //let animateThis2 = useRef(null);
+  
+  useEffect(() => {
+
+    
+    revealRefs.current.forEach((el, index) => {
+
+      gsap.to( el, {
+        scrollTrigger: {
+          id: `section-${index+1}`,
+          trigger: el, 
+          scrub: 1,
+
+        },
+        duration: 2,
+        x: '20',
+        y: '-20',
+        ease: "ease-in",
+        
+      })
+
+    });
+
+    /*
+
+    triggers.forEach(animateThat2 => {
+      
+      gsap.to( animateThat2, {
+        scrollTrigger: {
+          trigger: triggers, 
+          scrub: 1,
+
+        },
+        duration: 2,
+        x: '20',
+        y: '-20',
+        ease: "ease-in",
+        
+      })
+
+    });
+
+    */
+    
+  }, [])
+
+  const addToRefs = el => {
+    if (el && !revealRefs.current.includes(el)) {
+        revealRefs.current.push(el);
+    }
+  };
+
+  return (
+      <div className="auto-grid">
+      {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+          <div className="what-loop" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+              className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+              }`}
               >
-                <header>
+              <div>
+                  
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                  <div className="featured-thumbnail sixty animateThis">
+                      <div className="animateThat" ref={addToRefs}>
                       <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
+                      imageInfo={{
+                      image: post.frontmatter.featuredimage,
+                      alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                      }}
                       />
-                    </div>
+                      </div>
+                  </div>
                   ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </article>
-            </div>
-          ))}
-      </div>
-    )
-  }
+                  
+                  <div className="forty">
+                    <h2 className="h1">
+                      {post.frontmatter.prettytitle1 ? (
+                        <>
+                        {post.frontmatter.prettytitle1}<br/>
+                        </>
+                      ) : null}
+                      <span>{post.frontmatter.prettytitle2}</span>
+                    </h2>
+                      <p>{post.excerpt}</p>
+                      <div className="flex-xl flex-start text-center buffer">
+                          <Link className="button thirty3" to={post.fields.slug}>View More</Link>
+                      </div>
+                          
+                  </div>
+                  
+              </div>
+          </article>
+          </div>
+          
+      ))}
+  </div>
+  )
 }
 
+
 BlogRoll.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
+data: PropTypes.shape({
+  allMarkdownRemark: PropTypes.shape({
+    edges: PropTypes.array,
   }),
+}),
 }
 
 export default () => (
@@ -72,7 +133,7 @@ export default () => (
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: {featuredpost: {eq: true} } }
         ) {
           edges {
             node {
