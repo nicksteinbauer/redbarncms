@@ -28,7 +28,9 @@ featuredimage: /img/services.jpg
 description: "Our team is made up of Civil Engineers, Construction Managers,
   Environmental Construction Managers, Construction Inspectors, Fish Biologists,
   Industrial Stormwater Engineers, Hydrologists, Modeling Experts, Permitting
-  Specialists and Administrators. "
+  Specialists and Administrators.  We also have an internship program for high
+  school students interested in the industry.  Currently, we are partnered with
+  three local high schools. "
 teamimage: /img/home-jumbotron.jpg
 ---
 Red Barn is a full-service civil engineering, construction management, and environmental firm with a focus on bringing the right team together.  Our team is built of project managers that are accountable, possess strong quality management, and are fun to work with. We make sure our team gets the job done well.
