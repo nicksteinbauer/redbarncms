@@ -133,7 +133,7 @@ export default () => (
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: {featuredpost: {eq: true} } }
+          filter: { frontmatter: {featuredblog: {eq: true} } }
         ) {
           edges {
             node {
@@ -149,7 +149,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 740, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
