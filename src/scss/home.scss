@@ -45,12 +45,15 @@ video,
     height: 100vh;
   }
 }
-
+.callto-content.home-callto {
+  @media screen and (min-width: $screen-md) {
+    max-width: 1200px;
+  }
+}
 .callto-content {
   padding: 0 20px;
   @media screen and (min-width: $screen-md) {
     padding: 0 60px;
-    max-width: 1400px;
   }
   text-shadow: 2px 2px 4px #262626;
   font-size: 1em;
@@ -85,12 +88,13 @@ video,
   a {
     text-decoration: none;
     transition: background 0.4s ease;
+    background: rgba($color: $red, $alpha: 1);
   }
   a.button:link,
   a.button:active,
   a.button:visited {
     border-color: $red;
-    background: rgba($color: $red, $alpha: 0);
+    //background: rgba($color: $red, $alpha: 0);
     color: #fff;
   }
   a.button:hover {
@@ -476,4 +480,9 @@ h3.accent::before {
     height: 150px;
     width: 100%;
   }
+}
+
+.extra-padd {
+  padding-left: 40px;
+  padding-right: 40px;
 }

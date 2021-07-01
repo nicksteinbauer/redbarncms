@@ -19,7 +19,7 @@
 
 .team-buffer {
   padding-top: 0;
-  margin-top: -60px;
+  //margin-top: -60px;
   > div {
     align-items: flex-start;
   }
@@ -197,6 +197,9 @@
 .relief-link {
   a {
     transition: color 0.4s ease;
+    h3 {
+      color: #fff;
+    }
   }
   a:link,
   a:active,

@@ -17,8 +17,10 @@ export default class BlogIndexPage extends React.Component {
             </div>
             
           </div>
-          <section className="whatwedo-section section inside-xxl sec-black p-lot">
-                <BlogWhat />
+          <section className="whatwedo-section section sec-black p-lot">
+            <div className="inside-xxl">
+              <BlogWhat />
+            </div>
           </section>
         </div>
       </Layout>

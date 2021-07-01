@@ -84,7 +84,7 @@ const IndexPage = ({ data }) => {
 
   <div className="the-rest">
     <div className="callto align-vertical">
-      <div className="callto-content">
+      <div className="callto-content home-callto">
       
         <h3 className="accent">
           {frontmatter.subheading}
@@ -141,7 +141,7 @@ const IndexPage = ({ data }) => {
     </section>
 
     <section className="reliefmap sec-black section projects">    
-      <div className="inside-xxl">
+      <div className="inside-xl extra-padd">
         <div className="flex-md flex-end relative"><h2 className="forty accent">Projects</h2></div>
         <BlogRollProjectsSingle />
       </div>

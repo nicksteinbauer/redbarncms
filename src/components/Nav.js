@@ -25,6 +25,11 @@ function Nav() {
                 About Us
                 </span>
             </Link>
+            <Link className="navbar-item" to="/blog">
+                <span>
+                Blog
+                </span>
+            </Link>
             {/*
             <a className="navbar-item" href="https://www.redbarn-engineering.com/">
                 <span>
