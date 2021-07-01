@@ -411,6 +411,35 @@ h3.accent::before {
 }
 
 .projects {
+  .slick-slide {
+    padding-bottom: 200px;
+    .flex-md {
+      padding: 0 40px;
+    }
+  }
+  .slick-next::before,
+  .slick-prev::before {
+    color: $green;
+  }
+  .slick-next.slick-disabled::before,
+  .slick-prev.slick-disabled::before {
+    opacity: 0.5;
+  }
+  .slick-prev,
+  .slick-next {
+    left: 50%;
+    right: 50%;
+    margin: 0;
+    width: 50px;
+  }
+
+  .slick-slide.slick-active .animateThis .animateThat {
+    transform: translate(40px, -50px);
+  }
+
+  .slick-prev {
+    margin-left: -60px;
+  }
   .flex-md.relative {
     .forty {
       @media screen and (min-width: $screen-md) {
