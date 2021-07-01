@@ -8,7 +8,7 @@ description: "n volutpat malesuada ultrices. Mauris non erat tincidunt, finibus
   sodales aliquam suscipit. Pellentesque tincidunt, odio a sagittis porta, nibh
   ex rhoncus nunc, id sodales nisl leo et tellus. "
 featuredpost: true
-featuredimage: /img/redbarn-drainage.jpg
+featuredimage: /img/swale_on_yale6.jpg
 ---
 Morbi luctus, lacus eget lobortis rhoncus, elit tortor mollis turpis, eu elementum massa lacus vitae sapien. Nunc sed diam vel dui ultrices vehicula. Duis orci felis, accumsan eget diam eget, cursus porttitor erat. Aenean ullamcorper urna ac bibendum maximus. Quisque euismod risus at ex consectetur euismod. In quis neque purus.
 
