@@ -5,7 +5,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 //import Slider from "react-slick"
 
-class BlogPeopleSlideCorporate extends React.Component {
+class BlogPeopleSlideExecutive extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -108,7 +108,7 @@ class BlogPeopleSlideCorporate extends React.Component {
   }
 }
 
-BlogPeopleSlideCorporate.propTypes = {
+BlogPeopleSlideExecutive.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -119,10 +119,10 @@ BlogPeopleSlideCorporate.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-    query BlogPeopleSlideCorporateQuery {
+    query BlogPeopleSlideExecutiveQuery {
         allMarkdownRemark(
           sort: { order: ASC, fields: [frontmatter___date] }
-          filter: { frontmatter: { peoplekey: { eq: "people" }, corporateteam: {eq: true} } }
+          filter: { frontmatter: { peoplekey: { eq: "people" }, executiveteam: {eq: true} } }
         ) {
           edges {
             node {
@@ -153,6 +153,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogPeopleSlideCorporate data={data} count={count} />}
+    render={(data, count) => <BlogPeopleSlideExecutive data={data} count={count} />}
   />
 )

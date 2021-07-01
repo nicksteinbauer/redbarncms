@@ -5,10 +5,10 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 //import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import BlogPeopleSlideSpecialty from '../components/BlogPeopleSlideSpecialty'
+import BlogPeopleSlideCore from '../components/BlogPeopleSlideCore'
 
 
-export const AboutPageSpecialtyTemplate = ({ title, content, contentComponent, teamtitle, description }) => {
+export const AboutPageCoreTemplate = ({ title, content, contentComponent, teamtitle, description }) => {
   const PageContent = contentComponent || Content
 
   
@@ -33,7 +33,7 @@ export const AboutPageSpecialtyTemplate = ({ title, content, contentComponent, t
       <section className="section sec-black p-lot team-buffer">
           
           <div className="not-team-padding">
-            <BlogPeopleSlideSpecialty />
+            <BlogPeopleSlideCore />
           </div>
       </section>
 
@@ -44,18 +44,18 @@ export const AboutPageSpecialtyTemplate = ({ title, content, contentComponent, t
   )
 }
 
-AboutPageSpecialtyTemplate.propTypes = {
+AboutPageCoreTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPageSpecialty = ({ data }) => {
+const AboutPageCore = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AboutPageSpecialtyTemplate
+      <AboutPageCoreTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -64,14 +64,14 @@ const AboutPageSpecialty = ({ data }) => {
   )
 }
 
-AboutPageSpecialty.propTypes = {
+AboutPageCore.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPageSpecialty
+export default AboutPageCore
 
-export const aboutPageSpecialtyQuery = graphql`
-  query AboutPageSpecialty($id: String!) {
+export const aboutPageCoreQuery = graphql`
+  query AboutPageCore($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

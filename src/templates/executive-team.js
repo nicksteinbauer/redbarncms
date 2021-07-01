@@ -5,10 +5,10 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 //import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import BlogPeopleSlideCorporate from '../components/BlogPeopleSlideCorporate'
+import BlogPeopleSlideExecutive from '../components/BlogPeopleSlideExecutive'
 
 
-export const AboutPageCorporateTemplate = ({ title, content, contentComponent, teamtitle, description }) => {
+export const AboutPageExecutiveTemplate = ({ title, content, contentComponent, teamtitle, description }) => {
   const PageContent = contentComponent || Content
 
   
@@ -33,7 +33,7 @@ export const AboutPageCorporateTemplate = ({ title, content, contentComponent, t
       <section className="section sec-black p-lot team-buffer">
           
           <div className="not-team-padding">
-            <BlogPeopleSlideCorporate />
+            <BlogPeopleSlideExecutive />
           </div>
       </section>
 
@@ -44,18 +44,18 @@ export const AboutPageCorporateTemplate = ({ title, content, contentComponent, t
   )
 }
 
-AboutPageCorporateTemplate.propTypes = {
+AboutPageExecutiveTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPageCorporate = ({ data }) => {
+const AboutPageExecutive = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AboutPageCorporateTemplate
+      <AboutPageExecutiveTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -64,14 +64,14 @@ const AboutPageCorporate = ({ data }) => {
   )
 }
 
-AboutPageCorporate.propTypes = {
+AboutPageExecutive.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPageCorporate
+export default AboutPageExecutive
 
-export const aboutPageCorporateQuery = graphql`
-  query AboutPageCorporate($id: String!) {
+export const aboutPageExecutiveQuery = graphql`
+  query AboutPageExecutive($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

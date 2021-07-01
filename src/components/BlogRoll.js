@@ -95,12 +95,9 @@ const BlogRoll = ( {data} ) => {
                   
                   <div className="forty">
                     <h2 className="h1">
-                      {post.frontmatter.prettytitle1 ? (
-                        <>
-                        {post.frontmatter.prettytitle1}<br/>
-                        </>
-                      ) : null}
-                      <span>{post.frontmatter.prettytitle2}</span>
+                      
+                        {post.frontmatter.title}<br/>
+                     
                     </h2>
                       <p>{post.excerpt}</p>
                       <div className="flex-xl flex-start text-center buffer">
