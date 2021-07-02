@@ -4,16 +4,34 @@ title: Resort Management
 prettytitle1: Resort
 prettytitle2: Management
 date: 2021-04-25T15:27:34.194Z
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-  varius enim. Pellentesque pretium dapibus porttitor. Pellentesque mollis neque
-  quam, eu commodo lorem dignissim in. "
+description: "Red Barn staff is experienced in working on commercial site plans
+  and site design. This experience transfers over to Resort Management with
+  entrance drives, parking lots, site plans, stormwater management, and other
+  site amenities. "
 featuredpost: true
 featuredimage: /img/adobestock_5251225.jpeg
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non varius enim. Pellentesque pretium dapibus porttitor. Pellentesque mollis neque quam, eu commodo lorem dignissim in. Maecenas aliquet molestie nibh eget posuere. Etiam vel dapibus leo. Morbi vitae dictum nulla. Suspendisse pulvinar condimentum sem nec elementum. Fusce tempor dui vitae felis ultrices, sed vehicula augue porttitor. Nam vel sollicitudin ligula. Donec venenatis nec mauris non sodales. Vestibulum elementum metus elit, sit amet commodo augue varius in. Morbi non lectus elementum, luctus ligula eget, sodales erat. Donec hendrerit consectetur est eu interdum. Vivamus sagittis efficitur elit, eget suscipit metus elementum a. Proin volutpat est quis lacus bibendum, ac ultricies mi tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+Red Barn staff is experienced in working on commercial site plans and site design. This experience transfers over to Resort Management with entrance drives, parking lots, site plans, stormwater management, and other site amenities. These elements together allow for a cohesive site and pleasant experience. We have been fortunate to assist an amusement park in Sandusky, OH, over the years by preparing topographic surveys and site design. Our latest noteworthy projects impacted all the traffic entering and exiting the park.
 
-Proin accumsan purus eget nisi gravida placerat. Integer vitae dolor neque. Etiam sed ligula at lorem lobortis egestas. Morbi molestie sed justo ac sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent non lorem id velit iaculis hendrerit vitae sed sem. Mauris ullamcorper elit ut vehicula posuere. Maecenas ac leo lacus. Suspendisse porttitor magna in tincidunt vestibulum. Vivamus convallis mauris vel ullamcorper luctus.
+**Prioritization for Capital Funding**
+We have a working relationship with local contractors that we work with to understand the latest site work and maintenance services costs.  In addition, our team is here to help private sector clients design and implement a permitting strategy that ensures an expedited process for infrastructure replacement projects. 
 
-In nec feugiat tellus. Donec non purus mauris. Fusce lacinia venenatis tortor, eu dapibus tellus sodales et. Aliquam consectetur laoreet lacinia. Proin quis congue libero. Nam id purus mi. Pellentesque dapibus felis tincidunt felis egestas efficitur. Nam scelerisque arcu sed magna vulputate bibendum. Donec tortor eros, scelerisque at metus vitae, tincidunt ullamcorper tellus.
+**Permitting**
+We can provide permitting support with local and State jurisdictions for permits on the project timeline.  Our environmental permitting team understands permit strategy, environmental compliance, and code requirements.\
+(NEPA, SEPA, BA, QAPP, ESA Consultation). 
 
-Aliquam diam odio, iaculis et nisl in, suscipit viverra nisl. Vestibulum at rhoncus leo. Aliquam nec pulvinar mauris. Nulla facilisi. Mauris convallis, libero sit amet finibus malesuada, purus odio faucibus enim, et elementum ipsum tortor vel massa. Pellentesque feugiat turpis vel sapien ullamcorper efficitur. Aliquam tincidunt accumsan libero, sit amet gravida elit eleifend at. Nulla sit amet mattis ex. Integer varius lectus in congue scelerisque. Integer metus enim, elementum ac gravida vitae, placerat vitae risus. Pellentesque sit amet placerat urna. Integer non iaculis justo, in porta mi. Quisque eu maximus purus. Praesent volutpat nunc leo, vitae ornare libero egestas vitae.
+**Our Services**
+•	Biological Assessments & FEMA Habitat Assessments
+•	Development of Plan Review & Inspection 
+•	Erosion Control/Stream Bank Stabilization
+•	Floodplain Analysis & Mapping
+•	Governmental Permitting (EPA, State, and Local Agencies)
+•	Green Stormwater Infrastructure
+•	Hydraulic Design
+•	Parking Lot Evaluation and Maintenance
+•	Permitting (Department of Natural Resources, COE, Shorelines)
+•	Softshore Design
+•	Stormwater Management
+•	Stormwater Permitting
+•	Stormwater Research & Management
+•	Waterfront Development
