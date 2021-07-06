@@ -22,31 +22,4 @@ mainpitch:
 description: Red Barn is a full-service civil engineering, construction
   management, and environmental firm with a focus on bringing the right team
   together.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: --
-    - image: /img/coffee-gear.png
-      text: |
-        --
-    - image: /img/tutorials.png
-      text: |
-        --
-    - image: /img/meeting-space.png
-      text: |
-        --
-  heading: --
-  description: --
-main:
-  heading: --
-  description: --
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---

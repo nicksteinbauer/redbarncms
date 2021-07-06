@@ -65,7 +65,7 @@ const Footer = class extends React.Component {
                 <p>
                   2110 Caldwell St<br/>
                   Sandusky, OH 44870<br/>
-                  <a href="tel:1-419-625-7838">425.625.7838</a> (office)
+                  <a href="tel:1-419-625-7838">419.625.7838</a> (office)
                 </p>
               </div>
               <div className="forty">
