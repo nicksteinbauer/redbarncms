@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
-title: Construction Inspection
-prettytitle1: Construction Inspection
-prettytitle2: ""
-date: 2021-04-25T19:40:07.967Z
+title: Construction Management
+prettytitle1: Construction
+prettytitle2: Management
+date: 2021-04-28T19:40:07.967Z
 description: Our firm started in 2016 with construction management and civil
   engineering as core service areas.  From the first day of conception, we have
   been serving businesses with construction management that included inspection,
@@ -19,7 +19,8 @@ description: Our firm started in 2016 with construction management and civil
 featuredpost: true
 featuredimage: /img/redbarn-sector-construction-inspection.jpg
 ---
-We are enthusiastic about getting out in the field and inspecting utilities and right-of-way work.  Having a growing team allows us to train our newer staff and have great depth from our senior inspectors.  Due to our experience, we understand well how to work within the City’s budgets.  
+
+We are enthusiastic about getting out in the field and inspecting utilities and right-of-way work. Having a growing team allows us to train our newer staff and have great depth from our senior inspectors. Due to our experience, we understand well how to work within the City’s budgets.
 
 **Services we provide:**
 
@@ -43,6 +44,6 @@ Project Close-Out
 
 We have experienced staff located in your area.
 
-Our firm has a strong CM inspection team that knows processes and can fit well within an agency.  We are versed in SiteTracker, SharePoint, and Unifier.
+Our firm has a strong CM inspection team that knows processes and can fit well within an agency. We are versed in SiteTracker, SharePoint, and Unifier.
 
-We support the City and require quality in standards.  We also build relationships with the contractors to assure they are performing in accordance with City standards.
+We support the City and require quality in standards. We also build relationships with the contractors to assure they are performing in accordance with City standards.
