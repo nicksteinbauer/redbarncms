@@ -51,7 +51,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
       <div className="black services-page">
         <div className="about-banner align-vertical">
           <div className="callto-content inside-xxl">
-            <h3 className="accent">Red Barn Engineering</h3>
+            <h3 className="accent">Red Barn Group</h3>
             <h1>{title}</h1>
           </div>
           <div className="about-over"></div> 
@@ -84,9 +84,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
                   
                     <div className="image-padding relief-link">
                       <div className="featured-thumbnail animateThis">
-                        <Link to="/corporate-team">
+                        <Link to="/executive-team">
                           <div className="animateThat relief-team flex-vertical">
-                            <h3>Corporate Team</h3>
+                            <h3>Executive Team</h3>
                           </div>
                         </Link>
                       </div>
@@ -97,9 +97,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
                   
                     <div className="image-padding relief-link">
                       <div className="featured-thumbnail animateThis">
-                        <Link to="/specialty-team">
+                        <Link to="/core-team">
                           <div className="animateThat relief-team flex-vertical">
-                            <h3>Specialty Team</h3>
+                            <h3>Core Team</h3>
                           </div>
                         </Link>
                       </div>

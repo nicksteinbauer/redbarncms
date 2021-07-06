@@ -11,7 +11,7 @@ export default class BlogIndexPage extends React.Component {
           <div className="projects-banner align-vertical">
             
             <div className="callto-content inside-xxl">
-              <h3 className="accent">Red Barn Engineering</h3>
+              <h3 className="accent">Red Barn Group</h3>
               <h1>Projects</h1>
             </div>
             

@@ -3,12 +3,13 @@ templateKey: blog-post-green
 title: Civil Engineering / Transportation
 prettytitle1: Civil Engineering
 prettytitle2: Transportation
-date: 2021-04-25T21:44:53.143Z
+date: 2021-06-25T21:44:53.143Z
 description: Our civil team is a full-service civil engineering team offering
   expertise in site development, public works projects, and transit jobs.
 featuredservice: true
 featuredimage: /img/redbarn-orenda-mixed-use.jpg
 ---
+
 Our civil team is a full-service civil engineering team offering expertise in site development, public works projects, and transit jobs.
 
 **Communication**
@@ -21,11 +22,11 @@ We know the regulations well, from ADA standards to local stormwater regulations
 
 **​Staffing & Schedules**
 
-In addition to the communication, we have project managers who work with the schedules to keep consistent staff on the project from the beginning to the end. 
+In addition to the communication, we have project managers who work with the schedules to keep consistent staff on the project from the beginning to the end.
 
- **Field Services & Safety**
+**Field Services & Safety**
 
-The civil team is CESCL-certified and OSHA-10hr trained to see the project through completion. 
+The civil team is CESCL-certified and OSHA-10hr trained to see the project through completion.
 
 We are here to help your project go smoothly and to bring peace of mind through the process.
 
@@ -33,40 +34,40 @@ We are here to help your project go smoothly and to bring peace of mind through
 
 **Our Services**
 
-•	ADA Restoration
+• ADA Restoration
 
-•	Bioretention Design 
+• Bioretention Design
 
-•	Capital Project Prioritization
+• Capital Project Prioritization
 
-•	CESCL Certified
+• CESCL Certified
 
-•	Green Stormwater Infrastructure
+• Green Stormwater Infrastructure
 
-•	Hydraulic Design
+• Hydraulic Design
 
-•	Hydrologic & Hydraulic Modeling
+• Hydrologic & Hydraulic Modeling
 
-•	NPDES/MS4 Permitting
+• NPDES/MS4 Permitting
 
-•	Permitting
+• Permitting
 
-•	Public Utility Planning
+• Public Utility Planning
 
-•	Pump Station Design & Rehab
+• Pump Station Design & Rehab
 
-•	Sanitary Sewer Design & Upgrades
+• Sanitary Sewer Design & Upgrades
 
-•	Site Development/Site Layout/Design
+• Site Development/Site Layout/Design
 
-•	Stormwater Improvements, Monitoring, and Design
+• Stormwater Improvements, Monitoring, and Design
 
-•	Transit/Transportation Design
+• Transit/Transportation Design
 
-•	Trenchless Design/Bore Profiles
+• Trenchless Design/Bore Profiles
 
-•	Utility Infrastructure
+• Utility Infrastructure
 
-•	Value Engineering
+• Value Engineering
 
-•	Water System Plan Updates/Design
+• Water System Plan Updates/Design
