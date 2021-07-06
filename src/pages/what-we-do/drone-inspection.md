@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: Drone Inspection
-prettytitle1: Drone Inspection
-prettytitle2: ""
+prettytitle1: Drone
+prettytitle2: Inspection
 date: 2021-04-22T15:56:28.041Z
 description: At Red Barn Engineering, we push technological boundaries using our
   robust programmers and advanced modeling engineers.  Our drone pilot has
