@@ -46,8 +46,14 @@ video,
   }
 }
 .callto-content.home-callto {
+  padding: 5px 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-left: 4px solid $red;
   @media screen and (min-width: $screen-md) {
     max-width: 1200px;
+    padding: 5px 40px 40px;
   }
 }
 .callto-content {

@@ -121,7 +121,7 @@ export default () => (
     query={graphql`
     query BlogPeopleSlideCoreQuery {
         allMarkdownRemark(
-          sort: { order: ASC, fields: [frontmatter___date] }
+          sort: {order: ASC, fields: [frontmatter___prettytitle2]}
           filter: { frontmatter: { peoplekey: { eq: "people" }, executiveteam: {ne: true} } }
         ) {
           edges {
