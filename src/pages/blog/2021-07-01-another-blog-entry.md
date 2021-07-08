@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Meet Darin Stephens, PE.  A discussion on Early Utility and Earthwork
+title: "Meet Darin Stephens, PE. -A discussion on Early Utility and Earthwork
   Coordination as it relates to rail. "
 date: 2021-07-01T15:35:29.859Z
 description: "A discussion with Darin Stephens on Early Utility and Earthwork
