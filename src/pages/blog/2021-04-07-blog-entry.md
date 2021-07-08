@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Red Barn Expaning Rail Construction Management Services to Los Angeles
+title: Red Barn Expanding Rail Construction Management Services to Los Angeles
   and Orlando
 date: 2021-04-07T13:51:06.668Z
 description: The following interviews are discussions of our core areas of
