@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import CellTower from "../img/RedBarn-Tower-sm.mp4"
+import CellTower from "../img/RedBarn-Homepage-video.mp4"
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 

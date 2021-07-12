@@ -53,9 +53,15 @@ video,
   border-left: 4px solid $red;
   font-size: 0.7em;
   @media screen and (min-width: $screen-md) {
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 5px 40px 40px;
     font-size: 0.8em;
+  }
+  h1 {
+    font-size: 2em;
+    @media screen and (min-width: $screen-md) {
+      font-size: 2.2em;
+    }
   }
 }
 .callto-content {
