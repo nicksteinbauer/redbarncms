@@ -10,7 +10,7 @@ description: Red Barn staff is currently providing construction management
   quality value, and construction inspection for a $3B and approx. 10-mile rail
   extension project.
 featuredprojects: true
-category: all
+category: civil-engineering
 featuredimage: /img/redbarn-sound-transit-maybe.jpg
 options: all
 homepost: true
