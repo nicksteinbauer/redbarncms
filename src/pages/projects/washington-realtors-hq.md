@@ -6,6 +6,7 @@ prettytitle2: Realtors HQ
 date: 2021-06-28T22:19:46.287Z
 description: This is the description
 featuredprojects: true
+options: all
 featuredimage: /img/redbarn-washington-realtors.jpg
 ---
 

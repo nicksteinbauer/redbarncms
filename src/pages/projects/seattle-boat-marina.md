@@ -7,6 +7,7 @@ date: 2021-06-28T22:31:30.363Z
 description: Fuel Upgrades & Concession Stand
 featuredprojects: true
 homepost: true
+options: all
 featuredimage: /img/redbarn-seattle-boat-marina.jpg
 ---
 

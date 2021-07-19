@@ -29,6 +29,14 @@
       top: -20px;
     }
   }
+  h2.h1 {
+    color: #fff;
+    line-height: 1;
+    span {
+      color: $teal;
+      font-style: italic;
+    }
+  }
 }
 
 .services-section {

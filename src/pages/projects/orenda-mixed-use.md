@@ -11,6 +11,7 @@ description: Orenda provides neighborhood housing atop a large commercial base.
   childcare facility.
 featuredprojects: true
 homepost: true
+options: all
 featuredimage: /img/redbarn-orenda-mixed-use.jpg
 ---
 

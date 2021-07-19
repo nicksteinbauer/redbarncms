@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import logo from '../img/RedBarn-Site-Logo.svg'
-import Nav from './Nav'
-
+import NavDesktop from './NavDesktop'
+import NavMobile from './NavMobile'
 import facebook from "../img/social/facebook.svg";
 //import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
@@ -56,11 +56,10 @@ const Navbar = class extends React.Component {
             className="navbar-menu justify-center flex-sm"
           >
 
-            <Nav />
+            <NavDesktop />
             
             <div className="social always-flex mobile">
                 <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.facebook.com/Red-Barn-Engineering-Inc-1573624299347485"><img src={facebook} alt="Facebook Link" /></a>
-                {/*<a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.instagram.com/barnes_nursery/"><img src={instagram} alt="Instagram Link" /></a>*/}
                 <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://twitter.com/rebekah_redbarn?lang=en"><img src={twitter} alt="Twitter Link" /></a>
                 <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.linkedin.com/company/redbgroup/"><img src={linkedin} alt="Linkedin Link" /></a>
             </div>
@@ -69,7 +68,6 @@ const Navbar = class extends React.Component {
 
           <div className="social always-flex desktop">
                 <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.facebook.com/Red-Barn-Engineering-Inc-1573624299347485"><img src={facebook} alt="Facebook Link" /></a>
-                {/*<a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.instagram.com/barnes_nursery/"><img src={instagram} alt="Instagram Link" /></a>*/}
                 <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://twitter.com/rebekah_redbarn?lang=en"><img src={twitter} alt="Twitter Link" /></a>
                 <a target="_blank" className="flex-vertical" rel="noreferrer" href="https://www.linkedin.com/company/redbgroup/"><img src={linkedin} alt="Linkedin Link" /></a>
             </div>
@@ -81,7 +79,7 @@ const Navbar = class extends React.Component {
             <div className="nav-buffer">
                 <div className="inside-md flex-vertical-modified">
                     
-                    <Nav />
+                    <NavMobile />
                     
                 </div>
             </div>

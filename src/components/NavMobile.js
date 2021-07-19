@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby'
 
-function Nav() {
+function NavMobile() {
     return (
 
         <div className="navbar-start has-text-centered flex-md">
@@ -44,4 +44,4 @@ function Nav() {
     )
 };
 
-export default Nav
+export default NavMobile

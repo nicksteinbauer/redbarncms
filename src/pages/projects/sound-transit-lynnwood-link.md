@@ -11,6 +11,7 @@ description: Red Barn staff is currently providing construction management
   extension project.
 featuredprojects: true
 homepost: true
+options: all
 featuredimage: /img/redbarn-sound-transit-maybe.jpg
 ---
 

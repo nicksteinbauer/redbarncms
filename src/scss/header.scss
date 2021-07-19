@@ -60,6 +60,7 @@
     text-decoration: none;
     display: block;
     transition: color 0.3s ease;
+    background: rgba($color: #000, $alpha: 0);
     @media screen and (min-width: $screen-md) {
       height: 100%;
       display: flex;
@@ -74,6 +75,65 @@
   }
   a:hover {
     color: $red;
+    //background: rgba($color: #000, $alpha: 0.8);
+  }
+  .navbar-item {
+    position: relative;
+    span {
+      position: relative;
+      z-index: 10;
+    }
+    ul {
+      position: absolute;
+      top: 0;
+      left: 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+      //background: rgba($color: #000, $alpha: 0.8);
+      //width: 300px;
+      li {
+        background: rgba($color: #000, $alpha: 0.8);
+        width: 300px;
+        a {
+          display: block;
+          padding: 5px 10px;
+        }
+      }
+      li:nth-child(2) {
+        padding-top: 10px;
+      }
+      li:last-child {
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .navbar-item:hover {
+    ul {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .navbar-item:nth-child(1) {
+    li.first {
+      width: 119px;
+      height: 80px;
+    }
+  }
+  .navbar-item:nth-child(2) {
+    li.first {
+      width: 84px;
+      height: 80px;
+    }
+  }
+  .navbar-item:nth-child(3) {
+    li.first {
+      width: 82px;
+      height: 80px;
+    }
   }
 }
 

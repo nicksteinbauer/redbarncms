@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: team-post
 peoplekey: people
 title: Rachael Lambie
 prettytitle1: Rachael

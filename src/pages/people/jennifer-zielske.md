@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: team-post
 peoplekey: people
 title: Jennifer Zielske
 prettytitle1: Jennifer
@@ -8,4 +8,5 @@ jobtitle: Safety Administrative Coordinator
 date: 2021-06-10T14:46:47.547Z
 featuredimage: /img/jennifer_7801_p1a-4.jpg
 ---
-Jennifer comes to Red Barn with 25 years of experience in the medical field and currently serves as our Safety Coordinator.  She holds Associate Degrees in Applied Sciene and Criminal Justice and is certified in OSHA-30 and 40 hr HAZWOPER.   She also assists with Human Resources and scheduling.
+
+Jennifer comes to Red Barn with 25 years of experience in the medical field and currently serves as our Safety Coordinator. She holds Associate Degrees in Applied Sciene and Criminal Justice and is certified in OSHA-30 and 40 hr HAZWOPER. She also assists with Human Resources and scheduling.

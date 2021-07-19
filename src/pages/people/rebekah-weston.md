@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: team-post
 peoplekey: people
 title: Rebekah Weston
 prettytitle1: Rebekah

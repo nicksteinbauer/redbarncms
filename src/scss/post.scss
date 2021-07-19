@@ -65,6 +65,9 @@
   .what-loop {
     background: #fff;
     padding: 10px 10px 20px;
+    a.button {
+      flex: 0 0 155px;
+    }
     a.button:link,
     a.button:active,
     a.button:visited {
@@ -72,6 +75,7 @@
       background: rgba(163, 43, 41, 0);
       color: #000;
       transition: all 0.3s ease;
+      min-width: none;
     }
     a.button:hover {
       background: $red;
