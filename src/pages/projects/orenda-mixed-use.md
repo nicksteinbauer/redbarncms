@@ -10,9 +10,10 @@ description: Orenda provides neighborhood housing atop a large commercial base.
   inclusion of the Odessa Brown Children’s Clinic (OBCC) and an early learning
   childcare facility.
 featuredprojects: true
-homepost: true
-options: all
+category: all
 featuredimage: /img/redbarn-orenda-mixed-use.jpg
+options: all
+homepost: true
 ---
 
 Orenda provides neighborhood housing atop a large commercial base. It seeks to help minimize displacement in the Othello neighborhood by providing workforce housing. It also seeks to support the community with the inclusion of the Odessa Brown Children’s Clinic (OBCC) and an early learning childcare facility.​
