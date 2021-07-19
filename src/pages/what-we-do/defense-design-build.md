@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Defense Design / Build
 prettytitle1: Defense
 prettytitle2: Design / Build

@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import PropTypes from 'prop-types'
 
 import { Helmet } from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
@@ -13,6 +13,8 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 export const BlogPostTemplate = ({
   content,
   contentComponent,
+  //description,
+  //tags,
   featuredimage,
   title,
   helmet,
@@ -54,45 +56,28 @@ export const BlogPostTemplate = ({
   }, [])
 
   return (
-    <section className="blogpost actual-blog">
+    <section className="section blogpost green sec-black">
       {helmet || ''}
-      
+      <div className="inside-xxl">
 
-          <article>
-            <div className="black p-lot services-page">
-              <div className="services-banner align-vertical">
-                  
-                  <div className="callto-content inside-xxl">
-                    <h3 className="accent">Red Barn Group</h3>
-                    {prettytitle1 
-                      ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
-                      : <h1 className="h1">{title}</h1>
-                    }
-                    <div className="flex-md text-center buffer">
-                      <Link
-                        className="button blog-button"
-                        to="/blog"
-                      >
-                        Back to Blog
-                      </Link>
-                    </div>
-                  </div>
-                  
+          <article className="test">
+
+            {prettytitle1 
+              ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
+              : <h1 className="h1">{title}</h1>
+            }
+
+            {/*<p>{description}</p>*/}
+            <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
+              <div className="animateThat" ref={el => {animateThat1 = el}}>
+                <PreviewCompatibleImage imageInfo={featuredimage} />
               </div>
             </div>
+            <PostContent content={content} />
             
-            <section className="services-section section black p-lot blog-white-padd">
-              <div className="blog-white inside-xxl">
-                <div className="featured-thumbnail forty-float animateThis" ref={el => {animateThis1 = el}}>
-                  <div className="animateThat" ref={el => {animateThat1 = el}}>
-                    <PreviewCompatibleImage imageInfo={featuredimage} />
-                  </div>
-                </div>
-                <PostContent content={content} />
-              </div>
-            </section>
           </article>
 
+      </div>
     </section>
   )
 }
@@ -105,8 +90,6 @@ BlogPostTemplate.propTypes = {
   title: PropTypes.string,
   prettytitle1: PropTypes.string,
   prettytitle2: PropTypes.string,
-  jobtitle: PropTypes.string,
-  jobtitle2: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -121,7 +104,7 @@ const BlogPost = ({ data }) => {
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Services | Red Barn Group">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -133,8 +116,6 @@ const BlogPost = ({ data }) => {
         title={post.frontmatter.title}
         prettytitle1={post.frontmatter.prettytitle1}
         prettytitle2={post.frontmatter.prettytitle2}
-        jobtitle={post.frontmatter.jobtitle}
-        jobtitle2={post.frontmatter.jobtitle2}
       />
     </Layout>
   )
@@ -149,7 +130,7 @@ BlogPost.propTypes = {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query BlogPostByIDGreen($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -158,8 +139,6 @@ export const pageQuery = graphql`
         title
         prettytitle1
         prettytitle2
-        jobtitle
-        jobtitle2
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 840, quality: 60) {

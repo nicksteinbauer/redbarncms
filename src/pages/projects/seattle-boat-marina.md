@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post-green
+templateKey: blog-post-projects
 title: Seattle Boat Marina
 prettytitle1: Seattle
 prettytitle2: Boat Marina
@@ -9,4 +9,5 @@ featuredprojects: true
 homepost: true
 featuredimage: /img/redbarn-seattle-boat-marina.jpg
 ---
+
 Fuel Upgrades & Concession Stand Civil Design & Permitting

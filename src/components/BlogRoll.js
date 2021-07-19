@@ -69,20 +69,20 @@ const BlogRoll = ( {data} ) => {
   };
 
   return (
-      <div className="auto-grid">
+      <div className="auto-grid blog">
       {posts &&
           posts.map(({ node: post }) => (
-          <div className="what-loop" key={post.id}>
+          <div className="what-loop animateThis" key={post.id} ref={addToRefs}>
               <article
-              className={`blog-list-item tile is-child box notification ${
+              className={`blog-article ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
               }`}
               >
               <div>
                   
                   {post.frontmatter.featuredimage ? (
-                  <div className="featured-thumbnail sixty animateThis">
-                      <div className="animateThat" ref={addToRefs}>
+                  <div className="sixty">
+                      <div className="animateThat">
                       <PreviewCompatibleImage
                       imageInfo={{
                       image: post.frontmatter.featuredimage,

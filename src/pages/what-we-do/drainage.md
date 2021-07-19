@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Drainage
 prettytitle1: Drainage
 date: 2021-04-25T20:08:54.686Z
@@ -10,6 +10,7 @@ description: "n volutpat malesuada ultrices. Mauris non erat tincidunt, finibus
 featuredpost: true
 featuredimage: /img/swale_on_yale6.jpg
 ---
+
 Morbi luctus, lacus eget lobortis rhoncus, elit tortor mollis turpis, eu elementum massa lacus vitae sapien. Nunc sed diam vel dui ultrices vehicula. Duis orci felis, accumsan eget diam eget, cursus porttitor erat. Aenean ullamcorper urna ac bibendum maximus. Quisque euismod risus at ex consectetur euismod. In quis neque purus.
 
 Suspendisse egestas quam et justo convallis, in vehicula sem efficitur. Pellentesque malesuada libero cursus faucibus molestie. Mauris sed diam id quam vestibulum egestas. Nunc vitae scelerisque justo. Praesent imperdiet in neque accumsan ornare. Donec semper justo augue, eget imperdiet velit mattis quis. Fusce malesuada pretium nisi, sed varius velit congue sed. Praesent odio diam, lobortis id neque fermentum, fringilla ultrices justo. Morbi faucibus rhoncus eros.

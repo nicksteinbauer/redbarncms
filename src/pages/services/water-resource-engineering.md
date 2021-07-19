@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post-green
+templateKey: blog-post-services
 title: Water Resource Engineering
 prettytitle1: Water Resource
 prettytitle2: Engineering

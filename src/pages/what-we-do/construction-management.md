@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Construction Management
 prettytitle1: Construction
 prettytitle2: Management

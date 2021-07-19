@@ -88,16 +88,16 @@ picture {
 
 .inside-xl {
   max-width: $screen-xl;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   box-sizing: border-box;
   margin: 0 auto;
 }
 
 .inside-xxl {
   max-width: $screen-xxl;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -383,6 +383,13 @@ input[type="email"] {
   //@media screen and (min-width: 780px) {
   //  grid-gap: 40px;
   //}
+}
+
+.auto-grid > div:nth-child(2n) {
+  @media screen and (min-width: 780px) {
+    position: relative;
+    top: -20%;
+  }
 }
 
 .team-grid {

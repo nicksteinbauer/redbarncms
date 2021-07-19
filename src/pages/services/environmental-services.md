@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post-green
+templateKey: blog-post-services
 title: Environmental Services
 prettytitle1: Environmental
 prettytitle2: Services
@@ -9,19 +9,20 @@ description: The Environmental Team brings expertise in wetlands, stream
 featuredservice: true
 featuredimage: /img/adobestock_92502551.jpeg
 ---
+
 <!--StartFragment-->
 
-Red Barn has some of the region's leading experts in fish passage design with over 20 years of experience.  We are experienced in soft shore construction, monitoring, and conducting spawning surveys.  Our team works with our Water Division in fish barrier removal. 
+Red Barn has some of the region's leading experts in fish passage design with over 20 years of experience.  We are experienced in soft shore construction, monitoring, and conducting spawning surveys.  Our team works with our Water Division in fish barrier removal.
 
 **Wetland Biology**
 
-Red Barn has professional wetland scientists who work on large projects and are available nationwide.  Much of our work is focused on long linear projects along stream reaches, highways, and rail projects. 
+Red Barn has professional wetland scientists who work on large projects and are available nationwide.  Much of our work is focused on long linear projects along stream reaches, highways, and rail projects.
 
 **Prioritization for Capital Funding**
 
-We have experts in developing rating matrices on what to improve next or investing public funding within a program. Our team is here to help public sector clients design and implement a permitting strategy that ensures an expedited process for infrastructure needing replacement. 
+We have experts in developing rating matrices on what to improve next or investing public funding within a program. Our team is here to help public sector clients design and implement a permitting strategy that ensures an expedited process for infrastructure needing replacement.
 
- **Permitting**
+**Permitting**
 
 We can provide local jurisdictions with the permitting support they need to get in-water permits on time.  Our environmental permitting team understands permit strategy, environmental compliance, and code requirements.  (NEPA, SEPA, BA, QAPP, ESA Consultation).
 
@@ -29,44 +30,44 @@ We can provide local jurisdictions with the permitting support they need to get 
 
 **Our Services**
 
-•	Biological Assessments & FEMA Habitat Assessments
+• Biological Assessments & FEMA Habitat Assessments
 
-•	Development of Plan Review & Inspection 
+• Development of Plan Review & Inspection
 
-•	Environmental Compliance
+• Environmental Compliance
 
-•	Erosion Control/Stream Bank Stabilization
+• Erosion Control/Stream Bank Stabilization
 
-•	Fish Passage & Restoration
+• Fish Passage & Restoration
 
-•	Floodplain Analysis & Mapping
+• Floodplain Analysis & Mapping
 
-•	Green Stormwater Infrastructure
+• Green Stormwater Infrastructure
 
-•	Hydraulic Design
+• Hydraulic Design
 
-•	Liners
+• Liners
 
-•	NEPA/SEPA
+• NEPA/SEPA
 
-•	Permitting (HPA, COE, Shorelines)
+• Permitting (HPA, COE, Shorelines)
 
-•	Shoreline Management
+• Shoreline Management
 
-•	Softshore Design
+• Softshore Design
 
-•	Stormwater Permitting
+• Stormwater Permitting
 
-•	Stormwater Research & Management
+• Stormwater Research & Management
 
-•	Stream Bypass
+• Stream Bypass
 
-•	Water Resource Consulting
+• Water Resource Consulting
 
-•	Waterfront Development
+• Waterfront Development
 
-•	Wetland & Stream Identification & Protection
+• Wetland & Stream Identification & Protection
 
-•	Wetland Biology
+• Wetland Biology
 
-•	Wetland Mitigation & Monitoring
+• Wetland Mitigation & Monitoring

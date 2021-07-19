@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post-green
+templateKey: blog-post-projects
 title: Washington Realtors HQ
 prettytitle1: Washington
 prettytitle2: Realtors HQ
@@ -8,4 +8,5 @@ description: This is the description
 featuredprojects: true
 featuredimage: /img/redbarn-washington-realtors.jpg
 ---
+
 This is the body

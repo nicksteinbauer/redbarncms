@@ -10,7 +10,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const BlogPostTemplate = ({
+export const ProjectsPostTemplate = ({
   content,
   contentComponent,
   //description,
@@ -82,7 +82,7 @@ export const BlogPostTemplate = ({
   )
 }
 
-BlogPostTemplate.propTypes = {
+ProjectsPostTemplate.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
@@ -93,18 +93,18 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const ProjectsPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <ProjectsPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Projects | Red Barn Group">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -121,16 +121,16 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+ProjectsPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default ProjectsPost
 
 export const pageQuery = graphql`
-  query BlogPostByIDGreen($id: String!) {
+  query ProjectsPostByIDGreen($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

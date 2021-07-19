@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Drone Inspection
 prettytitle1: Drone
 prettytitle2: Inspection

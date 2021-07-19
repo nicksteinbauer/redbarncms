@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Oil and Gas
 prettytitle1: Oil
 prettytitle2: and Gas

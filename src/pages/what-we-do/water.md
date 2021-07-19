@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Water
 prettytitle1: Water
 date: 2021-04-26T20:18:53.179Z

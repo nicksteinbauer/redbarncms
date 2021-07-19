@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Rail
 prettytitle1: Rail
 date: 2021-04-24T01:05:09.487Z

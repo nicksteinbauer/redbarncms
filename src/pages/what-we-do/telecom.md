@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Telecom
 prettytitle1: Telecom / 5G
 prettytitle2: ""

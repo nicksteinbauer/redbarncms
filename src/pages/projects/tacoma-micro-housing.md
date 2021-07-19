@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post-green
+templateKey: blog-post-projects
 title: Tacoma Micro-Housing
 prettytitle1: Tacoma
 prettytitle2: Micro-Housing
@@ -8,4 +8,5 @@ description: Description
 featuredprojects: true
 featuredimage: /img/redbarn-tacoma-micro-housing.jpg
 ---
+
 Content Here

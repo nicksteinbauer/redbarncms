@@ -5,14 +5,16 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import PropTypes from 'prop-types'
 
 import { Helmet } from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const BlogPostTemplate = ({
+export const WhatPostTemplate = ({
   content,
   contentComponent,
+  jobtitle,
+  jobtitle2,
   featuredimage,
   title,
   helmet,
@@ -54,50 +56,36 @@ export const BlogPostTemplate = ({
   }, [])
 
   return (
-    <section className="blogpost actual-blog">
+    <section className="section blogpost sec-black">
       {helmet || ''}
-      
+      <div className="inside-xxl">
 
           <article>
-            <div className="black p-lot services-page">
-              <div className="services-banner align-vertical">
-                  
-                  <div className="callto-content inside-xxl">
-                    <h3 className="accent">Red Barn Group</h3>
-                    {prettytitle1 
-                      ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
-                      : <h1 className="h1">{title}</h1>
-                    }
-                    <div className="flex-md text-center buffer">
-                      <Link
-                        className="button blog-button"
-                        to="/blog"
-                      >
-                        Back to Blog
-                      </Link>
-                    </div>
-                  </div>
-                  
+            <header className="blog-header">
+            {prettytitle1 
+              ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
+              : <h1 className="h1">{title}</h1>
+            }
+            {jobtitle
+              ? <><h4 className="jobtitle">{jobtitle}</h4><p className="jobdescrip">{jobtitle2}</p></>
+              : null
+            }
+            </header>
+            <div className="featured-thumbnail forty-float animateThis" ref={el => {animateThis1 = el}}>
+              <div className="animateThat" ref={el => {animateThat1 = el}}>
+                <PreviewCompatibleImage imageInfo={featuredimage} />
               </div>
             </div>
+            <PostContent content={content} />
             
-            <section className="services-section section black p-lot blog-white-padd">
-              <div className="blog-white inside-xxl">
-                <div className="featured-thumbnail forty-float animateThis" ref={el => {animateThis1 = el}}>
-                  <div className="animateThat" ref={el => {animateThat1 = el}}>
-                    <PreviewCompatibleImage imageInfo={featuredimage} />
-                  </div>
-                </div>
-                <PostContent content={content} />
-              </div>
-            </section>
           </article>
 
+      </div>
     </section>
   )
 }
 
-BlogPostTemplate.propTypes = {
+WhatPostTemplate.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
@@ -110,18 +98,18 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const WhatPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <WhatPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | What We Do | Red Barn Group">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -140,16 +128,16 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+WhatPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default WhatPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query WhatPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

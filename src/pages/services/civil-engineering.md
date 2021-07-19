@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post-green
+templateKey: blog-post-services
 title: Civil Engineering / Transportation
 prettytitle1: Civil Engineering
 prettytitle2: Transportation

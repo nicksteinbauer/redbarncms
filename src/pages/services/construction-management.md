@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post-green
+templateKey: blog-post-services
 title: Construction Management
 prettytitle1: Construction
 prettytitle2: Management

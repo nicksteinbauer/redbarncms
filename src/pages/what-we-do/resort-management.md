@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: what-post
 title: Resort Management
 prettytitle1: Resort
 prettytitle2: Management
