@@ -6,7 +6,7 @@ prettytitle2: Boat Marina
 date: 2021-06-28T22:31:30.363Z
 description: Fuel Upgrades & Concession Stand
 featuredprojects: true
-category: all
+category: civil-engineering
 featuredimage: /img/redbarn-seattle-boat-marina.jpg
 options: all
 homepost: true
