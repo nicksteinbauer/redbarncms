@@ -10,7 +10,7 @@ description: Orenda provides neighborhood housing atop a large commercial base.
   inclusion of the Odessa Brown Children’s Clinic (OBCC) and an early learning
   childcare facility.
 featuredprojects: true
-category: all
+category: civil-engineering
 featuredimage: /img/redbarn-orenda-mixed-use.jpg
 options: all
 homepost: true
