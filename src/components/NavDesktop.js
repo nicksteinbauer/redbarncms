@@ -5,12 +5,13 @@ function NavDesktop() {
     return (
 
         <div className="navbar-start has-text-centered flex-md">
-            <Link className="navbar-item" to="/what-we-do">
+            <Link className="navbar-item" to="/what-we-do/">
                 <span>
                 What We Do
                 </span>
                 <ul>
                     <li className="first"></li>
+                    <li><Link to="/what-we-do/">All</Link></li>
                     <li><Link to="/what-we-do/telecom/">Telecom</Link></li>
                     <li><Link to="/what-we-do/resort-management/">Resort Management</Link></li>
                     <li><Link to="/what-we-do/transportation/">Transportation</Link></li>
@@ -21,12 +22,13 @@ function NavDesktop() {
                     <li><Link to="/what-we-do/drone-inspection/">Drone Inspection</Link></li>
                 </ul>
             </Link>
-            <Link className="navbar-item" to="/services">
+            <Link className="navbar-item" to="/services/">
                 <span>
                 Services
                 </span>
                 <ul>
                     <li className="first"></li>
+                    <li><Link to="/services/">All</Link></li>
                     <li><Link to="/services/construction-management/">Construction Management</Link></li>
                     <li><Link to="/services/civil-engineering/">Civil Engineering</Link></li>
                     <li><Link to="/services/hydraulic-modeling/">Hydraulic Modeling</Link></li>
@@ -36,30 +38,45 @@ function NavDesktop() {
                     <li><Link to="/services/coastal-engineering/">Coastal Engineering</Link></li>
                 </ul>
             </Link>
-            <Link className="navbar-item" to="/projects">
+            <Link className="navbar-item" to="/projects/">
                 <span>
                 Projects
                 </span>
                 <ul>
                     <li className="first"></li>
-                    <li><Link to="/services/construction-management/">Construction Management</Link></li>
-                    <li><Link to="/services/civil-engineering/">Civil Engineering</Link></li>
-                    <li><Link to="/services/hydraulic-modeling/">Hydraulic Modeling</Link></li>
-                    <li><Link to="/services/surveying/">Surveying</Link></li>
-                    <li><Link to="/services/electrical-fiber-optic-design/">Electrical / Fiber Optic Design</Link></li>
-                    <li><Link to="/services/environmental-permitting/">Environmental Permitting</Link></li>
-                    <li><Link to="/services/coastal-engineering/">Coastal Engineering</Link></li>
+                    <li><Link to="/projects/">All</Link></li>
+                    <li><Link to="/projects/civil-engineering/">Civil Engineering</Link></li>
+                    <li><Link to="/projects/construction-management/">Construction Management</Link></li>
+                    <li><Link to="/projects/transit/">Transit</Link></li>
+                    <li><Link to="/projects/water/">Water</Link></li>
+                    <li><Link to="/projects/telecom/">Telecom</Link></li>
                 </ul>
             </Link>
-            <Link className="navbar-item" to="/about">
+            <Link className="navbar-item" to="/about/">
                 <span>
                 About Us
                 </span>
+                <ul>
+                    <li className="first"></li>
+                    <li><Link to="/about/">About</Link></li>
+                    <li><Link to="/executive-team/">Executive Team</Link></li>
+                    <li><Link to="/core-team/">Core Team</Link></li>
+                    <li><Link to="/careers/">Careers</Link></li>
+                </ul>
             </Link>
-            <Link className="navbar-item" to="/blog">
+            <Link className="navbar-item" to="/blog/">
                 <span>
                 Blog
                 </span>
+                <ul>
+                    <li className="first"></li>
+                    <li><Link to="/blog/">All</Link></li>
+                    <li><Link to="/blog/technical-excellence/">Technial Excellence</Link></li>
+                    <li><Link to="/blog/integrated-culture/">Integrated Culture</Link></li>
+                    <li><Link to="/blog/internship-program/">Internship Program</Link></li>
+                    <li><Link to="/blog/awards/">Awards</Link></li>
+                    <li><Link to="/blog/sustainability/">Sustainability</Link></li>
+                </ul>
             </Link>
             {/*
             <a className="navbar-item" href="https://www.redbarn-engineering.com/">

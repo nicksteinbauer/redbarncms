@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import BlogRollInternshipProgram from '../../components/BlogRollInternshipProgram'
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -12,14 +12,14 @@ export default class BlogIndexPage extends React.Component {
                 
                 <div className="callto-content inside-xxl">
                 <h3 className="accent">Red Barn Group</h3>
-                <h1>All Blog Entries</h1>
+                <h1>Internship Program Blog Entries</h1>
                 </div>
                 
             </div>
         </div>
         <section className="services-section section black p-lot">
             <div className="inside-xxl">
-                <BlogRoll />
+                <BlogRollInternshipProgram />
             </div>
         </section>
 

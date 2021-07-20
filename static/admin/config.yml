@@ -24,6 +24,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredblog", widget: "boolean", required: false}
+      - {label: "Category", name: "category", widget: "select", options: ["technical-excellence", "integrated-culture", "internship-program", "awards", "sustainability"]}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
@@ -71,7 +72,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredprojects", widget: "boolean", required: false}
       - {label: "Home Post", name: "homepost", widget: "boolean", required: false}
-      - {label: "Category", name: "category", widget: "select", options: ["all", "civil-engineering", "construction-management", "transit", "water", "telecom"]}
+      - {label: "Category", name: "category", widget: "select", options: ["civil-engineering", "construction-management", "transit", "water", "telecom"]}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
   

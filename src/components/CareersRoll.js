@@ -12,7 +12,7 @@ const CareersRoll = ( {data} ) => {
 
 
     return (
-        <div className="auto-grid">
+        <div className="careers-grid">
         {posts &&
             posts.map(({ node: post }) => (
             <div className="what-loop" key={post.id}>
