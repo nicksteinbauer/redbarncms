@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post-projects
 title: The Foss Waterway
+prettytitle1: The Foss Waterway
 date: 2021-07-21T15:14:17.915Z
 description: Biological Assessment/Stormwater
 category: water
