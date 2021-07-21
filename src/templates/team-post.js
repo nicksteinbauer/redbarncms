@@ -67,13 +67,17 @@ export const TeamPostTemplate = ({
               : <h1 className="h1">{title}</h1>
             }
 
-            {/*<p>{description}</p>*/}
-            <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
+            <div className="flex-md">
+
+            <div className="featured-thumbnail forty animateThis" ref={el => {animateThis1 = el}}>
               <div className="animateThat" ref={el => {animateThat1 = el}}>
                 <PreviewCompatibleImage imageInfo={featuredimage} />
               </div>
             </div>
-            <PostContent content={content} />
+
+            <div className="sixty"><PostContent content={content} /></div>
+
+            </div>
             
           </article>
 
