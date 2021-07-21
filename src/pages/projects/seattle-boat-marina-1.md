@@ -1,10 +1,9 @@
 ---
 templateKey: blog-post-projects
 title: Seattle Boat Marina
+prettytitle1: Seattle Boat Marina
 date: 2021-07-21T14:22:35.319Z
-description: "Red Barn obtained all the permits for this waterfront project that
-  included an added fuel pier, concession stand, and fuel tanks at the Seattle
-  Boat Company - Lake Union Skylaunch facility.  "
+description: "Waterfront Permitting "
 featuredprojects: true
 homepost: true
 category: water
