@@ -1,7 +1,8 @@
 ---
 templateKey: blog-post-projects
 title: Seattle Boat Marina
-prettytitle1: Seattle Boat Marina
+prettytitle1: "Seattle "
+prettytitle2: Boat Marina
 date: 2021-07-21T14:22:35.319Z
 description: "Waterfront Permitting "
 featuredprojects: true
