@@ -1,7 +1,8 @@
 ---
 templateKey: blog-post-projects
 title: Oakland Bay Marina
-prettytitle1: Oakland Bay Marina
+prettytitle1: "Oakland Bay "
+prettytitle2: Marina
 date: 2021-07-21T15:08:34.171Z
 description: Sewer system and Marina improvements
 category: water
