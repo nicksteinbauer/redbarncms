@@ -5,6 +5,8 @@ date: 2021-07-21T14:22:35.319Z
 description: "Red Barn obtained all the permits for this waterfront project that
   included an added fuel pier, concession stand, and fuel tanks at the Seattle
   Boat Company - Lake Union Skylaunch facility.  "
+featuredprojects: true
+homepost: true
 category: water
 featuredimage: /img/seattle-boat-marina-3.jpg
 ---
