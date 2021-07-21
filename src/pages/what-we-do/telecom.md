@@ -13,9 +13,9 @@ featuredimage: /img/adobestock_369576795.jpeg
 ---
 Current number of 5G Permits in for Application: **\##**
 
-**Your permit is our priority!** 
+## **Your permit is our priority!** 
 
-We understand that time is of the essence and as such we are off to the races with multiple teaming partners for survey, structural engineering, and electrical engineering.  Our firm has offices across the nation in Washington, Ohio, and Florida and is ready to expand your network.
+We understand that time is of the essence, and as such, we are off to the races with multiple teaming partners for survey, structural engineering, and electrical engineering. Our firm has offices across the nation in Washington, Ohio, and Florida and is ready to expand your network.
 
 We have the following available: 
 •	Team of engineers that works solely on your project.
@@ -23,9 +23,9 @@ We have the following available:
 •	Traffic control management for construction.
 •	Design-Build for multiple deliveries of poles with Contractor-selection services.
 •	RF Emissions Testing.
-•	We have a network in multiple cities across the nation where we can provide local surveying & engineering for the work through our trusted teaming partners - Los Angeles, San Francisco, New York, Honolulu, Denver, Dallas, Orlando, Cincinnati, Philadelphia, Boston, Chicago, Seattle, and many more.  
+•	Our network includes teams in multiple cities across the nation where we can provide local surveying & engineering through our trusted teaming partners - Los Angeles, San Francisco, New York, Honolulu, Denver, Dallas, Orlando, Cincinnati, Philadelphia, Boston, Chicago, Seattle, and many more.  
 
-Our services include the following:
+Our services include:
 •	Engineering - Electrical, Civil, Fiber Optic
 •	Permitting - ROW Management, Easements, etc.
 •	Leasing - Agreements, Negotiation, and Exhibits
