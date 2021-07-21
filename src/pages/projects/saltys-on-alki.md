@@ -1,10 +1,9 @@
 ---
 templateKey: blog-post-projects
 title: Salty's on Alki
+prettytitle1: Salty's on Alki
 date: 2021-07-21T14:48:13.364Z
-description: "Red Barn's stormwater design and environmental permitting work
-  were paramount in keeping one of Seattle's most popular restaurants
-  structurally and environmentally sound. "
+description: "Stormwater design and environmental permitting "
 category: water
 featuredimage: /img/salty-s-pier-rehabilitation.jpg
 ---
