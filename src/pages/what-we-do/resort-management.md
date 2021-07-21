@@ -11,28 +11,10 @@ description: "Red Barn staff is experienced in working on commercial site plans
 featuredpost: true
 featuredimage: /img/adobestock_5251225.jpeg
 ---
+Red Barn staff is experienced in working on commercial site plans and site design. This experience transfers over to Resort Management with entrance drives, parking lots, site plans, stormwater management, and other site amenities. These elements together allow for a cohesive site and pleasant experience. 
 
-Red Barn staff is experienced in working on commercial site plans and site design. This experience transfers over to Resort Management with entrance drives, parking lots, site plans, stormwater management, and other site amenities. These elements together allow for a cohesive site and pleasant experience. We have been fortunate to assist an amusement park in Sandusky, OH, over the years by preparing topographic surveys and site design. Our latest noteworthy projects impacted all the traffic entering and exiting the park.
+Our team understands how to create a maintenance program for theme parks for aging infrastructure.  We have built GIS systems for water, sewer, and storm and collaborate to define maintenance programs and budgets.  The GIS systems can be converted into working models with associated usage fees for electrical and water systems.   By understanding the usage, we can optimize the infrastructure by having refilling and high-demand energy needs done at night to take advantage of lower grid costs.  We are here to help build the maintenance database, such as MAXIMO, and get financial reports related to infrastructure improvements to make critical decisions in maintenance programs.   Large resorts often have seaside or waterfront projects. Red Barn has a site development team for coastal projects and experts at marina design (utility systems dock gangways, fuel pier, and slip layout), embankment, revetment, dams, dredging, and other shoreline related work.  We work with you and understand the critical habitats associated with shorelines.
 
-**Prioritization for Capital Funding**
-We have a working relationship with local contractors that we work with to understand the latest site work and maintenance services costs. In addition, our team is here to help private sector clients design and implement a permitting strategy that ensures an expedited process for infrastructure replacement projects.
+Our staff brings the right team together, working with landscape architects, architects, rollercoaster engineers, and gets the walkways and concourses designed to complement the theme park attractions.  Let's take a ride through your next project!
 
-**Permitting**
-We can provide permitting support with local and State jurisdictions for permits on the project timeline. Our environmental permitting team understands permit strategy, environmental compliance, and code requirements.\
-(NEPA, SEPA, BA, QAPP, ESA Consultation).
-
-**Our Services**
-• Biological Assessments & FEMA Habitat Assessments
-• Development of Plan Review & Inspection
-• Erosion Control/Stream Bank Stabilization
-• Floodplain Analysis & Mapping
-• Governmental Permitting (EPA, State, and Local Agencies)
-• Green Stormwater Infrastructure
-• Hydraulic Design
-• Parking Lot Evaluation and Maintenance
-• Permitting (Department of Natural Resources, COE, Shorelines)
-• Softshore Design
-• Stormwater Management
-• Stormwater Permitting
-• Stormwater Research & Management
-• Waterfront Development
+![](/img/adobestock_231815921.jpeg)
