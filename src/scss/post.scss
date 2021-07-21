@@ -1,6 +1,19 @@
 // single post scss
 
 .blogpost {
+  .flex-md {
+    align-items: flex-start;
+    .forty {
+      order: 2;
+    }
+    .sixty {
+      order: 1;
+      @media screen and (min-width: $screen-md) {
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+    }
+  }
   .blog-header {
     padding-bottom: 40px;
     @media screen and (min-width: $screen-md) {
@@ -22,12 +35,10 @@
     padding-top: 36px;
     padding-right: 30px;
     @media screen and (min-width: $screen-md) {
-      float: right;
-      width: 40%;
       max-width: 800px;
-      margin-left: 80px;
-      margin-bottom: 20px;
-      margin-right: 40px;
+      //margin-left: 80px;
+      //margin-bottom: 20px;
+      //margin-right: 40px;
     }
     .animateThat {
       position: relative;

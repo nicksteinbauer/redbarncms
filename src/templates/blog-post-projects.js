@@ -60,20 +60,27 @@ export const ProjectsPostTemplate = ({
       {helmet || ''}
       <div className="inside-xxl">
 
-          <article className="test">
+          <article className="projects-contain">
 
             {prettytitle1 
               ? <h1 className="h1">{prettytitle1}<br/><span>{prettytitle2}</span></h1>
               : <h1 className="h1">{title}</h1>
             }
 
-            {/*<p>{description}</p>*/}
-            <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
-              <div className="animateThat" ref={el => {animateThat1 = el}}>
-                <PreviewCompatibleImage imageInfo={featuredimage} />
+            <div className="flex-md">
+
+              <div className="featured-thumbnail forty animateThis" ref={el => {animateThis1 = el}}>
+                <div className="animateThat" ref={el => {animateThat1 = el}}>
+                  <PreviewCompatibleImage imageInfo={featuredimage} />
+                </div>
               </div>
+
+              <div className="sixty"><PostContent content={content} /></div>
+
             </div>
-            <PostContent content={content} />
+            
+            
+            
             
           </article>
 

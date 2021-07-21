@@ -71,12 +71,17 @@ export const WhatPostTemplate = ({
               : null
             }
             </header>
-            <div className="featured-thumbnail forty-float animateThis" ref={el => {animateThis1 = el}}>
-              <div className="animateThat" ref={el => {animateThat1 = el}}>
-                <PreviewCompatibleImage imageInfo={featuredimage} />
+            <div className="flex-md">
+
+              <div className="featured-thumbnail forty animateThis" ref={el => {animateThis1 = el}}>
+                <div className="animateThat" ref={el => {animateThat1 = el}}>
+                  <PreviewCompatibleImage imageInfo={featuredimage} />
+                </div>
               </div>
+
+              <div className="sixty"><PostContent content={content} /></div>
+
             </div>
-            <PostContent content={content} />
             
           </article>
 
