@@ -9,38 +9,24 @@ description: Red Barn is known for building the right team for your project.  A
   production simultaneously, we built a team that has bulk pricing with key
   teaming partners that keep the overhead low for our clients.
 featuredpost: true
-featuredimage: /img/adobestock_289991413.jpeg
+featuredimage: /img/adobestock_369576795.jpeg
 ---
+Current number of 5G Permits in for Application: **\##**
 
-Red Barn is known for building the right team for your project.  As telecom poles require replacing and can require 100's of projects in production simultaneously, we build a team that has bulk pricing with key teaming partners that keep the overhead low for our clients.  We can guarantee complete permit packages ready for submittal within 30 days of request throughout the nation.
+**Your permit is our priority!** 
 
-Our structured team is built on a screening process for our sub-consultants that identifies key constraints.  We then build redundancy for services.  We coordinate with the Owner, PM, and sub-consultants to develop cost-structures to lower costs for bulk purchase as well as construction costs.
+We understand that time is of the essence and as such we are off to the races with multiple teaming partners for survey, structural engineering, and electrical engineering.  Our firm has offices across the nation in Washington, Ohio, and Florida and is ready to expand your network.
 
-#### ​Here are our options in making Red Barn your go-to team for getting permits done quickly: 
+We have the following available: 
+•	Team of engineers that works solely on your project.
+•	Payment options that allow for overtime work to expedite the permit process.
+•	Traffic control management for construction.
+•	Design-Build for multiple deliveries of poles with Contractor-selection services.
+•	RF Emissions Testing.
+•	We have a network in multiple cities across the nation where we can provide local surveying & engineering for the work through our trusted teaming partners - Los Angeles, San Francisco, New York, Honolulu, Denver, Dallas, Orlando, Cincinnati, Philadelphia, Boston, Chicago, Seattle, and many more.  
 
-- Project Management
-- Trenchless Designs
-- Bulk Pricing for Locates, Survey, Electrical, and Potholing
-- ROW Permits
-- Specifications
-- Ability to handle 100's of sites simultaneously
-- Cost Structures for 30-day, 60-day, and 90-day Submittals
-
-#### Telecom services in addition to 5G:
-
-- Environmental Services (NEPA/SEPA, ESA, etc. throughout the nation)
-- Civil Engineering Cell Towers
-- Construction Management for Tower Construction, Critical Areas, and Utility Duct Banks
-- Electrical Engineering
-- Balloon Survey/Drone (Photo Sim)
-- Photometric lighting calculations for street light poles
-- Lease Agreements with private building owners:
-
-  - Right-of-Entry Agreements​
-  - Landlord Notice Letters
-  - Consent Agreements
-  - Perpetual and other Easement Agreements
-  - New Lease Agreements
-  - ROW Use and Occupancy Agreements
-  - Master Agreements
-  - Amendments and Renewals
+Our services include the following:
+•	Engineering - Electrical, Civil, Fiber Optic
+•	Permitting - ROW Management, Easements, etc.
+•	Leasing - Agreements, Negotiation, and Exhibits
+•	Construction Management - Structural, Flatwork, Paving, and Traffic Control
