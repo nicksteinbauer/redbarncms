@@ -8,7 +8,7 @@ description: Erosion control, pervious paving, temporary excavation, utility –
   water, sewer, storm alignments, and ADA routing.
 featuredprojects: true
 category: civil-engineering
-featuredimage: /img/redbarn-washington-realtors.jpg
+featuredimage: /img/redbarn-washington-realtors-1-.jpg
 options: all
 ---
 Red Barn staff provided civil engineering for the new Washington Realtors headquarters across from the Capitol campus.  Services included erosion control, pervious paving, temporary excavation, utility – water, sewer, storm alignments, and ADA routing.
