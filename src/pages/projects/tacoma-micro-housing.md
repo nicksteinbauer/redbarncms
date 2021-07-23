@@ -7,7 +7,7 @@ date: 2021-06-29T19:23:54.139Z
 description: Description
 featuredprojects: true
 category: civil-engineering
-featuredimage: /img/redbarn-tacoma-micro-housing.jpg
+featuredimage: /img/redbarn-tacoma-micro-housing-1-.jpg
 options: all
 ---
 
