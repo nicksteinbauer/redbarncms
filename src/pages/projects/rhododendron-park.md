@@ -9,4 +9,4 @@ featuredprojects: true
 category: civil-engineering
 featuredimage: /img/photo-coming-soon.jpg
 ---
-Rebekah Weston was the designer of record for the Rhododendron Park that provides non-motorized beach access to the Sammamish River.  There is an ADA walkway through a public park and a pier for a kayak launch.
+Rebekah led the permitting, design, critical areas, floating dock, traffic routing, pedestrian routes, and kayak access for the Rhododendron Park Waterfront and Open Space Access project. The project increased accessibility to the Sammamish River and the Kenmore Boat Launch by designing new ADA accessible paths, a grated boardwalk over the wetland, and the design of a floating dock for improved accessibility for boats and canoes. The project's primary goal was to improve public access to the water while preserving and enhancing the ecological functions of existing wetlands and their buffers. The improvements to Rhododendron Park successfully met these goals and more for community members, students, and boat enthusiasts.
