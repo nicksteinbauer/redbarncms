@@ -13,4 +13,4 @@ Encompassing over eight square miles, Elliot Bay is where the City of Seattle be
 
 Salty’s is a pillar in the Seattle community. Red Barn’s stormwater design and environmental permitting work have helped ensure that Salty’s on Alki will continue to be one of the most popular restaurants in the city.
 
-![](/img/img_5179.jpg)
+![](/img/seattle-boat-marina-1.png)
