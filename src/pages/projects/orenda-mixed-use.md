@@ -1,19 +1,15 @@
 ---
 templateKey: blog-post-projects
-title: Orenda Mixed use
-prettytitle1: Orenda
-prettytitle2: Mixed Use
+title: Othello Square - Orenda Mixed use
+prettytitle1: Othello Square
+prettytitle2: Orenda
 date: 2021-04-23T00:38:23.575Z
-description: Orenda provides neighborhood housing atop a large commercial base.
-  It seeks to help minimize displacement in the Othello neighborhood by
-  providing workforce housing. It also seeks to support the community with the
-  inclusion of the Odessa Brown Children’s Clinic (OBCC) and an early learning
-  childcare facility.
+description: Mixed-Use
 featuredprojects: true
-category: construction-management
-featuredimage: /img/redbarn-orenda-mixed-use.jpg
-options: all
 homepost: true
+category: construction-management
+featuredimage: /img/othello-square-orenda_02.jpg
+options: all
 ---
 
 Orenda provides neighborhood housing atop a large commercial base. It seeks to help minimize displacement in the Othello neighborhood by providing workforce housing. It also seeks to support the community with the inclusion of the Odessa Brown Children’s Clinic (OBCC) and an early learning childcare facility.​
