@@ -4,23 +4,15 @@ title: Construction Management
 prettytitle1: Construction
 prettytitle2: Management
 date: 2021-06-24T17:12:10.955Z
-description: "Our construction management team knows how to run a job; we have
-  experience and expertise with elevated rail, civil utilities, and bridge
-  projects.  Experienced construction engineers lead our CM team with over 20
-  years of experience.  They understand all facets and prefer to be involved in
-  the project at the program level to ensure the delivery-type best fits the
-  project and the client. "
+description: Construction Management
 featuredservice: true
 featuredimage: /img/redbarn-sound-transit-maybe.jpg
 ---
-
 <!--StartFragment-->
 
 **Support to Clients**
 
-At the beginning of a project, it can be hard to determine which delivery method to choose:  Design-Build, Design-Bid-Build, GC/CM.
-
-Our team is skilled in helping to determine the best method by using our proprietary weighting system that looks at risk, quality, schedule, and market conditions for the overall management.
+At the beginning of a project, it can be hard to determine which delivery method to choose:  Design-Build, Design-Bid-Build, GC/CM.  Our team is skilled in helping to determine the best method by using our proprietary weighting system that looks at risk, quality, schedule, and market conditions for the overall management.
 
 **​Constructability Review**
 
@@ -42,20 +34,20 @@ Our environmental team is trained to work on large transit & heavy civil constru
 
 **Our Services**
 
-- Transit Facilities Management
-- Bridge Construction Management
-- Resident Engineers & Construction Engineers
-- Construction Inspection - Rail, Electrical, Civil, Structures
-- Office Engineering
-- Field Inspection Document Control
-- Project Accounting
-- Arterials & Traffic Signal Construction Oversite
-- Change Control
-- Cost Evaluation & Estimating
-- Constructability Review
-- Fish Habitat Restoration Inspection/CM
-- Inspections & Special Inspection Oversight
-- Paving HMA or Concrete Construction Oversite
-- Project Management
-- Street Lighting/Telecom Construction Oversite
-- Storm, Sewer & Watermain Management
+* Transit Facilities Management
+* Bridge Construction Management
+* Resident Engineers & Construction Engineers
+* Construction Inspection - Rail, Electrical, Civil, Structures
+* Office Engineering
+* Field Inspection Document Control
+* Project Accounting
+* Arterials & Traffic Signal Construction Oversite
+* Change Control
+* Cost Evaluation & Estimating
+* Constructability Review
+* Fish Habitat Restoration Inspection/CM
+* Inspections & Special Inspection Oversight
+* Paving HMA or Concrete Construction Oversite
+* Project Management
+* Street Lighting/Telecom Construction Oversite
+* Storm, Sewer & Watermain Management
