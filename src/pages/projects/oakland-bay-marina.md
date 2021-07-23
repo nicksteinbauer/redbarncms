@@ -5,6 +5,7 @@ prettytitle1: "Oakland Bay "
 prettytitle2: Marina
 date: 2021-07-21T15:08:34.171Z
 description: Sewer system and Marina improvements
+featuredprojects: true
 category: water
 featuredimage: /img/adobestock_119109916.jpeg
 ---
