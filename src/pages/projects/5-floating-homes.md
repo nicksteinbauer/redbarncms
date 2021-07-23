@@ -15,4 +15,4 @@ Red Barn teamed up with Ecco Design to supply five floating homes on Portage Bay
 
 Red Barn obtained a permit for stormwater discharge and a permit from the Seattle Department of Transportation that allowed work to comply with city regulations. The work included installing an isolation valve to accommodate the existing water system and boring a new water service line through the hill to the homes without trenching.
 
-![]()
+![](/img/floating-homes-2.jpg)
