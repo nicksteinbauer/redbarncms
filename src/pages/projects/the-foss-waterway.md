@@ -5,6 +5,7 @@ prettytitle1: The Foss Waterway
 prettytitle2: Tacoma, WA
 date: 2021-07-21T15:14:17.915Z
 description: Biological Assessment/Stormwater
+featuredprojects: true
 category: water
 featuredimage: /img/photo-coming-soon.jpg
 ---
