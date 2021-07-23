@@ -7,7 +7,7 @@ date: 2021-04-22T17:47:16.716Z
 description: Construction Management/Environmental
 featuredprojects: true
 homepost: true
-category: construction-management
+category: transit
 featuredimage: /img/redbarn-sound-transit-maybe-1-.jpg
 options: all
 ---
