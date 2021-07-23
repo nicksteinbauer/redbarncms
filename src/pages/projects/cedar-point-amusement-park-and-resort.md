@@ -5,6 +5,7 @@ prettytitle1: "Cedar Point  "
 prettytitle2: Amusement Park and Resort
 date: 2021-07-21T15:20:31.094Z
 description: Waterfront and Resort Management
+featuredprojects: true
 category: water
 featuredimage: /img/cedar-point-entry.jpg
 ---
