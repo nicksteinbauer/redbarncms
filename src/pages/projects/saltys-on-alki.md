@@ -5,6 +5,7 @@ prettytitle1: Salty's on Alki
 prettytitle2: Alki Beach
 date: 2021-07-21T14:48:13.364Z
 description: "Stormwater design and environmental permitting "
+featuredprojects: true
 category: water
 featuredimage: /img/salty-s.jpg
 ---
