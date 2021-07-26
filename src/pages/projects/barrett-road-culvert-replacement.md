@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Barrett Road Culvert Replacement
 prettytitle1: Barrett Road
-prettytitle2: Culvert Replacement
+prettytitle2: "Culvert "
 date: 2021-07-23T13:43:38.071Z
 description: Culvert Replacement
 featuredprojects: true
