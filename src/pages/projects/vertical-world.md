@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post-projects
 title: Vertical World
-prettytitle1: Vertical
-prettytitle2: World
+prettytitle1: Vertical World
+prettytitle2: Gym
 date: 2021-07-23T19:40:51.648Z
 description: civil engineering, construction management, project management
 featuredprojects: true
