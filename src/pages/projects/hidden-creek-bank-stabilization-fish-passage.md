@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Hidden Creek Bank Stabilization & Fish Passage
 prettytitle1: Hidden Creek
-prettytitle2: Bank Stabilization & Fish Passage
+prettytitle2: Stabilization
 date: 2021-07-21T15:33:56.851Z
 description: Bank Stabilization & Fish Passage
 featuredprojects: true
