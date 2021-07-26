@@ -7,7 +7,7 @@ description: "A discussion on Critical Areas Mitigation and Compliance with Rob
   Fritz, Biologist, as it relates to rail. "
 featuredblog: true
 category: awards
-featuredimage: /img/screenshot-2021-07-26-160332.jpg
+featuredimage: /img/rob.jpg
 ---
 
 Rebekah: Rob, tell me about your background related to rail and the projects you’ve worked on where critical areas - wetlands, steep slopes, or habitat required special monitoring?
