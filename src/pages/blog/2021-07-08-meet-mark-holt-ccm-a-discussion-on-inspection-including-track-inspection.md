@@ -5,8 +5,8 @@ date: 2021-07-08T16:09:38.106Z
 description: "A discussion with Mark Holt on Inspection (including Track
   Inspection) as it relates to rail. "
 featuredblog: true
-category: internship-program
-featuredimage: /img/screenshot-2021-07-08-121150.jpg
+category: technical-excellence
+featuredimage: /img/screenshot-2021-07-26-160235.jpg
 ---
 
 Rebekah:  Mark, tell me about your background related to rail and the projects you’ve worked on for construction and track inspection?
