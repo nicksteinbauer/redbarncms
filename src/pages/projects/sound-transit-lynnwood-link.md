@@ -4,7 +4,7 @@ title: Sound Transit Lynnwood Link
 prettytitle1: Sound Transit
 prettytitle2: Heavy Civil
 date: 2021-04-22T17:47:16.716Z
-description: Construction Management/Environmental
+description: Heavy Civil/Construction Management
 featuredprojects: true
 homepost: true
 category: transit
