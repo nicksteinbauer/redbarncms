@@ -1,8 +1,8 @@
 ---
 templateKey: team-post
 peoplekey: people
-title: Shana Richard
-prettytitle1: Shana
+title: Shanamarie Richard
+prettytitle1: Shanamarie
 prettytitle2: Richard
 jobtitle: Intern
 date: 2021-07-26T17:32:30.128Z
