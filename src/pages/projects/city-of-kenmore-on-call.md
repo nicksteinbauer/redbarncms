@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post-projects
 title: City of Kenmore On-Call
-prettytitle1: City of Kenmore
+prettytitle1: Kenmore
 prettytitle2: On-Call
 date: 2021-07-23T19:30:02.982Z
 description: Site inspection
