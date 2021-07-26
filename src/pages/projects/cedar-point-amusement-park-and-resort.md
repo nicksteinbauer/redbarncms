@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Cedar Point  Amusement Park and Resort
 prettytitle1: "Cedar Point  "
-prettytitle2: Resort
+prettytitle2: Park & Resort
 date: 2021-07-21T15:20:31.094Z
 description: Waterfront and Resort Management
 featuredprojects: true
