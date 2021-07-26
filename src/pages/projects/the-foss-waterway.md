@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post-projects
 title: Tacoma Housing - Foss Waterway
-prettytitle1: Tacoma Housing
-prettytitle2: Foss Waterway
+prettytitle1: Foss Waterway
+prettytitle2: BA/Stormwater
 date: 2021-07-21T15:14:17.915Z
 description: Biological Assessment/Stormwater
 featuredprojects: true
