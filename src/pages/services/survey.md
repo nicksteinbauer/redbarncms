@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post-services
 title: Survey
-prettytitle1: ""
-prettytitle2: Survey
+prettytitle1: Survey
+prettytitle2: ""
 date: 2021-04-26T17:49:14.520Z
 description: "Our Survey Department can assist you in establishing your property
   lines with land surveying and site mapping services.  Let our land surveying
