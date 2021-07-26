@@ -1,7 +1,7 @@
 ---
 templateKey: team-post
 peoplekey: people
-title: Carols Williams
+title: Carlos Williams
 prettytitle1: Carols
 prettytitle2: Williams
 jobtitle: Inspector
