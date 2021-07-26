@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Sound Transit Lynnwood Link - Environmental CM
 prettytitle1: Sound Transit
-prettytitle2: Environmental CM
+prettytitle2: Environmental
 date: 2021-07-23T18:29:47.139Z
 description: Environmental Construction Management
 featuredprojects: true
