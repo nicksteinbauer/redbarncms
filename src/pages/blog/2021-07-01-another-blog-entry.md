@@ -7,7 +7,7 @@ description: "A discussion with Darin Stephens on Early Utility and Earthwork
   Coordination as it relates to rail. "
 featuredblog: true
 category: technical-excellence
-featuredimage: /img/screenshot-2021-07-26-160128.jpg
+featuredimage: /img/redbarndarinstephens.jpg
 ---
 
 Rebekah:  Darin, tell me about your background related to rail, and the projects you’ve worked on that are considered heavy civil and are either mega-bridge or rail projects?
