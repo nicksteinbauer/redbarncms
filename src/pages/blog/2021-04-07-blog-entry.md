@@ -8,7 +8,7 @@ description: The following interviews are discussions of our core areas of
   planning the early work, and how we, as a team, work with one another.
 featuredblog: true
 category: technical-excellence
-featuredimage: /img/screenshot-2021-07-08-120409.jpg
+featuredimage: /img/screenshot-2021-07-26-155936.jpg
 tags:
   - blog
 ---
