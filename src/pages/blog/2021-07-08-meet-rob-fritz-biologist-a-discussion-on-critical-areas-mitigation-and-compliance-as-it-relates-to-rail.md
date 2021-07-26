@@ -6,7 +6,7 @@ date: 2021-07-08T16:12:32.223Z
 description: "A discussion on Critical Areas Mitigation and Compliance with Rob
   Fritz, Biologist, as it relates to rail. "
 featuredblog: true
-category: awards
+category: technical-excellence
 featuredimage: /img/rob.jpg
 ---
 
