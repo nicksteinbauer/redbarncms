@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post-projects
 title: Eastside Prep School - TALI Hall
-prettytitle1: Eastside Prep School
+prettytitle1: Eastside Prep
 prettytitle2: TALI Hall
 date: 2021-07-23T19:33:14.191Z
 description: Deep infiltration system, Erosion control, Paving, Temporary
