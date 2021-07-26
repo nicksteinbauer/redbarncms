@@ -6,7 +6,7 @@ description: "A discussion with Mark Holt on Inspection (including Track
   Inspection) as it relates to rail. "
 featuredblog: true
 category: technical-excellence
-featuredimage: /img/screenshot-2021-07-26-160235.jpg
+featuredimage: /img/redbarnpeoplemarkholt.jpg
 ---
 
 Rebekah:  Mark, tell me about your background related to rail and the projects you’ve worked on for construction and track inspection?
