@@ -2,7 +2,7 @@
 templateKey: team-post
 peoplekey: people
 title: Carlos Williams
-prettytitle1: Carols
+prettytitle1: Carlos
 prettytitle2: Williams
 jobtitle: Inspector
 jobtitle2: ""
