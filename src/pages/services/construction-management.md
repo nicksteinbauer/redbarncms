@@ -8,8 +8,6 @@ description: Construction Management
 featuredservice: true
 featuredimage: /img/redbarn-sound-transit-maybe.jpg
 ---
-<!--StartFragment-->
-
 **Support to Clients**
 
 At the beginning of a project, it can be hard to determine which delivery method to choose:  Design-Build, Design-Bid-Build, GC/CM.  Our team is skilled in helping to determine the best method using our proprietary weighting system that weighs risk, quality, schedule, and market conditions for the overall management.
