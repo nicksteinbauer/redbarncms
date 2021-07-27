@@ -16,7 +16,7 @@ The Water Division oversees projects related to streams, floodplains, shoreline 
 
 **Hydrology & Hydraulics**
 
-Our team works with multiple flow regimes, including HEC-RAS modules for 1D, 2D, and 3D, and SWMM modules (XP-SWMM and PCSWMM). We model basins using HSPF Basins and TR-55 depending on the size and location. We are experts in CE-QUAL-W2, GMS, SMS, River2D, and stormwater programs and use a practical approach to choosing the level of effort needed for modeling. We can model in any software package and have experience with extensive systems
+Our team works with multiple flow regimes, including HEC-RAS modules for 1D, 2D, and 3D, and SWMM modules (XP-SWMM and PCSWMM). We model basins using HSPF Basins and TR-55 depending on the size and location. We are experts in CE-QUAL-W2, GMS, SMS, River2D, and stormwater programs and use a practical approach to choosing the level of effort needed for modeling. We can model in any software package and have experience with extensive systems.
 
 **​Floodplain Restoration/Natural System Design**
 
@@ -30,15 +30,15 @@ Our staff works with municipalities on getting MS4 permit compliance with monito
 
 **Our Services**   
 
-• Coastal Wave Analysis  
-• Custom High Flow Media  
-• Fish Passage Barrier Removal  
-• Fish Passage Culvert Design  
-• Floodplain Storage Analysis  
-• Floodplain, Estuary & Hydrologic Modeling  
-• Industrial Water Quality Treatment (Media Mix Design)  
-• Natural System Design  
-• Research & Design (Porous Media & Lab Simulations)  
+• Coastal Wave Analysis\
+• Custom High Flow Media\
+• Fish Passage Barrier Removal\
+• Fish Passage Culvert Design\
+• Floodplain Storage Analysis\
+• Floodplain, Estuary & Hydrologic Modeling\
+• Industrial Water Quality Treatment (Media Mix Design)\
+• Natural System Design\
+• Research & Design (Porous Media & Lab Simulations)\
 • Shoreline/Soft Shore Design
 
 <!--EndFragment-->
