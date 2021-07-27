@@ -17,19 +17,19 @@ Red Barn is a certified SB/WOSB. Our staff has extensive experience working on A
 
 Our military experience includes the following:
 
-* •	AT/FP for Facilities  
-  •	Site Development (drainage experts)  
-  •	Sanitary Sewer Upgrades, Studies, and Design  
-  •	Water Modeling, Upgrades, and Design  
-  •	Stormwater Drainage (Water Quality & Conveyance)  
-  •	Hardstand Design  
-  •	Pump Station Evaluation and Upgrades  
-  •	Groundwater Wellhead Protection Plans  
-  •	Fire Flow Analysis  
-  •	Trenchless Pipe Replacement  
-  •	Earthquake Resistant Ductile Iron Pipe (ERDIP) Replacement  
-  •	Barracks, BEQs, Housing, Bat Ops, Firing Range, Dining Facilities, Medical Office, etc.  
-  •	Fast-turnaround on design-build projects.
+•	AT/FP for Facilities\
+•	Site Development (drainage experts)\
+•	Sanitary Sewer Upgrades, Studies, and Design\
+•	Water Modeling, Upgrades, and Design\
+•	Stormwater Drainage (Water Quality & Conveyance)\
+•	Hardstand Design\
+•	Pump Station Evaluation and Upgrades\
+•	Groundwater Wellhead Protection Plans\
+•	Fire Flow Analysis\
+•	Trenchless Pipe Replacement\
+•	Earthquake Resistant Ductile Iron Pipe (ERDIP) Replacement\
+•	Barracks, BEQs, Housing, Bat Ops, Firing Range, Dining Facilities, Medical Office, etc.\
+•	Fast-turnaround on design-build projects.
 
 **​Design-Build Transportation**
 
