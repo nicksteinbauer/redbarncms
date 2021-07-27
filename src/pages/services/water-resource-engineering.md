@@ -12,7 +12,6 @@ description: "The Water Division oversees projects related to streams,
 featuredservice: true
 featuredimage: /img/adobestock_257340598.jpeg
 ---
-
 The Water Division oversees projects related to streams, floodplains, shoreline stability, beach erosion, natural system design, and industrial water quality. Our modeling team has advanced degrees in environmental fluid dynamics and mathematics and regularly works with professors on published research that differentiate us from competitors.
 
 **Hydrology & Hydraulics**
@@ -29,28 +28,17 @@ Our staff works with municipalities on getting MS4 permit compliance with monito
 
 <!--EndFragment-->
 
-**Our Services**
+**Our Services**   
 
-<!--StartFragment-->
-
-• Coastal Wave Analysis
-
-• Custom High Flow Media
-
-• Fish Passage Barrier Removal
-
-• Fish Passage Culvert Design
-
-• Floodplain Storage Analysis
-
-• Floodplain, Estuary & Hydrologic Modeling
-
-• Industrial Water Quality Treatment (Media Mix Design)
-
-• Natural System Design
-
-• Research & Design (Porous Media & Lab Simulations)
-
+• Coastal Wave Analysis  
+• Custom High Flow Media  
+• Fish Passage Barrier Removal  
+• Fish Passage Culvert Design  
+• Floodplain Storage Analysis  
+• Floodplain, Estuary & Hydrologic Modeling  
+• Industrial Water Quality Treatment (Media Mix Design)  
+• Natural System Design  
+• Research & Design (Porous Media & Lab Simulations)  
 • Shoreline/Soft Shore Design
 
 <!--EndFragment-->
