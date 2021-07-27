@@ -16,22 +16,22 @@ Our team is led by construction managers and inspectors with over 20 years of ex
 
 Our primary focus is bringing the right team to the project. Darin Stephens heads this division and was the supervisory construction manager for five of Seattle Department of Transportation's mega-bridge projects. His knowledge and ability to lead a team results in obtaining clean audits.
 
-### We offer the following services (for all delivery methods):
+##### We offer the following services (for all delivery methods):
 
-• CMC Lead Team  
-• Civil Design (Stormwater, Utilities, Roadway, etc. using Microstation)  
-• Resident Engineering  
-• Construction Engineering  
-• Construction Management Certified Staff  
-• Construction Inspection  
-• Environmental Compliance  
-• Design-Build Project Management  
-• Stormwater/Waste Water Inspection  
-• OSHA-10 HR Trained Staff  
-• Agency Permit Approvals (WSDOT Traffic and Design)  
-• Avetta Approved  
-• CESCL/Monitoring  
-• Claims Support  
-• ISO Quality Management Certified for Design-Build and Design  
-• NPDES Project Specific Approvals  
+• CMC Lead Team\
+• Civil Design (Stormwater, Utilities, Roadway, etc. using Microstation)\
+• Resident Engineering\
+• Construction Engineering\
+• Construction Management Certified Staff\
+• Construction Inspection\
+• Environmental Compliance\
+• Design-Build Project Management\
+• Stormwater/Waste Water Inspection\
+• OSHA-10 HR Trained Staff\
+• Agency Permit Approvals (WSDOT Traffic and Design)\
+• Avetta Approved\
+• CESCL/Monitoring\
+• Claims Support\
+• ISO Quality Management Certified for Design-Build and Design\
+• NPDES Project Specific Approvals\
 • Quality Control
