@@ -12,7 +12,7 @@ featuredimage: /img/redbarn-sound-transit-maybe.jpg
 
 **Support to Clients**
 
-At the beginning of a project, it can be hard to determine which delivery method to choose:  Design-Build, Design-Bid-Build, GC/CM.  Our team is skilled in helping to determine the best method by using our proprietary weighting system that looks at risk, quality, schedule, and market conditions for the overall management.
+At the beginning of a project, it can be hard to determine which delivery method to choose:  Design-Build, Design-Bid-Build, GC/CM.  Our team is skilled in helping to determine the best method using our proprietary weighting system that weighs risk, quality, schedule, and market conditions for the overall management.
 
 **​Constructability Review**
 
@@ -28,7 +28,7 @@ Our firm has a strong CM inspection team that knows processes and can fit well w
 
 **Environmental Compliance**
 
-Our environmental team is trained to work on large transit & heavy civil construction projects and oversee compliance.  We have fish biologists and wetland scientists that handle the coordination with the regulators and provide the proper documentation.
+Our environmental team is trained to work on large transit & heavy civil construction projects and oversee compliance.  We have fish biologists and wetland scientists who coordinate with the regulators and provide the proper documentation.
 
 <!--EndFragment-->
 
