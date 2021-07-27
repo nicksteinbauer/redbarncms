@@ -4,9 +4,9 @@ title: Telecom
 prettytitle1: Telecom / 5G
 prettytitle2: ""
 date: 2021-04-30T01:20:18.199Z
-description: Red Barn is known for building the right team for your project.  As
-  telecom poles require replacing and can require 100's of projects in
-  production simultaneously, we built a team that has bulk pricing with key
+description: Red Barn is known for building the right team for your project.  As
+  telecom poles require replacing and can require hundreds of projects in
+  production simultaneously, we’ve created a team with bulk pricing with key
   teaming partners that keep the overhead low for our clients.
 featuredpost: true
 featuredimage: /img/adobestock_369576795.jpeg
