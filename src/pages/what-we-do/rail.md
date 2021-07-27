@@ -14,7 +14,7 @@ Red Barn has highly qualified staff to lead large projects for transit and trans
 Red Barn delivers by having a team led by construction managers and inspectors with over 20 years of experience in heavy civil construction. They know how to get the job coordinated, reviewed, and moving forward.
 Our primary focus is bringing the right team to the project. Darin Stephens leads this division and was the supervisory construction manager for five Seattle Department of Transportation's mega-bridge projects. His knowledge and ability to lead a team results in obtaining clean audits.
 
-#### **We offer the following services (for all delivery methods):**
+##### **We offer the following services (for all delivery methods):**
 
 * CMC Lead Team
 * Resident Engineering
