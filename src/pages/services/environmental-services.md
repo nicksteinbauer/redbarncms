@@ -29,24 +29,24 @@ We can provide local jurisdictions with the permitting support they need to get 
 
 **Our Services**
 
-• Biological Assessments & FEMA Habitat Assessments
-• Development of Plan Review & Inspection
-• Environmental Compliance
-• Erosion Control/Stream Bank Stabilization
-• Fish Passage & Restoration
-• Floodplain Analysis & Mapping
-• Green Stormwater Infrastructure
-• Hydraulic Design
-• Liners
-• NEPA/SEPA
-• Permitting (HPA, COE, Shorelines)
-• Shoreline Management
-• Softshore Design
-• Stormwater Permitting
-• Stormwater Research & Management
-• Stream Bypass
-• Water Resource Consulting
-• Waterfront Development
-• Wetland & Stream Identification & Protection
-• Wetland Biology
+• Biological Assessments & FEMA Habitat Assessments  
+• Development of Plan Review & Inspection  
+• Environmental Compliance  
+• Erosion Control/Stream Bank Stabilization  
+• Fish Passage & Restoration  
+• Floodplain Analysis & Mapping  
+• Green Stormwater Infrastructure  
+• Hydraulic Design  
+• Liners  
+• NEPA/SEPA  
+• Permitting (HPA, COE, Shorelines)  
+• Shoreline Management  
+• Softshore Design  
+• Stormwater Permitting  
+• Stormwater Research & Management  
+• Stream Bypass  
+• Water Resource Consulting  
+• Waterfront Development  
+• Wetland & Stream Identification & Protection  
+• Wetland Biology  
 • Wetland Mitigation & Monitoring
