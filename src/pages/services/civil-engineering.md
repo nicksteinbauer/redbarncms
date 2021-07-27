@@ -9,7 +9,6 @@ description: Our civil team is a full-service civil engineering team offering
 featuredservice: true
 featuredimage: /img/redbarn-orenda-mixed-use.jpg
 ---
-
 Our civil team is a full-service civil engineering team offering expertise in site development, public works projects, and transit jobs.
 
 **Communication**
@@ -22,7 +21,7 @@ We know the regulations well, from ADA standards to local stormwater regulations
 
 **​Staffing & Schedules**
 
-In addition to the communication, we have project managers who work with the schedules to keep consistent staff on the project from the beginning to the end.
+In addition to the communication, we have project managers working within the schedules to keep consistent staff on the project from the beginning to the end.
 
 **Field Services & Safety**
 
