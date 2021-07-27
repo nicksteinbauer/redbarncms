@@ -8,7 +8,7 @@ jobtitle: Owner / Principal Civil Engineer
 jobtitle2: ""
 executiveteam: true
 date: 2021-04-30T18:42:10.283Z
-featuredimage: /img/redbarnrebekahweston.jpg
+featuredimage: /img/rjw_8536_p4.jpg
 description: ""
 ---
 
