@@ -3,7 +3,7 @@ templateKey: what-post
 title: Oil and Gas
 prettytitle1: Oil
 prettytitle2: and Gas
-date: 2021-04-25T19:58:03.420Z
+date: 2021-07-28T16:29:31.765Z
 description: Suspendisse egestas quam et justo convallis, in vehicula sem
   efficitur. Pellentesque malesuada libero cursus faucibus molestie. Mauris sed
   diam id quam vestibulum egestas. Nunc vitae scelerisque justo.
