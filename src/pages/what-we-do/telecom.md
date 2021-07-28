@@ -9,7 +9,7 @@ description: Red Barn is known for building the right team for your project.  As
   production simultaneously, we’ve created a team with bulk pricing with key
   teaming partners that keep the overhead low for our clients.
 featuredpost: true
-featuredimage: /img/pxl_20210410_170711549-1-.jpg
+featuredimage: /img/pxl_20210410_170711549-1-1-.jpg
 ---
 ### **Your permit is our priority!**
 
