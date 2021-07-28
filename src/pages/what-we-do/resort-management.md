@@ -9,7 +9,7 @@ description: "Red Barn staff is experienced in working on commercial site plans
   entrance drives, parking lots, site plans, stormwater management, and other
   site amenities. "
 featuredpost: true
-featuredimage: /img/adobestock_5251225.jpeg
+featuredimage: /img/adobestock_5251225.jpg
 ---
 Red Barn staff is experienced in working on commercial site plans and site design. This experience transfers over to Resort Management with entrance drives, parking lots, site plans, stormwater management, and other site amenities. These elements together allow for a cohesive site and pleasant experience. 
 
