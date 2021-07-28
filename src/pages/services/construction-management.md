@@ -6,7 +6,7 @@ prettytitle2: Management
 date: 2021-06-24T17:12:10.955Z
 description: Construction Management
 featuredservice: true
-featuredimage: /img/redbarn-sound-transit-maybe.jpg
+featuredimage: /img/redbarn-sound-transit-maybe-1-1-.jpg
 ---
 **Support to Clients**
 
