@@ -7,7 +7,7 @@ date: 2021-06-25T21:44:53.143Z
 description: Our civil team is a full-service civil engineering team offering
   expertise in site development, public works projects, and transit jobs.
 featuredservice: true
-featuredimage: /img/redbarn-orenda-mixed-use.jpg
+featuredimage: /img/redbarn-orenda-mixed-use-1-.jpg
 ---
 Our civil team is a full-service civil engineering team offering expertise in site development, public works projects, and transit jobs.
 
