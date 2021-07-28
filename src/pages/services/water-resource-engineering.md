@@ -10,7 +10,7 @@ description: "The Water Division oversees projects related to streams,
   environmental fluid dynamics and mathematics and regularly works with
   professors on published research that differentiate us from competitors.  "
 featuredservice: true
-featuredimage: /img/adobestock_257340598.jpeg
+featuredimage: /img/adobestock_257340598.jpg
 ---
 The Water Division oversees projects related to streams, floodplains, shoreline stability, beach erosion, natural system design, and industrial water quality. Our modeling team has advanced degrees in environmental fluid dynamics and mathematics and regularly works with professors on published research that differentiate us from competitors.
 
