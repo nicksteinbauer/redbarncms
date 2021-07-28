@@ -8,7 +8,7 @@ description: "Red Barn can deliver by having a team led by construction managers
   construction.  They know how to get the job coordinated, reviewed, and keeping
   the construction going.  "
 featuredpost: true
-featuredimage: /img/adobestock_169500812.jpeg
+featuredimage: /img/adobestock_169500812.jpg
 ---
 Red Barn has qualified staff able to lead large projects for transit and transportation. Our team is structured so that construction management and constructability reviews are done throughout the project. Additionally, we look over submittals and RFI responses from the contractor.
 
