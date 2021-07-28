@@ -7,6 +7,7 @@ date: 2021-04-25T19:58:03.420Z
 description: Suspendisse egestas quam et justo convallis, in vehicula sem
   efficitur. Pellentesque malesuada libero cursus faucibus molestie. Mauris sed
   diam id quam vestibulum egestas. Nunc vitae scelerisque justo.
+featuredpost: true
 featuredimage: /img/redbarn-sector-oil-gas-1-.jpg
 ---
 
