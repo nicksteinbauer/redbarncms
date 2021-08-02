@@ -5,10 +5,12 @@ function NavDesktop() {
     return (
 
         <div className="navbar-start has-text-centered flex-md">
-            <Link className="navbar-item" to="/what-we-do/">
+            <div className="navbar-item" >
+            <Link to="/what-we-do/">
                 <span>
                 What We Do
                 </span>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/what-we-do/">All</Link></li>
@@ -21,11 +23,13 @@ function NavDesktop() {
                     <li><Link to="/what-we-do/drainage/">Drainage</Link></li>
                     <li><Link to="/what-we-do/drone-inspection/">Drone Inspection</Link></li>
                 </ul>
-            </Link>
-            <Link className="navbar-item" to="/services/">
+            </div>
+            <div className="navbar-item" >
+            <Link to="/services/">
                 <span>
                 Services
                 </span>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/services/">All</Link></li>
@@ -37,11 +41,13 @@ function NavDesktop() {
                     <li><Link to="/services/environmental-permitting/">Environmental Permitting</Link></li>
                     <li><Link to="/services/coastal-engineering/">Coastal Engineering</Link></li>
                 </ul>
-            </Link>
-            <Link className="navbar-item" to="/projects/">
+            </div>
+            <div className="navbar-item" >
+            <Link to="/projects/">
                 <span>
                 Projects
                 </span>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/projects/">All</Link></li>
@@ -51,11 +57,13 @@ function NavDesktop() {
                     <li><Link to="/projects/water/">Water</Link></li>
                     <li><Link to="/projects/telecom/">Telecom</Link></li>
                 </ul>
-            </Link>
-            <Link className="navbar-item" to="/about/">
+            </div>
+            <div className="navbar-item" >
+            <Link to="/about/">
                 <span>
                 About Us
                 </span>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/about/">About</Link></li>
@@ -63,28 +71,24 @@ function NavDesktop() {
                     <li><Link to="/core-team/">Core Team</Link></li>
                     <li><Link to="/careers/">Careers</Link></li>
                 </ul>
-            </Link>
-            <Link className="navbar-item" to="/blog/">
+            </div>
+            <div className="navbar-item" >
+            <Link to="/blog/">
                 <span>
                 Blog
                 </span>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/blog/">All</Link></li>
-                    <li><Link to="/blog/technical-excellence/">Technial Excellence</Link></li>
+                    <li><Link to="/blog/technical-excellence/">Technical Excellence</Link></li>
                     <li><Link to="/blog/integrated-culture/">Integrated Culture</Link></li>
                     <li><Link to="/blog/internship-program/">Internship Program</Link></li>
                     <li><Link to="/blog/awards/">Awards</Link></li>
                     <li><Link to="/blog/sustainability/">Sustainability</Link></li>
                 </ul>
-            </Link>
-            {/*
-            <a className="navbar-item" href="https://www.redbarn-engineering.com/">
-                <span>
-                Online Portal
-                </span>
-            </a>
-            */}
+            
+            </div>
 
 
         </div>

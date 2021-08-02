@@ -1,6 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
 
+//@import "bootvariables";
+//@import "mixins";
+//@import "accordion";
 @import "bootstrap.css";
 @import "colors";
 @import "grid";
@@ -14,6 +17,23 @@
 @import "services";
 @import "about";
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -22,4 +42,10 @@ body {
 .box-shadow {
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+*,
+::after,
+::before {
+  box-sizing: content-box;
 }

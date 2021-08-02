@@ -26,7 +26,7 @@
   }
 }
 
-.navbar {
+.navbar1 {
   width: 100%;
   position: fixed;
   top: 0;
@@ -36,14 +36,14 @@
 }
 
 .navigate {
-  .navbar {
+  .navbar1 {
     background: rgba($color: #003333, $alpha: 0);
     transition: background 0.4s ease;
   }
 }
 
 .navigate.active {
-  .navbar {
+  .navbar1 {
     background: rgba($color: #003333, $alpha: 0.7);
   }
 }
@@ -287,7 +287,7 @@ $translateX: 0;
   .navbar-start {
     text-align: center;
     a {
-      display: block;
+      //display: block;
       text-decoration: none;
       transition: color 0.3s ease;
       padding: 5px 0;
@@ -308,6 +308,47 @@ $translateX: 0;
     overflow: scroll;
     > div {
       height: 100%;
+    }
+  }
+}
+
+.accordion {
+  button {
+    background: none;
+    fill: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 1em;
+    position: relative;
+    display: block;
+    width: 100%;
+    background: rgba($color: #000, $alpha: 0.4);
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    svg {
+      width: 30px;
+      position: absolute;
+      right: 10px;
+      box-sizing: border-box;
+      padding: 4px;
+      transition: transform 0.4s ease;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+    li {
+      a {
+        display: block;
+        padding: 2px 4px;
+      }
+    }
+  }
+  .active {
+    svg {
+      transform: rotate(90deg);
     }
   }
 }
