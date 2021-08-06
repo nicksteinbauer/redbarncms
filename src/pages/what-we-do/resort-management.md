@@ -19,4 +19,4 @@ Our staff brings the right team together, working with landscape architects, arc
 
 ##### Let's take a ride through your next project!
 
-![](/img/adobestock_231815921.jpeg)
+![]()
