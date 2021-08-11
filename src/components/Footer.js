@@ -9,49 +9,7 @@ const Footer = class extends React.Component {
       <footer className="footer section">
         <div className="inside-xxl flex-md">
         
-              <div className="twenty">
-                <nav className="footer-menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/what-we-do">
-                          What We Do
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="">
-                          Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="">
-                          Projects
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="">
-                          About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <a className="navbar-item" href="https://www.redbarn-engineering.com/">
-                          <span>
-                          Online Portal
-                          </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
+              
               <div className="twenty">
                 <h4>Headquarters</h4>
                 <p>
@@ -68,11 +26,65 @@ const Footer = class extends React.Component {
                   <a href="tel:1-419-625-7838">419.625.7838</a> (office)
                 </p>
               </div>
-              <div className="forty">
+              <div className="twenty">
+              <h4>Orlando Office</h4>
+                <p>
+                  37 N Orange Ave #306<br/>
+                  Orlando, FL 32801<br/>
+                  { /* }<a href="tel:1-419-625-7838">419.625.7838</a> (office){*/}
+                </p>
+              </div>
+              <div className="flex1">
                 <h4>Contact Us</h4>
               <ContactForm />
               </div>
         </div>  
+
+        <div className="ten inside-xxl">
+          <nav className="footer-menu">
+            <ul className="menu-list">
+              <li>
+                <Link className="navbar-item" to="/what-we-do/">
+                    What We Do
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/services/">
+                    Services
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/projects/">
+                    Projects
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/about/">
+                    About Us
+                </Link>
+              </li>
+              { /* }
+              <li>
+                <a className="navbar-item" href="https://www.redbarn-engineering.com/">
+                    <span>
+                    Online Portal
+                    </span>
+                </a>
+              </li>
+              {*/}
+              <li>
+                <a
+                  className="navbar-item"
+                  href="/admin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Admin
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div className="inside-xxl flex-md">
           <p>&copy; 2021 Red Barn Group, Incorporated </p> 
         </div> 

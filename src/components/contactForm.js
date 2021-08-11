@@ -44,7 +44,7 @@ const ContactForm = () => (
         //await new Promise((r) => setTimeout(r, 500));
         //alert(JSON.stringify(values, null, 2));
         console.log(values);
-        emailjs.sendForm('barnes', 'redbarn', '#formikform', 'user_vOc0ylPHeC2nCdyLQJAiW');
+        emailjs.sendForm('redbarngroup', 'redbarn', '#formikform', 'user_vOc0ylPHeC2nCdyLQJAiW');
         resetForm({ values: '' });
         Swal.fire({
             title: "We've received your contact email, we will be in touch shortly",

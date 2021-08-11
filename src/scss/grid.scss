@@ -200,6 +200,16 @@ img {
   flex: 1;
 }
 
+.ten {
+  box-sizing: border-box;
+  flex: 0 0 10%;
+}
+
+.fifteen {
+  box-sizing: border-box;
+  flex: 0 0 15%;
+}
+
 .twenty {
   box-sizing: border-box;
   flex: 0 0 20%;
