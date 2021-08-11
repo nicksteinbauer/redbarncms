@@ -11,7 +11,7 @@ mainpitch:
     Red Barn is a full-service civil engineering, construction management, and
     environmental firm focusing on bringing the right team together. Our team is
     built of accountable project managers who possess strong quality management
-    and are fun to work with. We make sure our team gets the job done well.
+    and are fun to work with. We make sure our team gets the job done well!
   image: /img/redbarn-who-we-are-main.jpg
   imagepitch: /img/redbarn-who-we-are-main.jpg
   link1text: About Us
