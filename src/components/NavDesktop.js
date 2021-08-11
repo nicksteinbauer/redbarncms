@@ -87,6 +87,7 @@ function NavDesktop() {
                     <li><Link to="/blog/internship-program/">Internship Program</Link></li>
                     <li><Link to="/blog/awards/">Awards</Link></li>
                     <li><Link to="/blog/sustainability/">Sustainability</Link></li>
+                    <li><Link to="/blog/archive/">Archive</Link></li>
                 </ul>
             
             </div>
