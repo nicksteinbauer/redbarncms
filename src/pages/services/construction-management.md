@@ -3,7 +3,7 @@ templateKey: blog-post-services
 title: Construction Management
 prettytitle1: Construction
 prettytitle2: Management
-date: 2021-06-24T17:12:10.955Z
+date: 2021-08-12T15:22:15.279Z
 description: Construction Management
 featuredservice: true
 featuredimage: /img/redbarn-sound-transit-maybe-1-1-.jpg
