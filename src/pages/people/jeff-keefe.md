@@ -4,9 +4,9 @@ peoplekey: people
 title: Jeff Keefe
 prettytitle1: Jeff
 prettytitle2: Keefe
-jobtitle: Survey Division Lead
+jobtitle: Senior Civil Manager
 jobtitle2: ""
-teamcategory: executive
+teamcategory: core
 date: 2021-05-05T18:16:38.794Z
 featuredimage: /img/redbarnpeoplejeffkeefe.jpg
 description: ""
