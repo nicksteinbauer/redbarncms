@@ -4,7 +4,7 @@ peoplekey: people
 title: Rebekah Weston
 prettytitle1: Rebekah
 prettytitle2: Weston
-jobtitle: CEO, COO, Engineeringt Lead
+jobtitle: CEO, COO, Engineering Lead
 jobtitle2: ""
 executiveteam: true
 date: 2021-04-30T18:42:10.283Z
