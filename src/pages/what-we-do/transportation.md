@@ -2,7 +2,7 @@
 templateKey: what-post
 title: Transportation
 prettytitle1: Transportation
-date: 2021-04-27T01:16:55.811Z
+date: 2021-08-12T15:14:11.844Z
 description: "Red Barn has qualified staff to lead large projects for transit
   and transportation.  Our team is structured such that construction management
   and constructability reviews are done throughout the project and through

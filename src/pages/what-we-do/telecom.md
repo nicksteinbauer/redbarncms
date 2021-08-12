@@ -3,7 +3,7 @@ templateKey: what-post
 title: Telecom
 prettytitle1: Telecom / 5G
 prettytitle2: ""
-date: 2021-04-30T01:20:18.199Z
+date: 2021-08-12T15:13:26.430Z
 description: Red Barn is known for building the right team for your project.  As
   telecom poles require replacing and can require hundreds of projects in
   production simultaneously, we’ve created a team with bulk pricing with key
