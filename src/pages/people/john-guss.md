@@ -4,7 +4,7 @@ peoplekey: people
 title: John Guss
 prettytitle1: John
 prettytitle2: Guss
-jobtitle: Surveyor
+jobtitle: Field Survey Lead
 jobtitle2: ""
 teamcategory: core
 date: 2021-05-05T18:18:27.879Z
