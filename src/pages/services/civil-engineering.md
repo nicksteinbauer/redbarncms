@@ -3,7 +3,7 @@ templateKey: blog-post-services
 title: Civil Engineering / Transportation
 prettytitle1: Civil Engineering
 prettytitle2: Transportation
-date: 2021-06-25T21:44:53.143Z
+date: 2021-08-12T15:22:29.469Z
 description: Our civil team is a full-service civil engineering team offering
   expertise in site development, public works projects, and transit jobs.
 featuredservice: true
