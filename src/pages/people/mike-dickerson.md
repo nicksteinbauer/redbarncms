@@ -4,7 +4,7 @@ peoplekey: people
 title: Mike Dickerson
 prettytitle1: "Mike "
 prettytitle2: Dickerson
-jobtitle: CAD Technician / IT
+jobtitle: CAD Manager/Construction Inspection
 date: 2021-06-30T20:06:52.258Z
 featuredimage: /img/mike-dickerson.jpg
 ---
