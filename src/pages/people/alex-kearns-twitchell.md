@@ -5,6 +5,8 @@ title: Alex Kearns-Twitchell
 prettytitle1: Alex
 prettytitle2: Kearns-Twitchell
 jobtitle: Purchasing/Fleet Management
+jobtitle2: ""
+teamcategory: core
 date: 2021-06-15T14:26:07.586Z
 featuredimage: /img/alex-kearns-twitchell.jpg
 ---

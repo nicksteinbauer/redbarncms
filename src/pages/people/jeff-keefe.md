@@ -6,7 +6,7 @@ prettytitle1: Jeff
 prettytitle2: Keefe
 jobtitle: Survey Division Lead
 jobtitle2: ""
-executiveteam: true
+teamcategory: executive
 date: 2021-05-05T18:16:38.794Z
 featuredimage: /img/redbarnpeoplejeffkeefe.jpg
 description: ""

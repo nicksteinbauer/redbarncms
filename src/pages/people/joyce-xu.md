@@ -5,6 +5,8 @@ title: Joyce Xu
 prettytitle1: Joyce
 prettytitle2: Xu
 jobtitle: Payroll Accountant
+jobtitle2: ""
+teamcategory: core
 date: 2021-06-15T14:29:30.009Z
 featuredimage: /img/xu-20210522-04-008sq.jpg
 ---

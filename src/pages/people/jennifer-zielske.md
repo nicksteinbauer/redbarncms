@@ -5,6 +5,8 @@ title: Jennifer Zielske
 prettytitle1: Jennifer
 prettytitle2: Zielske
 jobtitle: Safety Administrative Coordinator
+jobtitle2: ""
+teamcategory: core
 date: 2021-06-10T14:46:47.547Z
 featuredimage: /img/jennifer_7801_p1a-4.jpg
 ---

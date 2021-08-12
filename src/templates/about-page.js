@@ -106,6 +106,19 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
                     </div>
                   
                 </article>
+                <article>
+                  
+                    <div className="image-padding relief-link">
+                      <div className="featured-thumbnail animateThis">
+                        <Link to="/internship-program">
+                          <div className="animateThat relief-team flex-vertical">
+                            <h3>Internship Program</h3>
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+                  
+                </article>
               </div>
             </div>
           </div>

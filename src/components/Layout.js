@@ -64,7 +64,7 @@ const TemplateWrapper = ({ children }) => {
       <div className={navigate ? 'navigate active' : 'navigate'}>
         <Navbar />
       </div>
-      <div>{children}</div>
+      <div id="mainish">{children}</div>
       <Footer />
     </div>
   )

@@ -6,6 +6,7 @@ prettytitle1: Donna
 prettytitle2: Keefe
 jobtitle: Operations Manager
 jobtitle2: ""
+teamcategory: core
 date: 2021-05-05T18:28:25.795Z
 featuredimage: /img/redbarnpeopledonnakeefe.jpg
 description: ""

@@ -6,6 +6,7 @@ prettytitle1: Brian
 prettytitle2: Vanderburg
 jobtitle: Senior Civil Engineer
 jobtitle2: ""
+teamcategory: core
 date: 2021-05-05T17:10:23.365Z
 featuredimage: /img/redbarnpeoplebrianvanderburg.jpg
 description: ""

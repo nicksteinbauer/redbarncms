@@ -6,7 +6,7 @@ prettytitle1: Rachael
 prettytitle2: Lambie
 jobtitle: Telecom/Military Division Co-Lead
 jobtitle2: ""
-executiveteam: true
+teamcategory: executive
 date: 2021-04-30T19:13:04.517Z
 featuredimage: /img/redbarnrachellambie.jpg
 description: ""

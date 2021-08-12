@@ -6,6 +6,7 @@ prettytitle1: Eric
 prettytitle2: Haines
 jobtitle: Civil Engineer
 jobtitle2: ""
+teamcategory: core
 date: 2021-05-05T18:13:10.668Z
 featuredimage: /img/redbarnpeopleerichaines.jpg
 description: ""

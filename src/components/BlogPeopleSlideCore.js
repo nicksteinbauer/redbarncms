@@ -122,7 +122,7 @@ export default () => (
     query BlogPeopleSlideCoreQuery {
         allMarkdownRemark(
           sort: {order: ASC, fields: [frontmatter___prettytitle2]}
-          filter: { frontmatter: { peoplekey: { eq: "people" }, executiveteam: {ne: true} } }
+          filter: { frontmatter: { peoplekey: { eq: "people" }, teamcategory: {eq: "core"} } }
         ) {
           edges {
             node {

@@ -7,6 +7,7 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
+        <div className="contain-21">
           <div className="black p-lot services-page">
             <div className="services-banner align-vertical">
                 
@@ -16,15 +17,13 @@ export default class BlogIndexPage extends React.Component {
                 </div>
                 
             </div>
+          </div>
+          <section className="services-section section black p-lot">
+              <div className="inside-xxl">
+                  <BlogRoll />
+              </div>
+          </section>
         </div>
-        <section className="services-section section black p-lot">
-            <div className="inside-xxl">
-                <BlogRoll />
-            </div>
-        </section>
-
-
-       
       </Layout>
     )
   }

@@ -6,6 +6,7 @@ prettytitle1: Ed
 prettytitle2: Wiza
 jobtitle: Civil Engineer
 jobtitle2: ""
+teamcategory: core
 date: 2021-05-05T18:20:28.295Z
 featuredimage: /img/redbarnpeopleedwiza.jpg
 description: ""

@@ -5,6 +5,8 @@ title: Jake Piechocki
 prettytitle1: Jake
 prettytitle2: Piechocki
 jobtitle: Design Engineer
+jobtitle2: ""
+teamcategory: core
 date: 2021-06-15T20:02:57.939Z
 featuredimage: /img/jake_8482-4.jpg
 ---

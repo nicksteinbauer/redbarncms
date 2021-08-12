@@ -88,7 +88,7 @@ collections:
       - {label: "Pretty Title 2", name: "prettytitle2", widget: "string", required: false}
       - {label: "Job Title", name: "jobtitle", widget: "string", required: false}
       - {label: "Job Title 2", name: "jobtitle2", widget: "text", required: false}
-      - {label: "Executive Team", name: "executiveteam", widget: "boolean", required: false}
+      - {label: "Team Category", name: "teamcategory", widget: "select", options: ["executive", "core", "internship"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}

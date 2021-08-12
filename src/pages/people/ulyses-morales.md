@@ -6,6 +6,7 @@ prettytitle1: Ulyses
 prettytitle2: Morales
 jobtitle: Design Engineer
 jobtitle2: ""
+teamcategory: core
 date: 2021-06-10T15:05:27.333Z
 featuredimage: /img/ulyses-morales.jpg
 ---

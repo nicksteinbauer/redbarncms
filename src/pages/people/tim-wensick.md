@@ -5,7 +5,10 @@ title: Tim Wensick
 prettytitle1: Tim
 prettytitle2: Wensick
 jobtitle: Intern
+jobtitle2: ""
+teamcategory: internship
 date: 2021-07-26T17:34:28.777Z
 featuredimage: /img/tim_8488-4.jpg
 ---
+
 Tim is part of our high school internship program.

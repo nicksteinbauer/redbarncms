@@ -6,7 +6,7 @@ prettytitle1: Rob
 prettytitle2: Fritz
 jobtitle: Environmental Construction Manager / Fish Biologist
 jobtitle2: ""
-corporateteam: true
+teamcategory: core
 date: 2021-04-30T19:12:09.273Z
 featuredimage: /img/redbarnrobfritz.jpg
 description: ""

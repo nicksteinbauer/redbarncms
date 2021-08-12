@@ -6,7 +6,7 @@ prettytitle1: Elana
 prettytitle2: Hansen
 jobtitle: Finance Manager
 jobtitle2: ""
-executiveteam: true
+teamcategory: executive
 date: 2021-04-30T19:18:35.944Z
 featuredimage: /img/redbarnelanahansen.jpg
 description: ""

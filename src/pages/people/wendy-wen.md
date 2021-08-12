@@ -6,6 +6,7 @@ prettytitle1: Wendy
 prettytitle2: Wen
 jobtitle: Senior Accountant
 jobtitle2: ""
+teamcategory: core
 date: 2021-05-05T18:22:50.672Z
 featuredimage: /img/redbarnpeoplewendywen.jpg
 description: ""

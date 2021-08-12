@@ -2,10 +2,11 @@
 templateKey: team-post
 peoplekey: people
 title: Paul Conrecode
-prettytitle1: "Paul "
+prettytitle1: Paul
 prettytitle2: Conrecode
 jobtitle: Environmental Construction Manager / Fish Biologist
 jobtitle2: ""
+teamcategory: core
 date: 2021-05-05T18:08:52.392Z
 featuredimage: /img/redbarnpeoplepaulconrecode.jpg
 description: ""

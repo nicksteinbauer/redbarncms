@@ -6,6 +6,7 @@ prettytitle1: Seth
 prettytitle2: Rackley
 jobtitle: Civil Engineer
 jobtitle2: ""
+teamcategory: core
 date: 2021-05-05T18:10:41.339Z
 featuredimage: /img/redbarnpeoplesethrackley.jpg
 description: ""

@@ -6,7 +6,7 @@ prettytitle1: Darin
 prettytitle2: Stephens
 jobtitle: Construction Management Division Lead
 jobtitle2: ""
-executiveteam: true
+teamcategory: executive
 date: 2021-04-30T19:11:10.463Z
 featuredimage: /img/redbarndarinstephens.jpg
 description: ""

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 
 import logo from '../img/RedBarn-Site-Logo.svg'
 import NavDesktop from './NavDesktop'
@@ -32,9 +32,9 @@ const Navbar = class extends React.Component {
       >
         <div className="mainnav always-flex justify">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
+            <a href="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Red Barn Engineering" />
-            </Link>
+            </a>
           </div>
 
 
