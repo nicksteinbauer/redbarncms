@@ -4,8 +4,9 @@ peoplekey: people
 title: Adam Weston
 prettytitle1: Adam
 prettytitle2: Weston
-jobtitle: Senior Project Manager Telecom/Environmental Noise/Drone Pilot
+jobtitle: Telecom/Military Division Co-Lead
 jobtitle2: ""
+executiveteam: true
 date: 2021-05-05T18:15:38.369Z
 featuredimage: /img/redbarnepeopleadamweston.jpg
 description: ""
