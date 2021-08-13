@@ -1,6 +1,6 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from "react";
+import VisibilitySensor from "react-visibility-sensor";
+
 
 import CellTower from "../img/RedBarn-no-CP.mp4"
 import PropTypes from 'prop-types'
@@ -19,52 +19,6 @@ import BlogProjectsSlide from '../components/BlogProjectsSlide'
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
-  let animateVideo1 = useRef(null);
-  let animateThis1 = useRef(null);
-  let animateThat1 = useRef(null);
-
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-      gsap.to( animateThis1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-
-        },
-        duration: 2,
-        y: '140',
-        ease: "ease-in",
-        
-      })
-
-      gsap.to( animateThat1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-
-        },
-        duration: 2,
-        x: '40',
-        y: '-50',
-        ease: "ease-in",
-        
-      })
-
-      gsap.to( animateVideo1, {
-        scrollTrigger: {
-          trigger: '.video-contain', 
-          start: '1px top',
-          scrub: 1,
-
-        },
-        duration: 2,
-        y: '200',
-        ease: "none",
-        
-      })
-    
-  }, [])
-    
   
 
   return (
@@ -73,7 +27,7 @@ const IndexPage = ({ data }) => {
 
   <div>
       
-  <div className="video-contain" ref={el => {animateVideo1 = el}}>
+  <div className="video-contain">
       
       <video autoPlay="autoplay" muted loop="loop" id="bgvid">
       <source src={CellTower} type="video/mp4" />
@@ -122,12 +76,17 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         
+        
         <div className="sixty fudge">
-          <div className="featured-thumbnail sixty animateThis" ref={el => {animateThis1 = el}}>
-            <div className="animateThat" ref={el => {animateThat1 = el}}>
+          <VisibilitySensor>
+          {({isVisible}) =>
+          <div className="featured-thumbnail sixty animateThis">
+            <div className={isVisible ? "newAnimate animateRightUpBig" : "newAnimate"}>
               <PreviewCompatibleImage imageInfo={frontmatter.mainpitch.imagepitch} />
             </div>
           </div>
+          }
+          </VisibilitySensor>
         </div>
         
       </div>

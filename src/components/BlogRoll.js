@@ -1,78 +1,30 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { gsap } from 'gsap';
+import VisibilitySensor from "react-visibility-sensor";
 
 const BlogRoll = ( {data} ) => {
 
   const { edges: posts } = data.allMarkdownRemark
 
-  //let animateThat2 = useRef(null);
-  //let animateThis2 = useRef(null);
-
-  const revealRefs = useRef([]);
-  revealRefs.current = [];
-
-
-  //let animateThat2 = useRef(null);
-  //let animateThis2 = useRef(null);
+  //function onChange (isVisible) {
+  //  console.log('Element is now %s', isVisible ? 'visible' : 'hidden');
+  //}
   
-  useEffect(() => {
 
-    
-    revealRefs.current.forEach((el, index) => {
 
-      gsap.to( el, {
-        scrollTrigger: {
-          id: `section-${index+1}`,
-          trigger: el, 
-          scrub: 1,
+  
 
-        },
-        duration: 2,
-        x: '20',
-        y: '-20',
-        ease: "ease-in",
-        
-      })
-
-    });
-
-    /*
-
-    triggers.forEach(animateThat2 => {
-      
-      gsap.to( animateThat2, {
-        scrollTrigger: {
-          trigger: triggers, 
-          scrub: 1,
-
-        },
-        duration: 2,
-        x: '20',
-        y: '-20',
-        ease: "ease-in",
-        
-      })
-
-    });
-
-    */
-    
-  }, [])
-
-  const addToRefs = el => {
-    if (el && !revealRefs.current.includes(el)) {
-        revealRefs.current.push(el);
-    }
-  };
+  
 
   return (
-      <div className="auto-grid blog">
+    <div className="auto-grid blog">
       {posts &&
-          posts.map(({ node: post }) => (
-          <div className="what-loop animateThis" key={post.id} ref={addToRefs}>
+        posts.map(({ node: post }) => (
+          <VisibilitySensor partialVisibility>
+          {({isVisible}) =>
+          <div className={isVisible ? "what-loop newAnimate animateRightDown" : "what-loop newAnimate"} key={post.id}>
               <article
               className={`blog-article ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
@@ -107,11 +59,12 @@ const BlogRoll = ( {data} ) => {
                   </div>
                   
               </div>
-          </article>
+            </article>
           </div>
-          
+          }
+          </VisibilitySensor>
       ))}
-  </div>
+    </div>
   )
 }
 

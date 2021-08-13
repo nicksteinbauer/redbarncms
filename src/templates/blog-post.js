@@ -1,6 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from "react";
+import VisibilitySensor from "react-visibility-sensor";
 
 import PropTypes from 'prop-types'
 
@@ -21,38 +20,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
-  let animateThis1 = useRef(null);
-  let animateThat1 = useRef(null);
-
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-      gsap.to( animateThis1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-        },
-        duration: 2,
-        x: '-10',
-        y: '20',
-        ease: "ease-in",
-        
-      })
-
-      gsap.to( animateThat1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-        },
-        duration: 2,
-        x: '20',
-        y: '-20',
-        ease: "ease-in",
-        
-      })
-
-    
-  }, [])
-
+  
   return (
     <section className="blogpost actual-blog">
       {helmet || ''}
@@ -80,17 +48,20 @@ export const BlogPostTemplate = ({
                   
               </div>
             </div>
-            
+            <VisibilitySensor partialVisibility>
+            {({isVisible}) =>
             <section className="services-section section black p-lot blog-white-padd">
               <div className="blog-white inside-xxl">
-                <div className="featured-thumbnail forty-float animateThis" ref={el => {animateThis1 = el}}>
-                  <div className="animateThat" ref={el => {animateThat1 = el}}>
+                <div className="featured-thumbnail forty-float animateThis">
+                  <div className={isVisible ? "newAnimate animateRightUpBig" : "newAnimate"}>
                     <PreviewCompatibleImage imageInfo={featuredimage} />
                   </div>
                 </div>
                 <PostContent content={content} />
               </div>
             </section>
+            }
+            </VisibilitySensor>
           </article>
 
     </section>

@@ -55,3 +55,46 @@ body {
   width: 100%;
   position: absolute;
 }
+
+.staticRight {
+  position: relative;
+  left: 40px;
+}
+
+.newAnimate {
+  transition: transform 0.8s ease;
+}
+
+// Regular
+.newAnimate.animateRightDown {
+  transform: translate(20px, 20px);
+}
+
+.newAnimate.animateLeftDown {
+  transform: translate(-20px, 20px);
+}
+
+.newAnimate.animateRightUp {
+  transform: translate(20px, -20px);
+}
+
+.newAnimate.animateLeftUp {
+  transform: translate(-20px, -20px);
+}
+
+// Big
+.newAnimate.animateRightDownBig {
+  transform: translate(30px, 40px);
+}
+
+.newAnimate.animateLeftDownBig {
+  transform: translate(-30px, 40px);
+}
+
+.newAnimate.animateRightUpBig {
+  transform: translate(30px, -40px);
+}
+
+.newAnimate.animateLeftUpBig {
+  transform: translate(-30px, -40px);
+}

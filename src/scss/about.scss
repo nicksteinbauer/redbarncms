@@ -214,19 +214,8 @@
   a:hover {
     color: $red;
   }
-  .animateThis,
-  .animateThat {
-    transition: transform 0.4s ease;
-  }
 }
-.relief-link:hover {
-  .animateThis {
-    transform: translate(15px, 15px);
-  }
-  .animateThat {
-    transform: translate(-15px, -15px);
-  }
-}
+
 .relief-team {
   background: $green url("../img/topography-vector-white.png") no-repeat center
     center;

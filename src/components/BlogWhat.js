@@ -1,72 +1,17 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
+import VisibilitySensor from "react-visibility-sensor";
+
+
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
+
 
   const BlogWhat = ( {data} ) => {
   
     const { edges: posts } = data.allMarkdownRemark
 
-    const revealRefs = useRef([]);
-    revealRefs.current = [];
-
-
-    //let animateThat2 = useRef(null);
-    //let animateThis2 = useRef(null);
     
-    useEffect(() => {
-
-      
-      revealRefs.current.forEach((el, index) => {
-
-        gsap.to( el, {
-          scrollTrigger: {
-            id: `section-${index+1}`,
-            trigger: el, 
-            scrub: 1,
-  
-          },
-          duration: 2,
-          x: '20',
-          y: '-30',
-          ease: "ease-in",
-          
-        })
-
-      });
-
-      /*
-
-      triggers.forEach(animateThat2 => {
-        
-        gsap.to( animateThat2, {
-          scrollTrigger: {
-            trigger: triggers, 
-            scrub: 1,
-  
-          },
-          duration: 2,
-          x: '20',
-          y: '-20',
-          ease: "ease-in",
-          
-        })
-
-      });
-
-      */
-      
-    }, [])
-
-    const addToRefs = el => {
-      if (el && !revealRefs.current.includes(el)) {
-          revealRefs.current.push(el);
-      }
-    };
-
       return (
         <div className="auto-grid">
             {posts &&
@@ -80,16 +25,20 @@ gsap.registerPlugin(ScrollTrigger);
                     <div>
                         
                         {post.frontmatter.featuredimage ? (
-                        <div className="featured-thumbnail sixty animateThis">
-                            <div className="animateThat" ref={addToRefs}>
-                            <PreviewCompatibleImage
-                            imageInfo={{
-                            image: post.frontmatter.featuredimage,
-                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                            }}
-                            />
-                            </div>
-                        </div>
+                          <VisibilitySensor partialVisibility>
+                          {({isVisible}) =>
+                          <div className="featured-thumbnail sixty animateThis">
+                              <div className={isVisible ? "newAnimate animateRightUpBig" : "newAnimate"}>
+                              <PreviewCompatibleImage
+                              imageInfo={{
+                              image: post.frontmatter.featuredimage,
+                              alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                              }}
+                              />
+                              </div>
+                          </div>
+                          }
+                          </VisibilitySensor>
                         ) : null}
                         
                         <div className="forty">

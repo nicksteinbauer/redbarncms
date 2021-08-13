@@ -3,65 +3,14 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
+
 
 
 const BlogRollProjects = ( {data} ) => {
 
     const { edges: posts } = data.allMarkdownRemark
 
-    //let animateThat2 = useRef(null);
-    //let animateThis2 = useRef(null);
 
-    //const revealRefs = useRef([]);
-    //revealRefs.current = [];
-/*
-    useEffect(() => {
-
-      revealRefs.current.forEach((el, index) => {
-
-      gsap.to( el, {
-        scrollTrigger: {
-          id: `section-${index+1}`,
-          trigger: el, 
-          scrub: 1,
-
-        },
-        duration: 2,
-        x: '40',
-        y: '-40',
-        ease: "ease-in",
-        
-      })
-
-    });
-
-      
-      gsap.to( animateThis2, {
-        scrollTrigger: {
-          trigger: '.projects', 
-          scrub: 1,
-
-        },
-        duration: 2,
-        y: '60',
-        ease: "ease-in",
-        
-      })
-      
-
-    }, [])
-
-    
-
-    const addToRefs = el => {
-      if (el && !revealRefs.current.includes(el)) {
-          revealRefs.current.push(el);
-      }
-    };
-*/
     return (
       <div className="the-trigger">
             <div className="team-grid projects-grid">

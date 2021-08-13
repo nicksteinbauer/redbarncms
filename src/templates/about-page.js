@@ -1,6 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from "react";
+
 
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
@@ -9,42 +8,14 @@ import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Testimonials from '../components/Testimonials'
 
+import VisibilitySensor from "react-visibility-sensor";
+
 
 
 export const AboutPageTemplate = ({ title, content, contentComponent, featuredimage, teamtitle, testimonialsabout, description }) => {
   const PageContent = contentComponent || Content
 
-  let animateThis1 = useRef(null);
-  let animateThat1 = useRef(null);
-
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-      gsap.to( animateThis1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-        },
-        duration: 2,
-        y: '30',
-        x: '70',
-        ease: "ease-in",
-        
-      })
-
-      gsap.to( animateThat1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-        },
-        duration: 2,
-        x: '-50',
-        y: '-70',
-        ease: "ease-in",
-        
-      })
-
-    
-  }, [])
+  
 
   return (
     <div className="about-page">
@@ -67,11 +38,17 @@ export const AboutPageTemplate = ({ title, content, contentComponent, featuredim
       </section>
       <section className="section sec-black p-lot team-buffer">
           <div className="inside-xxl flex-md justify">
-            <div className="featured-thumbnail fifty animateThis" ref={el => {animateThis1 = el}}>
-              <div className="animateThat" ref={el => {animateThat1 = el}}>
-                <PreviewCompatibleImage imageInfo={featuredimage} />
+          <VisibilitySensor partialVisibility>
+            {({isVisible}) =>
+              <div className="featured-thumbnail fifty animateThis staticRight">
+              
+                <div className={isVisible ? "newAnimate animateLeftUpBig" : "newAnimate"}>
+                  <PreviewCompatibleImage imageInfo={featuredimage} />
+                </div>
+                    
               </div>
-            </div>
+            } 
+            </VisibilitySensor> 
             <div className="forty">
               <h2 className="h1">{teamtitle}</h2>
               {description}

@@ -1,6 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from "react";
+import VisibilitySensor from "react-visibility-sensor";
 
 import PropTypes from 'prop-types'
 
@@ -23,38 +22,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
-  let animateThis1 = useRef(null);
-  let animateThat1 = useRef(null);
-
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-      gsap.to( animateThis1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-        },
-        duration: 2,
-        x: '-10',
-        y: '20',
-        ease: "ease-in",
-        
-      })
-
-      gsap.to( animateThat1, {
-        scrollTrigger: {
-          trigger: '.gsap1', 
-          scrub: 1,
-        },
-        duration: 2,
-        x: '20',
-        y: '-20',
-        ease: "ease-in",
-        
-      })
-
-    
-  }, [])
-
+  
   return (
     <section className="section blogpost green sec-black">
       {helmet || ''}
@@ -68,13 +36,15 @@ export const BlogPostTemplate = ({
             }
 
             <div className="flex-md">
-
-            <div className="featured-thumbnail forty animateThis" ref={el => {animateThis1 = el}}>
-              <div className="animateThat" ref={el => {animateThat1 = el}}>
-                <PreviewCompatibleImage imageInfo={featuredimage} />
+            <VisibilitySensor partialVisibility>
+              {({isVisible}) =>
+              <div className="featured-thumbnail forty animateThis">
+                <div className={isVisible ? "newAnimate animateRightUpBig" : "newAnimate"}>
+                  <PreviewCompatibleImage imageInfo={featuredimage} />
+                </div>
               </div>
-            </div>
-
+              }
+            </VisibilitySensor>
             <div className="sixty"><PostContent content={content} /></div>
 
             </div>
