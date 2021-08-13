@@ -6,6 +6,7 @@ prettytitle2: Highrise
 date: 2021-08-13T18:40:50.049Z
 description: Civil Engineering
 featuredprojects: true
+homepost: true
 category: civil-engineering
 featuredimage: /img/u-district-highrise-1-.jpg
 ---
