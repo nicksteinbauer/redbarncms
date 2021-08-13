@@ -7,7 +7,7 @@ prettytitle2: Hansen
 jobtitle: Finance Manager
 jobtitle2: ""
 teamcategory: executive
-date: 2021-04-30T19:18:35.944Z
+date: 2021-08-13T18:44:37.215Z
 featuredimage: /img/redbarnelanahansen.jpg
 description: ""
 ---
