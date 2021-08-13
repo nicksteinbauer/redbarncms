@@ -3,7 +3,7 @@ templateKey: blog-post-projects
 title: 192nd Culvert Replacement
 prettytitle1: 192nd Culvert
 prettytitle2: Replacement
-date: 2021-07-23T18:36:24.718Z
+date: 2021-08-13T18:41:02.714Z
 description: Culvert Replacement
 featuredprojects: true
 category: civil-engineering
