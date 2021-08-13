@@ -4,10 +4,10 @@ peoplekey: people
 title: Alex Kearns-Twitchell
 prettytitle1: Alex
 prettytitle2: Kearns-Twitchell
-jobtitle: Purchasing/Fleet Management
+jobtitle: Construction Inspection/Fleet Management
 jobtitle2: ""
 teamcategory: core
-date: 2021-06-15T14:26:07.586Z
+date: 2021-08-13T19:11:26.987Z
 featuredimage: /img/alex-kearns-twitchell.jpg
 ---
 
