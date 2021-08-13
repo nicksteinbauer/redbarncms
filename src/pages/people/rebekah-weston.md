@@ -7,7 +7,7 @@ prettytitle2: Weston
 jobtitle: CEO, COO, Engineering Lead
 jobtitle2: ""
 teamcategory: executive
-date: 2021-04-30T18:42:10.283Z
+date: 2021-08-13T18:44:56.019Z
 featuredimage: /img/rebekah.jpg
 description: ""
 ---
