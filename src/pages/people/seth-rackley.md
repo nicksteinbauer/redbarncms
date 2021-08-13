@@ -7,7 +7,7 @@ prettytitle2: Rackley
 jobtitle: Civil Engineer
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:10:41.339Z
+date: 2021-08-13T19:08:21.775Z
 featuredimage: /img/redbarnpeoplesethrackley.jpg
 description: ""
 ---
