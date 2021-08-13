@@ -6,6 +6,7 @@ prettytitle2: Replacement
 date: 2021-08-13T18:41:02.714Z
 description: Culvert Replacement
 featuredprojects: true
+homepost: true
 category: civil-engineering
 featuredimage: /img/192nd_culvert.jpg
 ---
