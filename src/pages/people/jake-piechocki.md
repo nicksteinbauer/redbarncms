@@ -7,7 +7,7 @@ prettytitle2: Piechocki
 jobtitle: Design Engineer
 jobtitle2: ""
 teamcategory: core
-date: 2021-06-15T20:02:57.939Z
+date: 2021-08-13T19:09:14.634Z
 featuredimage: /img/jake_8482-4.jpg
 ---
 
