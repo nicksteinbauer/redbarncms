@@ -7,7 +7,7 @@ prettytitle2: Gonzalez
 jobtitle: Construction Management Inspection Lead
 jobtitle2: ""
 teamcategory: executive
-date: 2021-05-05T18:06:22.301Z
+date: 2021-08-13T18:43:47.363Z
 featuredimage: /img/redbarnpeoplebennygonzalez.jpg
 description: ""
 ---
