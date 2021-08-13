@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post-projects
 title: 5G Implementation - Orlando
-prettytitle1: 5G Implementation
+prettytitle1: 5G Core City
 prettytitle2: Orlando
 date: 2021-08-13T18:11:47.563Z
 description: 5G Implementation - Orlando
