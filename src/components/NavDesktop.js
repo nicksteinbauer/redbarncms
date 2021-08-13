@@ -6,11 +6,11 @@ function NavDesktop() {
 
         <div className="navbar-start has-text-centered flex-md">
             <div className="navbar-item" >
-            <a href="/what-we-do">
+            <Link to="/what-we-do">
                 <span>
                 What We Do
                 </span>
-            </a>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/what-we-do">All</Link></li>
@@ -25,11 +25,11 @@ function NavDesktop() {
                 </ul>
             </div>
             <div className="navbar-item" >
-            <a href="/services">
+            <Link to="/services">
                 <span>
                 Services
                 </span>
-            </a>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/services">All</Link></li>
@@ -44,11 +44,11 @@ function NavDesktop() {
                 </ul>
             </div>
             <div className="navbar-item" >
-            <a href="/projects">
+            <Link to="/projects">
                 <span>
                 Projects
                 </span>
-            </a>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/projects">All</Link></li>
@@ -60,11 +60,11 @@ function NavDesktop() {
                 </ul>
             </div>
             <div className="navbar-item" >
-            <a href="/about">
+            <Link to="/about">
                 <span>
                 About Us
                 </span>
-            </a>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/about">About</Link></li>
@@ -75,11 +75,11 @@ function NavDesktop() {
                 </ul>
             </div>
             <div className="navbar-item" >
-            <a href="/blog">
+            <Link to="/blog">
                 <span>
                 Blog
                 </span>
-            </a>
+            </Link>
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/blog">All</Link></li>
