@@ -3,7 +3,7 @@ templateKey: blog-post-projects
 title: Sound Transit Lynnwood Link
 prettytitle1: Sound Transit
 prettytitle2: Heavy Civil
-date: 2021-04-22T17:47:16.716Z
+date: 2021-08-13T18:41:17.654Z
 description: Heavy Civil/Construction Management
 featuredprojects: true
 homepost: true
