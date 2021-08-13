@@ -7,7 +7,7 @@ prettytitle2: Fritz
 jobtitle: Environmental Construction Manager / Fish Biologist
 jobtitle2: ""
 teamcategory: core
-date: 2021-04-30T19:12:09.273Z
+date: 2021-08-13T19:07:13.320Z
 featuredimage: /img/redbarnrobfritz.jpg
 description: ""
 ---
