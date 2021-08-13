@@ -6,7 +6,7 @@ prettytitle2: Boat Marina
 date: 2021-07-21T14:22:35.319Z
 description: "Waterfront Permitting "
 featuredprojects: true
-homepost: true
+homepost: false
 category: water
 featuredimage: /img/seattle-boat-marina-3.jpg
 ---
