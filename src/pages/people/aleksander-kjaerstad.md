@@ -7,7 +7,7 @@ prettytitle2: Kjaerstad
 jobtitle: Project Revenue Manager
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:25:42.204Z
+date: 2021-08-13T19:10:14.040Z
 featuredimage: /img/redbarn-aleksander-kjaerstad.jpg
 description: ""
 ---
