@@ -6,7 +6,7 @@ prettytitle2: Orenda
 date: 2021-04-23T00:38:23.575Z
 description: Mixed-Use
 featuredprojects: true
-homepost: true
+homepost: false
 category: construction-management
 featuredimage: /img/othello-square-orenda_02.jpg
 options: all
