@@ -1,4 +1,5 @@
 // in gastby-browser.js
+/*
 exports.shouldUpdateScroll = ({
     routerProps: { location },
     getSavedScrollPosition,
@@ -13,5 +14,10 @@ exports.shouldUpdateScroll = ({
     
     return false
   }
-  
-  
+
+  */
+exports.shouldUpdateScroll = () => {
+  console.log('Should update scroll');
+  document.getElementById("scrollTo").scrollIntoView()
+}
+

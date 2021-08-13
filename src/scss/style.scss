@@ -49,3 +49,9 @@ body {
 ::before {
   box-sizing: content-box;
 }
+
+#scrollTo {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+}

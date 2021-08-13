@@ -22,6 +22,8 @@ const TemplateWrapper = ({ children }) => {
   }
 
   return (
+    <>
+    <div id="scrollTo"></div>
     <div>
       <Helmet>
         <html lang="en" />
@@ -67,6 +69,7 @@ const TemplateWrapper = ({ children }) => {
       <div id="mainish">{children}</div>
       <Footer />
     </div>
+    </>
   )
 }
 
