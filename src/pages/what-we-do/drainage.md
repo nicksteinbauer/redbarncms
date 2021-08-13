@@ -3,16 +3,31 @@ templateKey: what-post
 title: Drainage
 prettytitle1: Drainage
 date: 2021-04-25T20:08:54.686Z
-description: "n volutpat malesuada ultrices. Mauris non erat tincidunt, finibus
-  libero eget, convallis urna. Pellentesque congue mollis tristique. Donec
-  sodales aliquam suscipit. Pellentesque tincidunt, odio a sagittis porta, nibh
-  ex rhoncus nunc, id sodales nisl leo et tellus. "
+description: "Stormwater Drainage "
 featuredpost: true
 featuredimage: /img/swale_on_yale6-1-.jpg
 ---
+Our drainage team provides plans and reports to architects, developers, and homeowners. We have completed over 400 drainage permits in 5 years and understand the analysis in many different codes for different regions across the U.S.
 
-Morbi luctus, lacus eget lobortis rhoncus, elit tortor mollis turpis, eu elementum massa lacus vitae sapien. Nunc sed diam vel dui ultrices vehicula. Duis orci felis, accumsan eget diam eget, cursus porttitor erat. Aenean ullamcorper urna ac bibendum maximus. Quisque euismod risus at ex consectetur euismod. In quis neque purus.
+Red Barn has experts in drainage design, reports, planning, monitoring, and custom water quality design mixes.  We are one of the firms leading this area with our new laboratory set up for long-term media studies that evaluate predictability to exhaustion.  We have completed work with flash flooding environments to very sensitive ecological areas.  Our team understands the dynamics of the downstream condition and works to provide a sustainable solution both financially and physically. 
 
-Suspendisse egestas quam et justo convallis, in vehicula sem efficitur. Pellentesque malesuada libero cursus faucibus molestie. Mauris sed diam id quam vestibulum egestas. Nunc vitae scelerisque justo. Praesent imperdiet in neque accumsan ornare. Donec semper justo augue, eget imperdiet velit mattis quis. Fusce malesuada pretium nisi, sed varius velit congue sed. Praesent odio diam, lobortis id neque fermentum, fringilla ultrices justo. Morbi faucibus rhoncus eros.
+Our experts can prepare HUD documents to look at the building materials and prepare the biological assessment and consultation with USFS/NOAA as required.  We are your drainage team and understand the nuances of code requirements and blend that with sustainable solutions. 
 
-Sed maximus lectus dolor, ut commodo risus condimentum eget. Quisque ornare massa vel porttitor pellentesque. Duis sagittis sed dui a placerat. Nulla mollis nisi at viverra mollis. Donec sed faucibus ante. Suspendisse mattis, leo non fermentum euismod, sapien ligula eleifend tortor, in fermentum ipsum arcu ut augue. Nullam non bibendum lectus. In vitae ullamcorper lectus, dignissim mollis lacus.
+•	Feasibility Studies
+•	Mapping of buildable area (Note: Understand the buildable area before hiring an architect)
+•	Green Stormwater Infrastructure 
+•	Green Streets
+•	Fish Passage 
+•	Critical Areas Studies
+•	Culverts
+•	Custom Media Mix Design for Industrial Sites
+•	Laboratory Testing for Long-Term Media Blends
+•	Outfall Design
+•	Stormwater Pipe Repair
+•	Stormwater Design
+•	Graywater Design
+•	Purple Pipe Solutions
+•	Rainwater Reuse
+•	Vegetated Roof Calculations
+•	HUD Documentation
+•	Flood Modeling and Control
