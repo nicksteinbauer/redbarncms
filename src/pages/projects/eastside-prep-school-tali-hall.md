@@ -8,6 +8,7 @@ description: Deep infiltration system, Erosion control, Paving, Temporary
   excavation coordination, Utility – water, sewer, and storm alignments, ADA
   routing
 featuredprojects: true
+homepost: true
 category: civil-engineering
 featuredimage: /img/eastside-prep-school-tali-hall-1-.jpg
 ---
