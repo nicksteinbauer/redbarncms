@@ -7,7 +7,7 @@ prettytitle2: Dickerson
 jobtitle: CAD Manager/Construction Inspection
 jobtitle2: ""
 teamcategory: core
-date: 2021-06-30T20:06:52.258Z
+date: 2021-08-13T19:07:54.396Z
 featuredimage: /img/mike-dickerson.jpg
 ---
 
