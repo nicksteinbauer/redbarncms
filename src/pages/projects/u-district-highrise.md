@@ -3,7 +3,7 @@ templateKey: blog-post-projects
 title: U-District Highrise
 prettytitle1: U-District
 prettytitle2: Highrise
-date: 2021-07-23T19:50:06.185Z
+date: 2021-08-13T18:40:50.049Z
 description: Civil Engineering
 featuredprojects: true
 category: civil-engineering
