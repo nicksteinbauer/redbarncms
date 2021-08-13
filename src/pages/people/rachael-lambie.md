@@ -7,7 +7,7 @@ prettytitle2: Lambie
 jobtitle: Telecom/Military Division Co-Lead
 jobtitle2: ""
 teamcategory: executive
-date: 2021-08-13T18:44:26.970Z
+date: 2021-08-13T18:53:04.562Z
 featuredimage: /img/redbarnrachellambie.jpg
 description: ""
 ---
