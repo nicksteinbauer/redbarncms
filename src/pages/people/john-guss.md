@@ -7,7 +7,7 @@ prettytitle2: Guss
 jobtitle: Field Survey Lead
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:18:27.879Z
+date: 2021-08-13T19:09:24.410Z
 featuredimage: /img/redbarnpeoplejohnguss.jpg
 description: ""
 ---
