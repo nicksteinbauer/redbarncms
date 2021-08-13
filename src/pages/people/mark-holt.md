@@ -7,7 +7,7 @@ prettytitle2: Holt
 jobtitle: Construction Inspector
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:14:18.662Z
+date: 2021-08-13T19:07:24.522Z
 featuredimage: /img/redbarnpeoplemarkholt.jpg
 description: ""
 ---
