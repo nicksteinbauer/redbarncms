@@ -7,7 +7,7 @@ prettytitle2: Bushhorn
 jobtitle: Project Revenue Manager / Marketing Coordinator
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:12:07.452Z
+date: 2021-08-13T19:09:33.631Z
 featuredimage: /img/redbarnpeoplepaulbushhorn.jpg
 description: ""
 ---
