@@ -6,7 +6,7 @@ prettytitle2: Environmental
 date: 2021-07-23T18:29:47.139Z
 description: Environmental Construction Management
 featuredprojects: true
-homepost: true
+homepost: false
 category: construction-management
 featuredimage: /img/ronald-bog-3.jpg
 options: all
