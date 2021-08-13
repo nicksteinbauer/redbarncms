@@ -7,7 +7,7 @@ prettytitle2: Stephens
 jobtitle: Construction Management Division Lead
 jobtitle2: ""
 teamcategory: executive
-date: 2021-08-13T18:43:59.741Z
+date: 2021-08-13T18:53:30.010Z
 featuredimage: /img/redbarndarinstephens.jpg
 description: ""
 ---
