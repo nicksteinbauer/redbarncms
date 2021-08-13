@@ -7,7 +7,7 @@ prettytitle2: Wiza
 jobtitle: Civil Engineer
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:20:28.295Z
+date: 2021-08-13T19:08:54.472Z
 featuredimage: /img/redbarnpeopleedwiza.jpg
 description: ""
 ---
