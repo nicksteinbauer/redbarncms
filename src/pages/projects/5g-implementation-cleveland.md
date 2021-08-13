@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post-projects
 title: 5G Implementation - Cleveland
-prettytitle1: "5G Implementation "
+prettytitle1: 5G Core City
 prettytitle2: Cleveland
 date: 2021-08-13T18:10:21.382Z
 description: 5G Implementation - Cleveland
