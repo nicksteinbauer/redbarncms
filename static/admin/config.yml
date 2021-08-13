@@ -148,4 +148,11 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "core-team"}
           - {label: "Title", name: "title", widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/internship-program/index.md"
+        label: "Internship Program"
+        name: "internship-program"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "internship-program"}
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
           
