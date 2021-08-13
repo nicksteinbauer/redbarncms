@@ -7,7 +7,7 @@ prettytitle2: Haines
 jobtitle: ROW Management Technician Lead
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:13:10.668Z
+date: 2021-08-13T19:09:04.407Z
 featuredimage: /img/redbarnpeopleerichaines.jpg
 description: ""
 ---
