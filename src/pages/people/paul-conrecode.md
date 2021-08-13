@@ -7,7 +7,7 @@ prettytitle2: Conrecode
 jobtitle: Environmental Construction Manager / Fish Biologist
 jobtitle2: ""
 teamcategory: core
-date: 2021-05-05T18:08:52.392Z
+date: 2021-08-13T19:07:34.896Z
 featuredimage: /img/redbarnpeoplepaulconrecode.jpg
 description: ""
 ---
