@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-projects
-title: Corner 63
+title: Corner 63 Multi-family
 prettytitle1: Corner 63
 prettytitle2: Multi-family
 date: 2021-07-27T15:13:11.905Z
