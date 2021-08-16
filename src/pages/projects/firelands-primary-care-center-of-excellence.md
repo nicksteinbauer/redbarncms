@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Firelands Primary Care Center of Excellence
 prettytitle1: Firelands
-prettytitle2: PCCOE
+prettytitle2: Healthcare
 date: 2021-08-09T19:37:49.264Z
 description: site improvements, stormwater
 featuredprojects: true
