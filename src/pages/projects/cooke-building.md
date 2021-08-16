@@ -1,7 +1,8 @@
 ---
 templateKey: blog-post-projects
 title: Cooke Building
-prettytitle1: Cooke
+prettytitle1: "Cooke "
+prettytitle2: Building
 date: 2021-07-21T18:58:00.000Z
 description: Survey, grading, utility design
 featuredprojects: true
