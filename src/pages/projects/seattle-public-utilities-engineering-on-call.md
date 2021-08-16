@@ -5,6 +5,7 @@ prettytitle1: Engineering
 prettytitle2: On-Call
 date: 2021-08-16T16:05:19.550Z
 description: Seattle Public Utilities Engineering On-Call
+featuredprojects: true
 category: civil-engineering
 featuredimage: /img/photo-coming-soon-1-.jpg
 ---
