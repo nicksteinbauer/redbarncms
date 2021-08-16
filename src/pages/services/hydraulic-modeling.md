@@ -6,7 +6,7 @@ prettytitle2: Modeling
 date: 2021-07-27T13:41:48.047Z
 description: Hydraulic Modeling
 featuredservice: true
-featuredimage: /img/photo-coming-soon-1-.jpg
+featuredimage: /img/hec-res-pic.png
 ---
 Our firm is comprised of hydraulic engineers with advanced degrees in mathematics, engineering, mechanical engineering, and fluid dynamics.  We use our advanced mathematics to expedite modeling in 2D and 3D modeling applications.  Our advanced modeling has been used to get approvals in coastal and stream projects for scour and fish passage.  We collaborate with agencies in multiple states and regions on developing our models.
 
