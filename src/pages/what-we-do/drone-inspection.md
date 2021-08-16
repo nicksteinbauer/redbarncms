@@ -4,24 +4,16 @@ title: Drone Inspection
 prettytitle1: Drone
 prettytitle2: Inspection
 date: 2021-04-22T15:56:28.041Z
-description: At Red Barn Engineering, we push technological boundaries using our
-  robust programmers and advanced modeling engineers.  Our drone pilot has
-  world-renowned flight status and compiles data for engineers, scientists, and
-  real estate land development.  We cut the time down to minutes, not hours, of
-  field time.
+description: "Drone Inspection "
 featuredpost: true
 featuredimage: /img/adobestock_228584083.jpg
 ---
-At Red Barn, we push technological boundaries using our robust programmers and advanced modeling engineers. Our drone pilot has world-renowned flight status and compiles data for engineers, scientists, and real estate land development. We cut the time down to minutes, not hours, of field time.
+Red Barn's survey division has drone technology that aids in picking up utility locate marks and calculate earthwork quantities during construction.  It has been an invaluable resource as we use high-resolution imaging to look at large sites and sites with steep slopes.  The drone technology team is constantly working on new ways to perform maintenance and inspection on bridges, tunnels, and steep slopes.  We have drone pilots with over 20 years of experience in both videography and data analysis of results.  We provide drone services for the following types of projects: 
 
-**How does it work?**
-
-1. Contact our drone pilot.
-2. A contract is put in place.
-3. We email you within 24 hours of your scheduled flight.
-4. We obtain the required flight clearance and make certain the area is secure before the flight.
-5. We fly.
-6. We notify you when we are finished, and your files are delivered to the engineer.
-
-   Contact: Adam Weston
-   Adam@redbarn-engineering.com
+•	Special Inspections (lift cables)  
+•	Bridge Super Structure and Decking  
+•	Roof Skylights  
+•	Large land development projects (over 100 acres)  
+•	Commercial projects (where tree interference is minimized)  
+•	Utility locates for long linear jobs  
+•	Data Analysis with 5G systems
