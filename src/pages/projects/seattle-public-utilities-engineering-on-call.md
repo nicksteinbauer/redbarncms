@@ -3,7 +3,7 @@ templateKey: blog-post-projects
 title: Seattle Public Utilities Engineering On-Call
 prettytitle1: Engineering
 prettytitle2: On-Call
-date: 2021-08-16T16:05:19.550Z
+date: 2021-08-09T16:05:19.550Z
 description: Seattle Public Utilities Engineering On-Call
 featuredprojects: true
 category: civil-engineering
