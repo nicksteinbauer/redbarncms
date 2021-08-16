@@ -8,4 +8,21 @@ description: Hydraulic Modeling
 featuredservice: true
 featuredimage: /img/photo-coming-soon-1-.jpg
 ---
-Hydraulic Modeling
+Our firm is comprised of hydraulic engineers with advanced degrees in mathematics, engineering, mechanical engineering, and fluid dynamics.  We use our advanced mathematics to expedite modeling in 2D and 3D modeling applications.  Our advanced modeling has been used to get approvals in coastal and stream projects for scour and fish passage.  We collaborate with agencies in multiple states and regions on developing our models.
+
+•	River 2D Modeling  
+•	Stream Simulation Design  
+•	Zero-Rise Certifications   
+•	Flood Hazard Analysis  
+•	Closed Depression Analysis   
+•	Fish Passage  
+•	Water Circulation in Reservoirs  
+•	Flow-through Porous Media (Water Quality Applications)  
+•	SWMM Modeling  
+•	CE-QUAL-W2 with macrophytes for lake vegetation management  
+•	Coastal Design for Revetments using Landsat Data  
+•	HEC-RAS Modeling  
+•	Integrated Groundwater Modeling  
+•	SCADA Monitoring and Control Feedback for Well Production
+
+Our staff has several published works on the above topics. Check out our blog for the R&D that we are currently doing related to Hydraulic Modeling.
