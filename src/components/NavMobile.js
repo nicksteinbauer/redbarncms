@@ -55,6 +55,7 @@ function NavMobile() {
                         <li><Link to="/what-we-do/transportation/">Transportation</Link></li>
                         <li><Link to="/what-we-do/water/">Water</Link></li>
                         <li><Link to="/what-we-do/rail/">Rail</Link></li>
+                        <li><Link to="/what-we-do/transit-consulting/">Right-of-Way Consulting</Link></li>
                         <li><Link to="/what-we-do/defense-design-build/">Defense Design / Build</Link></li>
                         <li><Link to="/what-we-do/drainage/">Drainage</Link></li>
                         <li><Link to="/what-we-do/drone-inspection/">Drone Inspection</Link></li>
