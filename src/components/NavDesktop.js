@@ -13,16 +13,17 @@ function NavDesktop() {
             </Link>
                 <ul>
                     <li className="first"></li>
-                    <li><Link to="/what-we-do">All</Link></li>
-                    <li><Link to="/what-we-do/telecom">Telecom</Link></li>
-                    <li><Link to="/what-we-do/resort-management">Resort Management</Link></li>
-                    <li><Link to="/what-we-do/transportation">Transportation</Link></li>
-                    <li><Link to="/what-we-do/water">Water</Link></li>
+                    <li><Link to="/what-we-do/">All</Link></li>
+                    <li><Link to="/what-we-do/transportation/">Transportation</Link></li>
+                    <li><Link to="/what-we-do/defense-design-build/">Defense Design / Build</Link></li>
+                    <li><Link to="/what-we-do/telecom/">Telecom/5G</Link></li>
+                    <li><Link to="/what-we-do/resort-management/">Resort Management</Link></li>
+                    <li><Link to="/what-we-do/water/">Water</Link></li>
+                    <li><Link to="/what-we-do/drainage/">Drainage</Link></li>
+                    <li><Link to="/what-we-do/rail/">Rail</Link></li>
                     <li><Link to="/what-we-do/transit-consulting/">Right-of-Way Consulting</Link></li>
-                    <li><Link to="/what-we-do/rail">Rail</Link></li>
-                    <li><Link to="/what-we-do/defense-design-build">Defense Design / Build</Link></li>
-                    <li><Link to="/what-we-do/drainage">Drainage</Link></li>
-                    <li><Link to="/what-we-do/drone-inspection">Drone Inspection</Link></li>
+                    <li><Link to="/what-we-do/oil-and-gas/">Oil and Gas</Link></li>
+                    <li><Link to="/what-we-do/drone-inspection/">Drone Inspection</Link></li>
                 </ul>
             </div>
             <div className="navbar-item" >
