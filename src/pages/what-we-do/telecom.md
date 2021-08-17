@@ -10,7 +10,11 @@ featuredimage: /img/pxl_20210410_170711549-1-3-1-.jpg
 ---
 ### **Your permit is our priority!**
 
-#### Current number of 5G Permits in for Application: 71
+
+
+#### Current number of 5G Permits in for Application: 71    
+
+
 
 We understand that time is of the essence, and as such, we are off to the races with multiple teaming partners for survey, structural engineering, and electrical engineering. Our firm has offices across the nation in Washington, Ohio, and Florida and is ready to expand your network.
 
