@@ -7,7 +7,7 @@ date: 2021-08-09T19:37:49.264Z
 description: site improvements, stormwater
 featuredprojects: true
 category: civil-engineering
-featuredimage: /img/photo-coming-soon-1-.jpg
+featuredimage: /img/pccoe-2.jpg
 ---
 Firelands Regional Medical Center constructed this facility to consolidate physicians from standalone facilities to centralize testing and associated services. The original parcel consisted of 4 parcels which we prepared an ALTA survey, boundary, topographic, and lot combination surveys.
 
