@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Othello Square - Orenda Mixed use
 prettytitle1: Othello Square
-prettytitle2: Healthcare/Multi-family
+prettytitle2: Healthcare
 date: 2021-04-23T00:38:23.575Z
 description: Mixed-Use
 featuredprojects: true
