@@ -35,13 +35,14 @@ function NavDesktop() {
                 <ul>
                     <li className="first"></li>
                     <li><Link to="/services">All</Link></li>
-                    <li><Link to="/services/construction-management">Construction Management</Link></li>
                     <li><Link to="/services/civil-engineering">Civil Engineering</Link></li>
-                    <li><Link to="/services/hydraulic-modeling">Hydraulic Modeling</Link></li>
-                    <li><Link to="/services/survey">Surveying</Link></li>
-                    <li><Link to="/services/electrical-fiber-optic-design">Electrical / Fiber Optic Design</Link></li>
-                    <li><Link to="/services/environmental-permitting">Environmental Permitting</Link></li>
+                    <li><Link to="/services/construction-management">Construction Management</Link></li>
+                    <li><Link to="/services/survey">Survey</Link></li>
+                    <li><Link to="/services/environmental-services">Environmental Services</Link></li>
                     <li><Link to="/services/coastal-engineering">Coastal Engineering</Link></li>
+                    <li><Link to="/services/environmental-permitting">Environmental Permitting</Link></li>
+                    <li><Link to="/services/electrical-fiber-optic-design">Electrical / Fiber Optic Design</Link></li>
+                    <li><Link to="/services/hydraulic-modeling">Hydraulic Modeling</Link></li>
                     <li><Link to="/services/water-resource-engineering">Water Resource Engineering</Link></li>
                 </ul>
             </div>
