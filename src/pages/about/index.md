@@ -28,7 +28,7 @@ featuredimage: /img/adobestock_232693002.jpeg
 description: "Our team is made up of Civil Engineers, Construction Managers,
   Environmental Construction Managers, Construction Inspectors, Fish Biologists,
   Industrial Stormwater Engineers, Hydrologists, Modeling Experts, Permitting
-  Specialists and Administrators.            The core values we aim for are:
+  Specialists and Administrators.            The core values we hold to are:
   Responsive, Receptive, Appreciative, Professional, Innovative and Aware. "
 teamimage: /img/home-jumbotron.jpg
 ---
