@@ -9,4 +9,6 @@ featuredprojects: true
 category: telecom
 featuredimage: /img/adobestock_364397645.jpg
 ---
-core city 5G implementation
+Telecom services include coordination with other franchise utility owners, energy corporations, municipalities, and private property owners.  Before designing the expansion of telecom in these areas, we obtain surveyors from local surveying firms and assess whether we can bore for the connection to the node locations.  We provide complete permitting and pothole coordination for projects, negotiations, right-of-way management (i.e., discussions with property owners, cities, and utility owners), and traffic control permitting as well as traffic control services.   
+
+In Bellevue, WA, we were the team that assisted in gaining the first 5G permit.  Red Barn is currently pursuing nearly 60 Right-of-Way 5G telecom pole replacement permit submittals for our wireless client.  Approximately a dozen 5G permits have already been approved or are under construction.
