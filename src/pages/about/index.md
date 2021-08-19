@@ -23,6 +23,10 @@ testimonialsabout:
     author: Mike Motil PM Sound Transit Lynnwood Link GC/CM, PGH Wong Inc.
   - quote: They made a completely foreign process feel like a walk in the park.
     author: Peter Sobol, Eminence Homes, LLC
+  - quote: Red Barn is highly responsive and works well inspecting the City's ADA
+      ramps and infrastructure.  We have been pleased with the service and how
+      their staff makes us a priority.
+    author: Bryan Hampson, City of Kenmore, WA
 teamtitle: Our Team
 featuredimage: /img/adobestock_232693002.jpeg
 description: "Our team is made up of Civil Engineers, Construction Managers,
