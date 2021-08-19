@@ -131,8 +131,10 @@
       top: 30px;
       .animateThat {
         position: relative;
-        right: 30px;
-        top: -40px;
+        @media screen and (min-width: $screen-md) {
+          right: 30px;
+          top: -40px;
+        }
         left: auto;
       }
     }

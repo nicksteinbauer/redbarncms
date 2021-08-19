@@ -92,16 +92,16 @@ const IndexPage = ({ data }) => {
       </div>
     </section>
 
-    <section className="reliefmap sec-green section what-we-do">    
+    <section className="reliefmap sec-green section what-we-do slicky">    
       <div className="inside-xxl">
         <div className="flex-md flex-end what-we-do-text"><h2 className="forty accent">What We Do</h2></div>
         <BlogRollWhat />
       </div>
     </section>
 
-    <section className="reliefmap sec-black section projects">    
+    <section className="reliefmap sec-black section projects slicky">    
       <div className="inside-xl extra-padd">
-        <div className="flex-md flex-end relative"><h2 className="forty accent">Projects</h2></div>
+        <div className="flex-md flex-end relative project-push"><h2 className="forty accent">Projects</h2></div>
         <BlogProjectsSlide />
       </div>
       <div className="gradient"></div>

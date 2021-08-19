@@ -40,8 +40,10 @@
 
     .animateThat {
       position: relative;
-      top: -40px;
-      left: 30px;
+      @media screen and (min-width: $screen-md) {
+        top: -40px;
+        left: 30px;
+      }
     }
   }
   h2.h1 {

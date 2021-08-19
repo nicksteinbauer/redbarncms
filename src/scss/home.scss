@@ -199,7 +199,7 @@ h3.accent::before {
   }
   .fudge {
     position: relative;
-    margin-top: 20px;
+    margin-top: 80px;
     @media screen and (min-width: $screen-md) {
       margin-top: -180px;
     }
@@ -237,6 +237,33 @@ h3.accent::before {
   margin-bottom: -80px;
 }
 
+// mobile padding fix on slick slides
+.slicky {
+  .inside-xxl {
+    padding-left: 0px;
+    padding-right: 0px;
+    @media screen and (min-width: $screen-md) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+  .inside-xl {
+    padding-left: 0px;
+    padding-right: 0px;
+    @media screen and (min-width: $screen-md) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}
+
+.project-push {
+  margin-left: 20px;
+  @media screen and (min-width: $screen-md) {
+    margin-left: 0;
+  }
+}
+
 .reliefmap {
   color: #fff;
 
@@ -267,6 +294,7 @@ h3.accent::before {
     color: #fff;
     line-height: 1;
     margin-top: 40px;
+    font-size: 1.6em;
     span {
       font-style: italic;
     }
