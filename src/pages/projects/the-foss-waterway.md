@@ -7,7 +7,7 @@ date: 2021-07-21T15:14:17.915Z
 description: Biological Assessment/Stormwater
 featuredprojects: true
 category: water
-featuredimage: /img/photo-coming-soon.jpg
+featuredimage: /img/img_3702.jpg
 ---
 Named after the Norwegian immigrant, Thea Foss, the founder of Foss Maritime (now the largest tugboat company in the western United States), the Foss Waterway is the home to the Museum of Glass, the last place Tall Ships regularly pull into Port in the Northwest. 
 
@@ -18,3 +18,7 @@ Presently, we are completing a biological assessment for a HUD-funded project wi
 Red Barn will utilize its knowledge of environmentally friendly roofing systems to make sure that the appropriate materials and processes are used at these project sites (i.e., coating galvanized materials, installing BTS roofing).
 
 To learn more about environmentally friendly roofing types, visit the Washington Department of Ecology’s website. <http://apps.ecology.wa.gov/publications/documents/1403033.pdf>
+
+
+
+![](/img/img_3688.jpg)
