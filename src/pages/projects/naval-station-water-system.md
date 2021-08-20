@@ -9,4 +9,4 @@ featuredprojects: true
 category: water
 featuredimage: /img/screenshot-2021-08-19-102631-1-.jpg
 ---
-This project designed a new water treatment system on a government site to remove unwanted manganese and iron from the water. The project also addressed pressure surge concerns by first modeling the surges and then offending and designing solutions to reduce and eliminate the surges.
+Red Barn prepared the water system upgrades for a Naval Recreation Base, which included a new treatment system to remove manganese and iron from the water,  as well as maintenance throughout the area on the water mains. The system has a new hydropneumatic tank and surge protection added throughout the base. The project addressed pressure surge concerns by first modeling the surges and then offending and designing solutions to reduce and eliminate the surges.
