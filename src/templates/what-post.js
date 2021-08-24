@@ -20,6 +20,7 @@ export const WhatPostTemplate = ({
   helmet,
   prettytitle1,
   prettytitle2,
+  //description
 }) => {
   const PostContent = contentComponent || Content
 
@@ -125,6 +126,7 @@ export const pageQuery = graphql`
         prettytitle2
         jobtitle
         jobtitle2
+        description
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 840, quality: 60) {
