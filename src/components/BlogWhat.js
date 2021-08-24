@@ -50,7 +50,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
                             ) : null}
                             <span>{post.frontmatter.prettytitle2}</span>
                           </h2>
-                            <p>{post.excerpt}</p>
+                            <p>{post.frontmatter.description}</p>
                             <div className="flex-xl flex-start text-center buffer">
                                 <Link className="button thirty3" to={post.fields.slug}>View More</Link>
                             </div>
@@ -97,6 +97,7 @@ export default () => (
                 prettytitle2
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                description
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 800, quality: 80) {

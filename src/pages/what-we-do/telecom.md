@@ -8,6 +8,7 @@ description: Telecom 5G
 featuredpost: true
 featuredimage: /img/pxl_20210410_170711549-1-3-1-.jpg
 ---
+
 ### **Your permit is our priority!**
 
 #### Current number of 5G Permits in for Application: 72
@@ -16,17 +17,17 @@ We understand that time is of the essence, and as such, we are off to the races 
 
 ##### We offer the following:
 
-•	Team of engineers that works solely on your project.\
-•	Payment options that allow for overtime work to expedite the permit process.\
-•	Traffic control management for construction.\
-•	Design-Build for multiple deliveries of poles with Contractor-selection services.\
-•	RF Emissions Testing.          
+• Team of engineers that works solely on your project.\
+• Payment options that allow for overtime work to expedite the permit process.\
+• Traffic control management for construction.\
+• Design-Build for multiple deliveries of poles with Contractor-selection services.\
+• RF Emissions Testing.
 
-Our network includes teams in multiple cities across the nation where we can provide local surveying & engineering through our trusted teaming partners - Los Angeles, San Francisco, New York, Honolulu, Denver, Dallas, Orlando, Cincinnati, Philadelphia, Boston, Chicago, Seattle, and many more.  
+Our network includes teams in multiple cities across the nation where we can provide local surveying & engineering through our trusted teaming partners - Los Angeles, San Francisco, New York, Honolulu, Denver, Dallas, Orlando, Cincinnati, Philadelphia, Boston, Chicago, Seattle, and many more.
 
 ##### Our services include:
 
-•	Engineering - Electrical, Civil, Fiber Optic\
-•	Permitting - ROW Management, Easements, etc.\
-•	Leasing - Agreements, Negotiation, and Exhibits\
-•	Construction Management - Structural, Flatwork, Paving, and Traffic Control
+• Engineering - Electrical, Civil, Fiber Optic\
+• Permitting - ROW Management, Easements, etc.\
+• Leasing - Agreements, Negotiation, and Exhibits\
+• Construction Management - Structural, Flatwork, Paving, and Traffic Control
