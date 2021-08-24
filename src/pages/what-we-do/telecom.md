@@ -7,12 +7,6 @@ date: 2021-08-12T15:13:26.430Z
 description: Telecom 5G
 featuredpost: true
 featuredimage: /img/pxl_20210410_170711549-1-3-1-.jpg
-newexcerpt: |-
-  This is a test of the New Excerpt.
-
-  This is a test of a multi-line excerpt. 
-
-  This is only a test.
 ---
 
 ### **Your permit is our priority!**
