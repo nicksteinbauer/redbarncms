@@ -50,7 +50,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
                             ) : null}
                             <span>{post.frontmatter.prettytitle2}</span>
                           </h2>
-                            <p>{post.frontmatter.description}</p>
+                            <div>{post.frontmatter.description}</div>
                             <div className="flex-xl flex-start text-center buffer">
                                 <Link className="button thirty3" to={post.fields.slug}>View More</Link>
                             </div>

@@ -42,6 +42,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "New Excerpt", name: "newexcerpt", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "services"
