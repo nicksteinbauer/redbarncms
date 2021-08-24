@@ -4,7 +4,12 @@ title: Telecom
 prettytitle1: Telecom / 5G
 prettytitle2: ""
 date: 2021-08-12T15:13:26.430Z
-description: Telecom 5G
+description: |-
+  Telecom 5G
+
+  This is a multiline test of this. Please work. 
+
+  Yeah!
 featuredpost: true
 featuredimage: /img/pxl_20210410_170711549-1-3-1-.jpg
 ---
