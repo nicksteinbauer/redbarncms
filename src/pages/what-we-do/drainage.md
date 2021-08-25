@@ -3,7 +3,10 @@ templateKey: what-post
 title: Drainage
 prettytitle1: Drainage
 date: 2021-04-25T20:08:54.686Z
-description: "Stormwater Drainage "
+description: Our drainage team provides plans and reports to architects,
+  developers, and homeowners. We have completed over 400 drainage permits in 5
+  years and understand the analysis in many different codes for different
+  regions across the U.S.
 featuredpost: true
 featuredimage: /img/swale_on_yale6-1-.jpg
 ---
