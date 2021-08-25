@@ -4,10 +4,11 @@ title: Resort Management
 prettytitle1: Resort
 prettytitle2: Management
 date: 2021-05-01T15:27:34.194Z
-description: "Red Barn staff is experienced in working on commercial site plans
+description: Red Barn staff is experienced in working on commercial site plans
   and site design. This experience transfers over to Resort Management with
   entrance drives, parking lots, site plans, stormwater management, and other
-  site amenities. "
+  site amenities. These elements together allow for a cohesive site and pleasant
+  experience.
 featuredpost: true
 featuredimage: /img/adobestock_5251225.jpg
 ---
