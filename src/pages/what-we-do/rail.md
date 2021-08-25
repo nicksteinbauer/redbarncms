@@ -3,10 +3,10 @@ templateKey: what-post
 title: Rail
 prettytitle1: Rail
 date: 2021-04-24T01:05:09.487Z
-description: "Red Barn can deliver by having a team led by construction managers
-  and inspectors with over 20 years of experience in heavy civil
-  construction.  They know how to get the job coordinated, reviewed, and keeping
-  the construction going.  "
+description: Red Barn has qualified staff able to lead large projects for
+  transit and transportation. Our team is structured so that construction
+  management and constructability reviews are done throughout the project.
+  Additionally, we look over submittals and RFI responses from the contractor.
 featuredpost: true
 featuredimage: /img/adobestock_169500812.jpg
 ---
