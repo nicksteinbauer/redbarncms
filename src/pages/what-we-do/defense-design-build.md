@@ -4,11 +4,10 @@ title: Defense Design / Build
 prettytitle1: Defense
 prettytitle2: Design / Build
 date: 2021-08-12T15:13:51.722Z
-description: |-
-  Red Barn Engineering is a certified SB/WOSB. Our staff has
-  extensive experience working on Army Corp of Engineers (Corp), NAVFAC NW, and
-  USFWS projects.  We are experienced in design-build projects, provide quick
-  designs during the RFP stage, and help navigate the requirements.
+description: Red Barn is a certified SB/WOSB. Our staff has extensive experience
+  working on Army Corp of Engineers (Corp), NAVFAC NW, and USFWS projects. We
+  are experienced in design-build projects, provide quick designs during the RFP
+  stage, and help navigate the requirements.
 featuredpost: true
 featuredimage: /img/redbarn-defense-design-build-1-.jpg
 ---
