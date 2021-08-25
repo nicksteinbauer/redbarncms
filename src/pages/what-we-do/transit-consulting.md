@@ -4,7 +4,12 @@ title: Right-of-Way Consulting
 prettytitle1: Right-of-Way
 prettytitle2: Consulting
 date: 2021-04-23T15:36:15.002Z
-description: Right-of-Way Consulting
+description: Red Barn's Right-of-Way Consulting team coordinates with
+  jurisdictions the needs of your project, particularly - dedications,
+  easements, temporary construction easements, property research, title report
+  due diligence, utility backchecking, and right-of-entry coordination.  We are
+  working on contracts for both public and private entities for many different
+  facilities within the right-of-way.
 featuredpost: true
 featuredimage: /img/adobestock_236953488.jpg
 ---
