@@ -4,12 +4,12 @@ title: Telecom
 prettytitle1: Telecom / 5G
 prettytitle2: ""
 date: 2021-08-12T15:13:26.430Z
-description: |-
-  This is a test of the description.
+description: >-
+  Your permit is our priority!
 
-  This is a test of a multi-line excerpt. 
+  Current number of 5G Permits in for Application: 72
 
-  This is only a test.
+  We understand that time is of the essence, and as such, we are off to the races with multiple teaming partners for survey, structural engineering, and electrical engineering. Our firm has offices across the nation in Washington, Ohio, and Florida and is ready to expand your network.
 featuredpost: true
 featuredimage: /img/pxl_20210410_170711549-1-3-1-.jpg
 ---
