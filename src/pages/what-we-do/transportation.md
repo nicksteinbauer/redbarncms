@@ -16,20 +16,20 @@ Leading large transit and transportation projects is what our qualified team mem
 
 Darin Stephens leads our Transportation Division, bringing extensive experience managing mega bridge projects for the Seattle Department of Transportation. His invaluable experience ensures top-notch results and peace of mind.
 
-**Transportation services:**  
-• CMC lead team  
-• Civil design (stormwater, utilities, an roadways using Microstation)  
-• Resident engineering  
-• Construction engineering  
-• Construction management certified staff  
-• Construction inspection  
-• Environmental compliance  
-• Design-build project management  
-• Stormwater and wastewater inspection  
-• OSHA-10 Hour trained staff  
+**Transportation services:**\
 • Agency permit approvals (WSDOT traffic and design)  
 • Avetta approved  
 • Certified Erosion and Sediment Control Lead (CESCL) monitoring  
+• Civil design (stormwater, utilities, an roadways using Microstation)  
 • Claims support  
+• CMC lead team  
+• Construction engineering  
+• Construction inspection  
+• Construction management certified staff  
+• Design-build project management  
+• Environmental compliance  
 • NPDES project-specific approvals  
-• Quality control by ISO-certified staff
+• OSHA-10 Hour trained staff  
+• Quality control by ISO-certified staff  
+• Resident engineering  
+• Stormwater and wastewater inspection
