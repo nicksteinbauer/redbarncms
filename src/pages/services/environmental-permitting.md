@@ -4,13 +4,17 @@ title: Environmental Permitting
 prettytitle1: Environmental
 prettytitle2: Permitting
 date: 2021-07-27T13:44:26.165Z
-description: Environmental Permitting
+description: "Our firm has experience preparing environmental documentation
+  through various forms and reports for local, state, and federal permits. Red
+  Barn looks at each project and thoroughly vets the impacts to the environment
+  and identifies mitigation measures. We concentrate on the surface water, land
+  use, and traffic impacts for larger site development projects. "
 featuredservice: true
 featuredimage: /img/adobestock_430561600.jpg
 ---
-Our firm has experience preparing environmental documentation through various forms and reports for local, state, and federal permits.  Red Barn looks at each project and thoroughly vets the impacts to the environment and the mitigation measures.  We concentrate on the surface water, land use, and traffic impacts for larger site development projects.  We are most interested in the Environmental Impact Statement (EIS) details for rural transportation projects that significantly impact critical areas.  Often the work we are doing is a collaboration with stakeholders and understanding all perspectives of the work being done. We guide clients in the best path forward for replacing or repairing critical infrastructure or understanding water body dynamics to ensure water quality compliance in areas where endangered species need protection.
+We have experience preparing environmental documentation through various forms and reports for local, state, and federal permits. Red Barn looks at each project and thoroughly vets the impacts to the environment and identifies mitigation measures. We concentrate on the surface water, land use, and traffic impacts for larger site development projects. We are most interested in the Environmental Impact Statement (EIS) details for rural transportation projects that significantly impact critical areas. We follow a collaborative process with stakeholders to make sure we understand all perspectives of the work being performed. We guide clients through the best path forward for replacing or repairing critical infrastructure or understanding water body dynamics to ensure water quality compliance in areas where endangered species need protection.
 
-The types of permits we have over 20 years of experience in are as follows:   
+The types of permits we have over 20 years of experience in are as follows:\
 •	Hydraulic Project Approval (Standard, Expedited, and Emergency)\
 •	Washington State JARPA through the Aquatic Protection Permitting System (APPS)\
 •	EPA CWA Section 401 Certification\
