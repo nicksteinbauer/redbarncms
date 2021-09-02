@@ -4,15 +4,15 @@ title: Survey
 prettytitle1: Survey
 prettytitle2: ""
 date: 2021-08-12T15:22:01.655Z
-description: "Our Survey Department can assist you in establishing your property
-  lines with land surveying and site mapping services.  Let our land surveying
-  team establish your property lines with a boundary survey  If you require  an
-  ALTA/NSPS land title survey for your industrial or commercial site
-  development, financing or sale, we can help. "
+description: Our Survey Division can assist you in establishing your property
+  lines with land surveying and site mapping services. Let our land survey team
+  establish your property lines with a boundary survey. If you require an
+  ALTA/NSPS land title for your industrial or commercial site development,
+  financing, or sale, we can help.
 featuredservice: true
 featuredimage: /img/adobestock_302757584.jpg
 ---
-Our Survey Department can assist you in establishing your property lines with land surveying and site mapping services. Let our land survey team establish your property lines with a boundary survey. If you require an ALTA/NSPS land title for your industrial or commercial site development, financing, or sale, we can help.
+Our Survey Division can assist you in establishing your property lines with land surveying and site mapping services. Let our land survey team establish your property lines with a boundary survey. If you require an ALTA/NSPS land title for your industrial or commercial site development, financing, or sale, we can help.
 
 **Survey Services**
 
