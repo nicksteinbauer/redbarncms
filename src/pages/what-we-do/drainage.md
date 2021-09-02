@@ -3,14 +3,14 @@ templateKey: what-post
 title: Drainage
 prettytitle1: Drainage
 date: 2021-04-25T20:08:54.686Z
-description: Our drainage team provides plans and reports to architects,
-  developers, and homeowners. We have completed over 400 drainage permits in 5
-  years and understand the analysis in many different codes for different
-  regions across the U.S.
+description: "Our drainage team provides plans and reports to architects,
+  developers, and homeowners. We have obtained more than 400 drainage permits in
+  five years and understand the analysis of many different codes for different
+  regions of the United States. "
 featuredpost: true
 featuredimage: /img/swale_on_yale6-1-.jpg
 ---
-Our drainage team provides plans and reports to architects, developers, and homeowners. We have completed over 400 drainage permits in 5 years and understand the analysis in many different codes for different regions across the U.S.
+Our drainage team provides plans and reports to architects, developers, and homeowners. We have obtained more than 400 drainage permits in five years and understand the analysis of many different codes for different regions of the United States. 
 
 Red Barn has experts in drainage design, reports, planning, monitoring, and custom water quality design mixes.  We are one of the firms leading this area with our new laboratory set up for long-term media studies that evaluate predictability to exhaustion.  We have completed work with flash flooding environments to very sensitive ecological areas.  Our team understands the dynamics of the downstream condition and works to provide a sustainable solution both financially and physically. 
 
