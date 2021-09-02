@@ -16,10 +16,10 @@ Red Barn’s Survey Division has drone technology that aids in picking up utilit
 
 Drone inspection services:
 
-• Special inspections (lift cables)  
 • Bridge super structure and decking  
-• Roof skylights  
-• Large land development projects (over 100 acres)  
 • Commercial projects (where tree interference is minimized)  
-• Utility locates for long linear jobs  
-• Data analysis with 5G systems
+• Data analysis with 5G systems  
+• Large land development projects (over 100 acres)  
+• Roof skylights  
+• Special inspections (lift cables)  
+• Utility locates for long linear jobs
