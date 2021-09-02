@@ -16,21 +16,21 @@ Red Barn has experts in drainage design, reports, planning, monitoring, and cust
 
 Our experts can prepare HUD documents to look at the building materials and prepare the biological assessment and consultation with USFS/NOAA as required.  We are your drainage team and understand the nuances of code requirements and blend that with sustainable solutions. 
 
-•	Feasibility Studies
-•	Mapping of buildable area (Note: Understand the buildable area before hiring an architect)
-•	Green Stormwater Infrastructure 
-•	Green Streets
-•	Fish Passage 
-•	Critical Areas Studies
-•	Culverts
-•	Custom Media Mix Design for Industrial Sites
-•	Laboratory Testing for Long-Term Media Blends
-•	Outfall Design
-•	Stormwater Pipe Repair
-•	Stormwater Design
-•	Graywater Design
-•	Purple Pipe Solutions
-•	Rainwater Reuse
-•	Vegetated Roof Calculations
-•	HUD Documentation
-•	Flood Modeling and Control
+• Critical Areas Studies  
+• Culverts  
+• Custom Media Mix Design for Industrial Sites  
+• Feasibility Studies  
+• Fish Passage  
+• Flood Modeling and Control  
+• Graywater Design   
+• Green Stormwater Infrastructure  
+• Green Streets  
+• HUD Documentation  
+• Laboratory Testing for Long-Term Media Blends  
+• Mapping of buildable area (Note: Understand the buildable area before hiring an architect)  
+• Outfall Design  
+• Purple Pipe Solutions  
+• Rainwater Reuse  
+• Stormwater Design  
+• Stormwater Pipe Repair  
+• Vegetated Roof Calculations
