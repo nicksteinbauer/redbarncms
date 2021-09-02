@@ -4,15 +4,16 @@ title: Defense Design / Build
 prettytitle1: Defense
 prettytitle2: Design / Build
 date: 2021-08-12T15:13:51.722Z
-description: Red Barn is a certified SB/WOSB. Our staff has extensive experience
-  working on Army Corp of Engineers (Corp), NAVFAC NW, and USFWS projects. We
-  are experienced in design-build projects, provide quick designs during the RFP
-  stage, and help navigate the requirements.
+description: "Red Barn is a certified small business (SBE) and woman-owned small
+  business (WOSB). Our staff brings extensive experience working with the Army
+  Corp of Engineers (Corp), NAVFAC Northwest, and The United States Fish and
+  Wildlife Service. This experience is a value-add on design-build projects
+  providing our clients/partners quick designs during the RFP phase and
+  expertise in navigating governmental project requirements. "
 featuredpost: true
 featuredimage: /img/redbarn-defense-design-build-1-.jpg
 ---
-
-Red Barn is a certified SB/WOSB. Our staff has extensive experience working on Army Corp of Engineers (Corp), NAVFAC NW, and USFWS projects. We are experienced in design-build projects, provide quick designs during the RFP stage, and help navigate the requirements.
+Red Barn is a certified small business (SBE) and woman-owned small business (WOSB). Our staff brings extensive experience working with the Army Corp of Engineers (Corp), NAVFAC Northwest, and The United States Fish and Wildlife Service. This experience is a value-add on design-build projects providing our clients/partners quick designs during the RFP phase and expertise in navigating governmental project requirements. 
 
 **​Military**
 
@@ -36,24 +37,24 @@ Our military experience includes the following:
 
 Our civil, environmental, and water resources divisions provide the following:
 
-- Wetland Delineation
-- Environmental Compliance during Construction
-- Microstation Design
-- Stormwater Analysis using DOT manuals
-- Optimized Stormwater Designs for Cost
-- Stream Design
-- Culvert Design
-- Bus Station Site Plan
-- Overseeing Plantings and Bond Performance
-- RFP Preparation Support
+* Wetland Delineation
+* Environmental Compliance during Construction
+* Microstation Design
+* Stormwater Analysis using DOT manuals
+* Optimized Stormwater Designs for Cost
+* Stream Design
+* Culvert Design
+* Bus Station Site Plan
+* Overseeing Plantings and Bond Performance
+* RFP Preparation Support
 
 **​Construction Management - Design-Build**
 
 Our Construction Management Division has experience on large bridge projects and rail/bus transit.  We provide the following:
 
-- DBPM
-- Constructability Review
-- Environmental Compliance
-- Stormwater/Waste Water Inspection
-- Scheduling
-- Documentation
+* DBPM
+* Constructability Review
+* Environmental Compliance
+* Stormwater/Waste Water Inspection
+* Scheduling
+* Documentation
