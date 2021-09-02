@@ -48,4 +48,5 @@ Our Construction Management Division has experience on large bridge projects and
 •	Constructability review  
 •	Environmental compliance  
 •	Stormwater and wastewater inspection  
-•	Scheduling
+•	Scheduling  
+•	Documentation
