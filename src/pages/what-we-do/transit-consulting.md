@@ -13,15 +13,19 @@ description: Red Barn’s right-of-way consulting team coordinates your project
 featuredpost: true
 featuredimage: /img/adobestock_236953488.jpg
 ---
-Red Barn’s right-of-way consulting team coordinates your project needs with jurisdictions to secure the necessary project limits. This includes coordinating dedications, easements, temporary construction easements, property research, title report due diligence, utility backchecking, and right-of-entry. We have extensive experience in both the public and private sector in this capacity. 
+**Lean on us to lead you the right way!**
 
-Our priority is to keep our clients informed of the impacts and the best approach to building within the right-of-way and work with Real Property divisions where work may require easements for other stakeholders. We also work with assessors and right-of-way acquisition specialists to determine the value of property and easements and manage that process. Our staff has overseen the acquisitions and needs of many multi-billion dollar transit projects to smaller site development projects.  We understand that issues arise on large and small projects, and we have a team of real estate experts that can walk you through this process.
+Red Barn’s right-of-way consulting team coordinates your project needs with jurisdictions to secure the necessary project limits. This includes coordinating dedications, easements, temporary construction easements, property research, title report due diligence, utility backchecking, and right-of-entry. We have extensive experience in both the public and private sector in this capacity.
 
-•	Easement Preparation (Sidewalk, Sidewalk & Utility, Ingress/Egress, etc.)\
-•	Title Report Review and Backcheck\
-•	Surveying\
-•	Utility Research\
-•	Temporary Construction Easements\
-•	Managing the right-of-way acquisition process\
-•	Dedications\
-•	Right-of-Entry Preparation
+Our priority is to keep clients informed about project impacts and the best approach to building within the right-of-way. We work with real property divisions where work may require easements for other stakeholders. We also work with assessors and right-of-way acquisition specialists to determine the value of property and easements and manage that process. Our staff has overseen the acquisitions and needs of many projects, ranging from multi-billion-dollar transit projects to smaller site developments. Issues can arise on projects of all sizes, and our team of real estate experts will walk you through the process.
+
+Right-of-way consulting services:
+
+• Easement preparation (sidewalk, sidewalk and utility, ingress/egress)  
+• Title report review and backcheck  
+• Surveying  
+• Utility research  
+• Temporary construction easements  
+• Managing the right-of-way acquisition process  
+• Dedications  
+• Right-of-entry preparation
