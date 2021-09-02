@@ -4,51 +4,36 @@ title: Civil Engineering / Transportation
 prettytitle1: Civil Engineering
 prettytitle2: Transportation
 date: 2021-08-12T15:22:29.469Z
-description: Our civil team is a full-service civil engineering team offering
-  expertise in site development, public works projects, and transit jobs.
+description: Our civil team is comprised of civil engineering professionals
+  offering full-service expertise in site development, public works projects and
+  transit jobs.  Constant open and transparent communication is what sets us
+  apart from the rest.   This team has experience with various project types and
+  ensures a seamless collaboration with designers.
 featuredservice: true
 featuredimage: /img/redbarn-orenda-mixed-use-1-.jpg
 ---
-Our civil team is a full-service civil engineering team offering expertise in site development, public works projects, and transit jobs.
+Our civil team is comprised of civil engineering professionals offering full-service expertise in site development, public works projects and transit jobs. 
 
-**Communication**
+Communication: Constant open and transparent communication is what sets us apart from the rest. Our team has experience with various project types and ensures a seamless collaboration with designers.
 
-Our differentiation is communication.  The civil team is well experienced with multi-disciplinary projects.  We work with the team to understand schedule updates as well as coordinate with the design team.  On Mondays, we call, email, and make sure we are providing forward progress on your job.  We encourage feedback as to how we are doing.
+Technical: We know the regulations inside and out, from ADA standards to local stormwater regulations. Horizontal control for connecting utilities and pavement is key to working with the contractor. We offer specifications in multiple formats - CSI, SpecsIntact, APWA, and modifications to special municipal provisions.
 
-**​Technical**
+Staffing & Schedules: In addition to the communication, we have project managers working within the schedules to keep consistent staff on the project from the beginning to the end.
 
-We know the regulations well, from ADA standards to local stormwater regulations. Horizontal control for connecting utilities and pavement is key to working with the contractor. We offer specifications in multiple formats - CSI, SpecsIntact, APWA, and modifications to special municipal provisions.
+Field Services & Safety: The civil team is CESCL-certified and OSHA-10hr trained to see the project through completion. We are here to help your project go smoothly and to bring peace of mind through the process.
 
-**​Staffing & Schedules**
-
-In addition to the communication, we have project managers working within the schedules to keep consistent staff on the project from the beginning to the end.
-
-**Field Services & Safety**
-
-The civil team is CESCL-certified and OSHA-10hr trained to see the project through completion.
-
-We are here to help your project go smoothly and to bring peace of mind through the process.
-
-<!--EndFragment-->
-
-**Our Services**
-
-• ADA Restoration  
-• Bioretention Design  
-• Capital Project Prioritization  
-• CESCL Certified  
-• Green Stormwater Infrastructure  
-• Hydraulic Design  
-• Hydrologic & Hydraulic Modeling  
-• NPDES/MS4 Permitting  
+Civil engineering services:  
+• ADA restoration  
+• Bioretention design  
+• Capital project prioritization  
+• CESCL certified  
+• Green stormwater infrastructure  
+• Hydraulic design  
+• Hydrologic and hydraulic modeling  
+• NPDES/MS4 permitting  
 • Permitting  
-• Public Utility Planning  
-• Pump Station Design & Rehab  
-• Sanitary Sewer Design & Upgrades  
-• Site Development/Site Layout/Design  
-• Stormwater Improvements, Monitoring, and Design  
-• Transit/Transportation Design  
-• Trenchless Design/Bore Profiles  
-• Utility Infrastructure  
-• Value Engineering  
-• Water System Plan Updates/Design
+• Public utility planning  
+• Pump station design and rehabilitation  
+• Sanitary sewer design and upgrades  
+• Site development, layout, and design  
+• Stormwater improvements, monitoring, and design
