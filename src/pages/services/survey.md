@@ -16,14 +16,14 @@ Our Survey Division can assist you in establishing your property lines with land
 
 **Survey Services**
 
-• Boundary Surveys\
-• Construction Layouts\
-• FEMA Elevation Certificates\
-• Special Flood Hazard Determinations\
-• Mortgage Location Services\
-• Commercial ALTA/NSPS Mortgage Surveys\
- • Topographic Surveys\
-• Horizontal and Vertical Control Surveys\
-• Quantity Determinations\
-• As-built Surveys\
+• As-built Surveys  
+• Boundary Surveys  
+• Commercial ALTA/NSPS Mortgage Surveys  
+• Construction Layouts  
+• FEMA Elevation Certificates  
+• Horizontal and Vertical Control Surveys  
+• Mortgage Location Services  
+• Quantity Determinations  
+• Special Flood Hazard Determinations  
+• Topographic Surveys  
 • UAV (drone) mapping for site and shoreline investigations
