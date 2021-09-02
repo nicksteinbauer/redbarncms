@@ -3,17 +3,16 @@ templateKey: what-post
 title: Transportation
 prettytitle1: Transportation
 date: 2021-08-12T15:14:11.844Z
-description: Red Barn has qualified staff to lead large projects for transit and
-  transportation.  Our team is structured such that construction management and
-  constructability reviews are done throughout the project and through looking
-  over submittals and RFI responses from the contractor.  Our team is led by
-  construction managers and inspectors with over 20 years of experience in heavy
-  civil construction. They know how to get the job coordinated, reviewed, and
-  moving forward.
+description: Leading large transit and transportation projects is what our
+  qualified team members do best. Red Barn structures its teams so that
+  construction management and constructability reviews are being conducted
+  throughout the life of the project. The breadth of experience our in-house
+  experts have in heavy civil construction ensures peace of mind and a project
+  well executed.
 featuredpost: true
 featuredimage: /img/redbarn-transportation.jpg
 ---
-Red Barn has qualified staff able to lead large projects for transit and transportation. Our team is structured so that construction management and constructability reviews are done throughout the project.  Additionally, we look over submittals and RFI responses from the contractor.
+Leading large transit and transportation projects is what our qualified team members do best. Red Barn structures its teams so that construction management and constructability reviews are being conducted throughout the life of the project. The breadth of experience our in-house experts have in heavy civil construction ensures peace of mind and a project well executed.
 
 Our team is led by construction managers and inspectors with over 20 years of experience in heavy civil construction. They know how to get the job coordinated, reviewed, and moving forward.
 
