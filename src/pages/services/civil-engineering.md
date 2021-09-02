@@ -36,4 +36,9 @@ Civil engineering services:
 • Pump station design and rehabilitation  
 • Sanitary sewer design and upgrades  
 • Site development, layout, and design  
-• Stormwater improvements, monitoring, and design
+• Stormwater improvements, monitoring, and design  
+• Transit and transportation design  
+• Trenchless design/bore profiles  
+• Utility infrastructure  
+• Value engineering  
+• Water system plan updates and design
