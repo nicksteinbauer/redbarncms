@@ -1,7 +1,7 @@
 ---
 templateKey: what-post
-title: Resort Management
-prettytitle1: Resort
+title: Resort & Theme Park Management
+prettytitle1: Resort | Theme Park
 prettytitle2: Management
 date: 2021-05-01T15:27:34.194Z
 description: Red Barn team members are experienced in working on commercial site
@@ -12,24 +12,28 @@ description: Red Barn team members are experienced in working on commercial site
 featuredpost: true
 featuredimage: /img/adobestock_5251225.jpg
 ---
-Red Barn team members are experienced in working on commercial site plans and site design. This experience correlates with resort management. Scopes of work include entrance drives, parking lots, site plans, stormwater management and other site amenities. This combination of expertise creates a cohesive site and memorable experience.
+The uniqueness of theme park projects requires a team of experts experienced with this type of work. We bring just that! Red Barn team members are experienced in developing commercial site plans, site design, and customized maintenance programs for resorts, theme parks, and seaside or waterfront projects. We bring together the right team, working with landscape architects, architects, roller coaster engineers, and other specialists to design complementary walkways and concourses for your theme park attractions.
 
-Our team understands how to create a maintenance program for theme parks for aging infrastructure. We have built GIS systems for water, sewer, and storm and collaborate to define maintenance programs and budgets. The GIS systems can be converted into working models with associated usage fees for electrical and water systems. By understanding the usage, we can optimize the infrastructure by having refilling and high-demand energy needs done at night to take advantage of lower grid costs. We are here to assist in building the maintenance database, such as MAXIMO, and getting financial reports related to infrastructure improvements to make critical decisions in maintenance programs. Large resorts often have seaside or waterfront projects. Red Barn has a site development team for coastal projects and experts at marina design (utility systems dock gangways, fuel pier, and slip layout), embankment, revetment, dams, dredging, and other shoreline related work. We work with you and understand the critical habitats associated with shorelines.
+Red Barn’s site development team has experience with coastal projects and marina design (utility systems dock gangways, fuel pier, and slip layout), embankment, revetment, dams, dredging, and other shoreline-related work. We work with you to better understand and navigate the critical habitats associated with shorelines.
 
-Our staff brings the right team together, working with landscape architects, architects, rollercoaster engineers, and gets the walkways and concourses designed to complement the theme park attractions. 
+To help maintain aging infrastructure, we work with you to develop customized maintenance programs. Our experience building GIS systems, databases like MAXIMO, and other expertise as listed below, affords us the know-how to make critical decisions related to maintenance programs. 
 
-##### Let's take a ride through your next project!
+Red Barn’s team of experts and level of experience is the right ingredient to ensure project success through a collaborative effort working with all project team members, specialists, and stakeholders.
 
-•	Utility Mapping and creation of GIS\
-•	MAXIMO Database set up and maintenance\
-•	Capital Improvements\
-•	Pump Maintenance and Testing\
-•	Water System Support - Operations, SCADA Monitoring, and Water Age analysis\
-•	Fire Flow Analysis - Hydrant Maintenance Program\
-•	Emergency Management Plans - Evacuation and First Response\
-•	Fire Access Plan\
-•	Continuity of Operations (COOP) Plan\
-•	Civil Engineering Improvements for Hardscape, Softscape and new attractions\
-•	Surveying for Utility Upgrades 
+**Let's take a ride through your next project!**
+
+Resort management services:
+
+• Utility mapping and GIS creation  
+• MAXIMO database set-up and maintenance  
+• Capital improvements  
+• Pump maintenance and testing  
+• Water system support - operations, SCADA monitoring, and water age analysis  
+• Fire flow analysis - hydrant maintenance program  
+• Emergency management plans - evacuation and first response  
+• Fire access plan  
+• Continuity of Operations Plan (COOP) development  
+• Civil engineering improvements for hardscape, softscape, and new attractions  
+• Surveying for utility upgrades
 
 ![]()
