@@ -13,48 +13,39 @@ description: "Red Barn is a certified small business (SBE) and woman-owned small
 featuredpost: true
 featuredimage: /img/redbarn-defense-design-build-1-.jpg
 ---
-Red Barn is a certified small business (SBE) and woman-owned small business (WOSB). Our staff brings extensive experience working with the Army Corp of Engineers (Corp), NAVFAC Northwest, and The United States Fish and Wildlife Service. This experience is a value-add on design-build projects providing our clients/partners quick designs during the RFP phase and expertise in navigating governmental project requirements. 
+Red Barn is a certified small business (SBE) and woman-owned small business (WOSB). Our staff brings extensive experience working with the Army Corp of Engineers (Corp), NAVFAC Northwest, and the United States Fish and Wildlife Service. This experience is a value-add on design-build projects, providing our clients and partners fast-turnaround designs during the RFP phase and expertise in navigating governmental project requirements.  
 
-**​Military**
+**Military**  
+•	AT/FP for facilities  
+•	Site development (drainage experts)  
+•	Sanitary sewer upgrades, studies, and design  
+•	Water modeling, upgrades, and design  
+•	Stormwater drainage (water quality and conveyance)  
+•	Hardstand design  
+•	Pump station evaluation and upgrades  
+•	Groundwater wellhead protection plans  
+•	Fire flow analysis  
+•	Trenchless pipe replacement  
+•	Earthquake resistant ductile iron pipe (ERDIP) replacement  
+•	Barracks, BEQs, housing, bat ops, firing range, dining facilities, and medical offices  
 
-Our military experience includes the following:
+ **Transportation**  
+Our civil, environmental, and water resources divisions provide the following:  
+•	Wetland delineation  
+•	Environmental compliance during construction  
+•	Microstation design  
+•	Stormwater analysis using DOT manuals  
+•	Optimized stormwater designs for cost  
+•	Stream design  
+•	Culvert design  
+•	Bus station site planning  
+•	Plantings and bond performance oversight  
+•	RFP preparation support  
 
-• AT/FP for Facilities\
-• Site Development (drainage experts)\
-• Sanitary Sewer Upgrades, Studies, and Design\
-• Water Modeling, Upgrades, and Design\
-• Stormwater Drainage (Water Quality & Conveyance)\
-• Hardstand Design\
-• Pump Station Evaluation and Upgrades\
-• Groundwater Wellhead Protection Plans\
-• Fire Flow Analysis\
-• Trenchless Pipe Replacement\
-• Earthquake Resistant Ductile Iron Pipe (ERDIP) Replacement\
-• Barracks, BEQs, Housing, Bat Ops, Firing Range, Dining Facilities, Medical Office, etc.\
-• Fast-turnaround on design-build projects.
-
-**​Design-Build Transportation**
-
-Our civil, environmental, and water resources divisions provide the following:
-
-* Wetland Delineation
-* Environmental Compliance during Construction
-* Microstation Design
-* Stormwater Analysis using DOT manuals
-* Optimized Stormwater Designs for Cost
-* Stream Design
-* Culvert Design
-* Bus Station Site Plan
-* Overseeing Plantings and Bond Performance
-* RFP Preparation Support
-
-**​Construction Management - Design-Build**
-
-Our Construction Management Division has experience on large bridge projects and rail/bus transit.  We provide the following:
-
-* DBPM
-* Constructability Review
-* Environmental Compliance
-* Stormwater/Waste Water Inspection
-* Scheduling
-* Documentation
+**Construction Management**   
+Our Construction Management Division has experience on large bridge projects and rail/bus transit, including:  
+•	DBPM  
+•	Constructability review  
+•	Environmental compliance  
+•	Stormwater and wastewater inspection  
+•	Scheduling
