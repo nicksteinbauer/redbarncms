@@ -4,9 +4,9 @@ peoplekey: people
 title: Donna Keefe
 prettytitle1: Donna
 prettytitle2: Keefe
-jobtitle: Operations Manager
+jobtitle: Contracts Compliance Director
 jobtitle2: ""
-teamcategory: core
+teamcategory: executive
 date: 2021-08-13T19:10:23.179Z
 featuredimage: /img/redbarnpeopledonnakeefe.jpg
 description: ""
