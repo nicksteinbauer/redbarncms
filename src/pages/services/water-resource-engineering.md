@@ -25,13 +25,13 @@ Our staff works with municipalities on getting MS4 permit compliance with monito
 
 **Our Services**   
 
-• Coastal Wave Analysis
-• Custom High Flow Media
-• Fish Passage Barrier Removal
-• Fish Passage Culvert Design
-• Floodplain Storage Analysis
-• Floodplain, Estuary & Hydrologic Modeling
-• Industrial Water Quality Treatment (Media Mix Design)
-• Natural System Design
-• Research & Design (Porous Media & Lab Simulations)
+• Coastal Wave Analysis  
+• Custom High Flow Media  
+• Fish Passage Barrier Removal  
+• Fish Passage Culvert Design  
+• Floodplain Storage Analysis  
+• Floodplain, Estuary & Hydrologic Modeling  
+• Industrial Water Quality Treatment (Media Mix Design)  
+• Natural System Design  
+• Research & Design (Porous Media & Lab Simulations)  
 • Shoreline/Soft Shore Design
