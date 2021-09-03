@@ -4,7 +4,7 @@ peoplekey: people
 title: Elana Hansen
 prettytitle1: Elana
 prettytitle2: Hansen
-jobtitle: Finance Manager
+jobtitle: Chief Financial Officer
 jobtitle2: ""
 teamcategory: executive
 date: 2021-08-13T18:52:54.079Z
