@@ -4,9 +4,9 @@ peoplekey: people
 title: Paul Bushhorn
 prettytitle1: Paul
 prettytitle2: Bushhorn
-jobtitle: Project Revenue Manager / Marketing Coordinator
+jobtitle: Reveune Analyst
 jobtitle2: ""
-teamcategory: core
+teamcategory: executive
 date: 2021-08-13T19:09:33.631Z
 featuredimage: /img/redbarnpeoplepaulbushhorn.jpg
 description: ""
