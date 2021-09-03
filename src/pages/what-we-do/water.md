@@ -14,19 +14,19 @@ Pump stations, storage tanks, transmission mains, valves, and water chemistry fo
 
 Water services include:
 
-• Feasibility studies  
-• Water system modeling  
-• Well development and analysis  
-• Fire flow analysis  
-• Water age analysis  
-• Water hammer design  
-• Storage tank design  
-• Water main/transmission design  
-• SCADA system upgrades through teaming partners  
 • Electrical system design with teaming partners  
 • Energy analysis for water usage vs. electricity costs  
-• PRV/PSV/Solenoid valve design  
+• Feasibility studies  
+• Fire flow analysis  
 • Hydropneumatic tank design  
+• PRV/PSV/Solenoid valve design  
+• Public outreach  
+• SCADA system upgrades through teaming partners  
+• Storage tank design  
+• Water age analysis  
+• Water hammer design  
+• Water main/transmission design  
 • Water quality analysis and coordination of sampling plan  
+• Water system modeling  
 • Water system plan updates  
-• Public outreach
+• Well development and analysis
