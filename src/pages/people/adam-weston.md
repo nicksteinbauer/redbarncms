@@ -6,7 +6,7 @@ prettytitle1: Adam
 prettytitle2: Weston
 jobtitle: Telecom/Military Division Co-Lead
 jobtitle2: ""
-teamcategory: executive
+teamcategory: core
 date: 2021-08-13T18:53:12.186Z
 featuredimage: /img/redbarnepeopleadamweston.jpg
 description: ""
