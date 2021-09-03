@@ -24,16 +24,16 @@ Red Barn’s team of experts and level of experience is the right ingredient to 
 
 Resort management services:
 
-• Utility mapping and GIS creation  
-• MAXIMO database set-up and maintenance  
 • Capital improvements  
-• Pump maintenance and testing  
-• Water system support - operations, SCADA monitoring, and water age analysis  
-• Fire flow analysis - hydrant maintenance program  
+• Civil engineering improvements for hardscape, softscape, and new attractions  
+• Continuity of Operations Plan (COOP) development  
 • Emergency management plans - evacuation and first response  
 • Fire access plan  
-• Continuity of Operations Plan (COOP) development  
-• Civil engineering improvements for hardscape, softscape, and new attractions  
-• Surveying for utility upgrades
+• Fire flow analysis - hydrant maintenance program  
+• MAXIMO database set-up and maintenance  
+• Pump maintenance and testing  
+• Surveying for utility upgrades  
+• Utility mapping and GIS creation  
+• Water system support - operations, SCADA monitoring, and water age analysis
 
 ![]()
