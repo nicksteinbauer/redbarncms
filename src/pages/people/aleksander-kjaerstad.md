@@ -4,9 +4,9 @@ peoplekey: people
 title: Aleksander Kjaerstad
 prettytitle1: Aleksander
 prettytitle2: Kjaerstad
-jobtitle: Project Revenue Manager
+jobtitle: Revenue Analyst
 jobtitle2: ""
-teamcategory: core
+teamcategory: executive
 date: 2021-08-13T19:10:14.040Z
 featuredimage: /img/redbarn-aleksander-kjaerstad.jpg
 description: ""
