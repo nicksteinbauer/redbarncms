@@ -8,7 +8,7 @@ jobtitle: ROW Management Lead
 jobtitle2: ""
 teamcategory: core
 date: 2021-08-13T18:53:50.177Z
-featuredimage: /img/redbarnpeoplestevesawyer.jpg
+featuredimage: /img/photo-coming-soon-1-.jpg
 description: ""
 ---
 
