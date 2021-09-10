@@ -9,4 +9,4 @@ teamcategory: core
 date: 2021-09-10T16:59:34.103Z
 featuredimage: /img/photo-coming-soon-1-.jpg
 ---
-Seth has six years of food service and operations experience, having worked for public and nonprofit organizations across the Seattle Area. He is a recent graduate of the University of St. Andrews in the UK. Seth is excited to be helping in the finance and procurement teams as an administrator, helping wherever he can and learning the ropes.
+Seth is a recent graduate of the University of St. Andrews in the UK and comes to Red Barn with six years of service and operations experience. His journey has led to working for both public and nonprofit organizations across the Seattle Area. He is excited to be part of the finance and procurement team as an administrator, helping where needed and learning the business.
