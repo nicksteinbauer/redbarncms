@@ -7,6 +7,6 @@ prettytitle2: Dahnke
 jobtitle: General Accounting Manager
 teamcategory: executive
 date: 2021-09-03T20:32:00.813Z
-featuredimage: /img/laura_9889_p8.jpg
+featuredimage: /img/laura_9889_p-5.jpg
 ---
 need bio
