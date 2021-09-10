@@ -50,16 +50,15 @@ function NavMobile() {
                 <Accordion.Collapse className="accordion__content" eventKey="0">
                     <ul>
                         <li><Link to="/what-we-do/">All</Link></li>
-                        <li><Link to="/what-we-do/transportation/">Transportation</Link></li>
                         <li><Link to="/what-we-do/defense-design-build/">Defense Design / Build</Link></li>
-                        <li><Link to="/what-we-do/telecom/">Telecom/5G</Link></li>
-                        <li><Link to="/what-we-do/resort-management/">Resort Management</Link></li>
-                        <li><Link to="/what-we-do/water/">Water</Link></li>
                         <li><Link to="/what-we-do/drainage/">Drainage</Link></li>
-                        <li><Link to="/what-we-do/rail/">Rail</Link></li>
-                        <li><Link to="/what-we-do/transit-consulting/">Right-of-Way Consulting</Link></li>
-                        <li><Link to="/what-we-do/oil-and-gas/">Oil and Gas</Link></li>
                         <li><Link to="/what-we-do/drone-inspection/">Drone Inspection</Link></li>
+                        <li><Link to="/what-we-do/oil-and-gas/">Oil and Gas</Link></li>
+                        <li><Link to="/what-we-do/resort-management/">Resort Management</Link></li>
+                        <li><Link to="/what-we-do/transit-consulting/">Right-of-Way Consulting</Link></li>
+                        <li><Link to="/what-we-do/telecom/">Telecom/5G</Link></li>
+                        <li><Link to="/what-we-do/transportation/">Transportation | Rail</Link></li>
+                        <li><Link to="/what-we-do/water/">Water</Link></li>    
                     </ul>
                 </Accordion.Collapse>
 
@@ -79,13 +78,13 @@ function NavMobile() {
                     <ul>
                         <li><Link to="/services/">All</Link></li>
                         <li><Link to="/services/civil-engineering">Civil Engineering</Link></li>
-                        <li><Link to="/services/construction-management">Construction Management</Link></li>
-                        <li><Link to="/services/survey">Survey</Link></li>
-                        <li><Link to="/services/environmental-services">Environmental Services</Link></li>
                         <li><Link to="/services/coastal-engineering">Coastal Engineering</Link></li>
-                        <li><Link to="/services/environmental-permitting">Environmental Permitting</Link></li>
+                        <li><Link to="/services/construction-management">Construction Management</Link></li>
                         <li><Link to="/services/electrical-fiber-optic-design">Electrical / Fiber Optic Design</Link></li>
+                        <li><Link to="/services/environmental-permitting">Environmental Permitting</Link></li>
+                        <li><Link to="/services/environmental-services">Environmental Services</Link></li>
                         <li><Link to="/services/hydraulic-modeling">Hydraulic Modeling</Link></li>
+                        <li><Link to="/services/survey">Survey</Link></li>
                         <li><Link to="/services/water-resource-engineering">Water Resource Engineering</Link></li>
                     </ul>
                 </Accordion.Collapse>
