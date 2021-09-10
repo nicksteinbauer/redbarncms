@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import BlogWhat from '../../components/BlogWhat'
+import BlogIndustries from '../../components/BlogIndustries'
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -12,14 +12,14 @@ export default class BlogIndexPage extends React.Component {
             
             <div className="callto-content inside-xxl">
               <h3 className="accent">Red Barn Group</h3>
-              <h1>What We Do</h1>
-              <p>Red Barn brings technical experts to each project with highly trained construction managers, engineers, inspectors, and scientists. </p>
+              <h1>Industries We Serve</h1>
+              <p>Red Barn brings highly trained construction managers, engineers, inspectors, and scientists to every project and market sector we serve.</p>
             </div>
             
           </div>
           <section className="whatwedo-section section sec-black p-lot">
             <div className="inside-xxl">
-              <BlogWhat />
+              <BlogIndustries />
             </div>
           </section>
         </div>

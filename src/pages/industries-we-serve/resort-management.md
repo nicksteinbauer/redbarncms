@@ -1,5 +1,5 @@
 ---
-templateKey: what-post
+templateKey: industries-post
 title: Resort & Theme Park Management
 prettytitle1: Resort | Theme Park
 prettytitle2: Management
@@ -12,11 +12,12 @@ description: Red Barn team members are experienced in working on commercial site
 featuredpost: true
 featuredimage: /img/adobestock_5251225.jpg
 ---
+
 The uniqueness of theme park projects requires a team of experts experienced with this type of work. We bring just that! Red Barn team members are experienced in developing commercial site plans, site design, and customized maintenance programs for resorts, theme parks, and seaside or waterfront projects. We bring together the right team, working with landscape architects, architects, roller coaster engineers, and other specialists to design complementary walkways and concourses for your theme park attractions.
 
 Red Barn’s site development team has experience with coastal projects and marina design (utility systems dock gangways, fuel pier, and slip layout), embankment, revetment, dams, dredging, and other shoreline-related work. We work with you to better understand and navigate the critical habitats associated with shorelines.
 
-To help maintain aging infrastructure, we work with you to develop customized maintenance programs. Our experience building GIS systems, databases like MAXIMO, and other expertise as listed below, affords us the know-how to make critical decisions related to maintenance programs. 
+To help maintain aging infrastructure, we work with you to develop customized maintenance programs. Our experience building GIS systems, databases like MAXIMO, and other expertise as listed below, affords us the know-how to make critical decisions related to maintenance programs.
 
 Red Barn’s team of experts and level of experience is the right ingredient to ensure project success through a collaborative effort working with all project team members, specialists, and stakeholders.
 

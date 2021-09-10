@@ -1,5 +1,5 @@
 ---
-templateKey: what-post
+templateKey: industries-post
 title: Defense Design / Build
 prettytitle1: Defense
 prettytitle2: Design / Build
@@ -13,7 +13,8 @@ description: "Red Barn is a certified small business (SBE) and woman-owned small
 featuredpost: true
 featuredimage: /img/redbarn-defense-design-build-1-.jpg
 ---
-Red Barn is a certified small business (SBE) and woman-owned small business (WOSB). Our staff brings extensive experience working with the Army Corp of Engineers (Corp), NAVFAC Northwest, and the United States Fish and Wildlife Service. This experience is a value-add on design-build projects, providing our clients and partners fast-turnaround designs during the RFP phase and expertise in navigating governmental project requirements.  
+
+Red Barn is a certified small business (SBE) and woman-owned small business (WOSB). Our staff brings extensive experience working with the Army Corp of Engineers (Corp), NAVFAC Northwest, and the United States Fish and Wildlife Service. This experience is a value-add on design-build projects, providing our clients and partners fast-turnaround designs during the RFP phase and expertise in navigating governmental project requirements.
 
 **Military**\
 • AT/FP for facilities  
@@ -27,9 +28,9 @@ Red Barn is a certified small business (SBE) and woman-owned small business (WOS
 • Site development (drainage experts)  
 • Stormwater drainage (water quality and conveyance)  
 • Trenchless pipe replacement  
-• Water modeling, upgrades, and design  
+• Water modeling, upgrades, and design
 
- **Transportation**\
+**Transportation**\
 Our civil, environmental, and water resources divisions provide the following:\
 • Bus station site planning  
 • Culvert design  
@@ -40,7 +41,7 @@ Our civil, environmental, and water resources divisions provide the following:\
 • RFP preparation support  
 • Stormwater analysis using DOT manuals  
 • Stream design  
-• Wetland delineation 
+• Wetland delineation
 
 **Construction Management**\
 Our Construction Management Division has experience on large bridge projects and rail/bus transit, including:\

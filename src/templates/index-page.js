@@ -11,7 +11,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import Layout from '../components/Layout'
 //import Features from '../components/Features'
-import BlogRollWhat from '../components/BlogWhatSlide'
+import BlogRollIndustries from '../components/BlogIndustriesSlide'
 import BlogProjectsSlide from '../components/BlogProjectsSlide'
 
 
@@ -94,8 +94,8 @@ const IndexPage = ({ data }) => {
 
     <section className="reliefmap sec-green section what-we-do slicky">    
       <div className="inside-xxl">
-        <div className="flex-md flex-end what-we-do-text"><h2 className="forty accent">What We Do</h2></div>
-        <BlogRollWhat />
+        <div className="flex-md flex-end what-we-do-text"><h2 className="forty accent">Industries We Serve</h2></div>
+        <BlogRollIndustries />
       </div>
     </section>
 

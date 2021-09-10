@@ -10,7 +10,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const WhatPostTemplate = ({
+export const IndustriesPostTemplate = ({
   content,
   contentComponent,
   jobtitle,
@@ -63,7 +63,7 @@ export const WhatPostTemplate = ({
   )
 }
 
-WhatPostTemplate.propTypes = {
+IndustriesPostTemplate.propTypes = {
   featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
@@ -76,18 +76,18 @@ WhatPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const WhatPost = ({ data }) => {
+const IndustriesPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <WhatPostTemplate
+      <IndustriesPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | What We Do | Red Barn Group">
+          <Helmet titleTemplate="%s | Industries We Serve | Red Barn Group">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -106,16 +106,16 @@ const WhatPost = ({ data }) => {
   )
 }
 
-WhatPost.propTypes = {
+IndustriesPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default WhatPost
+export default IndustriesPost
 
 export const pageQuery = graphql`
-  query WhatPostByID($id: String!) {
+  query IndustriesPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

@@ -1,5 +1,5 @@
 ---
-templateKey: what-post
+templateKey: industries-post
 title: Telecom
 prettytitle1: Telecom / 5G
 prettytitle2: ""
@@ -13,6 +13,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/pxl_20210410_170711549-1-3-1-.jpg
 ---
+
 ### **Your permit is our priority!**
 
 #### Current number of 5G Permits in for Application: 72
@@ -24,7 +25,7 @@ Time is of the essence, and as such, we work with multiple teaming partners for 
 • Payment options that allow for overtime work to expedite the permit process\
 • Traffic control management for construction\
 • Design-build for multiple deliveries of poles with contractor selection services\
-• RF emissions testing  
+• RF emissions testing
 
 Our network includes teams in multiple cities across the nation where we can provide local surveying and engineering through our trusted teaming partners. Cities include Los Angeles, San Francisco, New York, Honolulu, Denver, Dallas, Orlando, Cincinnati, Philadelphia, Boston, Chicago, Seattle, and more.
 

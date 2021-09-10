@@ -1,5 +1,5 @@
 ---
-templateKey: what-post
+templateKey: industries-post
 title: Drone Inspection
 prettytitle1: Drone
 prettytitle2: Inspection
@@ -12,6 +12,7 @@ description: Red Barn’s Survey Division has drone technology that aids in
 featuredpost: true
 featuredimage: /img/adobestock_228584083.jpg
 ---
+
 Red Barn’s Survey Division has drone technology that aids in picking up utility locate marks and calculating earthwork quantities during construction. Our drone pilots bring over 20 years of experience and continuously look for more efficient and creative ways to conduct maintenance and inspections using the latest tools and technology.
 
 Drone inspection services:

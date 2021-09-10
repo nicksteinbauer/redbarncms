@@ -38,9 +38,9 @@ function NavMobile() {
 
                 <ContextAwareToggle eventKey="0">
                     
-                    <Link className="navbar-item" to="/what-we-do">
+                    <Link className="navbar-item" to="/industries-we-serve">
                         <span>
-                        What We Do
+                        Industries We Serve
                         </span>
                         
                     </Link>
@@ -49,16 +49,16 @@ function NavMobile() {
                     
                 <Accordion.Collapse className="accordion__content" eventKey="0">
                     <ul>
-                        <li><Link to="/what-we-do/">All</Link></li>
-                        <li><Link to="/what-we-do/defense-design-build/">Defense Design / Build</Link></li>
-                        <li><Link to="/what-we-do/drainage/">Drainage</Link></li>
-                        <li><Link to="/what-we-do/drone-inspection/">Drone Inspection</Link></li>
-                        <li><Link to="/what-we-do/oil-and-gas/">Oil and Gas</Link></li>
-                        <li><Link to="/what-we-do/resort-management/">Resort Management</Link></li>
-                        <li><Link to="/what-we-do/transit-consulting/">Right-of-Way Consulting</Link></li>
-                        <li><Link to="/what-we-do/telecom/">Telecom/5G</Link></li>
-                        <li><Link to="/what-we-do/transportation/">Transportation | Rail</Link></li>
-                        <li><Link to="/what-we-do/water/">Water</Link></li>    
+                        <li><Link to="/industries-we-serve/">All</Link></li>
+                        <li><Link to="/industries-we-serve/defense-design-build/">Defense Design / Build</Link></li>
+                        <li><Link to="/industries-we-serve/drainage/">Drainage</Link></li>
+                        <li><Link to="/industries-we-serve/drone-inspection/">Drone Inspection</Link></li>
+                        <li><Link to="/industries-we-serve/oil-and-gas/">Oil and Gas</Link></li>
+                        <li><Link to="/industries-we-serve/resort-management/">Resort Management</Link></li>
+                        <li><Link to="/industries-we-serve/transit-consulting/">Right-of-Way Consulting</Link></li>
+                        <li><Link to="/industries-we-serve/telecom/">Telecom/5G</Link></li>
+                        <li><Link to="/industries-we-serve/transportation/">Transportation | Rail</Link></li>
+                        <li><Link to="/industries-we-serve/water/">Water</Link></li>    
                     </ul>
                 </Accordion.Collapse>
 

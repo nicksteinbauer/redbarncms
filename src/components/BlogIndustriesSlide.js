@@ -1,44 +1,48 @@
-import React from "react";
-import VisibilitySensor from "react-visibility-sensor";
-
-
+import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import paragraphs from 'lines-to-paragraphs'
 
-  const BlogWhat = ( {data} ) => {
-  
+import Slider from "react-slick"
+
+class BlogRollIndustries extends React.Component {
+  render() {
+    const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
-    
+    const settings = {
+        className: "slide-center",
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        
+      };
+
       return (
-        <div className="auto-grid">
+        <div className="the-trigger">
+            <Slider {...settings}>
             {posts &&
                 posts.map(({ node: post }) => (
-                <div className="what-loop" key={post.id}>
+                <div key={post.id}>
                     <article
                     className={`blog-list-item tile is-child box notification ${
                         post.frontmatter.featuredpost ? 'is-featured' : ''
                     }`}
                     >
-                    <div>
+                    <div className="flex-md">
                         
                         {post.frontmatter.featuredimage ? (
-                          <VisibilitySensor partialVisibility>
-                          {({isVisible}) =>
-                          <div className="featured-thumbnail sixty animateThis">
-                              <div className={isVisible ? "newAnimate animateRightUpBig" : "newAnimate"}>
-                              <PreviewCompatibleImage
-                              imageInfo={{
-                              image: post.frontmatter.featuredimage,
-                              alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                              }}
-                              />
-                              </div>
-                          </div>
-                          }
-                          </VisibilitySensor>
+                        <div className="featured-thumbnail sixty animateThis">
+                            <div className="animateThat">
+                            <PreviewCompatibleImage
+                            imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                            }}
+                            />
+                            </div>
+                        </div>
                         ) : null}
                         
                         <div className="forty">
@@ -50,11 +54,10 @@ import paragraphs from 'lines-to-paragraphs'
                             ) : null}
                             <span>{post.frontmatter.prettytitle2}</span>
                           </h2>
-                            <div dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
-                            
-                            
-                            <div className="flex-xl flex-start text-center buffer">
+                            <p>{post.excerpt}</p>
+                            <div className="flex-xs space-around text-center buffer">
                                 <Link className="button thirty3" to={post.fields.slug}>View More</Link>
+                                <Link className="button thirty3" to="/industries-we-serve">Industries We Serve</Link>
                             </div>
                                 
                         </div>
@@ -64,12 +67,13 @@ import paragraphs from 'lines-to-paragraphs'
                 </div>
                 
             ))}
+            </Slider>
         </div>
       )
-  
+  }
 }
 
-BlogWhat.propTypes = {
+BlogRollIndustries.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -80,9 +84,9 @@ BlogWhat.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-    query BlogWhatQuery {
+    query BlogRollIndustriesQuery {
         allMarkdownRemark(
-          sort: { order: ASC, fields: [frontmatter___title] }
+          sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: {featuredpost: {eq: true} } }
         ) {
           edges {
@@ -99,7 +103,6 @@ export default () => (
                 prettytitle2
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
-                description
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 800, quality: 80) {
@@ -113,6 +116,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogWhat data={data} count={count} />}
+    render={(data, count) => <BlogRollIndustries data={data} count={count} />}
   />
 )

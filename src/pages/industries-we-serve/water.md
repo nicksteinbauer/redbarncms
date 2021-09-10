@@ -1,5 +1,5 @@
 ---
-templateKey: what-post
+templateKey: industries-post
 title: Water
 prettytitle1: Water
 date: 2021-04-26T20:18:53.179Z
@@ -10,6 +10,7 @@ description: >
 featuredpost: true
 featuredimage: /img/adobestock_244644710.jpg
 ---
+
 Pump stations, storage tanks, transmission mains, valves, and water chemistry for potable water systems require attention to water treatment and the dynamics of the system. Using some of the latest technology and tools, we get the job done. Our hands-on team is involved every step of the way to ensure optimum performance of any system.
 
 Water services include:
