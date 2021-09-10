@@ -82,7 +82,7 @@ export default () => (
     query={graphql`
     query BlogWhatQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: ASC, fields: [frontmatter___title] }
           filter: { frontmatter: {featuredpost: {eq: true} } }
         ) {
           edges {

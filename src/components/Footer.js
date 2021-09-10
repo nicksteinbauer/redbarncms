@@ -31,7 +31,7 @@ const Footer = class extends React.Component {
                 <p>
                   37 N Orange Ave #306<br/>
                   Orlando, FL 32801<br/>
-                  { /* }<a href="tel:1-419-625-7838">419.625.7838</a> (office){*/}
+                  <a href="tel:1-689-444-8338">419.625.7838</a> (office)
                 </p>
               </div>
               <div className="flex1">

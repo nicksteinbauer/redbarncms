@@ -5,6 +5,7 @@ import VisibilitySensor from "react-visibility-sensor";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import paragraphs from 'lines-to-paragraphs'
 
 
 
@@ -53,10 +54,12 @@ const BlogRollServices = ( {data} ) => {
                         ) : null}
                         <span>{post.frontmatter.prettytitle2}</span>
                       </h2>
-                        <p>{post.excerpt}</p>
-                        <div className="flex-xl flex-start text-center buffer">
-                            <Link className="button thirty3" to={post.fields.slug}>View More</Link>
-                        </div>
+
+                      <div dangerouslySetInnerHTML={{ __html: paragraphs(post.frontmatter.description) }} />
+
+                      <div className="flex-xl flex-start text-center buffer">
+                          <Link className="button thirty3" to={post.fields.slug}>View More</Link>
+                      </div>
                             
                     </div>
                     
@@ -83,7 +86,7 @@ export default () => (
     query={graphql`
       query BlogRollSericesQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: ASC, fields: [frontmatter___title] }
           filter: { frontmatter: {featuredservice: {eq: true} } }
         ) {
           edges {
@@ -100,6 +103,7 @@ export default () => (
                 prettytitle2
                 date(formatString: "MMMM DD, YYYY")
                 featuredservice
+                description
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 1400, quality: 70) {
