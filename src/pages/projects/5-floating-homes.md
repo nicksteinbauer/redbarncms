@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Stillwater Landing
 prettytitle1: Stillwater Landing
-prettytitle2: Floating Homes
+prettytitle2: Permitting
 date: 2021-07-21T15:42:44.465Z
 description: Waterfront, drainage, utility, floating homes
 featuredprojects: true
