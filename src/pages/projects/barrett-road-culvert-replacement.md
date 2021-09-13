@@ -9,4 +9,4 @@ featuredprojects: true
 category: water
 featuredimage: /img/barrett-rd-sandusky.jpg
 ---
-Red Barn's environmental staff conducted a wetland and ordinary high water mark (OHWM) delineation, evaluated wetlands and streams according to Ohio Department of Natural Resources wetland and stream rating manuals, and prepared the US Army Corps of Engineers (USACE) nationwide permit and Coastal Zone Management (CMZ) permit for replacement of an undersized culvert under Barrett Road in Sandusky, Ohio.
+Red Barn's environmental staff conducted a wetland and ordinary high water mark (OHWM) delineation. We evaluated wetlands and streams according to the Ohio Department of Natural Resources wetland and stream rating manuals. We also prepared the US Army Corps of Engineers nationwide permit and Coastal Zone Management permit for replacing an undersized culvert under Barrett Road.
