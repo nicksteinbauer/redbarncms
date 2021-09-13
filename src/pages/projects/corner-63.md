@@ -9,6 +9,6 @@ featuredprojects: true
 category: civil-engineering
 featuredimage: /img/corner-63.jpg
 ---
-Red Barn provided support for the underground electrical permitting and franchise agreements for this  140 unit building, of which 28 units would be designated as affordable. 
+Red Barn provided support for the underground electrical permitting and franchise agreements for this 140-unit building, of which 28 units will be designated as affordable housing.
 
 Corner 63 is within walking distance to numerous retail shops, restaurants, and bike paths, making it a perfect location. The addition of the Roosevelt Light Rail Station will draw much attention to the area.
