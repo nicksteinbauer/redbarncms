@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post-projects
 title: 5G Implementation - Cleveland
-prettytitle1: 5G Core City
-prettytitle2: Cleveland
+prettytitle1: Cleveland, OH
+prettytitle2: 5G Core City
 date: 2021-08-13T18:10:21.382Z
 description: 5G Implementation - Cleveland
 featuredprojects: true
