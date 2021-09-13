@@ -9,4 +9,4 @@ featuredprojects: true
 category: water
 featuredimage: /img/adobestock_119109916.jpg
 ---
-A perk of coastal living is the abundance of picturesque spots for boating, kayaking, and other recreational pursuits. Shelton, WA, is the western-most town located on the Puget Sound and began life as a logging and agriculture center. Red Barn has teamed with Ecco Design to obtain a grant to perform work on the town’s sewer system and Northwest Environmental to complete improvements to the Oakland Bay Marina.
+The abundance of picturesque spots for boating, kayaking, and other recreational pursuits is a perk of coastal living. Shelton, Washington, is the western-most town on Puget Sound and began life as a logging and agriculture center. Red Barn has teamed with Ecco Design to obtain a grant to work on the town's sewer system and Northwest Environmental to complete the Oakland Bay Marina improvements.
