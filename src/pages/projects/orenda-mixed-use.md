@@ -11,17 +11,4 @@ category: construction-management
 featuredimage: /img/othello-square-orenda_02.jpg
 options: all
 ---
-Orenda provides neighborhood housing atop a large commercial base. It seeks to help minimize displacement in the Othello neighborhood by providing workforce housing. It also aims to support the community with the inclusion of the Odessa Brown Children’s Clinic (OBCC) and an early learning childcare facility.
-
-The building program design and artistic expression were born out of a deep community engagement effort spanning over two years, with a goal to reflect the cultural richness of the multiple communities that will use the facility. The early learning childcare facility plans to provide care for infants to preschool-aged children. It will be a convenient and safe place for families living in the building, working in the clinic, or living in the neighborhood.
-
-The residential portion of the building includes approximately 176 units of workforce housing. With a mix of studio, 1-bedroom, 1-bedroom + den, 2-bedroom, and 3-bedroom units, the building can be home to various people and lifestyles. While studios may be ideal for a single person, 3-bedroom units may be of interest to families or roommates. The diverse unit mix reflects the evolving needs of the Othello neighborhood.
-
-### Provided Services
-
-* Civil Engineering
-* SDOT Street Improvement Permit
-* SEPA
-* Dry Utility Coordination
-* Green Stormwater Design (Non-infiltration bioretention and vegetated roofs)
-* HUD Documentation for Endangered Species Act
+Red Barn provided various services to support the development of this mixed-use building that houses the Odessa Brown Children's Clinic, early learning childcare facility, and 176 workforce housing units. Red Barn's services included civil engineering, coordinating Seattle Department of Transportation street improvement permit, SEPA, dry utilities, green stormwater design (non-infiltration bioretention and vegetated roofs), and HUD documentation for the Endangered Species Act.
