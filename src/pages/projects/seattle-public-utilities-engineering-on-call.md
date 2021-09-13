@@ -2,7 +2,7 @@
 templateKey: blog-post-projects
 title: Seattle Public Utilities Engineering On-Call
 prettytitle1: City of Seattle
-prettytitle2: Engineering On-Call
+prettytitle2: On-Call
 date: 2021-08-09T16:05:19.550Z
 description: Seattle Public Utilities Engineering On-Call
 featuredprojects: true
