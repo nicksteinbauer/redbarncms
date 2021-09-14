@@ -4,7 +4,7 @@ peoplekey: people
 title: Paul Bushhorn
 prettytitle1: Paul
 prettytitle2: Bushhorn
-jobtitle: Reveune Analyst
+jobtitle: Revenue Analyst
 jobtitle2: ""
 teamcategory: executive
 date: 2021-08-13T19:09:33.631Z
