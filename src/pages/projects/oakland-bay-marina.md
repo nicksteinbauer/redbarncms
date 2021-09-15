@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post-projects
 title: Shelton Yacht Club
-prettytitle1: "Shelton Yacht Club "
+prettytitle1: "Yacht Club "
 prettytitle2: Marina
 date: 2021-07-21T15:08:34.171Z
 description: Sewer system and Marina improvements
