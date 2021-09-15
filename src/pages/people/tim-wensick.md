@@ -1,7 +1,7 @@
 ---
 templateKey: team-post
 peoplekey: people
-title: Tim Wensick
+title: Tim Wensink
 prettytitle1: Tim
 prettytitle2: Wensink
 jobtitle: Engineering/Survey Intern
