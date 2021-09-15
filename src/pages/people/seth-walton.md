@@ -4,7 +4,7 @@ peoplekey: people
 title: Seth Walton
 prettytitle1: Seth
 prettytitle2: Walton
-jobtitle: unknown
+jobtitle: Finance, Fleet & Procurement Admin
 teamcategory: core
 date: 2021-09-10T16:59:34.103Z
 featuredimage: /img/walton-20210910-04-011sq.jpg
