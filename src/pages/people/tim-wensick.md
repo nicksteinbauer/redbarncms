@@ -3,7 +3,7 @@ templateKey: team-post
 peoplekey: people
 title: Tim Wensick
 prettytitle1: Tim
-prettytitle2: Wensick
+prettytitle2: Wensink
 jobtitle: Engineering/Survey Intern
 jobtitle2: ""
 teamcategory: internship
