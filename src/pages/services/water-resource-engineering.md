@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post-services
-title: Water Resource Engineering
-prettytitle1: Water Resource
+title: Water Resources Engineering
+prettytitle1: Water Resources
 prettytitle2: Engineering
 date: 2021-04-10T15:47:39.177Z
 description: "Red Barn’s Water Division oversees projects related to streams,
