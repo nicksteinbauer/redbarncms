@@ -4,7 +4,7 @@ peoplekey: people
 title: Ed Wiza
 prettytitle1: Ed
 prettytitle2: Wiza
-jobtitle: Civil Engineer
+jobtitle: Civil Designer
 jobtitle2: ""
 teamcategory: core
 date: 2021-08-13T19:08:54.472Z
