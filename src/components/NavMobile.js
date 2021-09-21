@@ -84,7 +84,7 @@ function NavMobile() {
                         <li><Link to="/services/environmental-permitting">Environmental Permitting</Link></li>
                         <li><Link to="/services/hydraulic-modeling">Hydraulic Modeling</Link></li>
                         <li><Link to="/services/survey">Survey</Link></li>
-                        <li><Link to="/services/water-resource-engineering">Water Resource Engineering</Link></li>
+                        <li><Link to="/services/water-resources-engineering">Water Resources Engineering</Link></li>
                     </ul>
                 </Accordion.Collapse>
 
