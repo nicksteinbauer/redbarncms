@@ -4,7 +4,7 @@ peoplekey: people
 title: Seth Rackley
 prettytitle1: Seth
 prettytitle2: Rackley
-jobtitle: Civil Engineer
+jobtitle: Senior Technical Designer
 jobtitle2: ""
 teamcategory: core
 date: 2021-08-13T19:08:21.775Z
