@@ -1,9 +1,9 @@
 ---
 templateKey: team-post
 peoplekey: people
-title: Mason Heyberger
+title: Mason Hayberger
 prettytitle1: Mason
-prettytitle2: Heyberger
+prettytitle2: Hayberger
 jobtitle: Engineering Intern
 jobtitle2: ""
 teamcategory: internship
