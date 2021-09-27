@@ -10,4 +10,4 @@ teamcategory: internship
 date: 2021-08-13T19:28:00.610Z
 featuredimage: /img/anosti_8485-4.jpg
 ---
-Anosit is a recent high school graduate and a part of our accounting internship program.
+Anosit is a recent high school graduate and a part of our accounting work study program.
