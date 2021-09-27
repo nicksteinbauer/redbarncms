@@ -4,7 +4,7 @@ peoplekey: people
 title: Anosti Horn
 prettytitle1: Anosti
 prettytitle2: Horn
-jobtitle: Accounting Intern
+jobtitle: Work Study - Accounting
 jobtitle2: ""
 teamcategory: internship
 date: 2021-08-13T19:28:00.610Z
