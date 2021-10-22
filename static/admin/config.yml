@@ -162,4 +162,11 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "learn-more"}
           - {label: "Title", name: "title", widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/hancock/index.md"
+        label: "John Hancock & Associates"
+        name: "hancock"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hancock"}
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
           
