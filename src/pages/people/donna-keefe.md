@@ -1,18 +1,14 @@
 ---
 templateKey: team-post
 peoplekey: people
-title: Donna Keefe
-prettytitle1: Donna
-prettytitle2: Keefe
-jobtitle: Contracts Compliance Director
+title: Aleksander Kjaerstad
+prettytitle1: Aleksander
+prettytitle2: Kjaerstad
+jobtitle: Permitting & Rates Specialist
 jobtitle2: ""
 teamcategory: executive
 date: 2021-08-13T19:10:23.179Z
-featuredimage: /img/redbarnpeopledonnakeefe.jpg
+featuredimage: /img/aleksander-kjaerstad.jpg
 description: ""
 ---
-<!--StartFragment-->
-
-Donna is a former paralegal and has an extensive legal background consisting of Corporate Law, Real Estate Law, Probate, Workers’ Compensation, Domestic Relations, Medical Malpractice, and mergers & acquisitions, which allows Red Barn to utilize her analytical skills to review contracts, proposals, insurance documents and to assist in the Billing and Human Resources Departments.
-
-<!--EndFragment-->
+Aleksander was born and raised near Oslo, Norway and studied at Hawaii Pacific University.  He comes to us with a bachelor's degree in Business Administration and a master's degree in Business Administration with a concentration in Information Systems.  He is currently serving Red Barn as our Permitting and Rates Specialist.
