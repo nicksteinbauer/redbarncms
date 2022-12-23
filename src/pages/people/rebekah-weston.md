@@ -8,7 +8,7 @@ jobtitle: CEO, COO, Engineering Lead
 jobtitle2: ""
 teamcategory: executive
 date: 2021-08-13T18:52:42.647Z
-featuredimage: /img/rjw_8536_p5.jpg
+featuredimage: /img/redbarn-rebecca-weston.jpg
 description: ""
 ---
 Ms. Weston established Red Barn in April 2016 and serves as its CEO/COO.  She is the Chairman of the Board of Directors and frequently provides insights into the Women Who Lead series with the Puget Sound Business Journal.  She has served on the following boards/commissions:  Washington State Emergency Management Association, Inglewood Golf Course Maintenance Committee, and the City of Brier Planning Commission (for over ten years).  
