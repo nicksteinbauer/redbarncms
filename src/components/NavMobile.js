@@ -53,8 +53,6 @@ function NavMobile() {
                         <li><Link to="/industries-we-serve/defense-design-build/">Defense Design / Build</Link></li>
                         <li><Link to="/industries-we-serve/drainage/">Drainage</Link></li>
                         <li><Link to="/industries-we-serve/drone-inspection/">Drone Inspection</Link></li>
-                        <li><Link to="/industries-we-serve/oil-and-gas/">Oil and Gas</Link></li>
-                        <li><Link to="/industries-we-serve/resort-management/">Resort Management</Link></li>
                         <li><Link to="/industries-we-serve/transit-consulting/">Right-of-Way Consulting</Link></li>
                         <li><Link to="/industries-we-serve/telecom/">Telecom/5G</Link></li>
                         <li><Link to="/industries-we-serve/transportation/">Transportation | Rail</Link></li>
@@ -83,7 +81,6 @@ function NavMobile() {
                         <li><Link to="/services/electrical-fiber-optic-design">Electrical / Fiber Optic Design</Link></li>
                         <li><Link to="/services/environmental-permitting">Environmental Permitting</Link></li>
                         <li><Link to="/services/hydraulic-modeling">Hydraulic Modeling</Link></li>
-                        <li><Link to="/services/survey">Survey</Link></li>
                         <li><Link to="/services/water-resources-engineering">Water Resources Engineering</Link></li>
                     </ul>
                 </Accordion.Collapse>

@@ -13,7 +13,7 @@ const Footer = class extends React.Component {
               <div className="twenty">
                 <h4>Headquarters</h4>
                 <p>
-                  6610 NE 181st St., Ste. 2<br/>
+                  6610 NE 181st St., Ste. 3<br/>
                   Kenmore, WA 98028<br/>
                   <a href="tel:1-425-419-4979">425.419.4979</a> (office)
                 </p>
