@@ -56,8 +56,8 @@ class BlogRollIndustries extends React.Component {
                           </h2>
                             <p>{post.excerpt}</p>
                             <div className="flex-xs space-around text-center buffer">
-                                <Link className="button thirty3" to={post.fields.slug}>View More</Link>
-                                <Link className="button thirty3" to="/industries-we-serve">Industries We Serve</Link>
+                                <Link className="button thirty" to={post.fields.slug}>View More</Link>
+                                <Link className="button forty-five" to="/industries-we-serve">Industries We Serve</Link>
                             </div>
                                 
                         </div>
