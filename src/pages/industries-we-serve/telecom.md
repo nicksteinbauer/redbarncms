@@ -13,12 +13,11 @@ description: >-
 featuredpost: true
 featuredimage: /img/pxl_20210410_170711549-1-3-1-.jpg
 ---
-
 ### **Your permit is our priority!**
 
 #### Current number of 5G Permits in for Application: 72
 
-Time is of the essence, and as such, we work with multiple teaming partners for survey, structural engineering, and electrical engineering to get your project done. Our firm has offices across the nation in Washington, Ohio, and Florida and is ready to expand your network.
+Time is of the essence, and as such, we work with multiple teaming partners for survey, structural engineering, and electrical engineering to get your project done. Our firm has offices across the nation in Washington and Ohio and is ready to expand your network.
 
 **Our team brings:**\
 • Engineers who will work exclusively on your project\
