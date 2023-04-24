@@ -11,7 +11,7 @@ description: "Red Barn is a certified small business (SBE) and woman-owned small
   providing our clients/partners quick designs during the RFP phase and
   expertise in navigating governmental project requirements. "
 featuredpost: true
-featuredimage: /img/redbarn-defense-design-build-1-.jpg
+featuredimage: /img/redbarn-defense-design-build-2023.jpg
 ---
 
 Red Barn is a certified small business (SBE) and woman-owned small business (WOSB). Our staff brings extensive experience working with the Army Corp of Engineers (Corp), NAVFAC Northwest, and the United States Fish and Wildlife Service. This experience is a value-add on design-build projects, providing our clients and partners fast-turnaround designs during the RFP phase and expertise in navigating governmental project requirements.
