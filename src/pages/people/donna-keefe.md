@@ -4,7 +4,7 @@ peoplekey: people
 title: Aleksander Kjaerstad
 prettytitle1: Aleksander
 prettytitle2: Kjaerstad
-jobtitle: Permitting & Rates Specialist
+jobtitle: Operations Manager
 jobtitle2: ""
 teamcategory: executive
 date: 2021-08-13T19:10:23.179Z
