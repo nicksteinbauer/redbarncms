@@ -4,7 +4,7 @@ peoplekey: people
 title: Ed Wiza
 prettytitle1: Ed
 prettytitle2: Wiza
-jobtitle: Civil Designer, Level 3
+jobtitle: Engineering Associate
 teamcategory: core
 date: 2022-03-01T15:28:01.201Z
 featuredimage: /img/redbarnpeopleedwiza.jpg
