@@ -2,14 +2,14 @@
 templateKey: blog-post-projects
 title: Sound Transit Lynnwood Link
 prettytitle1: Sound Transit
-prettytitle2: Heavy Civil
+prettytitle2: Civil
 date: 2021-08-13T18:41:17.654Z
 description: Heavy Civil/Construction Management
 featuredprojects: true
-homepost: true
 category: transit
 featuredimage: /img/redbarn-sound-transit-maybe-1-.jpg
 options: all
+homepost: true
 ---
 Red Barn was selected to provide construction management and environmental compliance support for this $3 billion and approximately 10-mile transit rail extension project in Lynnwood, WA. This transit project stretches nearly 10 miles through multiple jurisdictions and critical area resources, encompassing 22 wetlands and six streams.
 
