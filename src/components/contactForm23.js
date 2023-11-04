@@ -81,7 +81,7 @@ export default class ContactForm23 extends Component {
         if (Object.keys(errors).length === 0 && this.state.isVerified) {
             console.log(data);
             //Call an api here
-            emailjs.sendForm('redbarngroup', 'redbarn', '#formikform', 'user_vOc0ylPHeC2nCdyLQJAiW');
+            emailjs.sendForm('redbarngroup', 'redbarn', e.target, 'user_vOc0ylPHeC2nCdyLQJAiW');
 
             //Resetting the form
             this.setState(this.getInitialState());
