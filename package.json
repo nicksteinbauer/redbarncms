@@ -40,9 +40,11 @@
     "react-visibility-sensor": "^5.1.1",
     "reactstrap": "^8.9.0",
     "reactstrap-formik": "^1.0.9",
+    "react-recaptcha": "^2.3.10",
     "sweetalert2": "^11.0.16",
     "uuid": "^7.0.0",
-    "yup": "^0.32.9"
+    "yup": "^0.32.9",
+    "validator": "^13.9.0"
   },
   "keywords": [
     "gatsby"
