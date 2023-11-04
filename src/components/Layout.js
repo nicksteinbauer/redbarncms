@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import '../scss/style.scss'
 import useSiteMetadata from './SiteMetadata'
-import { withPrefix , Script } from 'gatsby'
+import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children }) => {
     <>
     <div id="scrollTo"></div>
     <div>
-      <Script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer />
+      <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer />
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
