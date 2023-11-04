@@ -25,6 +25,7 @@ const TemplateWrapper = ({ children }) => {
     <>
     <div id="scrollTo"></div>
     <div>
+      <Script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer />
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -62,7 +63,7 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
-        <Script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer />
+        
       </Helmet>
       <div className={navigate ? 'navigate active' : 'navigate'}>
         <Navbar />
