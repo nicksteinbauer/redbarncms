@@ -123,7 +123,6 @@ function NavMobile() {
                         <li><Link to="/about/">About</Link></li>
                         <li><Link to="/executive-team/">Executive Team</Link></li>
                         <li><Link to="/core-team/">Core Team</Link></li>
-                        <li><Link to="/internship-program/">Internship Program</Link></li>
                         <li><Link to="/careers/">Careers</Link></li>
                     </ul>
                 </Accordion.Collapse>
